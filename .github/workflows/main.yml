@@ -1,3 +1,0 @@
-- name: Install packages
-  run: |
-    pip install anthropic yfinance pandas
