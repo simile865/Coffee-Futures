@@ -16,7 +16,7 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 2000
 HISTORY_FILE = Path("output/history.json")
 OUTPUT_DIR = Path("output")
