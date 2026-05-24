@@ -17,7 +17,7 @@ from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
 MODEL = "claude-sonnet-4-6"
-MAX_TOKENS = 2000
+MAX_TOKENS = 1500
 HISTORY_FILE = Path("output/history.json")
 OUTPUT_DIR = Path("output")
 
@@ -27,7 +27,14 @@ Respond ONLY with a valid JSON object — no markdown fences, no preamble, no ex
 All fields are required. Use "N/A" or 0 if data is unavailable."""
 
 def build_user_prompt(today: str, prev_context: str) -> str:
-    return f"""Today is {today}.
+    return f"""Today is {today}. {prev_context}
+
+Search for: Coffee C futures price, ICE certified stocks, Brazil/Vietnam weather, freight risk, USD/BRL, latest news.
+
+Return ONLY this JSON, no other text:
+{{"date":"{today}","price":"$0.00","priceChange":"0%","priceMTD":"0%","priceRange52w":"$0–$0","priceContext":"","iceStocks":"0 bags","iceStocksChange":"0 bags","usdBrl":"0.00","usdBrlContext":"","risk":"Medium","summary":"","bullish":["","",""],"bearish":["","",""],"inventory":[{{"label":"ICE stocks","value":""}},{{"label":"Weekly change","value":""}},{{"label":"Context","value":""}},{{"label":"Assessment","value":""}}],"weather":["","",""],"freight":"","freightHormuz":50,"freightRedSea":50,"freightInsurance":50,"freightBrazil":30,"news":[{{"tag":"Neutral","text":""}},{{"tag":"Neutral","text":""}},{{"tag":"Neutral","text":""}}],"changed":["",""],"watch":[{{"title":"","desc":""}},{{"title":"","desc":""}},{{"title":"","desc":""}}]}}
+
+Fill all values with real data from your search. Keep strings concise."""
 
 Search the web for the LATEST data on all of the following, then return a structured JSON research brief:
 1. Coffee C futures (KCN26 or nearest active contract) — price, daily % change, MTD % change, 52-week range
