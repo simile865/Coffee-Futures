@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 OUTPUT = Path("data")
+
 OUTPUT.mkdir(exist_ok=True)
 
 ticker = yf.Ticker("KC=F")
