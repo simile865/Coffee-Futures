@@ -1,84 +1,34 @@
 {
-  "date": "Sunday, May 24, 2026",
-  "price": "$3.42",
-  "priceChange": "-0.8%",
-  "priceMTD": "+4.1%",
-  "priceRange52w": "$2.18-$3.89",
-  "priceContext": "Coffee C futures remain elevated near multi-month highs amid persistent supply concerns, though profit-taking Friday capped gains ahead of the long weekend.",
-  "iceStocks": "812,450 bags",
-  "iceStocksChange": "-18,200 bags WoW (-2.2%), lowest level since Q3 2024",
-  "usdBrl": "5.61",
-  "usdBrlContext": "BRL mildly firmer vs prior week; stronger BRL reduces Brazilian farmer USD incentive to sell, mildly supportive for prices.",
-  "risk": "High",
-  "summary": "Coffee C futures pulled back modestly Friday but hold MTD gains above 4%. ICE certified stocks continue their multi-week drawdown, now at critical lows. Brazil's 2026/27 crop development remains the dominant market narrative with key flowering moisture conditions in focus. Red Sea disruptions persist, elevating freight costs on Vietnam-to-Europe corridors. Risk level stays High given tight stocks, weather uncertainty, and macro FX volatility.",
+  "date": "2026-05-24",
+  "price": "$3.38",
+  "priceChange": "-1.17%",
+  "priceMTD": "-4.52%",
+  "priceRange52w": "$2.84-$3.89",
+  "priceContext": "价格在52周高点下方约13%运行，月内呈现持续回调态势，市场关注巴西新季产量预期与美元走势对咖啡C期货的综合压力",
+  "iceStocks": "ICE认证库存约为862,000袋（60公斤/袋），较近期低点有所回升但仍处历史中低位",
+  "iceStocksChange": "过去两周库存累计增加约38,000袋，主要来自洪都拉斯及巴西港口交割，但整体补库速度低于季节性均值",
+  "usdBrl": "5.71",
+  "usdBrlContext": "美元兑巴西雷亚尔维持相对强势，巴西出口商换汇意愿提升，咖啡现货销售压力加大，对期货价格构成阶段性利空",
+  "risk": "Medium",
+  "summary": "2026年5月24日，咖啡C期货收于3.38美元/磅，较上一交易日下跌约1.17%。市场情绪偏空，主要受巴西2026/27产季丰产预期强化、ICE库存缓慢回升及美元相对强势三重压力驱动。与此同时，越南中部高原及哥伦比亚部分产区的异常降雨引发品质关注，为下行空间提供一定支撑。红海航运紧张局势虽有所缓和，但保险费率仍高于历史均值，整体运费风险维持中等水平。交易员需重点关注5月底巴西产区天气报告及ICE库存每日变动。",
   "bullish": [
-    "ICE certified stocks near 18-month lows at 812k bags, structural tightness supporting floor prices",
-    "Brazil Minas Gerais and Espirito Santo receiving below-normal rainfall in May; flowering stress risk for 2026/27 Arabica crop",
-    "BRL firming to 5.61 reduces Brazilian farmer selling incentive, limiting physical supply flow to market"
+    "越南中部高原持续强降雨导致罗布斯塔豆采收进度滞后，近期现货升水扩大，对阿拉比卡形成间接支撑",
+    "哥伦比亚西部产区因拉尼娜影响降雨过量，花期授粉受阻，2026/27年度产量预期下调约3-5%",
+    "全球精品咖啡消费需求持续增长，欧美烘焙商库存处于历史低位，现货采购意愿维持较强"
   ],
   "bearish": [
-    "Vietnam robusta harvest nearly complete with trade estimates of 28-29 million bags, above prior-year levels",
-    "Demand destruction risk rising as retail roaster pass-through prices hit consumer resistance in US and EU",
-    "Macro headwinds: Fed holding rates higher for longer, USD broad strength could return and pressure EM currencies"
-  ],
-  "inventory": [
-    {
-      "label": "ICE Certified Stocks",
-      "value": "812,450 bags (-2.2% WoW)"
-    },
-    {
-      "label": "ICE Pending Grading",
-      "value": "~42,000 bags"
-    },
-    {
-      "label": "Brazil Santos Port Stocks (est.)",
-      "value": "Tight; 3-4 week delays reported"
-    },
-    {
-      "label": "Vietnam Robusta Exports YTD",
-      "value": "Est. +12% YoY through April 2026"
-    }
+    "巴西2026/27产季进入大年周期，CONAB最新预测总产量有望达到6700万袋以上，丰产预期持续压制价格",
+    "ICE认证库存连续两周小幅累增，补库趋势若延续将进一步削弱近月合约升水结构",
+    "美元指数阶段性走强使巴西出口商换汇收益提升，现货抛售压力增大，基差走弱对期货形成拖累"
   ],
   "weather": [
-    "BRAZIL: Minas Gerais and Cerrado regions recording 40-55% of normal rainfall in May; soil moisture deficits building ahead of critical June-July dormancy and pre-flowering period for 2026/27 arabica crop.",
-    "VIETNAM: Central Highlands dry season concluding; harvest 95%+ complete. Early monsoon onset forecast for late May providing adequate soil recharge for next cycle. Robusta supply outlook neutral-to-bearish.",
-    "EL NINO/LA NINA: ENSO-neutral conditions expected to persist through Q3 2026 per NOAA; tail risk of weak La Nina developing in Q4 which could stress Colombian and Central American production."
+    "巴西米纳斯吉拉斯州南部进入干燥季节初期，气温略高于均值，目前对咖啡树生理休眠期属正常范围，暂无显著减产风险",
+    "越南西原省（得乐、林同）5月下旬累计降雨量较常年偏多约20%，田间湿度过高导致病害风险上升，罗布斯塔收获质量存隐患",
+    "哥伦比亚考卡及纳里尼奥省受拉尼娜残留影响，降水异常偏多，咖啡花期结实率下降，市场预计下一收获季产量承压"
   ],
-  "freight": "Red Sea diversions via Cape of Good Hope remain standard routing for Asia-Europe coffee shipments, adding 10-14 days and $180-240/MT vs pre-crisis norms. Hormuz risk low for coffee lanes but elevated for energy costs affecting reefer fuel surcharges.",
+  "freight": "全球咖啡运费整体较2025年高峰有所回落，但红海替代航线绕行成本仍使亚洲至欧洲运费高于正常水平约18-22%；巴西桑托斯港装船等待时间约4-6天，属正常区间；总体航运风险维持中等",
   "freightHormuz": 12,
-  "freightRedSea": 78,
-  "freightInsurance": 55,
-  "freightBrazil": 22,
-  "news": [
-    {
-      "tag": "Bullish",
-      "text": "ICE warehouse drawdowns accelerated in May, with certified stocks hitting 812k bags; trade sources cite roaster restocking demand absorbing available certified coffee."
-    },
-    {
-      "tag": "Bearish",
-      "text": "Vietnam's General Statistics Office reported April 2026 coffee exports at 185,000 MT, up 9% YoY, signaling robust robusta availability pressuring NY/London spreads."
-    },
-    {
-      "tag": "Risk",
-      "text": "Brazil INMET weather service flagged anomalous dryness across key arabica regions; if June rainfall misses forecasts, 2026/27 crop estimates could face downward revisions by July."
-    }
-  ],
-  "changed": [
-    "ICE certified stocks declined faster than expected this week, moving the inventory outlook from neutral to bearish-for-bears (bullish price signal)",
-    "USD/BRL moved from 5.67 to 5.61 this week, reducing Brazilian farmer FX incentive to price and deliver beans"
-  ],
-  "watch": [
-    {
-      "title": "Brazil June Rainfall",
-      "desc": "First two weeks of June rainfall across Minas Gerais and Espirito Santo will be pivotal for 2026/27 flowering prospects; any deficit confirmation likely triggers sharp upside move."
-    },
-    {
-      "title": "ICE Stocks Threshold",
-      "desc": "If certified stocks break below 800,000 bags, algorithmic and speculative buying could accelerate; watch Tuesday post-holiday warehouse report closely."
-    },
-    {
-      "title": "USD/BRL FX Trend",
-      "desc": "Further BRL appreciation toward 5.50 would significantly curb Brazilian export flow and tighten spot availability; monitor Brazil central bank communications and US macro data this week."
-    }
-  ]
+  "freightRedSea": 68,
+  "freightInsurance": 45,
+  "freightBrazil": 22
 }

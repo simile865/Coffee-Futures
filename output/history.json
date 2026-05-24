@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-05-24",
+    "price": "$3.38",
+    "risk": "Medium"
+  },
+  {
     "date": "Sunday, May 24, 2026",
     "price": "$3.42",
     "risk": "High",
