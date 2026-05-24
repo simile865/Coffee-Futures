@@ -116,19 +116,39 @@ def fetch_brief(today: str, prev_context: str) -> dict:
         messages=[{"role": "user", "content": build_user_prompt(today, prev_context)}],
     )
 
-    # Extract text from all content blocks
     text_parts = [b.text for b in response.content if hasattr(b, "text")]
     raw = "\n".join(text_parts)
-
-    # Strip markdown fences if present
     raw = re.sub(r"```json|```", "", raw).strip()
 
-    # Extract first JSON object
     match = re.search(r"\{[\s\S]*\}", raw)
     if not match:
         raise ValueError(f"No JSON found in response:\n{raw[:500]}")
 
-    return json.loads(match.group())
+    json_str = match.group()
+
+    # Fix common JSON issues: trailing commas before } or ]
+    json_str = re.sub(r",\s*([}\]])", r"\1", json_str)
+
+    try:
+        return json.loads(json_str)
+    except json.JSONDecodeError:
+        # If still failing, increase max_tokens and retry once
+        print("⚠ JSON parse failed, retrying with higher max_tokens...")
+        response2 = client.messages.create(
+            model=MODEL,
+            max_tokens=3000,
+            system=SYSTEM_PROMPT,
+            tools=[{"type": "web_search_20250305", "name": "web_search"}],
+            messages=[{"role": "user", "content": build_user_prompt(today, prev_context)}],
+        )
+        text_parts2 = [b.text for b in response2.content if hasattr(b, "text")]
+        raw2 = re.sub(r"```json|```", "", "\n".join(text_parts2)).strip()
+        match2 = re.search(r"\{[\s\S]*\}", raw2)
+        if not match2:
+            raise ValueError("Retry also failed to return valid JSON")
+        json_str2 = re.sub(r",\s*([}\]])", r"\1", match2.group())
+        return json.loads(json_str2)
+
 
 
 # ── HTML renderer ─────────────────────────────────────────────────────────────
