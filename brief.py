@@ -1,7 +1,10 @@
+bash
+
+cat > /home/claude/coffee-brief/brief.py << 'PYEOF'
 #!/usr/bin/env python3
 """
-Coffee C Futures - Daily Research Brief
-Powered by Anthropic Claude (no web search, stays within free tier limits)
+Coffee C Futures - Daily Research Brief (Chinese output)
+Powered by Anthropic Claude
 """
 
 import anthropic
@@ -9,26 +12,25 @@ import json
 import os
 import re
 import smtplib
-import time
 from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 
-# -- Config -------------------------------------------------------------------
 MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 1500
 HISTORY_FILE = Path("output/history.json")
 OUTPUT_DIR = Path("output")
 
-# -- Prompts ------------------------------------------------------------------
 SYSTEM_PROMPT = (
     "You are a coffee futures research analyst. "
     "Respond ONLY with a valid JSON object. "
     "No markdown fences, no preamble, no explanation. "
     "Use your knowledge of recent coffee market conditions. "
     "All string values must be concise (under 200 chars). "
-    "All fields required."
+    "All fields required. "
+    "Write ALL text values in Simplified Chinese (Mandarin). "
+    "Only keep numeric values and tags like High/Medium/Low/Bearish/Bullish/Risk/Neutral in English."
 )
 
 def build_prompt(today: str, prev: str) -> str:
@@ -58,7 +60,6 @@ def build_prompt(today: str, prev: str) -> str:
         '{"title":"STR","desc":"STR"}]}'
     )
 
-# -- History ------------------------------------------------------------------
 def load_history() -> list:
     if HISTORY_FILE.exists():
         try:
@@ -74,29 +75,25 @@ def save_history(entry: dict, history: list) -> None:
         json.dumps(history[:30], ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-# -- API call -----------------------------------------------------------------
 def fetch_brief(today: str, prev_context: str) -> dict:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
     response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": build_prompt(today, prev_context)}],
     )
-
     raw = re.sub(r"```json|```", "", response.content[0].text).strip()
     match = re.search(r"\{[\s\S]*\}", raw)
     if not match:
         raise ValueError(f"No JSON in response: {raw[:200]}")
-
     json_str = re.sub(r",\s*([}\]])", r"\1", match.group())
     return json.loads(json_str)
 
-# -- HTML renderer ------------------------------------------------------------
 def render_html(b: dict, prev: dict | None) -> str:
     risk_color = {"High": "#A32D2D", "Medium": "#BA7517", "Low": "#3B6D11"}.get(b.get("risk", "Medium"), "#BA7517")
     risk_bg    = {"High": "#FCEBEB", "Medium": "#FAEEDA", "Low": "#EAF3DE"}.get(b.get("risk", "Medium"), "#FAEEDA")
+    risk_label = {"High": "高风险", "Medium": "中等风险", "Low": "低风险"}.get(b.get("risk", "Medium"), "中等风险")
 
     def tag_style(tag: str) -> str:
         t = (tag or "").lower()
@@ -104,6 +101,10 @@ def render_html(b: dict, prev: dict | None) -> str:
         if t in ("bullish", "bull"): return "background:#EAF3DE;color:#27500A"
         if t == "risk":              return "background:#FAEEDA;color:#633806"
         return "background:#F0EFE8;color:#5F5E5A"
+
+    def tag_label(tag: str) -> str:
+        mapping = {"Bearish": "利空", "Bullish": "利多", "Risk": "风险", "Neutral": "中性"}
+        return mapping.get(tag, tag)
 
     def rows(items: list, dot: str) -> str:
         return "".join(
@@ -121,21 +122,21 @@ def render_html(b: dict, prev: dict | None) -> str:
             if pp:
                 d = (cp - pp) / pp * 100
                 c = "#3B6D11" if d > 0 else "#A32D2D"
-                prev_note = f' <span style="font-size:12px;color:{c}">vs prev: {"+" if d>0 else ""}{d:.1f}%</span>'
+                prev_note = f' <span style="font-size:12px;color:{c}">较上期: {"+" if d>0 else ""}{d:.1f}%</span>'
         except Exception:
             pass
 
     news_rows = "".join(
         f'<tr><td style="padding:7px 0;border-bottom:1px solid #eee;font-size:13px">'
         f'<span style="font-size:10px;font-weight:600;padding:2px 7px;border-radius:4px;'
-        f'{tag_style(n.get("tag",""))};margin-right:8px">{n.get("tag","")}</span>'
+        f'{tag_style(n.get("tag",""))};margin-right:8px">{tag_label(n.get("tag",""))}</span>'
         f'{n.get("text","")}</td></tr>'
         for n in b.get("news", [])
     )
 
     def bar(label: str, val: int) -> str:
         color = "#E24B4A" if val >= 70 else "#EF9F27" if val >= 40 else "#639922"
-        sev   = "Critical" if val >= 70 else "Elevated" if val >= 40 else "Moderate"
+        sev   = "严重" if val >= 70 else "偏高" if val >= 40 else "一般"
         sc    = "#A32D2D" if val >= 70 else "#BA7517" if val >= 40 else "#3B6D11"
         return (
             f'<div style="margin-bottom:10px">'
@@ -162,20 +163,20 @@ def render_html(b: dict, prev: dict | None) -> str:
         for w in b.get("watch", [])
     )
 
-    changed_title = f'What changed vs {prev["date"]}' if prev else "What changed today"
+    changed_title = f'较上期变化（{prev["date"]}）' if prev else "今日变化"
     changed = "".join(
         f'<tr><td style="padding:5px 0;border-bottom:1px solid #eee;font-size:13px">- {c}</td></tr>'
         for c in b.get("changed", [])
     )
 
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Coffee Brief - {b.get('date','')}</title>
+<title>咖啡期货日报 - {b.get('date','')}</title>
 <style>
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#F8F7F2;margin:0;padding:24px;color:#1a1a18}}
+body{{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;background:#F8F7F2;margin:0;padding:24px;color:#1a1a18}}
 .card{{background:#fff;border-radius:12px;border:1px solid #E8E6DF;padding:20px 24px;margin-bottom:16px}}
 h2{{font-size:12px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.05em;margin:0 0 12px}}
 table{{width:100%;border-collapse:collapse}}
@@ -191,90 +192,89 @@ table{{width:100%;border-collapse:collapse}}
 
 <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px">
   <div>
-    <h1 style="font-size:20px;font-weight:600;margin:0">Coffee C - Daily Brief</h1>
-    <p style="font-size:13px;color:#888;margin:4px 0 0">{b.get('date','')} - ICE Arabica</p>
+    <h1 style="font-size:20px;font-weight:600;margin:0">咖啡C期货 - 每日研究简报</h1>
+    <p style="font-size:13px;color:#888;margin:4px 0 0">{b.get('date','')} - ICE阿拉比卡</p>
   </div>
   <span style="padding:6px 14px;border-radius:8px;font-size:13px;font-weight:600;background:{risk_bg};color:{risk_color}">
-    Risk: {b.get('risk','')}
+    {risk_label}
   </span>
 </div>
 
 <div class="mg">
   <div class="m">
-    <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">Futures price</div>
+    <div style="font-size:11px;color:#888;margin-bottom:4px">期货价格</div>
     <div style="font-size:20px;font-weight:600">{b.get('price','--')}{prev_note}</div>
-    <div style="font-size:11px;color:#888;margin-top:3px">{b.get('priceChange','')} today - {b.get('priceMTD','')} MTD</div>
+    <div style="font-size:11px;color:#888;margin-top:3px">今日 {b.get('priceChange','')} - 月内 {b.get('priceMTD','')}</div>
   </div>
   <div class="m">
-    <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">52-week range</div>
+    <div style="font-size:11px;color:#888;margin-bottom:4px">52周区间</div>
     <div style="font-size:15px;font-weight:600">{b.get('priceRange52w','--')}</div>
     <div style="font-size:11px;color:#888;margin-top:3px">{b.get('priceContext','')}</div>
   </div>
   <div class="m">
-    <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">ICE certified stocks</div>
+    <div style="font-size:11px;color:#888;margin-bottom:4px">ICE认证库存</div>
     <div style="font-size:15px;font-weight:600">{b.get('iceStocks','--')}</div>
     <div style="font-size:11px;color:#888;margin-top:3px">{b.get('iceStocksChange','')}</div>
   </div>
   <div class="m">
-    <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">USD / BRL</div>
+    <div style="font-size:11px;color:#888;margin-bottom:4px">美元/巴西雷亚尔</div>
     <div style="font-size:20px;font-weight:600">{b.get('usdBrl','--')}</div>
     <div style="font-size:11px;color:#888;margin-top:3px">{b.get('usdBrlContext','')}</div>
   </div>
 </div>
 
 <div class="card">
-  <h2>Market summary</h2>
-  <p style="font-size:14px;line-height:1.65;margin:0">{b.get('summary','')}</p>
+  <h2>市场综述</h2>
+  <p style="font-size:14px;line-height:1.75;margin:0">{b.get('summary','')}</p>
 </div>
 
 <div class="tc">
   <div class="card" style="margin-bottom:0">
-    <h2 style="color:#3B6D11">Bullish factors</h2>
+    <h2 style="color:#3B6D11">利多因素</h2>
     <table>{rows(b.get('bullish',[]), '#639922')}</table>
   </div>
   <div class="card" style="margin-bottom:0">
-    <h2 style="color:#A32D2D">Bearish factors</h2>
+    <h2 style="color:#A32D2D">利空因素</h2>
     <table>{rows(b.get('bearish',[]), '#E24B4A')}</table>
   </div>
 </div>
 <div style="margin-bottom:16px"></div>
 
-<div class="card"><h2>Inventory analysis</h2><table>{inv}</table></div>
+<div class="card"><h2>库存分析</h2><table>{inv}</table></div>
 
 <div class="card">
-  <h2>Weather risk</h2>
+  <h2>天气风险</h2>
   <table>{rows(b.get('weather',[]), '#888780')}</table>
 </div>
 
 <div class="card">
-  <h2>Transportation and logistics</h2>
-  {bar('Hormuz closure impact', b.get('freightHormuz', 0))}
-  {bar('Red Sea / Bab el-Mandeb', b.get('freightRedSea', 0))}
-  {bar('War risk insurance', b.get('freightInsurance', 0))}
-  {bar('Brazil port operations', b.get('freightBrazil', 0))}
-  <p style="font-size:13px;line-height:1.65;margin:8px 0 0;color:#555">{b.get('freight','')}</p>
+  <h2>运输与物流风险</h2>
+  {bar('霍尔木兹海峡影响', b.get('freightHormuz', 0))}
+  {bar('红海/曼德海峡', b.get('freightRedSea', 0))}
+  {bar('战争险保费', b.get('freightInsurance', 0))}
+  {bar('巴西港口运营', b.get('freightBrazil', 0))}
+  <p style="font-size:13px;line-height:1.75;margin:8px 0 0;color:#555">{b.get('freight','')}</p>
 </div>
 
-<div class="card"><h2>Key news</h2><table>{news_rows}</table></div>
+<div class="card"><h2>重要资讯</h2><table>{news_rows}</table></div>
 
 <div class="card"><h2>{changed_title}</h2><table>{changed}</table></div>
 
 <div class="card">
-  <h2>What to watch tomorrow</h2>
+  <h2>明日关注</h2>
   <div class="wg">{watch}</div>
 </div>
 
 <p style="font-size:11px;color:#aaa;text-align:center;margin-top:24px;line-height:1.5">
-  For research and informational purposes only. Not financial advice.<br>
-  Generated by Claude - {b.get('date','')}
+  本报告仅供研究参考，不构成投资建议。<br>
+  由 Claude AI 生成 - {b.get('date','')}
 </p>
 </div>
 </body>
 </html>"""
 
-# -- Email sender -------------------------------------------------------------
 def send_email(html: str, subject: str) -> None:
-    smtp_host = os.environ.get("SMTP_HOST", "smtp.office365.com")
+    smtp_host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     smtp_port = int(os.environ.get("SMTP_PORT", "587"))
     smtp_user = os.environ["SMTP_USER"]
     smtp_pass = os.environ["SMTP_PASS"]
@@ -291,12 +291,11 @@ def send_email(html: str, subject: str) -> None:
         s.starttls()
         s.login(smtp_user, smtp_pass)
         s.sendmail(smtp_user, to_addr, msg.as_string())
-    print(f"Email sent to {to_addr}")
+    print(f"邮件已发送至 {to_addr}")
 
-# -- Main ---------------------------------------------------------------------
 def main() -> None:
     today = datetime.now(timezone.utc).strftime("%A, %B %d, %Y")
-    print(f"Generating brief for {today}...")
+    print(f"正在生成 {today} 的简报...")
 
     history = load_history()
     prev = history[0] if history else None
@@ -305,9 +304,9 @@ def main() -> None:
         if prev else "No previous brief."
     )
 
-    print("Calling Claude API...")
+    print("正在调用 Claude API...")
     brief = fetch_brief(today, prev_context)
-    print(f"Done - Risk: {brief.get('risk')} | Price: {brief.get('price')}")
+    print(f"生成完成 - 风险: {brief.get('risk')} | 价格: {brief.get('price')}")
 
     save_history({
         "date": brief["date"],
@@ -325,13 +324,24 @@ def main() -> None:
     (OUTPUT_DIR / f"brief-{date_slug}.json").write_text(
         json.dumps(brief, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"Saved to output/brief-{date_slug}.html")
+    print(f"文件已保存至 output/brief-{date_slug}.html")
 
     if os.environ.get("SMTP_USER") and os.environ.get("EMAIL_TO"):
-        subject = f"Coffee Brief {date_slug} | {brief.get('price','?')} | Risk: {brief.get('risk','')}"
+        subject = f"咖啡期货日报 {date_slug} | {brief.get('price','?')} | 风险: {brief.get('risk','')}"
         send_email(html, subject)
     else:
-        print("Email not configured - skipping")
+        print("未配置邮件 - 跳过发送")
 
 if __name__ == "__main__":
     main()
+PYEOF
+python3 -c "import ast; ast.parse(open('/home/claude/coffee-brief/brief.py').read()); print('语法检查通过')"
+python3 -c "
+data = open('/home/claude/coffee-brief/brief.py','rb').read()
+bad = [i for i,b in enumerate(data) if b > 127]
+print('非ASCII字节数:', len(bad))
+"
+Output
+
+语法检查通过
+非ASCII字节数: 639
