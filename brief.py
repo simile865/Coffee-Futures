@@ -1,71 +1,110 @@
 #!/usr/bin/env python3
-"""
-Coffee C Futures - Daily Research Brief (Chinese output)
-"""
 
 import anthropic
 import json
 import os
 import re
 import smtplib
+
 from datetime import datetime, timezone
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 from pathlib import Path
 
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
 MODEL = "claude-sonnet-4-6"
-MAX_TOKENS = 1500
 
-HISTORY_FILE = Path("output/history.json")
 OUTPUT_DIR = Path("output")
+HISTORY_FILE = OUTPUT_DIR / "history.json"
 
-SYSTEM_PROMPT = (
-    "You are a coffee futures research analyst. "
-    "Respond ONLY with valid JSON. "
-    "No markdown fences. "
-    "All text values must be in Simplified Chinese. "
-    "Keep High/Medium/Low/Bullish/Bearish/Risk in English."
-)
+MARKET_FILE = Path("data/market.json")
+EVENTS_FILE = Path("data/events.json")
 
-def build_prompt(today: str, prev: str) -> str:
-    return (
-        f"Date: {today}. {prev}\n"
-        "Write a coffee C futures daily research brief as JSON.\n"
-        "Include market summary, ICE stocks, weather, freight risk, USD/BRL, "
-        "bullish and bearish factors.\n"
-        "JSON structure:\n"
-        '{"date":"STR","price":"$X.XX","priceChange":"X%",'
-        '"priceMTD":"X%","priceRange52w":"$X-$X","priceContext":"STR",'
-        '"iceStocks":"STR","iceStocksChange":"STR",'
-        '"usdBrl":"X.XX","usdBrlContext":"STR",'
-        '"risk":"High|Medium|Low","summary":"STR",'
-        '"bullish":["STR","STR","STR"],'
-        '"bearish":["STR","STR","STR"],'
-        '"weather":["STR","STR","STR"],'
-        '"freight":"STR",'
-        '"freightHormuz":INT,"freightRedSea":INT,'
-        '"freightInsurance":INT,"freightBrazil":INT}'
-    )
+SYSTEM_PROMPT = """
+You are a coffee futures research analyst.
+
+Respond ONLY with valid JSON.
+
+All text values must be in Simplified Chinese.
+
+No markdown.
+
+Keep High/Medium/Low/Bullish/Bearish/Risk in English.
+"""
+
+def load_json(path):
+
+    if path.exists():
+
+        return json.loads(
+            path.read_text(
+                encoding="utf-8"
+            )
+        )
+
+    return {}
 
 def load_history():
+
     if HISTORY_FILE.exists():
-        try:
-            return json.loads(HISTORY_FILE.read_text(encoding="utf-8"))
-        except Exception:
-            return []
+
+        return json.loads(
+            HISTORY_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
+
     return []
 
 def save_history(entry, history):
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
     history.insert(0, entry)
 
     HISTORY_FILE.write_text(
-        json.dumps(history[:30], ensure_ascii=False, indent=2),
+        json.dumps(
+            history[:30],
+            ensure_ascii=False,
+            indent=2
+        ),
         encoding="utf-8"
     )
 
-def fetch_brief(today, prev_context):
+def build_prompt(today, market, events, prev):
+
+    return f"""
+Date: {today}
+
+Market OHLC:
+{json.dumps(market, ensure_ascii=False)}
+
+Upcoming Events:
+{json.dumps(events, ensure_ascii=False)}
+
+Previous Context:
+{prev}
+
+Write a professional coffee futures daily brief.
+
+Return ONLY JSON.
+
+JSON structure:
+
+{{
+"summary":"STR",
+"risk":"High|Medium|Low",
+"bullish":["STR","STR","STR"],
+"bearish":["STR","STR","STR"],
+"weather":["STR","STR","STR"],
+"freight":"STR"
+}}
+"""
+
+def fetch_brief(today, market, events, prev):
 
     client = anthropic.Anthropic(
         api_key=os.environ["ANTHROPIC_API_KEY"]
@@ -73,14 +112,19 @@ def fetch_brief(today, prev_context):
 
     response = client.messages.create(
         model=MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=1200,
         system=SYSTEM_PROMPT,
         messages=[
             {
                 "role": "user",
-                "content": build_prompt(today, prev_context)
+                "content": build_prompt(
+                    today,
+                    market,
+                    events,
+                    prev
+                )
             }
-        ],
+        ]
     )
 
     raw = response.content[0].text.strip()
@@ -90,33 +134,54 @@ def fetch_brief(today, prev_context):
     match = re.search(r"\{[\s\S]*\}", raw)
 
     if not match:
-        raise ValueError("Claude did not return JSON")
+        raise ValueError("No JSON found")
 
-    json_str = re.sub(r",\s*([}\]])", r"\1", match.group())
+    return json.loads(match.group())
 
-    return json.loads(json_str)
+def render_html(brief, market, events):
 
-def render_html(b):
+    bullish_html = "".join(
+        f"<li>{x}</li>"
+        for x in brief.get("bullish", [])
+    )
 
-    risk_color = {
-        "High": "#A32D2D",
-        "Medium": "#BA7517",
-        "Low": "#3B6D11"
-    }.get(b.get("risk", "Medium"))
+    bearish_html = "".join(
+        f"<li>{x}</li>"
+        for x in brief.get("bearish", [])
+    )
+
+    weather_html = "".join(
+        f"<li>{x}</li>"
+        for x in brief.get("weather", [])
+    )
+
+    events_html = "".join(
+        f"""
+        <li>
+            <strong>{e.get("date")}</strong>
+            |
+            {e.get("event")}
+            |
+            {e.get("impact")}
+            <br>
+            {e.get("desc")}
+        </li>
+        """
+        for e in events
+    )
 
     return f"""
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html>
+
 <head>
+
 <meta charset="UTF-8">
-<title>咖啡期货日报</title>
 
 <style>
 
 body {{
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background: #F5F5F5;
-    margin: 0;
     padding: 20px;
 }}
 
@@ -131,26 +196,8 @@ body {{
 .card {{
     background: #FAFAFA;
     padding: 16px;
-    border-radius: 10px;
     margin-bottom: 16px;
-}}
-
-h1 {{
-    margin-top: 0;
-}}
-
-.price {{
-    font-size: 32px;
-    font-weight: bold;
-}}
-
-.risk {{
-    color: {risk_color};
-    font-weight: bold;
-}}
-
-ul {{
-    line-height: 1.8;
+    border-radius: 10px;
 }}
 
 </style>
@@ -161,77 +208,100 @@ ul {{
 
 <div class="container">
 
-<h1>咖啡C期货每日简报</h1>
+<h1>咖啡期货每日简报</h1>
 
 <div class="card">
-    <div>日期：{b.get("date")}</div>
-    <div class="price">{b.get("price")}</div>
-    <div>日变化：{b.get("priceChange")}</div>
-    <div>月变化：{b.get("priceMTD")}</div>
-    <div>52周区间：{b.get("priceRange52w")}</div>
+
+<h2>OHLC</h2>
+
+<p>开盘价: {market.get("open")}</p>
+
+<p>最高价: {market.get("high")}</p>
+
+<p>最低价: {market.get("low")}</p>
+
+<p>收盘价: {market.get("close")}</p>
+
+<p>成交量: {market.get("volume")}</p>
+
 </div>
 
 <div class="card">
-    <h2>市场总结</h2>
-    <p>{b.get("summary")}</p>
+
+<h2>市场总结</h2>
+
+<p>{brief.get("summary")}</p>
+
 </div>
 
 <div class="card">
-    <h2>ICE库存</h2>
-    <p>{b.get("iceStocks")}</p>
-    <p>{b.get("iceStocksChange")}</p>
+
+<h2>风险等级</h2>
+
+<p>{brief.get("risk")}</p>
+
 </div>
 
 <div class="card">
-    <h2>美元 / 巴西雷亚尔</h2>
-    <p>{b.get("usdBrl")}</p>
-    <p>{b.get("usdBrlContext")}</p>
+
+<h2>利多因素</h2>
+
+<ul>
+
+{bullish_html}
+
+</ul>
+
 </div>
 
 <div class="card">
-    <h2>天气风险</h2>
 
-    <ul>
-        {''.join(f"<li>{x}</li>" for x in b.get("weather", []))}
-    </ul>
+<h2>利空因素</h2>
+
+<ul>
+
+{bearish_html}
+
+</ul>
+
 </div>
 
 <div class="card">
-    <h2>利多因素</h2>
 
-    <ul>
-        {''.join(f"<li>{x}</li>" for x in b.get("bullish", []))}
-    </ul>
+<h2>天气风险</h2>
+
+<ul>
+
+{weather_html}
+
+</ul>
+
 </div>
 
 <div class="card">
-    <h2>利空因素</h2>
 
-    <ul>
-        {''.join(f"<li>{x}</li>" for x in b.get("bearish", []))}
-    </ul>
+<h2>物流风险</h2>
+
+<p>{brief.get("freight")}</p>
+
 </div>
 
 <div class="card">
-    <h2>物流风险</h2>
 
-    <p>{b.get("freight")}</p>
+<h2>未来重要事件</h2>
 
-    <p>Hormuz: {b.get("freightHormuz")}</p>
-    <p>Red Sea: {b.get("freightRedSea")}</p>
-    <p>Insurance: {b.get("freightInsurance")}</p>
-    <p>Brazil Port: {b.get("freightBrazil")}</p>
-</div>
+<ul>
 
-<div class="card">
-    <h2>风险等级</h2>
+{events_html}
 
-    <div class="risk">{b.get("risk")}</div>
+</ul>
+
 </div>
 
 </div>
 
 </body>
+
 </html>
 """
 
@@ -239,6 +309,7 @@ def send_email(html, subject):
 
     smtp_user = os.environ["SMTP_USER"]
     smtp_pass = os.environ["SMTP_PASS"]
+
     to_addr = os.environ["EMAIL_TO"]
 
     msg = MIMEMultipart("alternative")
@@ -248,14 +319,24 @@ def send_email(html, subject):
     msg["To"] = to_addr
 
     msg.attach(
-        MIMEText(html, "html", "utf-8")
+        MIMEText(
+            html,
+            "html",
+            "utf-8"
+        )
     )
 
-    with smtplib.SMTP("smtp.gmail.com", 587) as s:
+    with smtplib.SMTP(
+        "smtp.gmail.com",
+        587
+    ) as s:
 
         s.starttls()
 
-        s.login(smtp_user, smtp_pass)
+        s.login(
+            smtp_user,
+            smtp_pass
+        )
 
         s.sendmail(
             smtp_user,
@@ -265,79 +346,57 @@ def send_email(html, subject):
 
 def main():
 
+    OUTPUT_DIR.mkdir(
+        exist_ok=True
+    )
+
     today = datetime.now(
         timezone.utc
     ).strftime("%Y-%m-%d")
 
-    print("Generating coffee brief...")
+    market = load_json(MARKET_FILE)
+
+    events = load_json(EVENTS_FILE)
 
     history = load_history()
 
-    prev = history[0] if history else None
-
-    prev_context = (
-        f'Previous price={prev.get("price")}'
-        if prev else "No previous brief"
-    )
+    prev = history[0] if history else {}
 
     brief = fetch_brief(
         today,
-        prev_context
+        market,
+        events,
+        str(prev)
     )
 
-    save_history(
-        {
-            "date": brief["date"],
-            "price": brief.get("price"),
-            "risk": brief.get("risk")
-        },
-        history
+    html = render_html(
+        brief,
+        market,
+        events
     )
 
-    html = render_html(brief)
-
-    OUTPUT_DIR.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    date_slug = datetime.now(
-        timezone.utc
-    ).strftime("%Y-%m-%d")
-
-    html_file = OUTPUT_DIR / f"brief-{date_slug}.html"
+    html_file = OUTPUT_DIR / "latest.html"
 
     html_file.write_text(
         html,
         encoding="utf-8"
     )
 
-    latest = OUTPUT_DIR / "latest.html"
-
-    latest.write_text(
-        html,
-        encoding="utf-8"
+    save_history(
+        {
+            "date": today,
+            "close": market.get("close"),
+            "risk": brief.get("risk")
+        },
+        history
     )
-
-    json_file = OUTPUT_DIR / f"brief-{date_slug}.json"
-
-    json_file.write_text(
-        json.dumps(
-            brief,
-            ensure_ascii=False,
-            indent=2
-        ),
-        encoding="utf-8"
-    )
-
-    print("Files generated successfully")
 
     if os.environ.get("SMTP_USER"):
 
         subject = (
-            f"咖啡期货日报 {date_slug} "
-            f"| {brief.get('price')} "
-            f"| 风险: {brief.get('risk')}"
+            f"Coffee Brief "
+            f"{today} "
+            f"{market.get('close')}"
         )
 
         send_email(
@@ -346,6 +405,8 @@ def main():
         )
 
         print("Email sent")
+
+    print("Done")
 
 if __name__ == "__main__":
     main()
