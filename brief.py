@@ -134,6 +134,7 @@ def fetch_brief(today: str, prev_context: str) -> dict:
     except json.JSONDecodeError:
         # If still failing, increase max_tokens and retry once
         print("⚠ JSON parse failed, retrying with higher max_tokens...")
+        import time; time.sleep(65)
         response2 = client.messages.create(
             model=MODEL,
             max_tokens=3000,
