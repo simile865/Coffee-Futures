@@ -133,18 +133,17 @@ def fetch_brief(today, market, events, prev):
 
     try:
 
-        response = client.messages.create(
+ response = client.messages.create(
 
-            model=MODEL,
-            temperature=0,
+    model=MODEL,
 
-            max_tokens=900,
+    max_tokens=900,
 
-            temperature=0,
+    temperature=0,
 
-            system=SYSTEM_PROMPT,
+    system=SYSTEM_PROMPT,
 
-            messages=[
+    messages=[
                 {
                     "role": "user",
 
