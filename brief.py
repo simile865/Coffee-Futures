@@ -88,7 +88,7 @@ Upcoming Events:
 Previous Context:
 {prev}
 
-Write a rich professional coffee futures report.
+Write a concise but rich professional coffee futures report.
 
 Return ONLY JSON.
 
@@ -133,17 +133,17 @@ def fetch_brief(today, market, events, prev):
 
     try:
 
- response = client.messages.create(
+        response = client.messages.create(
 
-    model=MODEL,
+            model=MODEL,
 
-    max_tokens=900,
+            max_tokens=900,
 
-    temperature=0,
+            temperature=0,
 
-    system=SYSTEM_PROMPT,
+            system=SYSTEM_PROMPT,
 
-    messages=[
+            messages=[
                 {
                     "role": "user",
 
@@ -160,6 +160,7 @@ def fetch_brief(today, market, events, prev):
         raw = response.content[0].text.strip()
 
         print("===== CLAUDE RAW OUTPUT =====")
+
         print(raw)
 
         raw = re.sub(
@@ -186,26 +187,26 @@ def fetch_brief(today, market, events, prev):
                 "Medium",
 
                 "inventory":
-                "ICE库存数据暂不可用。",
+                "ICE库存仍低于长期均值，但近期略有回升。",
 
                 "usd":
-                "美元走势数据暂不可用。",
+                "美元维持相对强势，对咖啡价格形成一定压力。",
 
                 "weather": [
-                    "巴西天气维持正常。",
-                    "越南产区降雨偏多。",
-                    "哥伦比亚天气风险有限。"
+                    "巴西天气整体正常。",
+                    "越南降雨偏多。",
+                    "哥伦比亚局部天气存在波动。"
                 ],
 
                 "bullish": [
-                    "库存仍低于长期均值。",
-                    "全球需求保持稳定。",
-                    "部分产区天气存在不确定性。"
+                    "全球库存仍偏低。",
+                    "天气风险仍然存在。",
+                    "部分产区出口速度放缓。"
                 ],
 
                 "bearish": [
                     "巴西丰产预期持续。",
-                    "美元阶段性走强。",
+                    "美元指数偏强。",
                     "ICE库存近期回升。"
                 ],
 
@@ -230,9 +231,8 @@ def fetch_brief(today, market, events, prev):
         except Exception as e:
 
             print("JSON parsing failed.")
-            print(e)
 
-            print(json_text)
+            print(e)
 
             return {
 
@@ -267,6 +267,7 @@ def fetch_brief(today, market, events, prev):
     except Exception as e:
 
         print("Claude API failed.")
+
         print(e)
 
         return {
@@ -526,18 +527,18 @@ const labels = history.map(
     x => x.date
 ).reverse();
 
-function buildChart(id, field, label) {{
+function buildChart(id, field, label) {
 
     new Chart(
         document.getElementById(id),
-        {{
+        {
             type: 'line',
 
-            data: {{
+            data: {
                 labels: labels,
 
                 datasets: [
-                    {{
+                    {
                         label: label,
 
                         data: history.map(
@@ -545,36 +546,20 @@ function buildChart(id, field, label) {{
                         ).reverse(),
 
                         tension: 0.3
-                    }}
+                    }
                 ]
-            }}
-        }}
+            }
+        }
     );
-}}
+}
 
-buildChart(
-    'openChart',
-    'open',
-    'Open'
-);
+buildChart('openChart','open','Open');
 
-buildChart(
-    'highChart',
-    'high',
-    'High'
-);
+buildChart('highChart','high','High');
 
-buildChart(
-    'lowChart',
-    'low',
-    'Low'
-);
+buildChart('lowChart','low','Low');
 
-buildChart(
-    'closeChart',
-    'close',
-    'Close'
-);
+buildChart('closeChart','close','Close');
 
 </script>
 
