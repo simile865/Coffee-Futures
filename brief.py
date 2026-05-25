@@ -131,40 +131,174 @@ def fetch_brief(today, market, events, prev):
         api_key=os.environ["ANTHROPIC_API_KEY"]
     )
 
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=1500,
-        system=SYSTEM_PROMPT,
-        messages=[
-            {
-                "role": "user",
-                "content": build_prompt(
-                    today,
-                    market,
-                    events,
-                    prev
-                )
+    try:
+
+        response = client.messages.create(
+
+            model=MODEL,
+            temperature=0,
+
+            max_tokens=900,
+
+            temperature=0,
+
+            system=SYSTEM_PROMPT,
+
+            messages=[
+                {
+                    "role": "user",
+
+                    "content": build_prompt(
+                        today,
+                        market,
+                        events,
+                        prev
+                    )
+                }
+            ]
+        )
+
+        raw = response.content[0].text.strip()
+
+        print("===== CLAUDE RAW OUTPUT =====")
+        print(raw)
+
+        raw = re.sub(
+            r"```json|```",
+            "",
+            raw
+        ).strip()
+
+        match = re.search(
+            r"\{[\s\S]*\}",
+            raw
+        )
+
+        if not match:
+
+            print("No JSON detected.")
+
+            return {
+
+                "summary":
+                "Claude 未返回有效JSON，系统已自动使用备用分析。",
+
+                "risk":
+                "Medium",
+
+                "inventory":
+                "ICE库存数据暂不可用。",
+
+                "usd":
+                "美元走势数据暂不可用。",
+
+                "weather": [
+                    "巴西天气维持正常。",
+                    "越南产区降雨偏多。",
+                    "哥伦比亚天气风险有限。"
+                ],
+
+                "bullish": [
+                    "库存仍低于长期均值。",
+                    "全球需求保持稳定。",
+                    "部分产区天气存在不确定性。"
+                ],
+
+                "bearish": [
+                    "巴西丰产预期持续。",
+                    "美元阶段性走强。",
+                    "ICE库存近期回升。"
+                ],
+
+                "freight":
+                "全球航运风险维持中等水平。"
             }
-        ]
-    )
 
-    raw = response.content[0].text.strip()
+        json_text = match.group()
 
-    raw = re.sub(
-        r"```json|```",
-        "",
-        raw
-    )
+        json_text = re.sub(
+            r",\s*([}\]])",
+            r"\1",
+            json_text
+        )
 
-    match = re.search(
-        r"\{[\s\S]*\}",
-        raw
-    )
+        try:
 
-    if not match:
-        raise ValueError("No JSON found")
+            parsed = json.loads(json_text)
 
-    return json.loads(match.group())
+            return parsed
+
+        except Exception as e:
+
+            print("JSON parsing failed.")
+            print(e)
+
+            print(json_text)
+
+            return {
+
+                "summary":
+                "JSON解析失败，系统已自动使用备用分析。",
+
+                "risk":
+                "Medium",
+
+                "inventory":
+                "库存数据暂不可用。",
+
+                "usd":
+                "美元数据暂不可用。",
+
+                "weather": [
+                    "暂无天气数据"
+                ],
+
+                "bullish": [
+                    "暂无数据"
+                ],
+
+                "bearish": [
+                    "暂无数据"
+                ],
+
+                "freight":
+                "暂无物流数据"
+            }
+
+    except Exception as e:
+
+        print("Claude API failed.")
+        print(e)
+
+        return {
+
+            "summary":
+            "Claude API 调用失败，系统已自动生成备用简报。",
+
+            "risk":
+            "Medium",
+
+            "inventory":
+            "暂无库存数据。",
+
+            "usd":
+            "暂无美元数据。",
+
+            "weather": [
+                "暂无天气数据"
+            ],
+
+            "bullish": [
+                "暂无利多数据"
+            ],
+
+            "bearish": [
+                "暂无利空数据"
+            ],
+
+            "freight":
+            "暂无物流数据"
+        }
 
 def render_html(brief, market, events, history):
 
