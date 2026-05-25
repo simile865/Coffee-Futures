@@ -1,0 +1,798 @@
+{
+  "ice_inventory": {
+    "certified_stocks": 449567,
+    "date": "05-22-2026",
+    "prior_value": 456462,
+    "prior_date": "05-20-2026",
+    "change": -6895,
+    "change_pct": -1.5105309971038114,
+    "unit": "bags",
+    "history": [
+      {
+        "date": "05-06-2026",
+        "value": 492408
+      },
+      {
+        "date": "05-08-2026",
+        "value": 477045
+      },
+      {
+        "date": "05-13-2026",
+        "value": 471985
+      },
+      {
+        "date": "05-15-2026",
+        "value": 466405
+      },
+      {
+        "date": "05-19-2026",
+        "value": 458735
+      },
+      {
+        "date": "05-20-2026",
+        "value": 456462
+      },
+      {
+        "date": "05-22-2026",
+        "value": 449567
+      }
+    ],
+    "source": "ICE via Barchart",
+    "url": "https://www.barchart.com/cmdty/data/fundamental/explore/IC2QY5DOB.CS"
+  },
+  "macro": {
+    "usd_brl": {
+      "symbol": "BRL=X",
+      "label": "USD/BRL",
+      "date": "2026-05-25",
+      "value": 4.997700214385986,
+      "prior_value": 5.017099857330322,
+      "prior_date": "2026-05-21",
+      "change": -0.019399642944335938,
+      "change_pct": -0.3866704569571552,
+      "source": "Yahoo Finance"
+    },
+    "dxy": {
+      "symbol": "DX-Y.NYB",
+      "label": "U.S. Dollar Index",
+      "date": "2026-05-25",
+      "value": 98.96299743652344,
+      "prior_value": 99.31999969482422,
+      "prior_date": "2026-05-22",
+      "change": -0.35700225830078125,
+      "change_pct": -0.35944649556758446,
+      "source": "Yahoo Finance"
+    }
+  },
+  "cftc_cot": {
+    "market": "COFFEE C - ICE FUTURES U.S.",
+    "report_date": "2026-05-19",
+    "open_interest": 189817,
+    "managed_money_long": 45107,
+    "managed_money_short": 20521,
+    "managed_money_spread": 32275,
+    "managed_money_net": 24586,
+    "managed_money_prior_net": 30370,
+    "managed_money_net_change": -5784,
+    "managed_money_net_pct_oi": 12.95247527882118,
+    "prior_report_date": "2026-05-12",
+    "history": [
+      {
+        "date": "2024-11-12",
+        "long": 61981,
+        "short": 4106,
+        "net": 57875,
+        "open_interest": 205251,
+        "net_pct_oi": 28.19718296134976
+      },
+      {
+        "date": "2024-11-19",
+        "long": 64891,
+        "short": 3308,
+        "net": 61583,
+        "open_interest": 199432,
+        "net_pct_oi": 30.879196919250674
+      },
+      {
+        "date": "2024-11-26",
+        "long": 66947,
+        "short": 4447,
+        "net": 62500,
+        "open_interest": 204329,
+        "net_pct_oi": 30.58792437686281
+      },
+      {
+        "date": "2024-12-03",
+        "long": 64153,
+        "short": 4847,
+        "net": 59306,
+        "open_interest": 202088,
+        "net_pct_oi": 29.34662127390048
+      },
+      {
+        "date": "2024-12-10",
+        "long": 63670,
+        "short": 4919,
+        "net": 58751,
+        "open_interest": 204227,
+        "net_pct_oi": 28.767498910526037
+      },
+      {
+        "date": "2024-12-17",
+        "long": 59913,
+        "short": 3920,
+        "net": 55993,
+        "open_interest": 199746,
+        "net_pct_oi": 28.032100767975326
+      },
+      {
+        "date": "2024-12-24",
+        "long": 61458,
+        "short": 3939,
+        "net": 57519,
+        "open_interest": 193305,
+        "net_pct_oi": 29.75556762629006
+      },
+      {
+        "date": "2024-12-31",
+        "long": 60796,
+        "short": 3888,
+        "net": 56908,
+        "open_interest": 192111,
+        "net_pct_oi": 29.622457849888868
+      },
+      {
+        "date": "2025-01-07",
+        "long": 62577,
+        "short": 3902,
+        "net": 58675,
+        "open_interest": 194280,
+        "net_pct_oi": 30.201255919291743
+      },
+      {
+        "date": "2025-01-14",
+        "long": 63614,
+        "short": 2972,
+        "net": 60642,
+        "open_interest": 187855,
+        "net_pct_oi": 32.28128077506587
+      },
+      {
+        "date": "2025-01-21",
+        "long": 65953,
+        "short": 3041,
+        "net": 62912,
+        "open_interest": 188450,
+        "net_pct_oi": 33.383921464579466
+      },
+      {
+        "date": "2025-01-28",
+        "long": 68796,
+        "short": 2790,
+        "net": 66006,
+        "open_interest": 194951,
+        "net_pct_oi": 33.85773861124078
+      },
+      {
+        "date": "2025-02-04",
+        "long": 69169,
+        "short": 3062,
+        "net": 66107,
+        "open_interest": 193787,
+        "net_pct_oi": 34.11322740947535
+      },
+      {
+        "date": "2025-02-11",
+        "long": 65386,
+        "short": 4033,
+        "net": 61353,
+        "open_interest": 192342,
+        "net_pct_oi": 31.897869420095454
+      },
+      {
+        "date": "2025-02-18",
+        "long": 64561,
+        "short": 3636,
+        "net": 60925,
+        "open_interest": 162683,
+        "net_pct_oi": 37.45013308089966
+      },
+      {
+        "date": "2025-02-25",
+        "long": 63366,
+        "short": 4509,
+        "net": 58857,
+        "open_interest": 161872,
+        "net_pct_oi": 36.36021053672037
+      },
+      {
+        "date": "2025-03-04",
+        "long": 61234,
+        "short": 4559,
+        "net": 56675,
+        "open_interest": 162373,
+        "net_pct_oi": 34.90420205329704
+      },
+      {
+        "date": "2025-03-11",
+        "long": 58659,
+        "short": 3934,
+        "net": 54725,
+        "open_interest": 165950,
+        "net_pct_oi": 32.97680024103646
+      },
+      {
+        "date": "2025-03-18",
+        "long": 57555,
+        "short": 4346,
+        "net": 53209,
+        "open_interest": 168654,
+        "net_pct_oi": 31.549207252718585
+      },
+      {
+        "date": "2025-03-25",
+        "long": 59464,
+        "short": 3762,
+        "net": 55702,
+        "open_interest": 175814,
+        "net_pct_oi": 31.682346115781453
+      },
+      {
+        "date": "2025-04-01",
+        "long": 57203,
+        "short": 4780,
+        "net": 52423,
+        "open_interest": 177426,
+        "net_pct_oi": 29.54640244383574
+      },
+      {
+        "date": "2025-04-08",
+        "long": 48094,
+        "short": 6019,
+        "net": 42075,
+        "open_interest": 172826,
+        "net_pct_oi": 24.34529526807309
+      },
+      {
+        "date": "2025-04-15",
+        "long": 39819,
+        "short": 4585,
+        "net": 35234,
+        "open_interest": 149805,
+        "net_pct_oi": 23.51990921531324
+      },
+      {
+        "date": "2025-04-22",
+        "long": 41231,
+        "short": 4308,
+        "net": 36923,
+        "open_interest": 146006,
+        "net_pct_oi": 25.288686766297275
+      },
+      {
+        "date": "2025-04-29",
+        "long": 49108,
+        "short": 4704,
+        "net": 44404,
+        "open_interest": 155503,
+        "net_pct_oi": 28.555076107856443
+      },
+      {
+        "date": "2025-05-06",
+        "long": 48840,
+        "short": 4888,
+        "net": 43952,
+        "open_interest": 154370,
+        "net_pct_oi": 28.47185333937941
+      },
+      {
+        "date": "2025-05-13",
+        "long": 46540,
+        "short": 4807,
+        "net": 41733,
+        "open_interest": 154524,
+        "net_pct_oi": 27.007455152597654
+      },
+      {
+        "date": "2025-05-20",
+        "long": 44320,
+        "short": 4839,
+        "net": 39481,
+        "open_interest": 150118,
+        "net_pct_oi": 26.299977351150428
+      },
+      {
+        "date": "2025-05-27",
+        "long": 42224,
+        "short": 5270,
+        "net": 36954,
+        "open_interest": 153055,
+        "net_pct_oi": 24.144261866649245
+      },
+      {
+        "date": "2025-06-03",
+        "long": 37423,
+        "short": 5549,
+        "net": 31874,
+        "open_interest": 158180,
+        "net_pct_oi": 20.150461499557466
+      },
+      {
+        "date": "2025-06-10",
+        "long": 38230,
+        "short": 4648,
+        "net": 33582,
+        "open_interest": 158885,
+        "net_pct_oi": 21.13604179123265
+      },
+      {
+        "date": "2025-06-17",
+        "long": 36328,
+        "short": 5489,
+        "net": 30839,
+        "open_interest": 143735,
+        "net_pct_oi": 21.45545622151877
+      },
+      {
+        "date": "2025-06-24",
+        "long": 34835,
+        "short": 8459,
+        "net": 26376,
+        "open_interest": 147385,
+        "net_pct_oi": 17.89598670149608
+      },
+      {
+        "date": "2025-07-01",
+        "long": 34799,
+        "short": 10152,
+        "net": 24647,
+        "open_interest": 148342,
+        "net_pct_oi": 16.61498429305254
+      },
+      {
+        "date": "2025-07-08",
+        "long": 36947,
+        "short": 12546,
+        "net": 24401,
+        "open_interest": 150075,
+        "net_pct_oi": 16.2592037314676
+      },
+      {
+        "date": "2025-07-15",
+        "long": 37810,
+        "short": 11846,
+        "net": 25964,
+        "open_interest": 150606,
+        "net_pct_oi": 17.239685005909458
+      },
+      {
+        "date": "2025-07-22",
+        "long": 38862,
+        "short": 11745,
+        "net": 27117,
+        "open_interest": 152845,
+        "net_pct_oi": 17.74150282966404
+      },
+      {
+        "date": "2025-07-29",
+        "long": 38242,
+        "short": 11918,
+        "net": 26324,
+        "open_interest": 155650,
+        "net_pct_oi": 16.91230324445872
+      },
+      {
+        "date": "2025-08-05",
+        "long": 37800,
+        "short": 11611,
+        "net": 26189,
+        "open_interest": 162429,
+        "net_pct_oi": 16.12335235702984
+      },
+      {
+        "date": "2025-08-12",
+        "long": 34632,
+        "short": 10267,
+        "net": 24365,
+        "open_interest": 146352,
+        "net_pct_oi": 16.64821799497103
+      },
+      {
+        "date": "2025-08-19",
+        "long": 36038,
+        "short": 10029,
+        "net": 26009,
+        "open_interest": 152281,
+        "net_pct_oi": 17.079609406294942
+      },
+      {
+        "date": "2025-08-26",
+        "long": 42670,
+        "short": 11229,
+        "net": 31441,
+        "open_interest": 161225,
+        "net_pct_oi": 19.50131803380369
+      },
+      {
+        "date": "2025-09-02",
+        "long": 45239,
+        "short": 9531,
+        "net": 35708,
+        "open_interest": 170009,
+        "net_pct_oi": 21.003593927380315
+      },
+      {
+        "date": "2025-09-09",
+        "long": 48676,
+        "short": 8897,
+        "net": 39779,
+        "open_interest": 176855,
+        "net_pct_oi": 22.492437307398717
+      },
+      {
+        "date": "2025-09-16",
+        "long": 50407,
+        "short": 9246,
+        "net": 41161,
+        "open_interest": 176005,
+        "net_pct_oi": 23.386267435584216
+      },
+      {
+        "date": "2025-09-23",
+        "long": 50057,
+        "short": 9751,
+        "net": 40306,
+        "open_interest": 169676,
+        "net_pct_oi": 23.754685400410196
+      },
+      {
+        "date": "2025-09-30",
+        "long": 50834,
+        "short": 9859,
+        "net": 40975,
+        "open_interest": 165749,
+        "net_pct_oi": 24.721114456195814
+      },
+      {
+        "date": "2025-10-07",
+        "long": 52422,
+        "short": 9038,
+        "net": 43384,
+        "open_interest": 168490,
+        "net_pct_oi": 25.7487091222031
+      },
+      {
+        "date": "2025-10-14",
+        "long": 56840,
+        "short": 8651,
+        "net": 48189,
+        "open_interest": 175792,
+        "net_pct_oi": 27.412510239373805
+      },
+      {
+        "date": "2025-10-21",
+        "long": 58241,
+        "short": 8090,
+        "net": 50151,
+        "open_interest": 176952,
+        "net_pct_oi": 28.341584158415838
+      },
+      {
+        "date": "2025-10-28",
+        "long": 57301,
+        "short": 7581,
+        "net": 49720,
+        "open_interest": 173876,
+        "net_pct_oi": 28.59509075433067
+      },
+      {
+        "date": "2025-11-04",
+        "long": 57138,
+        "short": 8380,
+        "net": 48758,
+        "open_interest": 176007,
+        "net_pct_oi": 27.70230729459624
+      },
+      {
+        "date": "2025-11-10",
+        "long": 57478,
+        "short": 9229,
+        "net": 48249,
+        "open_interest": 176586,
+        "net_pct_oi": 27.323230607182904
+      },
+      {
+        "date": "2025-11-18",
+        "long": 52463,
+        "short": 11295,
+        "net": 41168,
+        "open_interest": 155331,
+        "net_pct_oi": 26.50340241162421
+      },
+      {
+        "date": "2025-11-25",
+        "long": 50326,
+        "short": 11832,
+        "net": 38494,
+        "open_interest": 159439,
+        "net_pct_oi": 24.143402806088847
+      },
+      {
+        "date": "2025-12-02",
+        "long": 50147,
+        "short": 11720,
+        "net": 38427,
+        "open_interest": 158348,
+        "net_pct_oi": 24.267436279586732
+      },
+      {
+        "date": "2025-12-09",
+        "long": 49752,
+        "short": 11148,
+        "net": 38604,
+        "open_interest": 163907,
+        "net_pct_oi": 23.552380313226404
+      },
+      {
+        "date": "2025-12-16",
+        "long": 47352,
+        "short": 12039,
+        "net": 35313,
+        "open_interest": 160631,
+        "net_pct_oi": 21.98392589226239
+      },
+      {
+        "date": "2025-12-23",
+        "long": 42649,
+        "short": 13052,
+        "net": 29597,
+        "open_interest": 161478,
+        "net_pct_oi": 18.32881259366601
+      },
+      {
+        "date": "2025-12-30",
+        "long": 42876,
+        "short": 12473,
+        "net": 30403,
+        "open_interest": 164520,
+        "net_pct_oi": 18.479820082664723
+      },
+      {
+        "date": "2026-01-06",
+        "long": 45605,
+        "short": 11239,
+        "net": 34366,
+        "open_interest": 170823,
+        "net_pct_oi": 20.1178998144278
+      },
+      {
+        "date": "2026-01-13",
+        "long": 47026,
+        "short": 11781,
+        "net": 35245,
+        "open_interest": 170695,
+        "net_pct_oi": 20.647939306950995
+      },
+      {
+        "date": "2026-01-20",
+        "long": 45832,
+        "short": 12368,
+        "net": 33464,
+        "open_interest": 170437,
+        "net_pct_oi": 19.63423435052248
+      },
+      {
+        "date": "2026-01-27",
+        "long": 47512,
+        "short": 11565,
+        "net": 35947,
+        "open_interest": 174890,
+        "net_pct_oi": 20.554062553605124
+      },
+      {
+        "date": "2026-02-03",
+        "long": 39728,
+        "short": 14054,
+        "net": 25674,
+        "open_interest": 179573,
+        "net_pct_oi": 14.297249586519131
+      },
+      {
+        "date": "2026-02-10",
+        "long": 37937,
+        "short": 18860,
+        "net": 19077,
+        "open_interest": 175044,
+        "net_pct_oi": 10.89840268732433
+      },
+      {
+        "date": "2026-02-17",
+        "long": 37629,
+        "short": 19557,
+        "net": 18072,
+        "open_interest": 156645,
+        "net_pct_oi": 11.536914679689744
+      },
+      {
+        "date": "2026-02-24",
+        "long": 37695,
+        "short": 20839,
+        "net": 16856,
+        "open_interest": 164239,
+        "net_pct_oi": 10.263092200999763
+      },
+      {
+        "date": "2026-03-03",
+        "long": 37319,
+        "short": 20854,
+        "net": 16465,
+        "open_interest": 169433,
+        "net_pct_oi": 9.717705523717338
+      },
+      {
+        "date": "2026-03-10",
+        "long": 37874,
+        "short": 19211,
+        "net": 18663,
+        "open_interest": 167071,
+        "net_pct_oi": 11.170699882086058
+      },
+      {
+        "date": "2026-03-17",
+        "long": 41115,
+        "short": 16863,
+        "net": 24252,
+        "open_interest": 173683,
+        "net_pct_oi": 13.963370047730637
+      },
+      {
+        "date": "2026-03-24",
+        "long": 42836,
+        "short": 12839,
+        "net": 29997,
+        "open_interest": 174861,
+        "net_pct_oi": 17.154768644809305
+      },
+      {
+        "date": "2026-03-31",
+        "long": 41606,
+        "short": 10895,
+        "net": 30711,
+        "open_interest": 175500,
+        "net_pct_oi": 17.4991452991453
+      },
+      {
+        "date": "2026-04-07",
+        "long": 40072,
+        "short": 12485,
+        "net": 27587,
+        "open_interest": 176140,
+        "net_pct_oi": 15.661973430225956
+      },
+      {
+        "date": "2026-04-14",
+        "long": 42287,
+        "short": 12717,
+        "net": 29570,
+        "open_interest": 168563,
+        "net_pct_oi": 17.542402543856007
+      },
+      {
+        "date": "2026-04-21",
+        "long": 42646,
+        "short": 15566,
+        "net": 27080,
+        "open_interest": 162870,
+        "net_pct_oi": 16.626757536685698
+      },
+      {
+        "date": "2026-04-28",
+        "long": 44970,
+        "short": 12238,
+        "net": 32732,
+        "open_interest": 171239,
+        "net_pct_oi": 19.114804454592704
+      },
+      {
+        "date": "2026-05-05",
+        "long": 47771,
+        "short": 12928,
+        "net": 34843,
+        "open_interest": 176045,
+        "net_pct_oi": 19.792098611150557
+      },
+      {
+        "date": "2026-05-12",
+        "long": 46876,
+        "short": 16506,
+        "net": 30370,
+        "open_interest": 182249,
+        "net_pct_oi": 16.664014617364156
+      },
+      {
+        "date": "2026-05-19",
+        "long": 45107,
+        "short": 20521,
+        "net": 24586,
+        "open_interest": 189817,
+        "net_pct_oi": 12.95247527882118
+      }
+    ],
+    "source": "CFTC Disaggregated Futures Only",
+    "url": "https://publicreporting.cftc.gov/Commitments-of-Traders/Disaggregated-Futures-Only/72hh-3qpy"
+  },
+  "news_reports": [
+    {
+      "date": "2026-05-22",
+      "title": "Brazil raises coffee crop forecast to record high - Valor International",
+      "domain": "Valor International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNUNfcUVYRHVGdFNoRVE1RlFnZWNpcFpvTTlQbS0wb2FTWnBWWW45S3YyemFFLUZNQndqLWRmeVRPM0trWHpLSHBCZVJ0dXRDeG9jSkptREdRZ2EtaFdLQ2RNRmVoVEdOUldmMXZYbUhUaG1YaldBZUhSNnpEQ2p2ek54bC1BLVM3dl81REFsRjZWWlFNcHcyWVFiSEpxREVBR2ExTjBWNjJYaVhEN19PaFBISE5NRWpvSHRYZlp30gHMAUFVX3lxTFBQdHJSbzBtSHpSSVlVZTFkVTRJX21ydWdKZjlmQnZQa2RjaFNiOEtKNGhMS21tbGZSd2IyZzJTd19sYUFtYlhRMUh5alRLNHNKclZNY3FUR1VLMVAwc3RfdllPZ3c5aXFCSzVtR0Z1VXl0Wlppd2RjNm1FWHFrTmR3QUhHQXFtbDVGdXZuMjFsWWxyRkV0bllHOHZxUUNpWWJ3WVV4OHdnNUZkYUg5Smdsam9vN21PYWwxb0NBRHJ3VUl1T0NLSFhKNVI3Vw?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Robusta Coffee Rallies on Dry Conditions in Vietnam - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEswUFlTelFpaUdVdXpBMmx1RWdGbzA2WXRSNHNZNDNhZ0c2STJrZ3ZtSE43ZzZfWlR1TTFiall4dnBWeDlfOUMwckhySGNlZjNqTzVrX1VOQ0pfU3FCMzgyRmU0S2NiU0ZzcVJmeTFDMnYzTXAxSGdMNzJlQUdBeHBQTVVHWUFqeWFnRVBZcnJuVTlhMF9ZWXRYdw?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Special | Coffee Market Outlook [may-july] - StoneX",
+      "domain": "StoneX",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSGw1NU5oeXhSaUMyR1RLTzE3bUpNSnBxLWVOOEExaWZ3eG5icU43QVZpM0Ffc2VhQzM5bG1ucllUaWVraXFJVTllTC1KSHBBTktQaTRsa1lSTWVlU1dGd21Ba3hfTDJ5UGRqa3NYeVFNazVZQkxkeGpnb2FMbHFfclp4SQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "The search for climate resilient coffee in a warming world - Mongabay India",
+      "domain": "Mongabay India",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmp1WTVBdFd0bEE2TFM5aElMelg3N3M4TnRycDItZk9uX1R6ckQ4NGNweWpZRUJCTHlOTnltM21lcXRJRWRaX2dIUW11NlBfYnlLaHZQOThaQmczV3ZLWHBmYVdYY1hia0h4bllQSTdncEEzZ0pLeHozM09RV1hWZDZlSjRTVGE2NExNbFpITFYzczJ3NS1TM3RR?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "El Niño Fears Spark Short Covering in Coffee Futures - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ1NkY1hWRDR2TkpBWWdFd2FGZVpaYVVrUmJjTWlBcHgtZzBGTFZzdVhycXVnWm9JWDZ0TUJwLUNGb2lUQWQwajd3Q1BFUklQSGZEeFM3cGs1Z013MUxHRWw2V2FYUXhqZzlkOEV5S1RmaVQxSEJOckJIN25tTndMZW51Zl9lWjVzcHI1SVNjQXRnc2o0NVhsSEdCVnA?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "Bi-Weekly Coffee Report - StoneX",
+      "domain": "StoneX",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaFJEWXJMSjZ0Z0NpWmdVbmRqNDNIRlF5NWNtSk5GdXJLZmFCck5SMV9BNHB5RXNPMGo2RmJGb3VsNjhIN0l5N0U0dzgyNDE2dWgzTzJ0UjhiYVUwOFZGeDNOaXdEck9iQjJveVN5RXNMcDRkSjZpdmw2QlQzbkkxUWVzcE04dw?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "Coffee Prices Rebound on Technical Short-Covering - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaWlpem15M0Q1eE1POUZVakc5cnMxQTRVY1NqRnl4MXlpOHVrQzlLNWNtRUZlclhqZElwT0tjV1BQdjVIU3lCVGw4cnZtTHp6SGZCeHBzbjZmbzlxQVpwOFdtVDc4N1RGczRaWTIxaXFKUUNDcTE2QTE5WTdtWndNeVBFV0RVM1lWeDlwZElTU2k4ajdEeDhvZmRVakZDLXljUUVaXy1jSGJoWk5Fc1FGMw?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Guatemala Coffee Report: Production Up as Arabica Plantings Mature - Daily Coffee News by Roast Magazine",
+      "domain": "Daily Coffee News by Roast Magazine",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOENZQ0FMMlBESy1UNGRSRl91SV9zX0xlNUJTbmx4N3RrU21rMkk3clpFOWE2VVIzam9HeXctN3RJSGtVU2VFdDFpZk4xU0l3Sjd2RW0wNHBZd2tKRWU5YTV1b3lpYy1UVXpsa0VNLVE5WGhsM1o3UlIxQzRBN0dwaFBQNXk4UkRza2xsTklYU09FdXdQcDkwMmc0SGp4SV9tZHVNSVNSR04?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    }
+  ]
+}
