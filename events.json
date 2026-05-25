@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-05-28",
+    "event": "USDA Export Sales",
+    "impact": "Medium",
+    "desc": "美国农业出口销售周报"
+  },
+  {
+    "date": "2026-06-01",
+    "event": "Brazil CONAB Report",
+    "impact": "High",
+    "desc": "巴西咖啡产量更新"
+  },
+  {
+    "date": "2026-06-12",
+    "event": "FOMC Meeting",
+    "impact": "High",
+    "desc": "美元及商品波动风险"
+  }
+]
