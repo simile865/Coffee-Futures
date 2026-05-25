@@ -20,16 +20,14 @@ HISTORY_FILE = OUTPUT_DIR / "history.json"
 
 MARKET_FILE = Path("data/market.json")
 
-EVENTS_FILE = Path("data/events.json")
-
 SYSTEM_PROMPT = """
 You are a professional coffee futures analyst.
 
-Respond ONLY with valid JSON.
+Write ALL analysis in Simplified Chinese.
 
-All narrative text must be in Simplified Chinese.
+DO NOT use markdown.
 
-Keep High/Medium/Low/Bullish/Bearish/Risk in English.
+Keep analysis concise but professional.
 """
 
 
@@ -78,63 +76,60 @@ def save_history(entry, history):
     )
 
 
-def build_prompt(today, market, events, prev):
-
-    return f"""
-Date: {today}
-
-Market Data:
-{json.dumps(market, ensure_ascii=False)}
-
-Upcoming Events:
-{json.dumps(events, ensure_ascii=False)}
-
-Previous Context:
-{prev}
-
-Write a concise but rich professional coffee futures report.
-
-Return ONLY JSON.
-
-JSON structure:
-
-{{
-"summary":"STR",
-
-"risk":"High|Medium|Low",
-
-"inventory":"STR",
-
-"usd":"STR",
-
-"weather":[
-"STR",
-"STR",
-"STR"
-],
-
-"bullish":[
-"STR",
-"STR",
-"STR"
-],
-
-"bearish":[
-"STR",
-"STR",
-"STR"
-],
-
-"freight":"STR"
-}}
-"""
-
-
-def fetch_brief(today, market, events, prev):
+def fetch_analysis(market):
 
     client = anthropic.Anthropic(
         api_key=os.environ["ANTHROPIC_API_KEY"]
     )
+
+    prompt = f"""
+Coffee market data:
+
+{json.dumps(market, ensure_ascii=False)}
+
+Please write:
+
+1. 市场总结（150字）
+2. ICE库存分析
+3. 美元与巴西雷亚尔
+4. 天气风险
+5. 三个利多因素
+6. 三个利空因素
+7. 物流风险
+8. 风险等级（High/Medium/Low）
+
+Format:
+
+市场总结:
+...
+
+ICE库存:
+...
+
+美元:
+...
+
+天气:
+1.
+2.
+3.
+
+利多:
+1.
+2.
+3.
+
+利空:
+1.
+2.
+3.
+
+物流:
+...
+
+风险:
+...
+"""
 
     try:
 
@@ -142,7 +137,7 @@ def fetch_brief(today, market, events, prev):
 
             model=MODEL,
 
-            max_tokens=900,
+            max_tokens=1000,
 
             temperature=0,
 
@@ -151,222 +146,281 @@ def fetch_brief(today, market, events, prev):
             messages=[
                 {
                     "role": "user",
-
-                    "content": build_prompt(
-                        today,
-                        market,
-                        events,
-                        prev
-                    )
+                    "content": prompt
                 }
             ]
         )
 
-        raw = response.content[0].text.strip()
-
-        print("===== CLAUDE RAW OUTPUT =====")
-
-        print(raw)
-
-        raw = re.sub(
-            r"```json|```",
-            "",
-            raw
-        ).strip()
-
-        match = re.search(
-            r"\{[\s\S]*\}",
-            raw
-        )
-
-        if not match:
-
-            print("No JSON detected.")
-
-            return {
-
-                "summary":
-                "Claude 未返回有效JSON，系统已自动使用备用分析。",
-
-                "risk":
-                "Medium",
-
-                "inventory":
-                "ICE库存仍低于长期均值，但近期略有回升。",
-
-                "usd":
-                "美元维持相对强势，对咖啡价格形成一定压力。",
-
-                "weather": [
-                    "巴西天气整体正常。",
-                    "越南降雨偏多。",
-                    "哥伦比亚局部天气存在波动。"
-                ],
-
-                "bullish": [
-                    "全球库存仍偏低。",
-                    "天气风险仍然存在。",
-                    "部分产区出口速度放缓。"
-                ],
-
-                "bearish": [
-                    "巴西丰产预期持续。",
-                    "美元指数偏强。",
-                    "ICE库存近期回升。"
-                ],
-
-                "freight":
-                "全球航运风险维持中等水平。"
-            }
-
-        json_text = match.group()
-
-        json_text = re.sub(
-            r",\s*([}\]])",
-            r"\1",
-            json_text
-        )
-
-        try:
-
-            parsed = json.loads(json_text)
-
-            return parsed
-
-        except Exception:
-
-            return {
-
-                "summary":
-                "JSON解析失败，系统已自动使用备用分析。",
-
-                "risk":
-                "Medium",
-
-                "inventory":
-                "库存数据暂不可用。",
-
-                "usd":
-                "美元数据暂不可用。",
-
-                "weather": [
-                    "暂无天气数据"
-                ],
-
-                "bullish": [
-                    "暂无数据"
-                ],
-
-                "bearish": [
-                    "暂无数据"
-                ],
-
-                "freight":
-                "暂无物流数据"
-            }
+        return response.content[0].text.strip()
 
     except Exception:
 
-        return {
+        return """
+市场总结:
+Claude API调用失败。
 
-            "summary":
-            "Claude API 调用失败，系统已自动生成备用简报。",
+ICE库存:
+暂无数据。
 
-            "risk":
-            "Medium",
+美元:
+暂无数据。
 
-            "inventory":
-            "暂无库存数据。",
+天气:
+1. 暂无数据
+2. 暂无数据
+3. 暂无数据
 
-            "usd":
-            "暂无美元数据。",
+利多:
+1. 暂无数据
+2. 暂无数据
+3. 暂无数据
 
-            "weather": [
-                "暂无天气数据"
-            ],
+利空:
+1. 暂无数据
+2. 暂无数据
+3. 暂无数据
 
-            "bullish": [
-                "暂无利多数据"
-            ],
+物流:
+暂无数据。
 
-            "bearish": [
-                "暂无利空数据"
-            ],
-
-            "freight":
-            "暂无物流数据"
-        }
+风险:
+Medium
+"""
 
 
-def render_html(brief, market, events, history):
+def extract_section(text, title):
 
-    bullish_html = "".join(
-        f"<li>{x}</li>"
-        for x in brief.get("bullish", [])
+    pattern = rf"{title}:(.*?)(?:\n[A-Za-z\u4e00-\u9fa5]+:|$)"
+
+    match = re.search(
+        pattern,
+        text,
+        re.S
     )
 
-    bearish_html = "".join(
-        f"<li>{x}</li>"
-        for x in brief.get("bearish", [])
+    if match:
+
+        return match.group(1).strip()
+
+    return ""
+
+
+def extract_list(text, title):
+
+    section = extract_section(
+        text,
+        title
+    )
+
+    lines = []
+
+    for line in section.splitlines():
+
+        line = line.strip()
+
+        if line:
+
+            line = re.sub(
+                r"^\d+\.",
+                "",
+                line
+            ).strip()
+
+            lines.append(line)
+
+    return lines
+
+
+def render_html(
+    market,
+    analysis
+):
+
+    summary = extract_section(
+        analysis,
+        "市场总结"
+    )
+
+    inventory = extract_section(
+        analysis,
+        "ICE库存"
+    )
+
+    usd = extract_section(
+        analysis,
+        "美元"
+    )
+
+    freight = extract_section(
+        analysis,
+        "物流"
+    )
+
+    risk = extract_section(
+        analysis,
+        "风险"
+    )
+
+    weather = extract_list(
+        analysis,
+        "天气"
+    )
+
+    bullish = extract_list(
+        analysis,
+        "利多"
+    )
+
+    bearish = extract_list(
+        analysis,
+        "利空"
     )
 
     weather_html = "".join(
         f"<li>{x}</li>"
-        for x in brief.get("weather", [])
+        for x in weather
     )
 
-    events_html = "".join(
-        f"""
-        <li>
-        <strong>{e.get("date")}</strong>
-        |
-        {e.get("event")}
-        |
-        {e.get("impact")}
-        <br>
-        {e.get("desc")}
-        </li>
-        """
-        for e in events
+    bullish_html = "".join(
+        f"<li>{x}</li>"
+        for x in bullish
     )
 
-    history_json = json.dumps(history)
+    bearish_html = "".join(
+        f"<li>{x}</li>"
+        for x in bearish
+    )
 
-    html = f"""
+    risk_color = {
+        "High": "#EF5350",
+        "Medium": "#FFA726",
+        "Low": "#66BB6A"
+    }.get(risk, "#FFA726")
+
+    return f"""
 <html>
 
 <head>
 
 <meta charset="UTF-8">
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 <style>
 
 body {{
+
+    background: #0F1116;
+
+    color: #EAECEF;
+
     font-family: Arial;
-    background: #F5F5F5;
-    padding: 20px;
+
+    padding: 30px;
 }}
 
 .container {{
-    max-width: 1000px;
+
+    max-width: 1100px;
+
     margin: auto;
 }}
 
+h1 {{
+
+    margin-bottom: 30px;
+}}
+
 .card {{
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
+
+    background: #1A1D25;
+
+    border: 1px solid #2A2E39;
+
+    border-radius: 14px;
+
+    padding: 22px;
+
     margin-bottom: 20px;
 }}
 
-h1 {{
-    margin-top: 0;
+.price-grid {{
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(180px,1fr));
+
+    gap: 16px;
+
+    margin-bottom: 24px;
 }}
 
-canvas {{
+.price-card {{
+
+    background: #1A1D25;
+
+    border: 1px solid #2A2E39;
+
+    border-radius: 14px;
+
+    padding: 20px;
+}}
+
+.price-card h3 {{
+
+    margin: 0;
+
+    color: #9AA4B2;
+
+    font-size: 13px;
+}}
+
+.price-card p {{
+
     margin-top: 10px;
+
+    font-size: 34px;
+
+    font-weight: bold;
+}}
+
+.section-grid {{
+
+    display: grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    gap: 20px;
+}}
+
+li {{
+
+    margin-bottom: 10px;
+
+    line-height: 1.6;
+}}
+
+.risk {{
+
+    color: {risk_color};
+
+    font-size: 28px;
+
+    font-weight: bold;
+}}
+
+p {{
+
+    line-height: 1.8;
+}}
+
+@media(max-width:768px) {{
+
+.section-grid {{
+
+    grid-template-columns:1fr;
+}}
+
 }}
 
 </style>
@@ -379,65 +433,64 @@ canvas {{
 
 <h1>咖啡C期货每日简报</h1>
 
-<div class="card">
+<div class="price-grid">
 
-<h2>OHLC</h2>
-
-<p>Open: {market.get("open")}</p>
-
-<p>High: {market.get("high")}</p>
-
-<p>Low: {market.get("low")}</p>
-
-<p>Close: {market.get("close")}</p>
-
-<p>Volume: {market.get("volume")}</p>
-
+<div class="price-card">
+<h3>OPEN</h3>
+<p>{market.get("open")}</p>
 </div>
 
-<div class="card">
-<h2>Open Trend</h2>
-<canvas id="openChart"></canvas>
+<div class="price-card">
+<h3>HIGH</h3>
+<p>{market.get("high")}</p>
 </div>
 
-<div class="card">
-<h2>High Trend</h2>
-<canvas id="highChart"></canvas>
+<div class="price-card">
+<h3>LOW</h3>
+<p>{market.get("low")}</p>
 </div>
 
-<div class="card">
-<h2>Low Trend</h2>
-<canvas id="lowChart"></canvas>
+<div class="price-card">
+<h3>CLOSE</h3>
+<p>{market.get("close")}</p>
 </div>
 
-<div class="card">
-<h2>Close Trend</h2>
-<canvas id="closeChart"></canvas>
+<div class="price-card">
+<h3>VOLUME</h3>
+<p>{market.get("volume")}</p>
+</div>
+
 </div>
 
 <div class="card">
 
 <h2>市场总结</h2>
 
-<p>{brief.get("summary")}</p>
+<p>{summary}</p>
+
+</div>
+
+<div class="section-grid">
+
+<div class="card">
+
+<h2>ICE库存</h2>
+
+<p>{inventory}</p>
 
 </div>
 
 <div class="card">
 
-<h2>库存分析</h2>
+<h2>美元 / 巴西雷亚尔</h2>
 
-<p>{brief.get("inventory")}</p>
+<p>{usd}</p>
+
+</div>
 
 </div>
 
-<div class="card">
-
-<h2>美元与汇率</h2>
-
-<p>{brief.get("usd")}</p>
-
-</div>
+<div class="section-grid">
 
 <div class="card">
 
@@ -453,7 +506,23 @@ canvas {{
 
 <div class="card">
 
-<h2>利多因素</h2>
+<h2>物流风险</h2>
+
+<p>{freight}</p>
+
+</div>
+
+</div>
+
+<div class="section-grid">
+
+<div class="card">
+
+<h2 style="color:#66BB6A">
+
+利多因素
+
+</h2>
 
 <ul>
 
@@ -465,7 +534,11 @@ canvas {{
 
 <div class="card">
 
-<h2>利空因素</h2>
+<h2 style="color:#EF5350">
+
+利空因素
+
+</h2>
 
 <ul>
 
@@ -475,89 +548,26 @@ canvas {{
 
 </div>
 
-<div class="card">
-
-<h2>物流风险</h2>
-
-<p>{brief.get("freight")}</p>
-
-</div>
-
-<div class="card">
-
-<h2>未来重要事件</h2>
-
-<ul>
-
-{events_html}
-
-</ul>
-
 </div>
 
 <div class="card">
 
 <h2>风险等级</h2>
 
-<p>{brief.get("risk")}</p>
+<div class="risk">
+
+{risk}
 
 </div>
 
 </div>
 
-<script>
-
-const history = HISTORY_DATA;
-
-const labels = history.map(
-    x => x.date
-).reverse();
-
-function buildChart(id, field, label) {{
-
-    new Chart(
-        document.getElementById(id),
-        {{
-            type: 'line',
-
-            data: {{
-                labels: labels,
-
-                datasets: [
-                    {{
-                        label: label,
-
-                        data: history.map(
-                            x => x[field]
-                        ).reverse(),
-
-                        tension: 0.3
-                    }}
-                ]
-            }}
-        }}
-    );
-}}
-
-buildChart('openChart','open','Open');
-
-buildChart('highChart','high','High');
-
-buildChart('lowChart','low','Low');
-
-buildChart('closeChart','close','Close');
-
-</script>
+</div>
 
 </body>
 
 </html>
 """
-
-    return html.replace(
-        "HISTORY_DATA",
-        history_json
-    )
 
 
 def send_email(html, subject):
@@ -609,72 +619,43 @@ def main():
         exist_ok=True
     )
 
-    today = datetime.now(
-        timezone.utc
-    ).strftime("%Y-%m-%d")
-
     market = load_json(
         MARKET_FILE
     )
 
-    events = load_json(
-        EVENTS_FILE
-    )
-
     history = load_history()
 
-    prev = history[0] if history else {}
-
-    brief = fetch_brief(
-        today,
-        market,
-        events,
-        str(prev)
+    analysis = fetch_analysis(
+        market
     )
 
     save_history({
 
-        "date": today,
+        "date":
+        datetime.now(
+            timezone.utc
+        ).strftime("%Y-%m-%d"),
 
-        "open": market.get("open"),
-
-        "high": market.get("high"),
-
-        "low": market.get("low"),
-
-        "close": market.get("close"),
-
-        "volume": market.get("volume"),
-
-        "risk": brief.get("risk")
+        "close":
+        market.get("close")
 
     }, history)
 
     html = render_html(
-        brief,
         market,
-        events,
-        history
+        analysis
     )
 
-    html_file = OUTPUT_DIR / "latest.html"
-
-    html_file.write_text(
+    (OUTPUT_DIR / "latest.html").write_text(
         html,
         encoding="utf-8"
     )
 
     if os.environ.get("SMTP_USER"):
 
-        subject = (
-            f"Coffee Brief "
-            f"{today} "
-            f"{market.get('close')}"
-        )
-
         send_email(
             html,
-            subject
+            "Coffee Futures Daily Brief"
         )
 
     print("Done")
