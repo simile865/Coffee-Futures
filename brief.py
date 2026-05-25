@@ -32,6 +32,7 @@ All narrative text must be in Simplified Chinese.
 Keep High/Medium/Low/Bullish/Bearish/Risk in English.
 """
 
+
 def load_json(path):
 
     if path.exists():
@@ -44,6 +45,7 @@ def load_json(path):
 
     return {}
 
+
 def load_history():
 
     if HISTORY_FILE.exists():
@@ -55,6 +57,7 @@ def load_history():
         )
 
     return []
+
 
 def save_history(entry, history):
 
@@ -73,6 +76,7 @@ def save_history(entry, history):
         ),
         encoding="utf-8"
     )
+
 
 def build_prompt(today, market, events, prev):
 
@@ -124,6 +128,7 @@ JSON structure:
 "freight":"STR"
 }}
 """
+
 
 def fetch_brief(today, market, events, prev):
 
@@ -228,11 +233,7 @@ def fetch_brief(today, market, events, prev):
 
             return parsed
 
-        except Exception as e:
-
-            print("JSON parsing failed.")
-
-            print(e)
+        except Exception:
 
             return {
 
@@ -264,11 +265,7 @@ def fetch_brief(today, market, events, prev):
                 "暂无物流数据"
             }
 
-    except Exception as e:
-
-        print("Claude API failed.")
-
-        print(e)
+    except Exception:
 
         return {
 
@@ -299,6 +296,7 @@ def fetch_brief(today, market, events, prev):
             "freight":
             "暂无物流数据"
         }
+
 
 def render_html(brief, market, events, history):
 
@@ -398,35 +396,23 @@ canvas {{
 </div>
 
 <div class="card">
-
 <h2>Open Trend</h2>
-
 <canvas id="openChart"></canvas>
-
 </div>
 
 <div class="card">
-
 <h2>High Trend</h2>
-
 <canvas id="highChart"></canvas>
-
 </div>
 
 <div class="card">
-
 <h2>Low Trend</h2>
-
 <canvas id="lowChart"></canvas>
-
 </div>
 
 <div class="card">
-
 <h2>Close Trend</h2>
-
 <canvas id="closeChart"></canvas>
-
 </div>
 
 <div class="card">
@@ -521,24 +507,24 @@ canvas {{
 
 <script>
 
-const history = %HISTORY_JSON%;
+const history = HISTORY_DATA;
 
 const labels = history.map(
     x => x.date
 ).reverse();
 
-function buildChart(id, field, label) {
+function buildChart(id, field, label) {{
 
     new Chart(
         document.getElementById(id),
-        {
+        {{
             type: 'line',
 
-            data: {
+            data: {{
                 labels: labels,
 
                 datasets: [
-                    {
+                    {{
                         label: label,
 
                         data: history.map(
@@ -546,12 +532,12 @@ function buildChart(id, field, label) {
                         ).reverse(),
 
                         tension: 0.3
-                    }
+                    }}
                 ]
-            }
-        }
+            }}
+        }}
     );
-}
+}}
 
 buildChart('openChart','open','Open');
 
@@ -569,9 +555,10 @@ buildChart('closeChart','close','Close');
 """
 
     return html.replace(
-        "%HISTORY_JSON%",
+        "HISTORY_DATA",
         history_json
     )
+
 
 def send_email(html, subject):
 
@@ -614,6 +601,7 @@ def send_email(html, subject):
             to_addr,
             msg.as_string()
         )
+
 
 def main():
 
@@ -690,6 +678,7 @@ def main():
         )
 
     print("Done")
+
 
 if __name__ == "__main__":
     main()
