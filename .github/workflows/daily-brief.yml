@@ -1,6 +1,7 @@
 name: Coffee Brief
 
 on:
+
   schedule:
     - cron: '0 12 * * *'
 
@@ -14,27 +15,33 @@ jobs:
 
     steps:
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
 
         with:
           python-version: '3.11'
 
       - name: Install packages
+
         run: |
           pip install anthropic yfinance pandas
 
       - name: Fetch market data
+
         run: python fetch_price.py
 
       - name: Generate brief
 
         env:
+
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
           SMTP_USER: ${{ secrets.SMTP_USER }}
+
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
+
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
         run: python brief.py
