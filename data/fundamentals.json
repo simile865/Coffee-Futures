@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-05-25",
-      "value": 4.997700214385986,
-      "prior_value": 5.017099857330322,
-      "prior_date": "2026-05-21",
-      "change": -0.019399642944335938,
-      "change_pct": -0.3866704569571552,
+      "date": "2026-05-26",
+      "value": 5.02810001373291,
+      "prior_value": 5.025700092315674,
+      "prior_date": "2026-05-24",
+      "change": 0.002399921417236328,
+      "change_pct": 0.04775297716045218,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-05-25",
-      "value": 98.96299743652344,
+      "date": "2026-05-26",
+      "value": 99.16600036621094,
       "prior_value": 99.31999969482422,
       "prior_date": "2026-05-22",
-      "change": -0.35700225830078125,
-      "change_pct": -0.35944649556758446,
+      "change": -0.15399932861328125,
+      "change_pct": -0.15505369420707568,
       "source": "Yahoo Finance"
     }
   },
@@ -723,6 +723,33 @@
   },
   "news_reports": [
     {
+      "date": "2026-05-26",
+      "title": "Arabica Coffee Futures Hover Near 2024-Lows - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHBWSndTTTFPQURwekhuU2Zodkx3b2JxU2ZqeFdKbS1MRk0xTXFQc3YtN290T18zV1RjcExnTWxwLTlGaXVsbFlxWVJFWEg0VjZZWEN3NG84ZXlaUHMwNy0yZ2U5aVNpbEljWWIzWFBkOU45a0tGMF8tb3pCQVhWY2dnMHpycXk4ZDJiRlhoX0ZSWkxaQmVRQ1Bn?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "Brazil eyes record coffee harvest in 2026 - Qazinform",
+      "domain": "Qazinform",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOUdueXhQVFdQak9lMXdOblhYYW4zTDRmMDFVbkp1cm5FTHRmaE84bVpIbm9kbzd5QmE0SHhRT2E4WXo1RjRkcFh2YU50Y1VhTmprUWlYS19vSGJoNWdxVGs1ckZGZmk1VkFfMnpQV0dQWWpEX0puQUtEUU5jUWd5LdIBgAFBVV95cUxOcDJHSllqQk04R1k4bldTNlpyZ3RQMloyTHlwaHBBUHVmNGJJSGVRTVpYMzJNM0VaMUlEWlU3dldQamhEcGgyX0hMQ2VLbFFjNHJwUEJTTDBUaWoyYjFnSFNsOHhCMkVwbXRwc04tSkZBMDItUUFMYjM3a1huQjdFZA?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Brazil forecasts record growth in coffee production for 2026 - TV BRICS",
+      "domain": "TV BRICS",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjIxZnZjU1hPMGYwQVM1TnlTVUxlaldzbUhFYWprVEo5N2w3bS1OZDUzVnRoU3NzcjNzN1JyVmozc1pma0VwSjhONGlndmJwR0NYampYUEVzS01UcmtpcVRiQmx2bVMweE9CTmlXbVR0ZVVlRFA5ZV8xT1EtNzlmVzE0SDVVMGhXVDNPcmtzN0tWa2M?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-05-22",
       "title": "Brazil raises coffee crop forecast to record high - Valor International",
       "domain": "Valor International",
@@ -755,33 +782,6 @@
       "domain": "Mongabay India",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmp1WTVBdFd0bEE2TFM5aElMelg3N3M4TnRycDItZk9uX1R6ckQ4NGNweWpZRUJCTHlOTnltM21lcXRJRWRaX2dIUW11NlBfYnlLaHZQOThaQmczV3ZLWHBmYVdYY1hia0h4bllQSTdncEEzZ0pLeHozM09RV1hWZDZlSjRTVGE2NExNbFpITFYzczJ3NS1TM3RR?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-21",
-      "title": "El Niño Fears Spark Short Covering in Coffee Futures - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ1NkY1hWRDR2TkpBWWdFd2FGZVpaYVVrUmJjTWlBcHgtZzBGTFZzdVhycXVnWm9JWDZ0TUJwLUNGb2lUQWQwajd3Q1BFUklQSGZEeFM3cGs1Z013MUxHRWw2V2FYUXhqZzlkOEV5S1RmaVQxSEJOckJIN25tTndMZW51Zl9lWjVzcHI1SVNjQXRnc2o0NVhsSEdCVnA?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-20",
-      "title": "Bi-Weekly Coffee Report - StoneX",
-      "domain": "StoneX",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaFJEWXJMSjZ0Z0NpWmdVbmRqNDNIRlF5NWNtSk5GdXJLZmFCck5SMV9BNHB5RXNPMGo2RmJGb3VsNjhIN0l5N0U0dzgyNDE2dWgzTzJ0UjhiYVUwOFZGeDNOaXdEck9iQjJveVN5RXNMcDRkSjZpdmw2QlQzbkkxUWVzcE04dw?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-19",
-      "title": "Coffee Prices Rebound on Technical Short-Covering - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaWlpem15M0Q1eE1POUZVakc5cnMxQTRVY1NqRnl4MXlpOHVrQzlLNWNtRUZlclhqZElwT0tjV1BQdjVIU3lCVGw4cnZtTHp6SGZCeHBzbjZmbzlxQVpwOFdtVDc4N1RGczRaWTIxaXFKUUNDcTE2QTE5WTdtWndNeVBFV0RVM1lWeDlwZElTU2k4ajdEeDhvZmRVakZDLXljUUVaXy1jSGJoWk5Fc1FGMw?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
