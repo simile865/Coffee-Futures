@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 446816,
-    "date": "05-26-2026",
-    "prior_value": 449567,
-    "prior_date": "05-22-2026",
-    "change": -2751,
-    "change_pct": -0.6119221384131842,
+    "certified_stocks": 443608,
+    "date": "05-27-2026",
+    "prior_value": 446816,
+    "prior_date": "05-26-2026",
+    "change": -3208,
+    "change_pct": -0.7179689178543294,
     "unit": "bags",
     "history": [
-      {
-        "date": "05-08-2026",
-        "value": 477045
-      },
       {
         "date": "05-13-2026",
         "value": 471985
@@ -35,6 +31,10 @@
       {
         "date": "05-26-2026",
         "value": 446816
+      },
+      {
+        "date": "05-27-2026",
+        "value": 443608
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-05-27",
-      "value": 5.05620002746582,
-      "prior_value": 5.01039981842041,
-      "prior_date": "2026-05-25",
-      "change": 0.045800209045410156,
-      "change_pct": 0.914102880114051,
+      "date": "2026-05-28",
+      "value": 5.027400016784668,
+      "prior_value": 5.04449987411499,
+      "prior_date": "2026-05-26",
+      "change": -0.017099857330322266,
+      "change_pct": -0.338980231084301,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-05-27",
-      "value": 99.19300079345703,
-      "prior_value": 99.16999816894531,
-      "prior_date": "2026-05-26",
-      "change": 0.02300262451171875,
-      "change_pct": 0.02319514463692098,
+      "date": "2026-05-28",
+      "value": 98.9990005493164,
+      "prior_value": 99.20999908447266,
+      "prior_date": "2026-05-27",
+      "change": -0.21099853515625,
+      "change_pct": -0.21267869882409196,
       "source": "Yahoo Finance"
     }
   },
@@ -724,10 +724,10 @@
   "news_reports": [
     {
       "date": "2026-05-27",
-      "title": "Coffee Prices Erase Early Gains as the Brazilian Real Slides - Barchart.com",
+      "title": "Brazilian Real Weakness Undercuts Coffee Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ2N4RS1EQmlUdlFiYU04TmVxSlB5YTFIYk5qaTdyZUJNRkFndlFNaWxNTXpmczN2S1NEUndvVktjSm9jQnlXMnkwdXJSbFYzWEk1YUcxMmREZFVMOUNzcktfZ2ZQWkxPQlJrbzhMelVRT2RQV0lTbjhtOGNLMl9VclZHdlVmVlYtdm9JM3VyMFMzazZaYlhwanF2OUV2NXlmNm4tc3BSUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzY2T0sxRkpCNlZDR2VIajhkVEJDRTBhOEtSM01nQVlRLWtURHo3U1VxN1otYXkwRUdsd0ZjSS0wRUdqNFlLNWVEZVZLZWc4ODdQQ2haVEQyN2dVa1dybjhzc09aNEdzRTAwcTBWQk44M1NENkw3bUFmUDNjWVFveGJyNWFoQXRzU1dEdFk4cW9rY1NCaEE?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
@@ -742,8 +742,8 @@
     },
     {
       "date": "2026-05-26",
-      "title": "Turning Point for the Global Coffee Market - Sunsirs",
-      "domain": "Sunsirs",
+      "title": "Turning Point for the Global Coffee Market - SunSirs.com.",
+      "domain": "SunSirs.com.",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1hdVBZRHRuaGU3ZGdGX2FfTFlHNEFvRlVtV19QQ0hnUVR5QllpNHZOZXozVFozZXViZ24yZW1tZ29rcm5WOFRxRVh4VFVhemY2MlpfZUZhQ3ViRVd2aXc?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
@@ -786,12 +786,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-05-21",
-      "title": "El Niño Fears Spark Short Covering in Coffee Futures - Yahoo Finance",
-      "domain": "Yahoo Finance",
+      "date": "2026-04-02",
+      "title": "Coffee: Global Supply and Demand Outlook 2026/27 - StoneX",
+      "domain": "StoneX",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSHRERWpEM1pfYVdzY1VPOUxNN2c1U1BvemdwT0xhalJJTlIwVzlQdFpHRVl2V3VIVjRkZDFQRFUyWl9XMXFZUEZ0ZGxoSXk3TTNFMWs2VmdjbFpENHhPbGZiQ0dsQ253MnQ4YU53Wm53ZXZRZ0NRdHhoOU9zd3p0bzc2akJwVk83R2JlWndzX3Z4eVE?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeERoOU8tQndsVmNZRHJRRHlJb0lnbU4wRWtia21KSXBGWkdVR21DQ3NVMkxObVpDaU9JdlcxQU5IYU5fOHdGejlqQ1VCVWJuRHYtVEtXR09FZTZBQU02R2o3Qy1nYy1DTTJNNzA2VTVzc1RfSlJjb19aMDEyWVV0ajhOMEtmM05aaHQw?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     }
   ]
