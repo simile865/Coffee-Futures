@@ -44,47 +44,39 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-05-28",
-      "value": 5.027400016784668,
-      "prior_value": 5.04449987411499,
-      "prior_date": "2026-05-26",
-      "change": -0.017099857330322266,
-      "change_pct": -0.338980231084301,
+      "date": "2026-05-29",
+      "value": 5.048099994659424,
+      "prior_value": 5.07289981842041,
+      "prior_date": "2026-05-27",
+      "change": -0.024799823760986328,
+      "change_pct": -0.48886878607250817,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-05-28",
-      "value": 98.9990005493164,
-      "prior_value": 99.20999908447266,
-      "prior_date": "2026-05-27",
-      "change": -0.21099853515625,
-      "change_pct": -0.21267869882409196,
+      "date": "2026-05-29",
+      "value": 98.88500213623047,
+      "prior_value": 99.0199966430664,
+      "prior_date": "2026-05-28",
+      "change": -0.1349945068359375,
+      "change_pct": -0.13633055081040554,
       "source": "Yahoo Finance"
     }
   },
   "cftc_cot": {
     "market": "COFFEE C - ICE FUTURES U.S.",
-    "report_date": "2026-05-19",
-    "open_interest": 189817,
-    "managed_money_long": 45107,
-    "managed_money_short": 20521,
-    "managed_money_spread": 32275,
-    "managed_money_net": 24586,
-    "managed_money_prior_net": 30370,
-    "managed_money_net_change": -5784,
-    "managed_money_net_pct_oi": 12.95247527882118,
-    "prior_report_date": "2026-05-12",
+    "report_date": "2026-05-26",
+    "open_interest": 193648,
+    "managed_money_long": 44090,
+    "managed_money_short": 21117,
+    "managed_money_spread": 33755,
+    "managed_money_net": 22973,
+    "managed_money_prior_net": 24586,
+    "managed_money_net_change": -1613,
+    "managed_money_net_pct_oi": 11.863277699743865,
+    "prior_report_date": "2026-05-19",
     "history": [
-      {
-        "date": "2024-11-12",
-        "long": 61981,
-        "short": 4106,
-        "net": 57875,
-        "open_interest": 205251,
-        "net_pct_oi": 28.19718296134976
-      },
       {
         "date": "2024-11-19",
         "long": 64891,
@@ -716,6 +708,14 @@
         "net": 24586,
         "open_interest": 189817,
         "net_pct_oi": 12.95247527882118
+      },
+      {
+        "date": "2026-05-26",
+        "long": 44090,
+        "short": 21117,
+        "net": 22973,
+        "open_interest": 193648,
+        "net_pct_oi": 11.863277699743865
       }
     ],
     "source": "CFTC Disaggregated Futures Only",
@@ -723,30 +723,30 @@
   },
   "news_reports": [
     {
-      "date": "2026-05-27",
-      "title": "Brazilian Real Weakness Undercuts Coffee Prices - Barchart.com",
+      "date": "2026-05-29",
+      "title": "Coffee News Recap, 29 May: illycaffè says stock exchange listing is a \"possibility\", Vietnam's 2025/26 harvest forecast to rise by 9% & other stories - Perfect Daily Grind",
+      "domain": "Perfect Daily Grind",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yY1hXVDBGQ0RpamE1V1VHTk0xdVZxdVRtcVJSWWxxRHBmUkFDSDY0R3BLY1loVXRSbDdwVVpmZFRGSlJUbUtPMTNDb014WVVVaXJ5a1lCUWl3Wk9GY1puQnhYLUZuU01Jc3pOdWFVZV95d094Ullj?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Brazil on track for record coffee harvest in 2026 - Global Coffee Report",
+      "domain": "Global Coffee Report",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjc3RJcDVqQjh1aVR1UXR1aEpxUWhwQkh0QXMzVXBkejNySXZ0VFBTbl8wdzZpS191WGRNT2lyOUlDQWZvMGlsZVNrUFdqN2F6T1ZRTWhGdElKcmJmZ21pSkpMX3VibzdyN2poS1pVS1JYeVEyaHJsTTFvMWZTdw?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Rains Delay Brazil's Coffee Harvest and Push Prices Higher - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzY2T0sxRkpCNlZDR2VIajhkVEJDRTBhOEtSM01nQVlRLWtURHo3U1VxN1otYXkwRUdsd0ZjSS0wRUdqNFlLNWVEZVZLZWc4ODdQQ2haVEQyN2dVa1dybjhzc09aNEdzRTAwcTBWQk44M1NENkw3bUFmUDNjWVFveGJyNWFoQXRzU1dEdFk4cW9rY1NCaEE?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Arabica Coffee Futures Hover Near 2024-Lows - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHBWSndTTTFPQURwekhuU2Zodkx3b2JxU2ZqeFdKbS1MRk0xTXFQc3YtN290T18zV1RjcExnTWxwLTlGaXVsbFlxWVJFWEg0VjZZWEN3NG84ZXlaUHMwNy0yZ2U5aVNpbEljWWIzWFBkOU45a0tGMF8tb3pCQVhWY2dnMHpycXk4ZDJiRlhoX0ZSWkxaQmVRQ1Bn?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Turning Point for the Global Coffee Market - SunSirs.com.",
-      "domain": "SunSirs.com.",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1hdVBZRHRuaGU3ZGdGX2FfTFlHNEFvRlVtV19QQ0hnUVR5QllpNHZOZXozVFozZXViZ24yZW1tZ29rcm5WOFRxRVh4VFVhemY2MlpfZUZhQ3ViRVd2aXc?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaUhOWTRjaW5hM0tLdThybkU1X1ZLVFhFT2VtV2VGVlNZOEpWczBCNEh5VFRVRmdSUVJxVk1xZzZWcEJOY3RzYlhxTW12S1QtUThSTGt5NUtZZUdZTXlvaUs2QXhLSW1pNjVCREVTRVEydWVKOGs0M09xQzQ5cnhfTGNmenk4cWJNYXlHZk5feWxWLWY1SU12VWR3UGZaSE9NRjhMNA?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
