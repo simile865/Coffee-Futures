@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-05-29",
-      "value": 5.048099994659424,
-      "prior_value": 5.07289981842041,
-      "prior_date": "2026-05-27",
-      "change": -0.024799823760986328,
-      "change_pct": -0.48886878607250817,
+      "date": "2026-06-01",
+      "value": 5.015500068664551,
+      "prior_value": 5.0391998291015625,
+      "prior_date": "2026-05-31",
+      "change": -0.02369976043701172,
+      "change_pct": -0.4703080100166844,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-05-29",
-      "value": 98.88500213623047,
-      "prior_value": 99.0199966430664,
-      "prior_date": "2026-05-28",
-      "change": -0.1349945068359375,
-      "change_pct": -0.13633055081040554,
+      "date": "2026-06-01",
+      "value": 99.18099975585938,
+      "prior_value": 98.91000366210938,
+      "prior_date": "2026-05-29",
+      "change": 0.27099609375,
+      "change_pct": 0.273982492888951,
       "source": "Yahoo Finance"
     }
   },
@@ -723,6 +723,33 @@
   },
   "news_reports": [
     {
+      "date": "2026-06-01",
+      "title": "Arabica coffee futures at their lowest level since November 2024, Sucafina traded over 9 million bags of coffee last year - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUEFzLTI3cXlhaUVvOXRQa00wc2sxcnU1aDB1RnFZaXBseGpXWXdQbTc4YV90cXh0Yy1IRkhMclkwMzVrMnJQelh4SFpiTmZQSG5VZ08weGwxS0ZfQ1gtYUh4ZDIwZ2F6Wmo1bFAwY2tjSUU2VG9TZGxaQnpleUZOb2I3R0ZDeVJCMEhsWTRZRHhEal9HTFR1TDc1dzF0TV9jcXFsdGZXWE85TDlrZld1WkVyNmVpUFRRamdieEgyTWxzbU9tR21XM1JfRGVWYVJBcHJZX1RDWC1kMG5TNWNzQVczNA?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "Coffee Prices Fall as Brazil’s Coffee Harvest Expected to Resume - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVnRZWHVUczNDSjA0aDBRQ0VVc2xRa1JmNjNlSG8wUFdGRkZqUEFLQWpGVWN2cUhKbktsaEp5TEZ5bE02UE94SWZNLVNMZ0VVS1FmbVpWQVZYMkdqRGFZZVU4RU5fVVh1MThWLVY1UmthZ3h5VnpaR2pMaFBxSkRtZXNXcEZDcnhtZ1RPbGMzQWJrbDU2b2E5YjVSbGtwZzJ1cy1yWmFHc2tjNFk?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Brazil Coffee Prices Decline Third Week: Harvest Pressure, Export Recovery Outlook - News and Statistics - IndexBox",
+      "domain": "IndexBox",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkpyYUQxMXU5U1BZUGFLLXFKRldmVlBXeng4OHBnUThiMGVTRXZhVm84Z0d2cmpkdF9hOUhQeDJ6LV95VUl4Zk83cDYtQzZ2V2tETlA0ekpLTVVqSE9yazFYY3RQa1FmWEVad3BOWkMyOEtveF8tTWtUWDY3bFRzMlEyTFo3V015QWt2UTJOWjkyZERuWF9rR1pneWNsb2tXVVNPN1RzVTBhNko4?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-05-29",
       "title": "Coffee News Recap, 29 May: illycaffè says stock exchange listing is a \"possibility\", Vietnam's 2025/26 harvest forecast to rise by 9% & other stories - Perfect Daily Grind",
       "domain": "Perfect Daily Grind",
@@ -742,33 +769,6 @@
     },
     {
       "date": "2026-05-28",
-      "title": "Rains Delay Brazil's Coffee Harvest and Push Prices Higher - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaUhOWTRjaW5hM0tLdThybkU1X1ZLVFhFT2VtV2VGVlNZOEpWczBCNEh5VFRVRmdSUVJxVk1xZzZWcEJOY3RzYlhxTW12S1QtUThSTGt5NUtZZUdZTXlvaUs2QXhLSW1pNjVCREVTRVEydWVKOGs0M09xQzQ5cnhfTGNmenk4cWJNYXlHZk5feWxWLWY1SU12VWR3UGZaSE9NRjhMNA?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Brazil eyes record coffee harvest in 2026 - Qazinform",
-      "domain": "Qazinform",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOUdueXhQVFdQak9lMXdOblhYYW4zTDRmMDFVbkp1cm5FTHRmaE84bVpIbm9kbzd5QmE0SHhRT2E4WXo1RjRkcFh2YU50Y1VhTmprUWlYS19vSGJoNWdxVGs1ckZGZmk1VkFfMnpQV0dQWWpEX0puQUtEUU5jUWd5LdIBgAFBVV95cUxOcDJHSllqQk04R1k4bldTNlpyZ3RQMloyTHlwaHBBUHVmNGJJSGVRTVpYMzJNM0VaMUlEWlU3dldQamhEcGgyX0hMQ2VLbFFjNHJwUEJTTDBUaWoyYjFnSFNsOHhCMkVwbXRwc04tSkZBMDItUUFMYjM3a1huQjdFZA?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-26",
-      "title": "Coffee futures rise in the first trading session of the week, the USDA cuts its forecast for this year’s Colombian harvest - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc251WlRiRklBbHM2aGVWM1VINTkxZWJQQTV0NHFOOWRoSlp6d1hJMjRGX0lRNHlUTnhTZXFxZFBQOURDb2JhSU0xWTlDS2tGWks2T0xWUkYwYXdERnBCa2w2endxd21TYkliYlkzU0NfWm11cTlBZjJ0UkVRRzBtTm02ajd4bTU4SVZlN2pSUTY1bFhfeTlQTTd2cERCNF91WmdJVHhuQWtKdjFrNURnTng5UnRTSkhmWVBLcHBVOUVUd2ExZGcwbVppYVB6bTRGc18xNUVIb3hySG1GM3lGckNUOA?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-05-25",
       "title": "Brazil forecasts record growth in coffee production for 2026 - TV BRICS",
       "domain": "TV BRICS",
       "source_country": "",
