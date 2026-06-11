@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-10",
-      "value": 5.169099807739258,
-      "prior_value": 5.203100204467773,
-      "prior_date": "2026-06-08",
-      "change": -0.034000396728515625,
-      "change_pct": -0.6534641923544029,
+      "date": "2026-06-11",
+      "value": 5.100800037384033,
+      "prior_value": 5.190100193023682,
+      "prior_date": "2026-06-09",
+      "change": -0.08930015563964844,
+      "change_pct": -1.720586353220734,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-10",
-      "value": 99.9739990234375,
-      "prior_value": 99.91000366210938,
-      "prior_date": "2026-06-09",
-      "change": 0.063995361328125,
-      "change_pct": 0.06405300668845344,
+      "date": "2026-06-11",
+      "value": 99.66799926757812,
+      "prior_value": 99.94999694824219,
+      "prior_date": "2026-06-10",
+      "change": -0.2819976806640625,
+      "change_pct": -0.2821387586535809,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,30 @@
   },
   "news_reports": [
     {
+      "date": "2026-06-11",
+      "title": "Brazil Coffee Harvest Delays Boost Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWJ6TTAtU1BLRjV4R0pNOFozOWhTN2tOVTF3MGJiaV8tU3FzUTVyWFR5dG5QT3hBX0E0eXo3WDdBQVFPSnBFclVOZ2xXNXRhTER2a2txZ0JiSjFfdmZfaDNUdVgtazVWamFxa05JTVZ3bWkxQldpTlRtMjZwa2RnM0I5OWVWcXZUTC1hRGpZVTNXQmlYT3FV?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-06-10",
-      "title": "Coffee Prices Push Higher on Confirmation of El Niño - Barchart",
-      "domain": "Barchart",
+      "title": "Coffee Prices Push Higher on Confirmation of El Niño - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONWxFN2NhaGFjZnVYeTdJYmdsZ1FzN1V1LWV3Z0M1b294QV96dTVzS2tKeUk0ay1seFNXZ1h3SlFyRFBsOGc2YkRYVDhnOHVfOU1Ia1JZM3VfcEw2ZUZmTFJkLUk2Q3I0S19VWHFtcWltTmJEX2dHc3pfcy1QUHNzZ25UdFdFZHZLSnFpSmtsUzN5dUZQSk1tN3NsYXA?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "US coffee prices jump again despite easing global supply - MSN",
+      "domain": "MSN",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUmFXNlpqR3AzMmRxQXRJYVVWUVdveXBaLXdTMWwwOWsyR2loUm5Hc3VsLXhzejdGS1BmUDlEZ2lrSmhTSnRXeTBYeThBTlhUZU00MFllc3FNU2hpY2tJUmZHaENTakdyTXcxM0ZaZVJVM1hQNU9KVDQ2Z0VUYjBObjAxU1F1MWE3WVd1VUIzcF9kNF84ZG5pd1pfZ0s3aW1OM0hXX3gxNmExUkQ2UGVwZ0o3STh2VWM4dEt1TDJ5d2pXTUVUMFN0OFJVSTgxWnI1aTV6T2F3TDJJblNZMl9fV0VvNnZxQ2hQX0tydVg4dw?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -742,37 +760,19 @@
     },
     {
       "date": "2026-06-08",
-      "title": "Arabica futures continue to fall: according to Safras & Mercado, 23% of the 2026/27 Brazilian crop had been harvested by 2nd June - Comunicaffe International",
-      "domain": "Comunicaffe International",
+      "title": "Coffee Harvest Pressures in Brazil Weigh on Prices - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLS16WmMxWFJrMFZSQ1lDa0hONFR2OERNeTVOM3NyRVFzMUdZdGdkc3ZvbW4zczNsWGF1dGxGS3lKMm1URDZCVnJVclFGbDJmVkxFWU5UT04yajlWNXBaSFRTOWY4R2E5c0hjV1J5Qm5yVmY4bkhPTWlGQUtEY2E4MmVrcHE0bTNXLXVOYU1VaXVzQ3NXOUpVS1dKdVI4UHk4dU55YndzQ1gxLWpkbjBKaTl4UVpINHJEaVpsTVYybXd1RVVPQnVuSE5XVGVrTHRWRjl1dmdHNWNwTUF4TjBqWDcwdVA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSXU1a1o4NzVlTVhKbkVRSnBrUVA5d3hvbTZ4amZNNjhuMk9MYUN5MGJzSmN3VjV0blZjWlh1MWxuN2xFVUNRTWVfTWdoQ1NtSVFtVUlteWoyWEI1Z0RNYkVTbzVPY2l3cjR2Nnp4SmExQ1JIb2JqTUZELWNyNkNxUE5vYkJvT0g1bmE1Zkp5V0lrYWpsSXNLU0V5X2I1THdkT3NmbFh3T3BMeVk?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-06-08",
-      "title": "Coffee Prices Pressured by Brazil Coffee Harvest - Barchart",
-      "domain": "Barchart",
+      "title": "Arabica futures continue to fall: according to Safras & Mercado, 23% of the 2026/27 Brazilian crop had been harvested by 2nd June - Comunicaffe International",
+      "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZWc3cjhVRWJNZ1BKMHZJTXk2cDcyRWZDX0tQck4yQWVvWTJieE9pOUh1MnpySTlCdDBoTDMzdnVIc2xQczFDS0NucDZyTFpaUzVzSHJzbUxUZ3I4NGp0ODRSTVhjMTMxYlA3WXNnXzNUWHBweUdWeUlscnBsNW1xbnVoOXhQaUhvY1VmeVZ2Rk5xNHpXR3hZ?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Coffee Prices Pressured by Brazilian Real Weakness - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXJlX19yZmk5bTg1Q3EtNkFiWGg0QlpEQW84bEMzaWJIamRNSTRjRy13WEI0Sy1aWEZFT1lXenJ5U2pTVW9sRnpSVjVtQVZSOTM1OHkxWno3VC0zbkJHOGdyS1pmOHVLSWxodU43VTl5djZNcVdNM1VJbDlqOUM3SkxXb0hGNjhFOERIcXd1eUk5ZXdhaFJTajJxeWFtWWJUZUM4RDBlYnNPaUxO?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "Antioquia Expects Reduction in 2023 coffee Harvest, Production Set to Increase in 2024 - StoneX",
-      "domain": "StoneX",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUlg3NHQ0dXpJOWRpN01iWlQ4Uno1Z3RBNzlQT1FabHhZclZzbEFKSW1GWV9seTBjcHZWUW1qWjhkMHk5SFM5WlJFYVd2LWdXelVROWZGSFhDWjFDTU82MVRkNGk3ZGp6cXowcE9VTHk1TGVrSlRQWnpMUktvZVNVbC1FOWVmWUViRlVWUW01YnJmVjFqQ1ZaVHQwMUxsNHNWVUw0OHZDcTBfMjlXUzQ3bkpaMnpvTXJGZG5nUzJB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLS16WmMxWFJrMFZSQ1lDa0hONFR2OERNeTVOM3NyRVFzMUdZdGdkc3ZvbW4zczNsWGF1dGxGS3lKMm1URDZCVnJVclFGbDJmVkxFWU5UT04yajlWNXBaSFRTOWY4R2E5c0hjV1J5Qm5yVmY4bkhPTWlGQUtEY2E4MmVrcHE0bTNXLXVOYU1VaXVzQ3NXOUpVS1dKdVI4UHk4dU55YndzQ1gxLWpkbjBKaTl4UVpINHJEaVpsTVYybXd1RVVPQnVuSE5XVGVrTHRWRjl1dmdHNWNwTUF4TjBqWDcwdVA?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
