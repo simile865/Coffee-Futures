@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 419504,
-    "date": "06-05-2026",
-    "prior_value": 427840,
-    "prior_date": "06-03-2026",
-    "change": -8336,
-    "change_pct": -1.9483919222139119,
+    "certified_stocks": 397242,
+    "date": "06-15-2026",
+    "prior_value": 419504,
+    "prior_date": "06-05-2026",
+    "change": -22262,
+    "change_pct": -5.306743201495099,
     "unit": "bags",
     "history": [
-      {
-        "date": "05-20-2026",
-        "value": 456462
-      },
       {
         "date": "05-22-2026",
         "value": 449567
@@ -35,6 +31,10 @@
       {
         "date": "06-05-2026",
         "value": 419504
+      },
+      {
+        "date": "06-15-2026",
+        "value": 397242
       }
     ],
     "source": "ICE via Barchart",
@@ -44,47 +44,39 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-12",
-      "value": 5.058800220489502,
-      "prior_value": 5.1921000480651855,
-      "prior_date": "2026-06-10",
-      "change": -0.1332998275756836,
-      "change_pct": -2.5673586090729743,
+      "date": "2026-06-15",
+      "value": 5.066500186920166,
+      "prior_value": 5.0609002113342285,
+      "prior_date": "2026-06-14",
+      "change": 0.0055999755859375,
+      "change_pct": 0.1106517685015005,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-12",
-      "value": 99.74700164794922,
-      "prior_value": 99.86000061035156,
-      "prior_date": "2026-06-11",
-      "change": -0.11299896240234375,
-      "change_pct": -0.11315738204655107,
+      "date": "2026-06-15",
+      "value": 99.66200256347656,
+      "prior_value": 99.75,
+      "prior_date": "2026-06-12",
+      "change": -0.0879974365234375,
+      "change_pct": -0.08821798147713032,
       "source": "Yahoo Finance"
     }
   },
   "cftc_cot": {
     "market": "COFFEE C - ICE FUTURES U.S.",
-    "report_date": "2026-06-02",
-    "open_interest": 202855,
-    "managed_money_long": 42530,
-    "managed_money_short": 22906,
-    "managed_money_spread": 35866,
-    "managed_money_net": 19624,
-    "managed_money_prior_net": 22973,
-    "managed_money_net_change": -3349,
-    "managed_money_net_pct_oi": 9.673905006038797,
-    "prior_report_date": "2026-05-26",
+    "report_date": "2026-06-09",
+    "open_interest": 213519,
+    "managed_money_long": 41186,
+    "managed_money_short": 29323,
+    "managed_money_spread": 39634,
+    "managed_money_net": 11863,
+    "managed_money_prior_net": 19624,
+    "managed_money_net_change": -7761,
+    "managed_money_net_pct_oi": 5.555945840885355,
+    "prior_report_date": "2026-06-02",
     "history": [
-      {
-        "date": "2024-11-26",
-        "long": 66947,
-        "short": 4447,
-        "net": 62500,
-        "open_interest": 204329,
-        "net_pct_oi": 30.58792437686281
-      },
       {
         "date": "2024-12-03",
         "long": 64153,
@@ -716,6 +708,14 @@
         "net": 19624,
         "open_interest": 202855,
         "net_pct_oi": 9.673905006038797
+      },
+      {
+        "date": "2026-06-09",
+        "long": 41186,
+        "short": 29323,
+        "net": 11863,
+        "open_interest": 213519,
+        "net_pct_oi": 5.555945840885355
       }
     ],
     "source": "CFTC Disaggregated Futures Only",
@@ -723,20 +723,56 @@
   },
   "news_reports": [
     {
-      "date": "2026-06-12",
-      "title": "Coffee Prices Continue Higher on Brazil Coffee Harvest Delays - Barchart",
-      "domain": "Barchart",
+      "date": "2026-06-15",
+      "title": "Brazil Weather Risks Boost Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXZ0MXp1cHhFM0lubnB1N1BHNzN3LUxXcVNrUVFiX0NoZzJCSFAzZHc4VXRLSmxJazh0VnhLM052cWZ5M25BUTJpZVFiR3BFaUFJcjUzbE1NaVd1a2VIYTFVVFBIS0QzTVFIRjN2T0J1REdNamV1d3JzTkRZZDNqWkVmWnk3T1dIa1gzUHdvcFZqVkxxeHhxcXdrQkI3Skw0aGE3dzg3NmM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQW5pZ3dXT1pMV2tiQmkxcnZWRUhhcVB0dU45cjZLWFM5OU1FY2ZQZzhra1V2bXFDZVlNU2JYNHpNeFZkYmItb0dHWTd2YVpuNHZXdU9TZUJmQmpqSmdKc0dabmtsOHBGWlJSZ18wUU54TkVuejMtMElBNy1yZW1rUE1SLUx2ckw2OUlkRA?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Ico Report: Arabica prices down, but April exports were down - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOakk4SnpFMXExMjV5SWdJZk5EUlhQdFNVRGZ5dHlXd2I5TVpIWjFSTjMydFRWaVRwdGd0RUJhSFVKejA5LTdaM2h3RS1OTlVqem1xdnBEazk1enFBZHI0eXdCU2k4dUVTNmdzVDd1d2p5dDBCQlZLREVQc3NkVWZHNG0yWWxSUGpOT2FUZlZ2Z2k4QlNZME14RnhHcnBWV3cwdC1YdWwzUERUdG9fUXJGc05wc3BOQjFsa0k0d3ZXQlRHZVU2X1hMZ09jUktZVXpyQkktZXlCSURfTUpOdGpYRlhNbjVId2tQRU90Nll3?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Coffee Prices Continue Higher on Brazil Coffee Harvest Delays - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVWRiQnZJN3lfSEM5ZTVKZ2x5RHRvM1lFM2JfajJFR3ptU0hEdHRwTV9xNUJxQUdWU1gtS2VhRF80YkVUSHZQNElOWXdub0tldmVYLVdJWDJSVVpyVFVYTFBtNk1ZZy1NZ0JVTzFNWG1zSEFBbEFFZFNJODIwY18yYmFvSTJnYVZCa2tOWFFYNk5peVFRQ19vSkVnSktTdFJDZUQ0NFVhNFliY090QkRXMV9hVDgtX3B1OC1n?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-06-11",
-      "title": "Brazil Coffee Harvest Delays Boost Coffee Prices - Barchart",
-      "domain": "Barchart",
+      "date": "2026-06-12",
+      "title": "Can Ebola disrupt coffee prices and stocks? - DairyReporter.com",
+      "domain": "DairyReporter.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWJ6TTAtU1BLRjV4R0pNOFozOWhTN2tOVTF3MGJiaV8tU3FzUTVyWFR5dG5QT3hBX0E0eXo3WDdBQVFPSnBFclVOZ2xXNXRhTER2a2txZ0JiSjFfdmZfaDNUdVgtazVWamFxa05JTVZ3bWkxQldpTlRtMjZwa2RnM0I5OWVWcXZUTC1hRGpZVTNXQmlYT3FV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQVhIUU9sam9qX29pMlRjak90d1o3N0Q1QkVIRkkzTF9tcS1qRE1aTW5fWHByX255UVA5QkxPM0w4ZGtiSGJlWDZhVWVQQVdZMDd0M3NYbmttQWxWcHBVYWxpdEhGTDBhSm9IN1NOLWpaUHZvMDNENUxFM3Zhc3gyTjZCYTJXSTZhUXUwZlZHa3Z0b0JQN0k2d3Q2ZW9pejlkTXJwVDBKYjVQSXNMUEl0MlZMLVBDcW8?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Ethiopia Coffee Report: Production Up, Government Promoting Modernization - Daily Coffee News by Roast Magazine",
+      "domain": "Daily Coffee News by Roast Magazine",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTXhhcnVKNEt4SmRaT2RDYjhVVU9FaHh1YUZ5dE9BZjJVMWNEdXJUVE9aOTMwWkJ4ZERnUkdkOVd3LWZsWlJxT1pxYUhCRl9IbHFmNWhLQ1JRbkJzTXVCbjN3YTNlcTA3bUtIQTNRVnplT1c2RTBNT0R5MF9KUXlXcEVITjIwX3lubDZxV09iNnJpb0xVcVY2ckR3VUtyYmRaRG9Ba2x1X0hYaHV3WTkyUw?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Coffee Prices Continue Higher on Brazil Coffee Harvest Delays - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcmJVeThNM2I2RU9HY1Vjd193ajZ4QnAwNkRNVGxaaUI0T0kybjhVTVk5ZWlOTEFSaVJrdWRaVGlWcE9Va3U4Rk5hQkJXT0RETm9wVDd5cEFKOGJYMFBFdEVwNG1qNk1Ec24yUU1iZ3NfRFFINXpTbTVtQTdYbGF3Z3l5dkJZcEctNG4tUWd3RVVsT01wYnhkOXJtaXVxRkFNamkyVy10aW4?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -750,47 +786,11 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-06-09",
-      "title": "Coffee Slips As Traders Watch Brazil’s Harvest Weather - Finimize",
-      "domain": "Finimize",
+      "date": "2026-05-29",
+      "title": "Brazil on track for record coffee harvest in 2026 - Global Coffee Report",
+      "domain": "Global Coffee Report",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObHBJY2dRODFHM0V4ZXJLVXNaQ2hJajJyb0ZuQlRKX3ExNmNMSXAyMllFcDRXYzZZYWpUbU1XYjhheFFWbUdYalgzYzNVV1k4R2xnQnI4bUhXTEoyemN4UHRCbHFLTV8zNTBfN1c2NXdRZkZEbERHQmdXSUh3MjNydE14Rm4wek5jZHc?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Coffee Harvest Pressures in Brazil Weigh on Prices - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSXU1a1o4NzVlTVhKbkVRSnBrUVA5d3hvbTZ4amZNNjhuMk9MYUN5MGJzSmN3VjV0blZjWlh1MWxuN2xFVUNRTWVfTWdoQ1NtSVFtVUlteWoyWEI1Z0RNYkVTbzVPY2l3cjR2Nnp4SmExQ1JIb2JqTUZELWNyNkNxUE5vYkJvT0g1bmE1Zkp5V0lrYWpsSXNLU0V5X2I1THdkT3NmbFh3T3BMeVk?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Arabica futures continue to fall: according to Safras & Mercado, 23% of the 2026/27 Brazilian crop had been harvested by 2nd June - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLS16WmMxWFJrMFZSQ1lDa0hONFR2OERNeTVOM3NyRVFzMUdZdGdkc3ZvbW4zczNsWGF1dGxGS3lKMm1URDZCVnJVclFGbDJmVkxFWU5UT04yajlWNXBaSFRTOWY4R2E5c0hjV1J5Qm5yVmY4bkhPTWlGQUtEY2E4MmVrcHE0bTNXLXVOYU1VaXVzQ3NXOUpVS1dKdVI4UHk4dU55YndzQ1gxLWpkbjBKaTl4UVpINHJEaVpsTVYybXd1RVVPQnVuSE5XVGVrTHRWRjl1dmdHNWNwTUF4TjBqWDcwdVA?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "Arabica futures hit new 19-month lows on Friday - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZTVXR1QyZS1odlJxc0FjUmhIb2JBVV8xWlo1Mk8td1daWWVfRHpXbkdWc3h3R3lLVEc5eFdDa1FqVHRDMjg5Y0FSZWpQUFFKUDBES25zX3NXSjZaUnJwckZiYmxPX0pKZkNNT1ZMUU1ULXJpNEdYbXJ4N2tZNk5CNDlBcTAyM1ZOY1RZV3g1TTZjY3VPSlM3ZVpYNnVjUEN2Ty15N1Zab0FyMjRTdTNTZXhwWGJJbUo2QzFpSWxWR2ozR19majFqRy1Rb1RuVkF3aGhDQjVOMDQyZ0U?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Brazil Coffee Report: Record Crop and Exports Expected for 2026/27 - Daily Coffee News by Roast Magazine",
-      "domain": "Daily Coffee News by Roast Magazine",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON29BV0FaRzFfUVdqTHhTUTgzSTFucVpMT05JMVRScFVHU2xtMmVuQkVqSnZYVWs4aUxLTUlzNmJFUjlVMy1LNW84NjQ3MTZsOFliWS1ORHU4QU91UlBMZHdoZExZLWVObWZXOGFOLXptTEt5Q09lXzdKNTE3MW1iU091aTMyYU1sSVlzZTcxQ0dlQnlTQzdsdzdUYXpRbFJVVDBCU2hQdF8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjc3RJcDVqQjh1aVR1UXR1aEpxUWhwQkh0QXMzVXBkejNySXZ0VFBTbl8wdzZpS191WGRNT2lyOUlDQWZvMGlsZVNrUFdqN2F6T1ZRTWhGdElKcmJmZ21pSkpMX3VibzdyN2poS1pVS1JYeVEyaHJsTTFvMWZTdw?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
