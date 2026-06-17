@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-16",
-      "value": 5.087800025939941,
+      "date": "2026-06-17",
+      "value": 5.117499828338623,
       "prior_value": 5.075099945068359,
       "prior_date": "2026-06-15",
-      "change": 0.012700080871582031,
-      "change_pct": 0.2502429707600757,
+      "change": 0.04239988327026367,
+      "change_pct": 0.8354492271913783,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-16",
-      "value": 99.54299926757812,
-      "prior_value": 99.62999725341797,
-      "prior_date": "2026-06-15",
-      "change": -0.08699798583984375,
-      "change_pct": -0.08732107622020349,
+      "date": "2026-06-17",
+      "value": 100.41000366210938,
+      "prior_value": 99.54000091552734,
+      "prior_date": "2026-06-16",
+      "change": 0.8700027465820312,
+      "change_pct": 0.8740232455094529,
       "source": "Yahoo Finance"
     }
   },
@@ -723,6 +723,15 @@
   },
   "news_reports": [
     {
+      "date": "2026-06-17",
+      "title": "Tighter Supplies and Brazil Harvest Delays Boost Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWm1KYjlrNlpwQ2dRcFRaYld3eU1zZXFoWE4wX0NHNTl4OTIzVWVkdUN1RFRPTUJ4aWxOTFNYaS10MVdZSEtuYnpTU0hZN2RYeU5YVU9VZk55LWhLWlo3VlpyZXB1VlAwNHNwUGNEOHoyblpKdGt0cmNpN1V1RW9MSGVFSnFWVzBKR0gyVi0xR0czM0hncFRYNEdBa3RfUy04czctQUdtUkw0UQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-06-16",
       "title": "Arabica prices drifted downward in May as expectations of ample supply strengthened - Tea & Coffee Trade Journal",
       "domain": "Tea & Coffee Trade Journal",
@@ -733,19 +742,10 @@
     },
     {
       "date": "2026-06-16",
-      "title": "Arabica coffee futures climb 5.2% on Brazil harvest worries By Investing.com - Investing.com Australia",
-      "domain": "Investing.com Australia",
+      "title": "Arabica coffee futures climb 5.2% on Brazil harvest worries - Investing.com",
+      "domain": "Investing.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONHZQeEVrZVJSRjFodXhFNEQ1U1hkQ2ExbUI1U21iXzNqN0x4S1UzempOSUh6UmtBVGpCVTBMaGkzQWlMZXlQVjcxei1rZWgwRnVQeThCRktGMWotZVlOUTBRdW9YT1BJWFFtaHJlbXNzRDU3NF91WlpfVG9HbUFLVnhyNkZfZ0tyZU1yMUpNSzY2OWNsWjdHa21IYjFGVEVMU2hjTWlrVkZUT2JPREY0RlFTX3FILXdkSF9fNVpBam1DOEItMU4xZA?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Coffee Prices Supported by Brazil Harvest Delays - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMmlxcnY2MXBialFXOWxfZjIteEx6dVRKR2NVQ25nYXYtR2NjRm1VRmZtZFJ6dktHZ195OHVPUnZWWTN1Q2k4bFN1ZmxIMFk5bU9qRVBLS0RFa2FyYWpKMHdNcFpWWFltbzhrbG1sVWJfZW0yODhtdTE3X2VlZVFmRkRhR3VxRVdnSm1LVWpjb2pNOWpTYlNN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTVlZVGlqUF9HcTBiZUdIMWo5NXRLZ1BUZkxfdWUzeFJ6SXk1akpyYk9nR1VkcmlTWFY4TEV4S3VZMXl2ai11dWxzOUh2US11bU1nQ1NGNVI1ZlRQM2xjdnpfbjBOemhYUkZiaEgzVzJNcGV1Z1hKMEpsNk1PSlNDa0RFQUdHLVNPWkJTS1hYM2taTEFpUHpja3VoRG4weS1vUk1GVWxnTWs5RFZmNVQxeFg1ZmViX184ZFE?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
