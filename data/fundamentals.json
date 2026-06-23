@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-22",
-      "value": 5.140100002288818,
+      "date": "2026-06-23",
+      "value": 5.173500061035156,
       "prior_value": 5.151400089263916,
       "prior_date": "2026-06-21",
-      "change": -0.011300086975097656,
-      "change_pct": -0.21935952904625441,
+      "change": 0.022099971771240234,
+      "change_pct": 0.4290090342099229,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-22",
-      "value": 101.0009994506836,
-      "prior_value": 100.8499984741211,
-      "prior_date": "2026-06-18",
-      "change": 0.1510009765625,
-      "change_pct": 0.149728288395808,
+      "date": "2026-06-23",
+      "value": 101.21700286865234,
+      "prior_value": 101.0199966430664,
+      "prior_date": "2026-06-22",
+      "change": 0.1970062255859375,
+      "change_pct": 0.19501705813950765,
       "source": "Yahoo Finance"
     }
   },
