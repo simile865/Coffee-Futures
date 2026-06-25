@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 396171,
-    "date": "06-17-2026",
-    "prior_value": 397242,
-    "prior_date": "06-15-2026",
-    "change": -1071,
-    "change_pct": -0.2696089537360098,
+    "certified_stocks": 388956,
+    "date": "06-24-2026",
+    "prior_value": 396171,
+    "prior_date": "06-17-2026",
+    "change": -7215,
+    "change_pct": -1.8211832769183003,
     "unit": "bags",
     "history": [
-      {
-        "date": "05-26-2026",
-        "value": 446816
-      },
       {
         "date": "05-27-2026",
         "value": 443608
@@ -35,6 +31,10 @@
       {
         "date": "06-17-2026",
         "value": 396171
+      },
+      {
+        "date": "06-24-2026",
+        "value": 388956
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-24",
-      "value": 5.20419979095459,
-      "prior_value": 5.156499862670898,
-      "prior_date": "2026-06-22",
-      "change": 0.047699928283691406,
-      "change_pct": 0.9250446922146218,
+      "date": "2026-06-25",
+      "value": 5.1905999183654785,
+      "prior_value": 5.197700023651123,
+      "prior_date": "2026-06-23",
+      "change": -0.007100105285644531,
+      "change_pct": -0.13660090527227203,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-24",
-      "value": 101.73999786376953,
-      "prior_value": 101.41000366210938,
-      "prior_date": "2026-06-23",
-      "change": 0.32999420166015625,
-      "change_pct": 0.325405965628078,
+      "date": "2026-06-25",
+      "value": 101.51200103759766,
+      "prior_value": 101.61000061035156,
+      "prior_date": "2026-06-24",
+      "change": -0.09799957275390625,
+      "change_pct": -0.09644677902297198,
       "source": "Yahoo Finance"
     }
   },
@@ -732,20 +732,29 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-06-23",
-      "title": "Arabica Coffee Prices Surge as Brazil Rains Disrupt the Coffee Harvest - Yahoo Finance",
-      "domain": "Yahoo Finance",
+      "date": "2026-06-24",
+      "title": "Vietnam Coffee Report: Production Rising for Third Straight Year - Daily Coffee News by Roast Magazine",
+      "domain": "Daily Coffee News by Roast Magazine",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTGZOZnFCb19JOVRWUFQxZTZiUkE4a1UweXNWdGQxM3FWRVptRFNqVWdzOVVTY1RsOVJoT3ZIdDlKMUVSc0pEZWNCbFQ2YnZBQVN4VTd6TFI2RTYyTmF5UHNVT3N5bFFkMEJVdnRkRG42RFYyVGpWaDVoWVpGNjFPQUtVT1JtQlJYTWFReG40NTNMa2xjTDNrV1d3S3Iyb2JWX1NyWWpBUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjhQQ3RrUFR0UFBqOUR3MkhzdmRvamZ5WHhfamY2dWc0WGNHZ0xHZ0drV2VjVEtPY19USEZUaERibDE3M2s5dWdGWG5Qbmt2cjBGTjFweDNULS1fNjczZzJzMjROS3NUeDVKQ09tX1l3RVVGQm53NFZwTzVUdEh4LTl6NzZZTjZXdEhkMUVaMzRjNkFsdzV4VjRWVkxTcm1nNEdBdThn?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Delayed Brazil Harvest and Tight Inventories Underpin Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZnlyLXM1TVZva3VuTzdhc3NCUEVRZmlFd0E3M3Uyb3EteUlUSTBrcXJieUhmcTFrNkNMTFJqaS1OV1lfa3hFaTFkR1I5dy12VGpRdG5sdnhPbnlmbGdIRUxZcEx3Umt0UFJ6QUFLQTBRMTV5MmlOdTE2OXFOODRwR2ZycHFTemYtblBNM0VWZWpsdnh1NFlUdjk4ZXc5LVZKdTZ5MnRzZVN0SHBTNjRTbg?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-06-23",
-      "title": "Arabica Coffee Prices Jump as Brazil Rains Delay the Coffee Harvest - Barchart.com",
-      "domain": "Barchart.com",
+      "title": "Arabica Coffee Prices Surge as Brazil Rains Disrupt the Coffee Harvest - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS003eGpMSzN6MkQxOGg4UjFLbDVMYWgxT2pLQW4ydUhnMXFRQW10bG05UVlheXFwMmp5SlBtZTdOSFdiZUQ0ZGpHeDV1cEpXakJPVTlnaXZ6YzA1S2Q0SWlUcXF4OUhaMlRLdUZlbDFmeHQtQWxSN0J0NjlBNU1Ec1g2VXBacVB1RG5QazhOYVphUV9PZVdZVnFlX2tCY2JFc1RoNHhlRXlwWE5ZRDBIdA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTGZOZnFCb19JOVRWUFQxZTZiUkE4a1UweXNWdGQxM3FWRVptRFNqVWdzOVVTY1RsOVJoT3ZIdDlKMUVSc0pEZWNCbFQ2YnZBQVN4VTd6TFI2RTYyTmF5UHNVT3N5bFFkMEJVdnRkRG42RFYyVGpWaDVoWVpGNjFPQUtVT1JtQlJYTWFReG40NTNMa2xjTDNrV1d3S3Iyb2JWX1NyWWpBUQ?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -756,15 +765,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlRvWjdkUldhNUtoWDV0bEttQ2RoODA0SHJmOEJVQ0FrWDJkTnFTMmxTbnQtM0JVS3NqMzRVdV83VnBzU3lNenctUmVwalJiRl9kcUR4aV9ydXRFTFVXOGdPTmRZY2duemVWdjlEY200WFpWUk5yS3NxcGVVd1YyLTNnMnRrWm5FZ1NwUXpYeUUtSk5PT3B0UDE4cTNiZnA4TU1QNXUtNUZhNS1JNHZONkI4eEVEbWdNaFI4QngyQTByc1RJ?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Drier Weather in Brazil Aids Coffee Harvest and Weighs on Prices - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbUphUVdocGdISmRlN2haN3luR0RBclQxbnNFb3BwTy1iczczeEZ3TFg3M0NOa3NJTUZkYXFQVzhLaHdmclFvdEFGem9YN3Q3X3BabWVTWjJaWnNoUEdBM1l5TTdndkVBcXkzeXhWNGlreXNmNk8yR1RkY3NDY1dwdkRnbnFPb0NQb1RVdE52bVpWNkViamdxdUc1SXJEUmdZcC1lWFJPVlhhWkF4?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -787,11 +787,11 @@
     },
     {
       "date": "2026-06-12",
-      "title": "Ethiopia Coffee Report: Production Up, Government Promoting Modernization - Daily Coffee News by Roast Magazine",
-      "domain": "Daily Coffee News by Roast Magazine",
+      "title": "Can Ebola disrupt coffee prices and stocks? - DairyReporter.com",
+      "domain": "DairyReporter.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTXhhcnVKNEt4SmRaT2RDYjhVVU9FaHh1YUZ5dE9BZjJVMWNEdXJUVE9aOTMwWkJ4ZERnUkdkOVd3LWZsWlJxT1pxYUhCRl9IbHFmNWhLQ1JRbkJzTXVCbjN3YTNlcTA3bUtIQTNRVnplT1c2RTBNT0R5MF9KUXlXcEVITjIwX3lubDZxV09iNnJpb0xVcVY2ckR3VUtyYmRaRG9Ba2x1X0hYaHV3WTkyUw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQVhIUU9sam9qX29pMlRjak90d1o3N0Q1QkVIRkkzTF9tcS1qRE1aTW5fWHByX255UVA5QkxPM0w4ZGtiSGJlWDZhVWVQQVdZMDd0M3NYbmttQWxWcHBVYWxpdEhGTDBhSm9IN1NOLWpaUHZvMDNENUxFM3Zhc3gyTjZCYTJXSTZhUXUwZlZHa3Z0b0JQN0k2d3Q2ZW9pejlkTXJwVDBKYjVQSXNMUEl0MlZMLVBDcW8?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
       "discovered_by": "Google News RSS"
     }
   ]
