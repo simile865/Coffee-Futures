@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-25",
-      "value": 5.1905999183654785,
-      "prior_value": 5.197700023651123,
-      "prior_date": "2026-06-23",
-      "change": -0.007100105285644531,
-      "change_pct": -0.13660090527227203,
+      "date": "2026-06-26",
+      "value": 5.173500061035156,
+      "prior_value": 5.207499980926514,
+      "prior_date": "2026-06-24",
+      "change": -0.03399991989135742,
+      "change_pct": -0.6529029287736682,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-25",
-      "value": 101.51200103759766,
-      "prior_value": 101.61000061035156,
-      "prior_date": "2026-06-24",
-      "change": -0.09799957275390625,
-      "change_pct": -0.09644677902297198,
+      "date": "2026-06-26",
+      "value": 101.11900329589844,
+      "prior_value": 101.43000030517578,
+      "prior_date": "2026-06-25",
+      "change": -0.31099700927734375,
+      "change_pct": -0.30661245030231377,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,12 @@
   },
   "news_reports": [
     {
-      "date": "2026-06-24",
-      "title": "Say hello to Libex, a bold new coffee hybrid built to beat the heat - The Hindu",
-      "domain": "The Hindu",
+      "date": "2026-06-25",
+      "title": "Rains Disrupt Brazil Coffee Harvest and Support Prices - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxON3RoSDh2cGppU0tBNEdXeEZQazB4eHZBNWo2VEVBOWtPVGptWk9VZGdkbmx0VmQ5dW53eVlHY2Z6V0h6VnlaQnp0MTFPMndIalBWb1JOdjJ3NzF5dVdhbXlnSnEzTXlURXlkN3U2TF9xUmdUNmozSVdWZnJzWnFzV0FwNDFpbmI4ampYc0dCN3I0eVFqaFN4ME5oLWR3U1YzNFktQVY5UUI1Y1ZaM3EyYVdDdk53WnlLbHAwVjdycHNMZ0xOeGlOc2xyb0Vqc1NFNDg4TFQzSW1WaTZ6ZWZ0RkNR0gHiAUFVX3lxTE43dGhIOHZwamlTS0E0R1d4RlBrMHh4dkE1ajZURUE5a09Uam1aT1VkZ2RubHRWZDl1bnd5WUdjZnpXSHpWeVpCenQxMU8yd0hqUFZvUk52Mnc3MXl1V2FteWdKcTNNeVRFeWQ3dTZMX3FSZ1Q2ajNJV1ZmcnNacXNXQXA0MWluYjhqalhzR0I3cjR5UWpoU3gwTmgtZHdTVjM0WS1BVjlRQjVjVlozcTJhV0N2TndaeUtscDBWN3Jwc0xnTE54aU5zbHJvRWpzU0U0ODhMVDNJbVZpNnplZnRGQ1E?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPazktdEVSZkRuZDJTWDNFZFAydS1oTy1xY1ZiUWZtMXhTZURYT0ZBaEZJWGpQMVAycVBtVlZRMkV3Mk0zcmFnbGpkNzd6V0dfSmFZeEVqMjUxT0NsTW12UzUxM3NkbkhFejFpM0JNbjhYZEk2blEyelZuYkk0aWhLRzZYOUdMRFN0RkV0MHh1SzNsdUQ3dnJkZXgyTU9DQ3oxaExqRjA2NHM?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -742,8 +742,8 @@
     },
     {
       "date": "2026-06-24",
-      "title": "Delayed Brazil Harvest and Tight Inventories Underpin Coffee Prices - Barchart.com",
-      "domain": "Barchart.com",
+      "title": "Delayed Brazil Harvest and Tight Inventories Underpin Coffee Prices - Barchart",
+      "domain": "Barchart",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZnlyLXM1TVZva3VuTzdhc3NCUEVRZmlFd0E3M3Uyb3EteUlUSTBrcXJieUhmcTFrNkNMTFJqaS1OV1lfa3hFaTFkR1I5dy12VGpRdG5sdnhPbnlmbGdIRUxZcEx3Umt0UFJ6QUFLQTBRMTV5MmlOdTE2OXFOODRwR2ZycHFTemYtblBNM0VWZWpsdnh1NFlUdjk4ZXc5LVZKdTZ5MnRzZVN0SHBTNjRTbg?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
@@ -751,10 +751,19 @@
     },
     {
       "date": "2026-06-23",
-      "title": "Arabica Coffee Prices Surge as Brazil Rains Disrupt the Coffee Harvest - Yahoo Finance",
-      "domain": "Yahoo Finance",
+      "title": "Arabica Coffee Prices Jump as Brazil Rains Delay the Coffee Harvest - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTGZOZnFCb19JOVRWUFQxZTZiUkE4a1UweXNWdGQxM3FWRVptRFNqVWdzOVVTY1RsOVJoT3ZIdDlKMUVSc0pEZWNCbFQ2YnZBQVN4VTd6TFI2RTYyTmF5UHNVT3N5bFFkMEJVdnRkRG42RFYyVGpWaDVoWVpGNjFPQUtVT1JtQlJYTWFReG40NTNMa2xjTDNrV1d3S3Iyb2JWX1NyWWpBUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdzBvMDlxdUlXMWZVWGUwSjQ5Slo1SXM2ZVcwTlVzREs4dU5XUkZOMlJZMkozeWEtdi1kTkZ3M0NRLWVHMDFiWEpLWVhHY1JMVlp5Q3psc3h3NzltbW1sWDZfczNOcl9GU2tudkhfR0prNmdtbk50dVRYeHppWEhHczhmc0NzTjI2RTRpN0N0TXBJb1VtOGh6cUFPWFpYdUlxaTBjbm0xTGpXaTdaeDUxTXJYMDcwYkl3U1ZQWWJXMzZlR0E?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Arabica Coffee Prices Surge as Brazil Rains Disrupt the Coffee Harvest - Barchart",
+      "domain": "Barchart",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPekhvaGtIQ2JZczVzUWJHM3Bvdy1LcjBHRUFTRnNJS2pyLWFOQmtsMUtUS1RlelExY2ZieUJlc1ozR0pCTEtuSGpJY1gtbkdzR1ZvUzA0ZkRadDZ5bW92aWtJbEViS2FpbmpCbHJWRVZnMTJIYjNTVEUtSm9wTC1tQm0wUk1jTnBkbHFXbk4wejFCMGJRY1ZrOWNwZm5MQzJwSEZ5S0tpdzhHX2NuXzhpYzg1Q1Q?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -765,15 +774,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlRvWjdkUldhNUtoWDV0bEttQ2RoODA0SHJmOEJVQ0FrWDJkTnFTMmxTbnQtM0JVS3NqMzRVdV83VnBzU3lNenctUmVwalJiRl9kcUR4aV9ydXRFTFVXOGdPTmRZY2duemVWdjlEY200WFpWUk5yS3NxcGVVd1YyLTNnMnRrWm5FZ1NwUXpYeUUtSk5PT3B0UDE4cTNiZnA4TU1QNXUtNUZhNS1JNHZONkI4eEVEbWdNaFI4QngyQTByc1RJ?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-19",
-      "title": "Coffee News Recap, 19 Jun: Stumptown president exits months after KDP acquisition, Liberia to revive coffee production & other stories - Perfect Daily Grind",
-      "domain": "Perfect Daily Grind",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnQktaWnNGT3Z3MzNIUFVtRHRhc2tBaG1abnQzZFBWbGR3WUQ3NHNSVVZ6M2RuMEZRZ2NoUTRxWm1ZSUp0Wk1DSk0yYTdqVmNaSWFvWXhVUXptTTRZcjVVbi14VTUxMllRb3ZlQ2tfTmRQLXN6aWFySw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
