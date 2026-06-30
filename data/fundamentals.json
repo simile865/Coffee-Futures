@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-29",
-      "value": 5.179599761962891,
-      "prior_value": 5.1940999031066895,
-      "prior_date": "2026-06-25",
-      "change": -0.014500141143798828,
-      "change_pct": -0.27916561895788755,
+      "date": "2026-06-30",
+      "value": 5.179299831390381,
+      "prior_value": 5.1707000732421875,
+      "prior_date": "2026-06-28",
+      "change": 0.00859975814819336,
+      "change_pct": 0.16631709490744156,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-29",
-      "value": 101.1989974975586,
-      "prior_value": 101.36000061035156,
-      "prior_date": "2026-06-26",
-      "change": -0.16100311279296875,
-      "change_pct": -0.15884284907603485,
+      "date": "2026-06-30",
+      "value": 101.31500244140625,
+      "prior_value": 101.11000061035156,
+      "prior_date": "2026-06-29",
+      "change": 0.2050018310546875,
+      "change_pct": 0.2027512904927226,
       "source": "Yahoo Finance"
     }
   },
@@ -723,20 +723,38 @@
   },
   "news_reports": [
     {
-      "date": "2026-06-26",
-      "title": "Coffee Prices Fall as Brazil Coffee Harvest Set to Resume - Barchart.com",
+      "date": "2026-06-29",
+      "title": "Arabica coffee futures rise again due to rain in Brazil, markets fear the arrival of \"Godzilla El Niño\" - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd1ktenB0em1TVHE2Y054ZkU0RUNzMmdHZGJUWUtXMGtFTTRaejhEczBwc0dPdXNOYjg3cXdrQng5MFJibnh0OU4yQ0NXbzJFVU1xSTA5Ull6TlhwMHhGaFFxSjJEZ1VmNHFSV20zeW9rcWRJOVE5bmtINndnMGx5VGFYYVp1aDBOY2VEYlVaYTJzd0M1RThiVTZiN2ZsQjlrYWtlM3BQMi10QW5jR1JHbnJyWDdWbE5wM1I4cTVQSQ?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Delayed Brazil Coffee Harvest Lifts Arabica Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV0NhalhfS1VFY0hiQ2ZlT1VaM3ZFaEdnc29ZYUd6d1piZ0tPMVBXNi04Q1JSSjE5NDlkWnZHcHhaOFh2SFdETWlOTmtpaVpUaEVXMkZhaHNJbzNCVUlRQU0xX0JIMC1KdDJJMTAzRkl5MGZERC1hQzNFZWdxeEI5NkpJUHFRanFHT2NWWWEyeE5ZemF5VnRwS0NiNGFodWozRHA4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOW9Ibks3N2xwbHJHbFZwNFhvX0x0LTl1X0FnYUN5X0s2dXJCWlFYT3g3ZTNrWWlWV0U0MGZHbjREZWFTWDVBcUJEYVVTTEtoMjl0WHdHUE1IWk0wM2wtOEZCN2tRRDZ3Zmo5c0laaGNxWmpEd013U2plbHhJdXlxcmZuX0RpNlg1a1ZJT0JqTUJ1MVdhQ09lbHVn?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-06-25",
-      "title": "Coffee Prices Supported by Delayed Brazil Coffee Harvest - Yahoo Finance",
-      "domain": "Yahoo Finance",
+      "date": "2026-06-29",
+      "title": "Arabica Coffee Prices Jump as Heavy Rains Delay Brazil Coffee Harvest - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeFg0cjJaUkNicGlSdVl2RlpVR1VqSDg0cC1walhEbzZKcHdNZ2JNdWhIeWtnZGpkdnRhbGYxSTZJQjdGNTVvdmZkeDdnWG1lajkxQ19Dc1M4RTlSb3VRYUZBalRmaEY4cHQycmhpQ0pqRVgxWDRRSHllN3RLSzNmYVlnT0Ntb191S3hiX0JNaXVHdG5xNUNpSkh2UThaemhJZE5yRXA4WUt3ak5F?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSlZZYmxDWWZIdk9MNHVzRjNraE1UNVh5YTlCSDN1NkpRQXFrVXlDSE5qSXpIQW1TaTU5eWx5QmZPTU84RUdnRHZON3RnNXVSSWdXT0UzRzhHNmM4M2pJbElnODZTaDFRcnhSNUMwMmdyQTVRVnRHRXM0NEpRQWdNTDQwY3ptczQxVW5Pc1BxYm13WDUxMDA3UFpITzNGbXNUNU9EVHlxQUk5UjJia0Rpc3h0TQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Coffee Prices Fall as Brazil Coffee Harvest Set to Resume - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMkFxRUQ4STBXS1hCbERTeXdzaUtpOGRsTHV1Y0hNM0NKTnRiQzEzSzIxWFE1ZkJBNFdrZUJEZTZXYlRKOVFwUlMxQkpDM0FVMTRlWnl0ZGtLYWY1N0xLdlRpZi1Tc1A0eE0wWTZoRzNhdWp0UHBkLXFIRU9QVk5IbjNfM1czV01kRWVzbU5wa2k4OUd1eEc3VFdZcFhFUHRuQW5nRnBOYXlEZlJabjN0MFhIRmk0dw?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -747,24 +765,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjhQQ3RrUFR0UFBqOUR3MkhzdmRvamZ5WHhfamY2dWc0WGNHZ0xHZ0drV2VjVEtPY19USEZUaERibDE3M2s5dWdGWG5Qbmt2cjBGTjFweDNULS1fNjczZzJzMjROS3NUeDVKQ09tX1l3RVVGQm53NFZwTzVUdEh4LTl6NzZZTjZXdEhkMUVaMzRjNkFsdzV4VjRWVkxTcm1nNEdBdThn?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Delayed Brazil Harvest and Tight Inventories Underpin Coffee Prices - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZnlyLXM1TVZva3VuTzdhc3NCUEVRZmlFd0E3M3Uyb3EteUlUSTBrcXJieUhmcTFrNkNMTFJqaS1OV1lfa3hFaTFkR1I5dy12VGpRdG5sdnhPbnlmbGdIRUxZcEx3Umt0UFJ6QUFLQTBRMTV5MmlOdTE2OXFOODRwR2ZycHFTemYtblBNM0VWZWpsdnh1NFlUdjk4ZXc5LVZKdTZ5MnRzZVN0SHBTNjRTbg?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-18",
-      "title": "Dollar Strength Weighs on Coffee Prices - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkp6YmdpQ3NpdF8tdE90U2VLX2M2Y0ZobWJZTWJuWVBvZS1GWFI2cVNOOFp0MDlaVWdUeVlBNXdVQnVleHJGdktvcDBhamtwQmcwcDIxRG55dXZLaVlobDJjX3NDUm1ySzRjYzlHdEFDSC1QdXoxSXotaDZWc0VGZjlaQlI0WTlFR0FrZmFSb0JfYVl2QjFGVWRIWVJSOWE4VTJlNHgxYkRzZw?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
