@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-06-30",
-      "value": 5.179299831390381,
-      "prior_value": 5.1707000732421875,
-      "prior_date": "2026-06-28",
-      "change": 0.00859975814819336,
-      "change_pct": 0.16631709490744156,
+      "date": "2026-07-01",
+      "value": 5.185200214385986,
+      "prior_value": 5.181787014007568,
+      "prior_date": "2026-06-29",
+      "change": 0.0034132003784179688,
+      "change_pct": 0.06586917542522105,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-06-30",
-      "value": 101.31500244140625,
-      "prior_value": 101.11000061035156,
-      "prior_date": "2026-06-29",
-      "change": 0.2050018310546875,
-      "change_pct": 0.2027512904927226,
+      "date": "2026-07-01",
+      "value": 101.3479995727539,
+      "prior_value": 101.19000244140625,
+      "prior_date": "2026-06-30",
+      "change": 0.15799713134765625,
+      "change_pct": 0.15613907257205967,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,21 @@
   },
   "news_reports": [
     {
-      "date": "2026-06-29",
-      "title": "Arabica coffee futures rise again due to rain in Brazil, markets fear the arrival of \"Godzilla El Niño\" - Comunicaffe International",
+      "date": "2026-07-01",
+      "title": "Coffee markets rally sharply: ICE Arabica up by nearly 7%, amid rain, algorithms and speculation - Comunicaffe International",
       "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd1ktenB0em1TVHE2Y054ZkU0RUNzMmdHZGJUWUtXMGtFTTRaejhEczBwc0dPdXNOYjg3cXdrQng5MFJibnh0OU4yQ0NXbzJFVU1xSTA5Ull6TlhwMHhGaFFxSjJEZ1VmNHFSV20zeW9rcWRJOVE5bmtINndnMGx5VGFYYVp1aDBOY2VEYlVaYTJzd0M1RThiVTZiN2ZsQjlrYWtlM3BQMi10QW5jR1JHbnJyWDdWbE5wM1I4cTVQSQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeFhZYjZmNkpmeVphVXkycG5YdTF0Qm83OG43Qmc5UmFPVkJqbmI1c0RjTlgyMkdfU1pMb3A2SmFvOWNVSk1TTXZzMEYwNno2SUc1bTgwU1lqZ1pEbGYybnZnbVp1bHRiU1pQVEhpbEJrVVR3MUp4Q1IwSzZvcG43MFJCUnd1aEoyd202UnlVZkl6cjdtYnNQa1RFWjhyaktwMWdralpVQ28ybnpzZGtjYkNzLXo3OW50WFNUbWstcXBSVmpDOWNvX3E3MG1kZFRQbURj?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Coffee Prices Surge on Brazil Harvest Delays and Tight Supplies - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVGlpMVBYTUp2Y3VtUDE4TGlhRDVEazVZTDFucmRfZnNxdnRzRE83OXZZRTItN3dpa2U3MExpUmwxYkRBS2YwQTdzZzVUcVV5V0ppR1dHY1FRb2lFXzJYZEp3UTl6VTVnNTUtbEVNQUNjb3M2bkpXWUxfZmRWZ0tVN3B2T0F0ZVNJQ2ZYbXdVSVJFUm1ZVXpnTzR1MmZmbTZOamFYVGFQcw?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -783,15 +792,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQVhIUU9sam9qX29pMlRjak90d1o3N0Q1QkVIRkkzTF9tcS1qRE1aTW5fWHByX255UVA5QkxPM0w4ZGtiSGJlWDZhVWVQQVdZMDd0M3NYbmttQWxWcHBVYWxpdEhGTDBhSm9IN1NOLWpaUHZvMDNENUxFM3Zhc3gyTjZCYTJXSTZhUXUwZlZHa3Z0b0JQN0k2d3Q2ZW9pejlkTXJwVDBKYjVQSXNMUEl0MlZMLVBDcW8?oc=5",
       "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Brazil Coffee Report: Record Crop and Exports Expected for 2026/27 - Daily Coffee News by Roast Magazine",
-      "domain": "Daily Coffee News by Roast Magazine",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON29BV0FaRzFfUVdqTHhTUTgzSTFucVpMT05JMVRScFVHU2xtMmVuQkVqSnZYVWs4aUxLTUlzNmJFUjlVMy1LNW84NjQ3MTZsOFliWS1ORHU4QU91UlBMZHdoZExZLWVObWZXOGFOLXptTEt5Q09lXzdKNTE3MW1iU091aTMyYU1sSVlzZTcxQ0dlQnlTQzdsdzdUYXpRbFJVVDBCU2hQdF8?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
