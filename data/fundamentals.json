@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 375079,
-    "date": "07-01-2026",
-    "prior_value": 382084,
-    "prior_date": "06-26-2026",
-    "change": -7005,
-    "change_pct": -1.833366484856733,
+    "certified_stocks": 366756,
+    "date": "07-06-2026",
+    "prior_value": 375079,
+    "prior_date": "07-01-2026",
+    "change": -8323,
+    "change_pct": -2.218999197502393,
     "unit": "bags",
     "history": [
-      {
-        "date": "06-03-2026",
-        "value": 427840
-      },
       {
         "date": "06-05-2026",
         "value": 419504
@@ -35,6 +31,10 @@
       {
         "date": "07-01-2026",
         "value": 375079
+      },
+      {
+        "date": "07-06-2026",
+        "value": 366756
       }
     ],
     "source": "ICE via Barchart",
@@ -44,47 +44,39 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-06",
-      "value": 5.1722002029418945,
-      "prior_value": 5.2221999168396,
-      "prior_date": "2026-07-02",
-      "change": -0.04999971389770508,
-      "change_pct": -0.9574454194385608,
+      "date": "2026-07-07",
+      "value": 5.137499809265137,
+      "prior_value": 5.1844000816345215,
+      "prior_date": "2026-07-05",
+      "change": -0.046900272369384766,
+      "change_pct": -0.9046422272757583,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-06",
-      "value": 101.10199737548828,
-      "prior_value": 100.86000061035156,
-      "prior_date": "2026-07-02",
-      "change": 0.24199676513671875,
-      "change_pct": 0.23993333697430289,
+      "date": "2026-07-07",
+      "value": 100.91400146484375,
+      "prior_value": 100.8499984741211,
+      "prior_date": "2026-07-06",
+      "change": 0.06400299072265625,
+      "change_pct": 0.06346355150325553,
       "source": "Yahoo Finance"
     }
   },
   "cftc_cot": {
     "market": "COFFEE C - ICE FUTURES U.S.",
-    "report_date": "2026-06-23",
-    "open_interest": 186617,
-    "managed_money_long": 44184,
-    "managed_money_short": 23266,
-    "managed_money_spread": 31298,
-    "managed_money_net": 20918,
-    "managed_money_prior_net": 14007,
-    "managed_money_net_change": 6911,
-    "managed_money_net_pct_oi": 11.209053837538917,
-    "prior_report_date": "2026-06-16",
+    "report_date": "2026-06-30",
+    "open_interest": 183728,
+    "managed_money_long": 45242,
+    "managed_money_short": 17865,
+    "managed_money_spread": 28569,
+    "managed_money_net": 27377,
+    "managed_money_prior_net": 20918,
+    "managed_money_net_change": 6459,
+    "managed_money_net_pct_oi": 14.900831664199252,
+    "prior_report_date": "2026-06-23",
     "history": [
-      {
-        "date": "2024-12-17",
-        "long": 59913,
-        "short": 3920,
-        "net": 55993,
-        "open_interest": 199746,
-        "net_pct_oi": 28.032100767975326
-      },
       {
         "date": "2024-12-24",
         "long": 61458,
@@ -716,12 +708,47 @@
         "net": 20918,
         "open_interest": 186617,
         "net_pct_oi": 11.209053837538917
+      },
+      {
+        "date": "2026-06-30",
+        "long": 45242,
+        "short": 17865,
+        "net": 27377,
+        "open_interest": 183728,
+        "net_pct_oi": 14.900831664199252
       }
     ],
     "source": "CFTC Disaggregated Futures Only",
     "url": "https://publicreporting.cftc.gov/Commitments-of-Traders/Disaggregated-Futures-Only/72hh-3qpy"
   },
   "news_reports": [
+    {
+      "date": "2026-07-07",
+      "title": "The Best Trade of the Week Wasn’t Crypto or Gold, It Was Your Morning Coffee - BeInCrypto",
+      "domain": "BeInCrypto",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SQmlLckdHNmdDSmk0VTlkeGRBTEtjNEpkZ3FrVVRPREpxVjdteldMa2E4dXdtazZYb3pNTGJsNXp2WFdKZmMzZ2MzdkZpR3MwbTRrMFVSNjBlb0s5RzVITHBwT0RLbGJFZGl0UE54REJySlJjOTBkTV9BUkRqREE?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Coffee Prices Surge as Brazil’s Harvest is Delayed - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcW9nOWFneWRjeGU4dUlnNFVlSUF0OUEwaWIxYW9OODhSaC14aUFQcHUxSEd4UGhXcmRDRS1PNExUMC1CamZUZEpGell1SDEtMFQ0WmV4WkJjZ1EzZGlPbDdwVDJOSC1tNzlXaXB6VDhsV0xzeTI2VXFqZ1VxOEphMWNPaERJQm5KaVFkWnBhWTNSc1NXam4xNHhnaVB1YVhSeWdsNEFDWQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Coffee Prices Surge on Brazil Weather Risks - Barchart",
+      "domain": "Barchart",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObXJrcm9HMkNEQ3cwaWFCblViRHRJSjUtQmpweXhQNDJnaVZvR3V6eS1yMlNoalNReDdwTmNSVXhkdUxVc1RReUItbmNWOGFlcVI3YVNkalFWYTJ0bkQwcHl4REM0MHB5ZEVWZUYxNDJqLXBveTRUYXBtenF6N2pXcE43NlMxRHZHUmxUTWpGaVg?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
     {
       "date": "2026-07-05",
       "title": "USDA Attache: Brazil’s 2023-2024 Coffee Crop Revised Down to 66.3 Million Bags - StoneX",
@@ -747,33 +774,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRTg2SkRmT053SW92b0ZUdEYyanNfdnUwRXhKUmM4NUpuU1gwYVExZk1mOHBySEhqaHJPdVl3b1FfTnNRMGwxbWVHS3NZMlVCaU5IX2UxMjJfaVh4LWI3MXRzQTQ3UFRyT2dSTU51RUVtVEVIY0Jv?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-02",
-      "title": "Arabica Coffee Prices Settle Lower Ahead of Holiday Weekend - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVjhuVjM1RU9sYW1NcHR1MEFQaDVoVUcxNWJwRTcyWXg5c2hTOVBkNDRLNlpqMWYxcXBpY0VPLUs1R2pSSnFFdndqVTI0ckREMEl4aDMxOExjOUJZZ1hxZjBmN3BXakM1STVOaFNtNVY3RDIxVGFzVnJCTElVYVRkdWI5eFgzN2dHVDJySHBHQkM3OFFZUXdyaTdZdXlpNXhJSDY5QkVB?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-01",
-      "title": "Arabica Coffee Futures at Over 2-Month High - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS0ZCNHV3czJ6Q214dU1nZXgtbHBoMkRua09Ic2UtVEo4UVFaSnlUX0QteHJQTldQc0F3SEJQWUFrdUluTDhMTE1uaFU4U0pHa0Y0MHFnYmVkT0NuekIxblRLSF91eFpBX1FLeE9WNDd5ZWpUMHMtaU5keFNrakEwV25fOXF5RmxrbzFCSmhob1RlbzNpdjY0eEd3?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-30",
-      "title": "Coffee Prices Surge on Brazil Harvest Delays and Tight Supplies - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVGlpMVBYTUp2Y3VtUDE4TGlhRDVEazVZTDFucmRfZnNxdnRzRE83OXZZRTItN3dpa2U3MExpUmwxYkRBS2YwQTdzZzVUcVV5V0ppR1dHY1FRb2lFXzJYZEp3UTl6VTVnNTUtbEVNQUNjb3M2bkpXWUxfZmRWZ0tVN3B2T0F0ZVNJQ2ZYbXdVSVJFUm1ZVXpnTzR1MmZmbTZOamFYVGFQcw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
