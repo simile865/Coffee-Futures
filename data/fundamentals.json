@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 362466,
-    "date": "07-07-2026",
-    "prior_value": 366756,
-    "prior_date": "07-06-2026",
-    "change": -4290,
-    "change_pct": -1.1697150148872821,
+    "certified_stocks": 354261,
+    "date": "07-08-2026",
+    "prior_value": 362466,
+    "prior_date": "07-07-2026",
+    "change": -8205,
+    "change_pct": -2.26366059161411,
     "unit": "bags",
     "history": [
-      {
-        "date": "06-15-2026",
-        "value": 397242
-      },
       {
         "date": "06-17-2026",
         "value": 396171
@@ -35,6 +31,10 @@
       {
         "date": "07-07-2026",
         "value": 362466
+      },
+      {
+        "date": "07-08-2026",
+        "value": 354261
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-08",
-      "value": 5.145400047302246,
-      "prior_value": 5.143599987030029,
-      "prior_date": "2026-07-06",
-      "change": 0.0018000602722167969,
-      "change_pct": 0.03499611705334363,
+      "date": "2026-07-09",
+      "value": 5.13670015335083,
+      "prior_value": 5.170899868011475,
+      "prior_date": "2026-07-07",
+      "change": -0.03419971466064453,
+      "change_pct": -0.6613880665570961,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-08",
-      "value": 101.13899993896484,
-      "prior_value": 101.13999938964844,
-      "prior_date": "2026-07-07",
-      "change": -0.00099945068359375,
-      "change_pct": -0.0009881853763349367,
+      "date": "2026-07-09",
+      "value": 100.91899871826172,
+      "prior_value": 101.05000305175781,
+      "prior_date": "2026-07-08",
+      "change": -0.13100433349609375,
+      "change_pct": -0.12964307722879861,
       "source": "Yahoo Finance"
     }
   },
@@ -724,6 +724,15 @@
   "news_reports": [
     {
       "date": "2026-07-08",
+      "title": "Brazil Harvest Pressures Coffee Market as Arabica Futures Fall to 19-Month Lows - StoneX",
+      "domain": "StoneX",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT0lNcGFTNFFLS2JBdzdhVTRNMjU2dGpSdXVCeVdLT1dKLTBuYk80LW1QaV9qVzBja3JSdjlLOUVKbDdFdkRMejljdWpWbGM1SGpwcUhqcGF6VmVpZHhTcWhqakpSak9DbWZ5NXVaYVpqcHgtb2RwZUtXVi1CbktNV1doNGJyS2JyMDZuTnZOOW4yT1EyLUszMmJ3b3hoSGxXcmdRendDMVdBUFh1VmFqVm1QZHJDczd1cEE?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-08",
       "title": "Coffee futures surge to five-month high - Global Coffee Report",
       "domain": "Global Coffee Report",
       "source_country": "",
@@ -732,11 +741,29 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-07",
-      "title": "Coffee Prices Give Back More than Half of Monday's Surge - TradingView",
-      "domain": "TradingView",
+      "date": "2026-07-08",
+      "title": "Coffee futures plummet following Monday's sharp rally: NY is down 9.2 per cent, London 4.3 per cent, but sentiment remains bullish - Comunicaffe International",
+      "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSWk2Y1l4VURxZlZqYXBGQlBuTmJDTktsWXAyNXRya1dtWEdlbUc4eHc0X3JRVk1Za09MdzQtOVNuQ3ZJSkdoYzZLejdibEFDdS1rd0tvRGR6NFdWalhnczdmUW92amo3ODlKZE9mS3RMREtsREsxeG91VzZjdkJwcElDaldxeUsxU0JvNTJsUHJGcHNzeVFWLWNnR3JTRXhUN0lpZ2hMUzBVc1JjYk54N0NkRHZ2Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPYU9QUnZ2bTNKZ0h0ak1Qcm5qNHlaRHI3aThsR2FXQS11cGg0MXI1a0tKRThRMFNEZF9nY0lkVnB4VkxUUTFya09KTzljQXRDZDNhNGRaZ2FuSVRDY2F0M21WRkRZQi0xcHJoY2g2aDBfSkMxUVdZLVo2QzU3MGZBUTBLNEV5eEpDbUd5WFlZRXAtZXRqSXptTE9LMzlwamV5WlRUZnRieWo2aVdWVkNXV0sxLTBQczdoM3pIRDVsckQ5anZQQzJ3V25XMS1KWkNkYkoxeHdtZkhpMmFpNEFITGZ4OXMzNWM1UzVIUjU0Q25FQU12YTRnNndkZmdwNk9jWFdTM2RSZ2pYX1pHWmVpZDV3MWl2THpBeUxCelNhS0RpOVp5?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-08",
+      "title": "Coffee Prices Retreat on Speculation Recent Rally Was Overdone - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTklIUVotWlJZNktUVUNxaVg5NnczUlVOU3RuOGQzQU5uV3BQaUFERnZkbFlqWHhMMTNfck1kNWZTSlFjMGk5b1MzcjZOT0diRWo4SldXRm1mTWI4dlkwem0zbmpyVTdRZXgzRVFZeVVRZXdpb3ZzZzlXYUdYYWlGMTdnbUdrVF9COFhvLWI5OU9faEcxWk53YS1RS0RvMGcxSC1TaEFzTDNxdw?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Bitter Rise in Coffee Prices: Are We Facing Another Wave of High Prices in Cafes? - XTB.com",
+      "domain": "XTB.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNDVPd193NnhkbEpkRlpJbW85MWVIa0d1ZGtULW9SM3o3WlhBdW00cW5pZi1POXpmdUI3dlloclhLdlpyZzdqQzhoLUEwNHFCV1BleEtMX1ZSVlpzVm05NXVxUnF6bXZXNWFmNFZoRkNua2xOOUU0UjlwZmpLRVBNQkFlUEtVWUNRU2Z3NnJvdENxMVVCX2NUQmc4S0RLdkVXeGltMjNhVFZmTnRKYmtvVk1JcHdoVkthRl9aaG9qTzQwcEdlT2ZNQ1daaDQweTA2Vy1R?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
@@ -750,38 +777,11 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-07",
-      "title": "The Best Trade of the Week Wasn’t Crypto or Gold, It Was Your Morning Coffee - BeInCrypto",
-      "domain": "BeInCrypto",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SQmlLckdHNmdDSmk0VTlkeGRBTEtjNEpkZ3FrVVRPREpxVjdteldMa2E4dXdtazZYb3pNTGJsNXp2WFdKZmMzZ2MzdkZpR3MwbTRrMFVSNjBlb0s5RzVITHBwT0RLbGJFZGl0UE54REJySlJjOTBkTV9BUkRqREE?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-07",
-      "title": "Coffee Prices Retreat from Monday's Highs - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSExGNnlZRm5fd1pRaWt3ZzdNeW9acEJpV1NES0JmODl0Q25CY2ZlSF9FcDJQMElIRWxJT2d0aTZJQTNnN0FqOWlPaFFoZzJoVXp1a1o3dWxXUUU0cUU5dkZTUjhYUWNWZW5LMXRjcDhxT0dtZkJ5WkdEQzk5NWMyU3lnSXBIY09ETVg2aW1R?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-07-06",
       "title": "Coffee Prices Surge as Brazil’s Harvest is Delayed - Yahoo Finance",
       "domain": "Yahoo Finance",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcW9nOWFneWRjeGU4dUlnNFVlSUF0OUEwaWIxYW9OODhSaC14aUFQcHUxSEd4UGhXcmRDRS1PNExUMC1CamZUZEpGell1SDEtMFQ0WmV4WkJjZ1EzZGlPbDdwVDJOSC1tNzlXaXB6VDhsV0xzeTI2VXFqZ1VxOEphMWNPaERJQm5KaVFkWnBhWTNSc1NXam4xNHhnaVB1YVhSeWdsNEFDWQ?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-05",
-      "title": "USDA Attache: Brazil’s 2023-2024 Coffee Crop Revised Down to 66.3 Million Bags - StoneX",
-      "domain": "StoneX",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaUdDNVVKSnBtRGQ1ZXZ3MDhRbVBLb2hIRk1RMnJ4eWM2bWthQVhhMlNzOU5BSURoSkQ5ay1sUURDOVNBX05XNmJxYmUzMWRxclpTTzN2Vk1BV25tX3U1WkxPdHduamdXM08wRHVBUUs5UkVUQUVualBTMmRnQ3NiWTU2U3BFaEpnb01jdXhfWldDeTkwcjM0Skt0bWQtWGlNX3Q0NXI2VHdORVh6SVczOFJCUQ?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
