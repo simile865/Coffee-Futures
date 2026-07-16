@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 339652,
-    "date": "07-14-2026",
-    "prior_value": 342574,
-    "prior_date": "07-13-2026",
-    "change": -2922,
-    "change_pct": -0.8529543981738252,
+    "certified_stocks": 334289,
+    "date": "07-15-2026",
+    "prior_value": 339652,
+    "prior_date": "07-14-2026",
+    "change": -5363,
+    "change_pct": -1.5789690624521568,
     "unit": "bags",
     "history": [
-      {
-        "date": "07-06-2026",
-        "value": 366756
-      },
       {
         "date": "07-07-2026",
         "value": 362466
@@ -35,6 +31,10 @@
       {
         "date": "07-14-2026",
         "value": 339652
+      },
+      {
+        "date": "07-15-2026",
+        "value": 334289
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-15",
-      "value": 5.069300174713135,
-      "prior_value": 5.147900104522705,
-      "prior_date": "2026-07-13",
-      "change": -0.07859992980957031,
-      "change_pct": -1.5268347911513682,
+      "date": "2026-07-16",
+      "value": 5.097599983215332,
+      "prior_value": 5.087900161743164,
+      "prior_date": "2026-07-14",
+      "change": 0.009699821472167969,
+      "change_pct": 0.1906448861772617,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-15",
-      "value": 100.91999816894531,
-      "prior_value": 101.27999877929688,
-      "prior_date": "2026-07-13",
-      "change": -0.3600006103515625,
-      "change_pct": -0.3554508438887856,
+      "date": "2026-07-16",
+      "value": 100.60600280761719,
+      "prior_value": 100.5,
+      "prior_date": "2026-07-15",
+      "change": 0.1060028076171875,
+      "change_pct": 0.10547543046486318,
       "source": "Yahoo Finance"
     }
   },
@@ -723,6 +723,24 @@
   },
   "news_reports": [
     {
+      "date": "2026-07-16",
+      "title": "Every Half Coffee Roasters raises $8 million in Series A financing - Vietnam Investment Review - VIR",
+      "domain": "Vietnam Investment Review - VIR",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcVdKeXJxTkRVU1JLQlcycWI4aVN2RGtHTV91dkZ1Y25sOVFyRkhEMXZoRVVVaW1hMzFNQk8zd1A3ZkhYNDlrQWtkMmF6NDNMamFLZkNoVTJ2NjZoTmFUV2YxSTJDYktPQmZuT0MzblgzR3VxUlZMM054NjhMVy1pa1oyM1FTd2NQS3Mwa24wSHh2N29WVHFLdXBzU1Y?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Brazilian coffee exports fell sharply in 2025/26 to 38.5 million bags - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdUZjam0wUl82MzZ4eVJ1cFJ0N28zRmxBeDBnU2NnTWNEd0VINjBjYXBEaWJJbHJkalIxa1Zfcm9kclBhRHdwVEVSZnQzeC0tQUhCWFBBcGI0NjlVSXVnR3REODJLX3VybTQ1eTVNRS1STENwTHplcHJyS3BNb2d2bWh5bDlKc1hrVlVnazVtb01yNXZQalRnUkcxQ2JpcXgxMTU3eWFaeVJ6emRZMTI2RjZ1V183V1JQWkdGajVUdGZJQVBPbUlZYU9Nalgwa1JYVnhGQ2lDQUMzejhGS1pKcUFQWQ?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-07-15",
       "title": "The ICO reports coffee prices rebound from lows in early June - Tea & Coffee Trade Journal",
       "domain": "Tea & Coffee Trade Journal",
@@ -733,20 +751,11 @@
     },
     {
       "date": "2026-07-15",
-      "title": "Saudi coffee defies global price volatility as limited supply shields market - Arab News",
-      "domain": "Arab News",
+      "title": "Brazilian Real Strength Lifts Coffee Prices - Barchart",
+      "domain": "Barchart",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95bmpFdjZrSzdJc0hNR2FhTWp4bE9zTXZJMmhrTDI4d3F1RFB1MUhXREtzX2tZT0FwUko5RWdRQ3pIUE9lLWlsNU1Vb2FUOER5THBF?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Coffee Prices Settle Mixed in Volatile Trade - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOajlLc1ZDTFVpOFgxWUstakRfT00ycE1SUndhemhOM1VsNjU2ZGNXVkl4RVFuaW16TG9fbFRYLVR0RE16a1VaMjV2bGhwd2FjWGJkaUV0TmFIdkZqYjFmVF9Bc3AtMmVrcGkySkJUVG42LTlMcUxrMlkya1N4enlpcFFVOWdBakswa25BWENtZGlJQQ?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQamU2WlJHaGJjQXdBaUowdk5NaE95MTd0SFB0eFpWUVhydjB5ZnRERnRxTlNTR3ZicnplbVBzd2RpLU1peHVDTzlBR2RPT2R4a09JemZKcm1yM0l5a1RwaEo1bnlaNG8wakFqNlJNMW9NUFdkbVZKS3AyeExsZzZ4WG1vWjB6cGxTU3Y0QmR1LVQ?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -763,17 +772,8 @@
       "title": "El Niño threatens 20% hit to Brazil coffee harvest - MSN",
       "domain": "MSN",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNMlNHTEZZTXBnbUV2QklGNDFkZi1kUThXa1BnbXBRWThyV3NmUGVaeXhTYkVfM2didjBvSGs0dk5kRXVjaFN5T3lCQ0dOYWZ3b0hiZTBLbXJGS3dUQnZnQk4zOHE2Wkx1NmViODhjZDhnenQ3blJ3cTR1ZzA0dkRDbWlfMkhqdTVJeTEzR3NKVmF0RlRLMGVsSzcwaVJBN1BCanRIRF9uOGoyLVpYbnVhOHVKWWcyUU0yd3BiQ09qbTAzeDFLRHFkNTZaeHlac2R1V0dhV3Y2N2l6XzNsRVRzY0RtbklTUXNoYWNLZE1EUWI2eHRacGpoYzZFazZ0OUhBQWxoeURacnZab1ZqOHZialZpRUdzYmtlNHB3NWpTTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQTHZpbDM0YjUwYmp3STFzYVMzd1FxX0VEWUVaczhFTGROYzBEWmlWcGltdUl6cmZnMElSMUZyLTU1ZXFUVzFTUUVrMXp2N25TNldCMVFVUzFqOTlEVS13djhOaVIxTjlxc3QwU1NKTll1T1RabzNLcWw3TEpVdThPVFh5ZzBTSUNpTVZwNWxqaEFQRm1uNjdQSUdMajJIRUdSUWZjOWg3NHB3TVhmV0pvajV6bjdWWjhXbHR3TXFvY3FjZ0U0U3NhTWowc19fYy00eExxUHQ4cTdZTmVaWlRHS2UxUF84dWF0a2pveHFOdXJkOEVsZGlwVFFBbU9EeXhValljT0dwRFlBNVZhZ3dMcl9ZNHJWTkxMVHRZbDltMA?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-10",
-      "title": "Coffee Prices Slump as Volatile Trading Continues - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWm5idjdLVFJHYWpqQVpkdmg3MFBiSWdlQlFKRDNBdmhiZ0NMYVhCZWRnQnJ2c2ZUVmVsWERROWRvUUpEMEpfWFlGZ1ZoMmppXzQtOXBodFRqZ05LQVZtMFRzQ25RaGZ0aXRFdnRUU1pUX0JpY2o2Rlk1aFJkODkzY0lYNVNuc2VZeUZ1TU50NXd1ZTVRREpjTVprUXF1UUR4NFdKM2RCT0d0bjA?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
