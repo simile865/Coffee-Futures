@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-20",
-      "value": 5.0858001708984375,
-      "prior_value": 5.11359977722168,
-      "prior_date": "2026-07-16",
-      "change": -0.027799606323242188,
-      "change_pct": -0.5436406354496962,
+      "date": "2026-07-21",
+      "value": 5.071199893951416,
+      "prior_value": 5.126999855041504,
+      "prior_date": "2026-07-19",
+      "change": -0.05579996109008789,
+      "change_pct": -1.088355035454476,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-20",
-      "value": 100.88300323486328,
-      "prior_value": 100.75,
-      "prior_date": "2026-07-17",
-      "change": 0.13300323486328125,
-      "change_pct": 0.1320131363407258,
+      "date": "2026-07-21",
+      "value": 101.0250015258789,
+      "prior_value": 100.98999786376953,
+      "prior_date": "2026-07-20",
+      "change": 0.035003662109375,
+      "change_pct": 0.034660523665515065,
       "source": "Yahoo Finance"
     }
   },
@@ -723,21 +723,21 @@
   },
   "news_reports": [
     {
+      "date": "2026-07-20",
+      "title": "Coffee Prices Supported by Delay of Brazil’s Coffee Harvest - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVdrcXJxdTY1OG5BbmVpZkZxR3F5QXJnZUp2YmlTdmxZWERPeGhyMFVnRURkTmNPTHVrdjVLV3VLYUJjc1RkZW9McXkyNDVYWmVwbjBqM2gweXJDVXE5Q3FLNHdUUkVnYlR5b3ZQU2Rvbk5nRmlYUkR2WTVnRHZsRndLanE1NXpwMm9xRDhmeGtxWko4LVI0ZkhtS0FSTUhEdTVwRg?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-07-19",
       "title": "Coffee markets rebounded on Friday, amid volatility and climate uncertainty - Comunicaffe International",
       "domain": "Comunicaffe International",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXhOTWFEYjhYTnUxcnFVbGxhNWJWbF91bmdFZDBhb1ZfUWVsVWprUEJVUExra0pqeFF0YTU5a1cxTjR3a3EwZ2k1WEhkQm9GS1dwU1FxWnRvclNMTUtleXd0Ri1CUWZCcmVxM1o0ZmNPV2tzRkhxM25lSXg4OVJSYXFtaEQ2dXpZU3psd2NiUjY2QWdVR00takhfbGZBZVhvMDRXclVB?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Coffee Prices Jump on Slow Pace of Brazil Coffee Harvest - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQXgzZWFUZWFFZmR3dDUtOGxkRUU2MVMzS012RWJ5ZWtQWnZZdm8tQlZqWU9Vd09idG1CUWhmWjUzbGdnUHk1bkFhNHpFNDF3aDJPQ0xsdTZ5bjN2d1pLVTlUc1dMRm80YVd4Y0hHRFJHc3htbE40Y0VSVjR5MVVMV3doWjB1X25hY3F5cHphWUJDX2ZqLVl2ODR4SWR2RWM?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -750,21 +750,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-17",
-      "title": "Coffee futures down sharply after Cecafé's positive data on Brazilian exports, Illy focuses on AI applied to regenerative agriculture plans - Comunicaffe International",
-      "domain": "Comunicaffe International",
+      "date": "2026-07-16",
+      "title": "Coffee Prices Tumble as Brazil’s Coffee Exports Rebound - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNcU1pYnhVU2hLM09SNUJyTGFGRHlCRC1uREVCMmhPdVNqRDBnYlZBR3lTQ3RIUjdCNmlyYkxxdGlrZHBOeTFnMzNjRE10Tnlfb09GRFNETHN2Mmd2WEFUV1V2SGNBYWRGb2hFZGpTRWRoUVJPNURkdG1JOU9kQzY3Q3pURUhKWnJoTlVTOEFPM3FDdVVvREc2cE5maFJhUmZYc0NqeEt0aVp6S1pVamJNZmVNU3VEVXFla0t4NFJJNURFMjBkS2d6Yk9HYzBNNkRWb3JQUmU1Mk1yRmZMdUdWeG1jNGhRRzYxeTVEamZQa1ZoMFBRMGhWTzFoNXNvVUV5bXhBc0VR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYjhPSlY0dWotb1ZrY2dtTTJuNDgyd3NoODFXeDlXelM2Skh6azV2VlhNdUZpNFZlV2Q2R1hMVkV2QVBNVTJRdW1nM2l3Qm1PZ0tnR1BsNHlUYjl4dEg0bFpscXdVTm9JZF9NeGYwVnl2cE1jT2lheW94bWNMWFVBMnc1bDV1RWQ0cmhJXzdlMk9JcnBvN3A0R2kxdkdpVHRNRk0wS0lvZ2czVVdvRHNpVDBHVQ?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "The ICO reports coffee prices rebound from lows in early June - Tea & Coffee Trade Journal",
-      "domain": "Tea & Coffee Trade Journal",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjBRT1c5dWRsWVY0WnUtamFDb24ydmxNVnFHelVRSDBJTU9Pa2ppa2g0bUpaMkpsMEhib2NCRHVVdFNFWnhwTGRYbWc3TXIwWVU0UnpWSFBWazZNQ3RoSXY5Wjg0YmN5LUIzU3haOHlYdlNUU3lwdklmS19pcEM2bjdGODdRYlVvUUZETEtyUXh6VmVtTmY2dkhTUFZweXpfSXZFdg?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -783,6 +774,15 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUGNwN283VmI5R2RraC1FMW9wY3JjQzhtVkpoc0ZHUUhOVVkzMG96UENLZkVZTFBVUVZCSk5aSE9lS0hZQmRSR0JqZVBsS3RUY1dKTnZ2aVUtYTF3ZGVmNUNKVHVlTE95Mkk4VzlqT3NqWTcyUkRRN2JOQlRDcU15ZU1yVDk1Q09TUUdhUmJMYUphSC1kQXlCc2E0TEtmYjAxX0RPdVNvZjdMaVdVaktWeFM0SDM1Uzlm?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Coffee Prices Surge as Brazil’s Harvest is Delayed - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcW9nOWFneWRjeGU4dUlnNFVlSUF0OUEwaWIxYW9OODhSaC14aUFQcHUxSEd4UGhXcmRDRS1PNExUMC1CamZUZEpGell1SDEtMFQ0WmV4WkJjZ1EzZGlPbDdwVDJOSC1tNzlXaXB6VDhsV0xzeTI2VXFqZ1VxOEphMWNPaERJQm5KaVFkWnBhWTNSc1NXam4xNHhnaVB1YVhSeWdsNEFDWQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
