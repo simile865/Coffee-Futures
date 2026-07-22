@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-21",
-      "value": 5.071199893951416,
-      "prior_value": 5.126999855041504,
-      "prior_date": "2026-07-19",
-      "change": -0.05579996109008789,
-      "change_pct": -1.088355035454476,
+      "date": "2026-07-22",
+      "value": 5.077700138092041,
+      "prior_value": 5.104400157928467,
+      "prior_date": "2026-07-20",
+      "change": -0.02670001983642578,
+      "change_pct": -0.5230785011036737,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-21",
-      "value": 101.0250015258789,
-      "prior_value": 100.98999786376953,
-      "prior_date": "2026-07-20",
-      "change": 0.035003662109375,
-      "change_pct": 0.034660523665515065,
+      "date": "2026-07-22",
+      "value": 101.1240005493164,
+      "prior_value": 101.18000030517578,
+      "prior_date": "2026-07-21",
+      "change": -0.055999755859375,
+      "change_pct": -0.055346665042963414,
       "source": "Yahoo Finance"
     }
   },
@@ -723,30 +723,30 @@
   },
   "news_reports": [
     {
-      "date": "2026-07-20",
-      "title": "Coffee Prices Supported by Delay of Brazil’s Coffee Harvest - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVdrcXJxdTY1OG5BbmVpZkZxR3F5QXJnZUp2YmlTdmxZWERPeGhyMFVnRURkTmNPTHVrdjVLV3VLYUJjc1RkZW9McXkyNDVYWmVwbjBqM2gweXJDVXE5Q3FLNHdUUkVnYlR5b3ZQU2Rvbk5nRmlYUkR2WTVnRHZsRndLanE1NXpwMm9xRDhmeGtxWko4LVI0ZkhtS0FSTUhEdTVwRg?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-19",
-      "title": "Coffee markets rebounded on Friday, amid volatility and climate uncertainty - Comunicaffe International",
+      "date": "2026-07-21",
+      "title": "Coffee markets: Ibge cuts its forecasts for the Brazilian crop - Comunicaffe International",
       "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXhOTWFEYjhYTnUxcnFVbGxhNWJWbF91bmdFZDBhb1ZfUWVsVWprUEJVUExra0pqeFF0YTU5a1cxTjR3a3EwZ2k1WEhkQm9GS1dwU1FxWnRvclNMTUtleXd0Ri1CUWZCcmVxM1o0ZmNPV2tzRkhxM25lSXg4OVJSYXFtaEQ2dXpZU3psd2NiUjY2QWdVR00takhfbGZBZVhvMDRXclVB?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTHBCT0g2OVlXNEpwN0hzLUNrbnVURVN3Y19PNE9oaXJQU0UyQU9uYWpEODBDdEQwT09ReXJhM0VaeDZZVXFuTm8yVFlBakVtUlVRLXIzN3NkaGlvNTVQMHJxd3NoM1hRUjA3Y3B0bVpNdzMtQVFvN05lMzI3S0l1TFBaZ0VJbl9qbFhZQllfd3RBWk16S1FibmpzQWtOeUVaWHVXT3BNaWdmSUQ0WEd2RXgzU3Y1WmpFTGE1ZlhIbGxXYnEtN2tTRjBoTV9GcGRETTNnb1ltRVpkVlpnbFdBR1M3R0ZXbTg?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-17",
-      "title": "Coffee Stocks Now Matter More Than Harvests - StoneX",
+      "date": "2026-07-21",
+      "title": "Coffee Prices Erase Early Gains on Forecasts for Dry Weather in Brazil - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUVR4THpiekhMM0ZucjlLSW4ybEQ2Ty1KaDVpY3VjOC1fZVNWVnpXWnQ3MHZ6cXY5VkFwbUtOOENQd19LR0RFTWo3dzNkRWl4MmVmRXBpbjRlV0gtdndxZzlxLThNTTFUbkJjUjVSbjcxS2tXSDlPTnFyTlZsM3BuWTNSMzk1RFdOSEZVN2NwZGZFSi11STRhR0V4cF9DYVBmVGNqdWdyVDFpX2V6eXY3Tm1YZWo?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Vietnam’s Domestic Coffee Demand Is Becoming a Market Force - StoneX",
       "domain": "StoneX",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNak5NNUxQUFJkRFNJWHplUTZjVm9qdU9ZRUgtSDVMeTNEUUY5dko5X2Zna1NHNEhUa0tCdzA0UHE3ZWZVWjRwMzNjTGRiVkROUEd5MmQyMnl2enJBbEprY2FvLTY3QnVNU2lSaTZIY01XOVhFVDFMVFJuZ29rWDhBN0lZNHFpZw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTzNCS1JpMHl5TlI0U0FYQmZ2Vk5Mc0RuUGJuSFgyZ1dzTEg2SXNxdE94QnZxZnFXR2F4TWd1ZEE1am9wVUt5TlJSWE9rc1VOSjcwYS1xdk1UTmU0ZHhqbUdMeVJCcEp2N1NlZExQSFFsWWxYX3NaeElaUUdDS1JrZlgxRzhkWmxnRi00UWNfbkZZMmNPNEJTOTE5d01ibVU?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
