@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 320615,
-    "date": "07-22-2026",
-    "prior_value": 332945,
-    "prior_date": "07-17-2026",
-    "change": -12330,
-    "change_pct": -3.703314361230834,
+    "certified_stocks": 315883,
+    "date": "07-23-2026",
+    "prior_value": 320615,
+    "prior_date": "07-22-2026",
+    "change": -4732,
+    "change_pct": -1.475913478782964,
     "unit": "bags",
     "history": [
-      {
-        "date": "07-10-2026",
-        "value": 344269
-      },
       {
         "date": "07-13-2026",
         "value": 342574
@@ -35,6 +31,10 @@
       {
         "date": "07-22-2026",
         "value": 320615
+      },
+      {
+        "date": "07-23-2026",
+        "value": 315883
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-23",
-      "value": 5.079599857330322,
-      "prior_value": 5.087500095367432,
-      "prior_date": "2026-07-21",
-      "change": -0.007900238037109375,
-      "change_pct": -0.15528723123372837,
+      "date": "2026-07-24",
+      "value": 5.076700210571289,
+      "prior_value": 5.062488079071045,
+      "prior_date": "2026-07-22",
+      "change": 0.01421213150024414,
+      "change_pct": 0.2807341227922859,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-23",
-      "value": 101.41100311279297,
-      "prior_value": 101.13999938964844,
-      "prior_date": "2026-07-22",
-      "change": 0.27100372314453125,
-      "change_pct": 0.26794910498315483,
+      "date": "2026-07-24",
+      "value": 101.49099731445312,
+      "prior_value": 101.43000030517578,
+      "prior_date": "2026-07-23",
+      "change": 0.06099700927734375,
+      "change_pct": 0.060137049288987526,
       "source": "Yahoo Finance"
     }
   },
@@ -724,6 +724,15 @@
   "news_reports": [
     {
       "date": "2026-07-23",
+      "title": "Coffee Prices Fall as USDA Predicts 6% Increase in Global Coffee Production - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR2IyUU16NUVua0hNUGpCS2NxRUZrRFhyVWtqcHl1T1kxclhpVktGNTVVUWVkdDkwcTdJMnZCdXluRnNmVldTdFVYRl9QX1hIbVhwZmk0OWJ1ZUJ1M2NKSkV5LTFpUlFVakpjY2ZRUVRZQ2N1Ym9ubFZrLVRiT0FkLVYwNTJuZ2FGTkhtcG5OWHk5Vmk5OXEyZXI5clRIZzZxT3ZSSkRBVEY4cFZ6QS1haC1KcDIya2xUSFdBbGN2UTdpVVJ4N094Z1REYk8?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-23",
       "title": "Coffee Prices Slipped As Indonesia’s Robusta Harvest Hit Markets - Finimize",
       "domain": "Finimize",
       "source_country": "",
@@ -732,17 +741,17 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-22",
-      "title": "Coffee Prices Ease on the Outlook for Brazil’s Coffee Harvest to Accelerate - TradingView",
-      "domain": "TradingView",
+      "date": "2026-07-23",
+      "title": "USDA raises global coffee crop forecast, sees record consumption and exports - DatamarNews",
+      "domain": "DatamarNews",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMnI4a0x4S1h3aDYzMG9sNUJaTW96MF90cHFFcVhiRkVBUGRXN1RRRHhwODR4eDF1d015bGJVYmVEMzh2eEdiRHZCUmNOWEU0d0d4dldieWV2RkRQZEkyQVB1WHE2OG1hT0NLczk5eHNudXFBX3JiZGpDZTNwVzFQcWtlcnpRUVV6VW96MVNJa0dzdmtiQ2k3ZWJzUnhsVXFiNVBDdWZPTUEzUHdaN2EzcGxFMXJUQ1hVVWdJOXE4Y1VwSDN2cFlKeFA2VlV5QQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbDlUOXZxVkVocHo0bmpBWUhsblZMZjdKck14MldnQzZuR0Y1MG5Mb0dzTGhzVjZ6aFdfTXpKV1BPM0NKRWlla0pZRTdJQk1BZWN6Qmh2MUFhdE9SWVBDMDlhMXc0MlNBT01DUEQ3bG1PSXZQTk9MOUxEYWNjSXlVWUhlUU43akhSVkIxR3F2WXBXYzZiVldMR0o4cW5laWV4dXRJRkRZMmdqV2d6Qmc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-07-22",
-      "title": "USDA: World coffee production to reach record levels in 2026/27 - Comunicaffe International",
+      "title": "USDA: World coffee production (+6%), exports (+9%) and global consumption (+3.6%) set to reach all-time highs during CY 2026/27 - Comunicaffe International",
       "domain": "Comunicaffe International",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWmFjRUdPaWl3WTZOU1NMZmkwR1VUWHNYc2lzTzFueFhlMWg3UElnV0NsWmowZGZiV0NYekpyWEZlcHk5T2NsX3k3bzM3Wld1dU5TSVhqZENVMkpJWTBGVUFTQVNMUWVHS1ROZ1ZHcGhIUVp2VkdELXhTTmZ3WWlMNDh5Nk9NX0p1NWFUMGlFRTktcnBhbTdsaTNNUEZBM1lzUGdXblNKUXBBREZyaUM1SjB2MFpYUm1tWE9Xa2pmQ1pXVVNCb1p1S2xGTGhrbWs?oc=5",
@@ -751,20 +760,20 @@
     },
     {
       "date": "2026-07-22",
-      "title": "Coffee Prices Ease on the Outlook for Brazil’s Coffee Harvest to Accelerate - Barchart.com",
+      "title": "Brazil Coffee Harvest Pressures Weigh on Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYU9PdFdCdU1OdEozN2hlR3JiNThyVkViQ1VndWtOdkJHV2dHVHQzdTVaaWN2Wk9sQ3AxaE8tMF9SOURINTFrdURhWXZzd3FCeTU5SzBYTVZpUmh1ZTN4UGVwUHJoMTd6SHQyd0UyV083SS1seU50MzlFaFRPd1MzV2IwR0NFMW9DbTNJeGc0d1NZRHcxV0hJU2xMQjdKN2JDZGs5c3FqWmg2UjFiU3dfRURFdFFuejFrUFE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUxGWlJkSjUtRFNRSGJyeWpaTElXM2xoWTZrWXJWSks5V3M4RUFRQ0M2WXpzNUVSTEdremZjWU9uNjVENUFiNGREQUxnZndCbnJRZHVESFFNNEFLQ0NnVTZGcVdRTHlEX0pjbjRnV29qRFVUQVRtYmcxVVRDMEZhUnhzbmFkdWxxeTQ1d0xlcndGVHBTZHc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-20",
-      "title": "Vietnam’s Domestic Coffee Demand Is Becoming a Market Force - StoneX",
-      "domain": "StoneX",
+      "date": "2026-07-21",
+      "title": "Arabica Coffee Advances as Brazil Rains Threaten to Delay the Coffee Harvest - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTzNCS1JpMHl5TlI0U0FYQmZ2Vk5Mc0RuUGJuSFgyZ1dzTEg2SXNxdE94QnZxZnFXR2F4TWd1ZEE1am9wVUt5TlJSWE9rc1VOSjcwYS1xdk1UTmU0ZHhqbUdMeVJCcEp2N1NlZExQSFFsWWxYX3NaeElaUUdDS1JrZlgxRzhkWmxnRi00UWNfbkZZMmNPNEJTOTE5d01ibVU?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHFTN25abkd6aWVzRXlFR0dyMjZCZVBBc3Jmb245LXVka3FhOUxWOE81MW1qd0hGTW9MSVhTLVBpdEx0S0d1ZGVjb0pyaGp6NmgzVkNQUGhVNHBwVHVaazdtTkltLWhKbHBRbm0ycnV6TkQ3QnU3VjVIUlRWT1B2cTVpeGNCZW1sWHV5aDNrV2xjTkRaSm1HN0pVVXJFRnhtU1EtNVNMR3Z0Zw?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -783,15 +792,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUGNwN283VmI5R2RraC1FMW9wY3JjQzhtVkpoc0ZHUUhOVVkzMG96UENLZkVZTFBVUVZCSk5aSE9lS0hZQmRSR0JqZVBsS3RUY1dKTnZ2aVUtYTF3ZGVmNUNKVHVlTE95Mkk4VzlqT3NqWTcyUkRRN2JOQlRDcU15ZU1yVDk1Q09TUUdhUmJMYUphSC1kQXlCc2E0TEtmYjAxX0RPdVNvZjdMaVdVaktWeFM0SDM1Uzlm?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Vietnam Coffee Report: Production Rising for Third Straight Year - Daily Coffee News by Roast Magazine",
-      "domain": "Daily Coffee News by Roast Magazine",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjhQQ3RrUFR0UFBqOUR3MkhzdmRvamZ5WHhfamY2dWc0WGNHZ0xHZ0drV2VjVEtPY19USEZUaERibDE3M2s5dWdGWG5Qbmt2cjBGTjFweDNULS1fNjczZzJzMjROS3NUeDVKQ09tX1l3RVVGQm53NFZwTzVUdEh4LTl6NzZZTjZXdEhkMUVaMzRjNkFsdzV4VjRWVkxTcm1nNEdBdThn?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
