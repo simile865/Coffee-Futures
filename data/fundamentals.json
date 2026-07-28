@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-27",
-      "value": 5.095200061798096,
-      "prior_value": 5.09689998626709,
-      "prior_date": "2026-07-23",
-      "change": -0.0016999244689941406,
-      "change_pct": -0.033352125283493066,
+      "date": "2026-07-28",
+      "value": 5.112199783325195,
+      "prior_value": 5.082499980926514,
+      "prior_date": "2026-07-26",
+      "change": 0.02969980239868164,
+      "change_pct": 0.5843542058069525,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-27",
-      "value": 101.40699768066406,
-      "prior_value": 101.47000122070312,
-      "prior_date": "2026-07-24",
-      "change": -0.0630035400390625,
-      "change_pct": -0.062090804455620485,
+      "date": "2026-07-28",
+      "value": 101.53600311279297,
+      "prior_value": 101.51000213623047,
+      "prior_date": "2026-07-27",
+      "change": 0.0260009765625,
+      "change_pct": 0.025614201571590608,
       "source": "Yahoo Finance"
     }
   },
@@ -723,21 +723,39 @@
   },
   "news_reports": [
     {
-      "date": "2026-07-23",
-      "title": "Coffee Prices Fall as USDA Predicts 6% Increase in Global Coffee Production - TradingView",
-      "domain": "TradingView",
+      "date": "2026-07-28",
+      "title": "Coffee (COFFEE) Is up 2.15% on Jul 28: What Changed in Supply and Demand? - TradingKey",
+      "domain": "TradingKey",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR2IyUU16NUVua0hNUGpCS2NxRUZrRFhyVWtqcHl1T1kxclhpVktGNTVVUWVkdDkwcTdJMnZCdXluRnNmVldTdFVYRl9QX1hIbVhwZmk0OWJ1ZUJ1M2NKSkV5LTFpUlFVakpjY2ZRUVRZQ2N1Ym9ubFZrLVRiT0FkLVYwNTJuZ2FGTkhtcG5OWHk5Vmk5OXEyZXI5clRIZzZxT3ZSSkRBVEY4cFZ6QS1haC1KcDIya2xUSFdBbGN2UTdpVVJ4N094Z1REYk8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUVdKTk5sVGVzNXB6Tko1c09mX1dlMmJBbHpaYmM3cEpuaVQxRkd2d09lQ0tPeHIzWlI0bUxVcS1EclN0R0ZKejVDS2hDZnFBT3FncTR5bEkyT1hyUXVnY3BOWExzMkc4Wnhnc1FOXzFhbmNOQWhjLTBVOXRCa09hNTg0WE9TMjJ2czZMczdn?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "Coffee Prices Sharply Higher as Brazil’s Coffee Harvest is Delayed - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV2JfY3RITlN4NkJBMHlGMzBhRTZxTENJMUFLbVV4RHhONlNBU0tEcFpKbmRSTUhpQVFwc2RKVGJmSEJjQV9pV1Zja1h0dkpPck4xRzVYNjBidDRYczEwb1o4eDlMRUNkZ0VrY2U2cVVhMncxeGhyRVBPVXRHSExNYjJSQlJMeE9ic3BjNTlnUHBISzBGSDVnVHJIUVNLaXd2SkI3ZGVZaHo?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-23",
-      "title": "Coffee Prices Slipped As Indonesia’s Robusta Harvest Hit Markets - Finimize",
-      "domain": "Finimize",
+      "date": "2026-07-27",
+      "title": "Coffee Prices Jump as Heavy Rains Delay Brazil’s Coffee Harvest - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS0Nib3lFWDZlZE5vZktBUzNTR3ZtdVMxdG5lemUxeHFtTUdxSV9tbWJYWUhoWEFHbE5MS3hLa0hNZjlsUDZSTUtBNlEtZVZGMlhJVFBXQ2hwMGJtZ0U0T3VpOGVUQ3Y3cnY1TUpsbWY4STRfS25hOFUwYXBCbFdvM19aR2dEbmFPWTZlR2Fqb1NoczFYbEM4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXJPT2dCZGdsRmRZOGRIMkx6WDZDcE16c3pTRTV6LVhuSmlySmxLWVphelhmaGx3MlN5czdfUWJkazJmN3NLWE1mTFFzV2lscnVVTUZGWUZPRHZfOGNNa0lLTjY3ckZjZXd5NWQ1R1BSQk5UamQ1SDM0N3VKY25zbFNPODNsajVNMXQwc190OWF6VG5sQWtaYXVQLVNGNlBCVXc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Coffee Prices Rebound Higher After This Week’s Sell-off - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX0ZTaUFNOHBmUzYxTzNrSUdraGRsTnF3S0tQRHJIRGQzdS1NZGxtZ2VwOUVpeGNHUmJ3SVNWS2RlVGM5ZFRPaFk2QTlyQ25QZkRjWXVDN0llZXJtb1FVZVJhQUh4QllvdDdCeWZwcm0wQmgzczJIbXBvdDdZRncyOEFvUUhMaEtabk1SZU9SVm95YjNERElueHk1emJvaTZIMUZyUS1Na0tyYzI3U1o1SV9Fbw?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -759,15 +777,6 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-21",
-      "title": "Arabica Coffee Advances as Brazil Rains Threaten to Delay the Coffee Harvest - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHFTN25abkd6aWVzRXlFR0dyMjZCZVBBc3Jmb245LXVka3FhOUxWOE81MW1qd0hGTW9MSVhTLVBpdEx0S0d1ZGVjb0pyaGp6NmgzVkNQUGhVNHBwVHVaazdtTkltLWhKbHBRbm0ycnV6TkQ3QnU3VjVIUlRWT1B2cTVpeGNCZW1sWHV5aDNrV2xjTkRaSm1HN0pVVXJFRnhtU1EtNVNMR3Z0Zw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-07-13",
       "title": "Brazil coffee faces El Niño headwinds, but crops more resilient - Reuters",
       "domain": "Reuters",
@@ -783,15 +792,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUGNwN283VmI5R2RraC1FMW9wY3JjQzhtVkpoc0ZHUUhOVVkzMG96UENLZkVZTFBVUVZCSk5aSE9lS0hZQmRSR0JqZVBsS3RUY1dKTnZ2aVUtYTF3ZGVmNUNKVHVlTE95Mkk4VzlqT3NqWTcyUkRRN2JOQlRDcU15ZU1yVDk1Q09TUUdhUmJMYUphSC1kQXlCc2E0TEtmYjAxX0RPdVNvZjdMaVdVaktWeFM0SDM1Uzlm?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Vietnam Coffee Report: Production Rising for Third Straight Year - Daily Coffee News by Roast Magazine",
-      "domain": "Daily Coffee News by Roast Magazine",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjhQQ3RrUFR0UFBqOUR3MkhzdmRvamZ5WHhfamY2dWc0WGNHZ0xHZ0drV2VjVEtPY19USEZUaERibDE3M2s5dWdGWG5Qbmt2cjBGTjFweDNULS1fNjczZzJzMjROS3NUeDVKQ09tX1l3RVVGQm53NFZwTzVUdEh4LTl6NzZZTjZXdEhkMUVaMzRjNkFsdzV4VjRWVkxTcm1nNEdBdThn?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
