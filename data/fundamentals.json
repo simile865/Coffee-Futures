@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 274168,
-    "date": "07-29-2026",
-    "prior_value": 289759,
-    "prior_date": "07-28-2026",
-    "change": -15591,
-    "change_pct": -5.380678425864253,
+    "certified_stocks": 266204,
+    "date": "07-30-2026",
+    "prior_value": 274168,
+    "prior_date": "07-29-2026",
+    "change": -7964,
+    "change_pct": -2.9047883049808876,
     "unit": "bags",
     "history": [
-      {
-        "date": "07-16-2026",
-        "value": 334254
-      },
       {
         "date": "07-17-2026",
         "value": 332945
@@ -35,6 +31,10 @@
       {
         "date": "07-29-2026",
         "value": 274168
+      },
+      {
+        "date": "07-30-2026",
+        "value": 266204
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-07-30",
-      "value": 5.09250020980835,
-      "prior_value": 5.1371002197265625,
-      "prior_date": "2026-07-28",
-      "change": -0.04460000991821289,
-      "change_pct": -0.8681942732389765,
+      "date": "2026-07-31",
+      "value": 5.076200008392334,
+      "prior_value": 5.127099990844727,
+      "prior_date": "2026-07-29",
+      "change": -0.05089998245239258,
+      "change_pct": -0.9927636001498468,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-07-30",
-      "value": 100.70899963378906,
-      "prior_value": 100.80000305175781,
-      "prior_date": "2026-07-29",
-      "change": -0.09100341796875,
-      "change_pct": -0.0902811658864955,
+      "date": "2026-07-31",
+      "value": 100.34700012207031,
+      "prior_value": 100.01000213623047,
+      "prior_date": "2026-07-30",
+      "change": 0.33699798583984375,
+      "change_pct": 0.3369642822132888,
       "source": "Yahoo Finance"
     }
   },
@@ -723,9 +723,27 @@
   },
   "news_reports": [
     {
+      "date": "2026-07-31",
+      "title": "Coffee News Recap, 31 Jul: US specialty coffee consumption holds at record 47%, concerns over El Niño drive arabica futures higher & other stories - Perfect Daily Grind",
+      "domain": "Perfect Daily Grind",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LbElrUnF4Q3puWEZUMW5VSjQyT3J5MmNIcnRkT3o0V0ZBUnRLSkwxUjF3ay1Zd3V5RlY1YlNVX1h1R2RxZDZ5MUtWZkRjWnFvTnBpUEVzOEZNX3NTQUE1eFdlTlVlN1c0RF9xaEE2WkZzRm5LdWFYNQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-07-30",
-      "title": "Coffee (COFFEE) Volatility Intensified on Jul 30: What to Watch - tradingkey.com",
-      "domain": "tradingkey.com",
+      "title": "Arabica Coffee Prices Slide on Dry Weather Forecasts for Brazil - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRWNYYmNHTUJRb3NVU1ZsVzFLX3BKVUJRbjI2TGNiZFJWcko2UUVUTUFXMUs2Rk4tUE5kSWJ1dmI3TV9LQ3JyanRMNlZFbWMxV1gtdDJSeDlxS1NtVklXQnhaUWJWbTBUeXVIZFJ5MEZiMTY1QnZaQUw3Y21LWG1DallTNmdEZ21sQW1KVTVVQzFjSk84N18tU1o5VFVBY0xfbU80?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Coffee (COFFEE) Volatility Intensified on Jul 30: What to Watch - TradingKey",
+      "domain": "TradingKey",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkx0TkJNMFZvdDhzLUdSMWl4NHJJTXpmWmVBMm93eklNU1JYQ00wa0ozLXpvT1VEWDc4WWQ0TlRjVU1jQU9QSDlzTzBVdVY4UDNfOVByMFlHdVJpVUtOR3VidmZLVUZSOWg5VGFBX2Y5X1gxTlZQUkpFbVdMLU84SUJ3aF9WOXVGZW5SRzhR?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
@@ -733,47 +751,29 @@
     },
     {
       "date": "2026-07-30",
-      "title": "Brazil coffee sees early flowering, quality woes amid unusually high moisture - The Economic Times",
-      "domain": "The Economic Times",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOT2NmbXRiNTljcWJGcGhHVmdrcGl2MUNQZ0RxdXFGOV9fMnZxbGhicUdIUlBBYUhiVVk0NU1wYmlFdzBfRG9jWVhscjRTRU5qSHVDeE4xN2FoOXdXRlNFTlo5TG9qSjdja09IcExJcWVPYVE5Y0QyaG0tckRBcGVQOHB6alRGcG9wNld2UVMxWTBHUHVHOE5Jb3FqeHdyZDlTLTZRVWI2VXVJWGd2dXg0UTUyaUtEcDE5SThLd3ZDaDJGYXpHN2lGVkRCNmFUcGtVbVc4RWY1N3JHaXZfT0lieWM1QmlhODFKV2ExcWlic01TREZGbGt2QWpFU1B5QzE5UC00ajlVMURFT2PSAYsCQVVfeXFMTk9jZm10YjU5Y3FiRnBoR1Zna3BpdjFDUGdEcXVxRjlfXzJ2cWxoYnFHSFJQQWFIYlVZNDVNcGJpRXcwX0RvY1lYbHI0U0VOakh1Q3hOMTdhaDl3V0ZTRU5aOUxvako3Y2tPSHBMSXFlT2FROWNEMmhtLXJEQXBlUDhwempURnBvcDZXdlFTMVkwR1B1RzhOSW9xanh3cmQ5Uy02UVViNlV1SVhndnV4NFE1MmlLRHAxOUk4S3d2Q2gyRmF6RzdpRlZEQjZhVHBrVW1XOEVmNTdyR2l2X09JYnljNUJpYTgxSldhMXFpYnNNU0RGRmxrdkFqRVNQeUMxOVAtNGo5VTFERU9j?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Delayed Brazilian harvest drives coffee prices higher - valorinternational.globo.com",
-      "domain": "valorinternational.globo.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTi1yTUg4WDN1MEwtLU5UcF9sTzE2Z0dFQ3did0JWOVlGZGFUU2paMG5vdGNaR1UxcUlGbjZpamc1N1RHNk1JdUltckN6TVVsWmVFdU53aHZ6NkoxR1RrYnFQREE4SEdmNHpTcHJhUno3T3QzNVhtTl9iVkIzZEd2RExIRlY0aFZYanFyb0k2TVVyc3R5U1pMeEo3S1lfN2hFX3k4Q3VfeFZsUjBWUGFNUjNhemVkLTFYVDNTLURn0gHMAUFVX3lxTFByLTV1Nk9vT2dQVmY4RDI0R2JyZE84d0hIMGhmcWdYREQzbGkxalNVdDlSS1Nka2VpbzlualJHV1dVTlpsdGdEeXVBRlZZaFpvMFNDc0FGU1c1N1ZhUVY2UzZRNG5RejV6MnZBN1RmMmV6c2RSaHNfQnA4TFZwV3NiU0NQemhBM3ZhUjRwSkhvWjAtX1ZSdDRJVm5wckduYkNmTXY4bkV2WHZCWVZBRUlLM21WV09zdkEtWGZId2N0Ulp2VndqRjlJcTVtNw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-29",
       "title": "Harvest Delays, Tight Stocks and Record Crop Expectations Leave Coffee Market Searching for Direction - StoneX",
       "domain": "StoneX",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUFJ6S0Nlbm8xX1lEZUVXTFBvaVBKM1BqTF85Y3hHRXhiMmk4c3RvSVVPc1dFYjJmMVZ1eThfcWdlZThoUFo0THc4QzJSTUV6ckFZWjJKRlVPX3VpaWlfc182VlctaXk0VU9IUEZHbTI3V0lGTjN4Q0ZrQ0RKTzVEczhjZ2xSeVlySDNwZHRYMEZ1U1dmYjVQQk5iZ190bVh1c1Vib3p6SHFoMDBveFg0dlAyQmhwaEpvTEMxQkY5OUp2SmdaMW1ERE5oYkF2VDhkZmItUkhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNE9JVEpWRWU2OFBvcXpLeElfNlhBSy1OUDQwQlpMRnZIZGhsaEYta3lXUlVLMDBsNHc0cWxPQk1yeGYtVUZFcTVIUFBCMlFZd2dIdU5BZTB6YXRSaHp5SUdkQUtiRmduOXEtVE95YmxtUzljczQwa2VteS0xaVlhYWtYV20zTzBxWDI4Q25mMzFMeGdqOXhoWG1MZ3kyVUpIMXdFdzlxTndOM05lckxNaWZxTjFtNzBUTGRKdzVSamwxSjZzTHFxVkdQenhDbTFQSWc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-29",
-      "title": "Coffee Prices Fall Amid Weakness in the Brazilian Real - Barchart.com",
-      "domain": "Barchart.com",
+      "date": "2026-07-30",
+      "title": "Coffee futures markets on the retreat following the rally at the start of the week - Comunicaffe International",
+      "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd0dEdHNVWU5odldXWVdOQ3J4N0ZBRHkyaERERnhNUlhsSTR0WHpRS0ZRa0ZLc1NpM2tfcUpQY0Nucy1kV0RsekFDeW9tcFN3VmhiaUd3NUFPUGpscmladFFXSVR5ZWstTTBiem96T1R1THhkVklEQlF3eFo3dnF4SVhJMFJIZ1NGeUtJV0prcXhxSFEtT3JWVDZZckkzUnM?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTFBzWjMzQU9WSi1LR2RMSUtyNzBfZU1KbEFEd0lpS0VkQmYxSW1sb1JTb1VCcWJ4ZnpTYVctRk93N2JoR1l5SnV0a1VqejFKS1J1N2VMbm1VNmZJaWpPdS1JXzRSQXprV1B1cS1oZFl6MEx0Q3A1czdXOEtRSWRaSjRXeW95OXFXcjhmdWNWYTdjVE1jalY4VmtpOG1Qd2FVZ1oxR21yVVg2bDJudDJMeg?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-28",
-      "title": "Tightness in the Near-Term Supply Outlook Boosts Coffee Prices - TradingView",
-      "domain": "TradingView",
+      "date": "2026-07-29",
+      "title": "Delayed Brazilian harvest drives coffee prices higher - Valor International",
+      "domain": "Valor International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbkdsQS16bVlNc3lpdGxKSXFuV0dHT2JVZ2RzRHI0c0EwdTRQbVBQX0lRSTN1Mkt3RGY5ekNZNEFHNnlOTVJ2SkFUOXk3RUE1Q2RfYTZqSW5uQVg2bFA2eWtZYXhULTRxQ1BxbU1PN294clFsazgtTnZLaXZSNDNPU2tGWUI4OWhhbjkzbVZaSE9KVV9TMlBSd2hwMXBiQm4yaVV0a2h0UVF2cnd0RzdvOUluRFNtVmFQaFhjQThn?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQci01dTZPb09nUFZmOEQyNEdicmRPOHdISDBoZnFnWEREM2xpMWpTVXQ5UktTZGtlaW85bmpSR1dXVU5abHRnRHl1QUZWWWhabzBTQ3NBRlNXNTdWYVFWNlM2UTRuUXo1ejJ2QTdUZjJlenNkUmhzX0JwOExWcFdzYlNDUHpoQTN2YVI0cEpIb1owLV9WUnQ0SVZucHJHbmJDZk12OG5Fdlh2QllWQUVJSzNtVldPc3ZBLVhmSHdjdFJadlZ3akY5SXE1bTfSAcwBQVVfeXFMUHItNXU2T29PZ1BWZjhEMjRHYnJkTzh3SEgwaGZxZ1hERDNsaTFqU1V0OVJLU2RrZWlvOW5qUkdXV1VOWmx0Z0R5dUFGVlloWm8wU0NzQUZTVzU3VmFRVjZTNlE0blF6NXoydkE3VGYyZXpzZFJoc19CcDhMVnBXc2JTQ1B6aEEzdmFSNHBKSG9aMC1fVlJ0NElWbnByR25iQ2ZNdjhuRXZYdkJZVkFFSUszbVZXT3N2QS1YZkh3Y3RSWnZWd2pGOUlxNW03?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
