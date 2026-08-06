@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 253343,
-    "date": "08-04-2026",
-    "prior_value": 260720,
-    "prior_date": "08-03-2026",
-    "change": -7377,
-    "change_pct": -2.8294722307456275,
+    "certified_stocks": 251417,
+    "date": "08-05-2026",
+    "prior_value": 253343,
+    "prior_date": "08-04-2026",
+    "change": -1926,
+    "change_pct": -0.7602341489601054,
     "unit": "bags",
     "history": [
-      {
-        "date": "07-24-2026",
-        "value": 311317
-      },
       {
         "date": "07-28-2026",
         "value": 289759
@@ -35,6 +31,10 @@
       {
         "date": "08-04-2026",
         "value": 253343
+      },
+      {
+        "date": "08-05-2026",
+        "value": 251417
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-05",
-      "value": 5.114799976348877,
-      "prior_value": 5.10290002822876,
-      "prior_date": "2026-08-03",
-      "change": 0.011899948120117188,
-      "change_pct": 0.23319971103270298,
+      "date": "2026-08-06",
+      "value": 5.13100004196167,
+      "prior_value": 5.143700122833252,
+      "prior_date": "2026-08-04",
+      "change": -0.012700080871582031,
+      "change_pct": -0.24690554597468595,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-05",
-      "value": 99.74800109863281,
-      "prior_value": 99.88999938964844,
-      "prior_date": "2026-08-04",
-      "change": -0.141998291015625,
-      "change_pct": -0.14215466201148083,
+      "date": "2026-08-06",
+      "value": 99.74199676513672,
+      "prior_value": 99.69000244140625,
+      "prior_date": "2026-08-05",
+      "change": 0.05199432373046875,
+      "change_pct": 0.05215600607596425,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,21 @@
   },
   "news_reports": [
     {
-      "date": "2026-08-05",
-      "title": "Coffee futures prices rose again during yesterday’s trading session - Comunicaffe International",
-      "domain": "Comunicaffe International",
+      "date": "2026-08-06",
+      "title": "Coffee futures markets again on the rise on Wednesday, London posts 5th consecutive daily gain - comunicaffe.com",
+      "domain": "comunicaffe.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcUlYbHBaT0pVZnU1alIyMlFfd0VSNzVCaE16Vk1HcXllcTFFamNCNTRxVGZjZVE1NWVMelJGbXhkbHJTQXRqVC1saUcxS01tQ3BhV3d2eVpIUlJmZVhKWkVjRUt5cjhvLTBTejE1bHVmNTlJX09QUFAwcW9qV1U1N3FtN0lKZy1zVk41bVdodXgtOW5KclFURlJ6YVFWYUxEV2ZXSlFYejlsQ1A1M01rUzZrRjBrQXI3SFBxTlpHSGN6MldDM1JYcXpMcnItNU9Dc0JlZHpCWXVjMkdZQ1VyVzk1d1k2WlhvdW9TNFo5TjJWWEl4bGVSR0F2eHBWNmw3MHc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMFdpa3dyeHZKMXZOTFlhckFiV0huNHhyOTJ1djdXa0RxeTlQOEdSQWlVQi1McHVySTlzS09qM3ZnLXBSMk53S0tOMlc4bGEwTzBsbkJPRTBoRXUyUGdmT09JUmhpRmN6dWpqaW9GaEtHa2xrUjNtOGRmc0lkMzdOai1UQjFoOHFCN0ZzTU5CQ1MwX2FvZzk4dk01UHhsU2VQU1JSbm1pbHNJR0EzUEs2UG9EbHk1dw?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "Adverse Global Weather Boosts Coffee Prices - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdWtrakZQX1lybGV4eUp6dERPbTNUOXRSaDJFYWstb3hUWWY2cEh3Nk15aThsajBBcVRIaTUwWkJCUXJ0YThBaUlUdFNOOEF2U0MzSnJSMFdHUFBHZ19OalJjTl9sd2FCUExwMUVwdkRYN2tZd1NBaXpzcnctTVFQTlUyOTAzMmtHVHlzTk1HczN2ZWdmMU9tS2F5Zk44bXdWWEFyQVNpbGx4Zw?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -750,29 +759,29 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-01",
-      "title": "Harvest Delays, Tight Stocks and Record Crop Expectations Leave Coffee Market Searching for Direction - StoneX",
-      "domain": "StoneX",
+      "date": "2026-08-03",
+      "title": "Harvest-Friendly Weather in Brazil Weighs on Arabica Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNE9JVEpWRWU2OFBvcXpLeElfNlhBSy1OUDQwQlpMRnZIZGhsaEYta3lXUlVLMDBsNHc0cWxPQk1yeGYtVUZFcTVIUFBCMlFZd2dIdU5BZTB6YXRSaHp5SUdkQUtiRmduOXEtVE95YmxtUzljczQwa2VteS0xaVlhYWtYV20zTzBxWDI4Q25mMzFMeGdqOXhoWG1MZ3kyVUpIMXdFdzlxTndOM05lckxNaWZxTjFtNzBUTGRKdzVSamwxSjZzTHFxVkdQenhDbTFQSWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUjZ4Uk16NkJnaFNKeW1VUi1RX2V4SE9nRE12cDNyUUNTR1g2ZGlEaVp1cmRIZ0M2NDJFTENtSWZlTE5odEdaVjRQRUxBaGZueXFBaGtNV09aT2VmYUJXMzRLM0kyb3RrckpHSnBpX0JqdkFjUi05d1lZQ2Fwc2NZbnhYYndObURMWk5PNnlpOTEyTFZOTGtVSGZoUUZ6aTJmV29Fb25JYzVTbGhTellV?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-31",
-      "title": "Arabica Coffee Prices Jump as ICE Inventories Tighten - TradingView",
-      "domain": "TradingView",
+      "date": "2026-08-02",
+      "title": "Coffee markets: futures prices went haywire last month and the outlook for August is uncertain - comunicaffe.com",
+      "domain": "comunicaffe.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdG14U2w3aC1FRDA4cWoyeEdqRUtUa09XRzlJTk1lQ1RPRUFYVU1XaWo0c2hRclBlNzhEc202RkRGa2hfM2xMSngxWUFfcU9mei1jdkdhcktZSVJjeTRjVGFNMkN4N2kweWU4WTBuN1NwblkwMThScncyVlU4d0o5Tnk4WDVMR0h1YWtIdXZRa2tvMTBzTEJEMXlNSXl0bV81Y3BOMFhYS0lid2NTRE04Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzRlYXM3bGd6Uld0RGFvZ1lESThSZjVTT25HQzlUbVNIQWJpZHl2LUlGTlhiSzFiRkNQZmxJWF9Qc1VKODJLcm11QS16SU5TUXVmVUZ1Q0hMQlNCVDNiUzllbnZ3akg4RnMyb2pUN193dmJDQTFlN0dEVWlxUmFsd0pETUdNdVRrWll4elNlTkE4REczaEotcllJb2dkZXJNU1hhWUZ5S2c1UVlfaDQtWlNlUXRYdw?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-07-31",
-      "title": "Coffee News Recap, 31 Jul: US specialty coffee consumption holds at record 47%, concerns over El Niño drive arabica futures higher & other stories - Perfect Daily Grind",
-      "domain": "Perfect Daily Grind",
+      "date": "2026-08-01",
+      "title": "Harvest Delays, Tight Stocks and Record Crop Expectations Leave Coffee Market Searching for Direction - stonex.com",
+      "domain": "stonex.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LbElrUnF4Q3puWEZUMW5VSjQyT3J5MmNIcnRkT3o0V0ZBUnRLSkwxUjF3ay1Zd3V5RlY1YlNVX1h1R2RxZDZ5MUtWZkRjWnFvTnBpUEVzOEZNX3NTQUE1eFdlTlVlN1c0RF9xaEE2WkZzRm5LdWFYNQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNE9JVEpWRWU2OFBvcXpLeElfNlhBSy1OUDQwQlpMRnZIZGhsaEYta3lXUlVLMDBsNHc0cWxPQk1yeGYtVUZFcTVIUFBCMlFZd2dIdU5BZTB6YXRSaHp5SUdkQUtiRmduOXEtVE95YmxtUzljczQwa2VteS0xaVlhYWtYV20zTzBxWDI4Q25mMzFMeGdqOXhoWG1MZ3kyVUpIMXdFdzlxTndOM05lckxNaWZxTjFtNzBUTGRKdzVSamwxSjZzTHFxVkdQenhDbTFQSWc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -782,15 +791,6 @@
       "domain": "Reuters",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcjBrb19NdFVfc0EzWjFaVlNaRjhWVE5rbzM5ZUEyXzFfXy15M0VvODJtaHptSDQwM00tTnlyVm82RFRHZTcySnluRm1ndjBtSGdLalJ4NkNZUk56R3BrVkRVME1KNndhN25LYWhPVDVVMkg0eUszZkg0LWZiWFUydWIyWU5RcWxyS0RBdHpnVnJFT3ljTXdmWC1nYzZrTWZaZThVaGdIdFRCTDRENTdNU0V1YlI?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Vietnam Coffee Report: Production Rising for Third Straight Year - Daily Coffee News by Roast Magazine",
-      "domain": "Daily Coffee News by Roast Magazine",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjhQQ3RrUFR0UFBqOUR3MkhzdmRvamZ5WHhfamY2dWc0WGNHZ0xHZ0drV2VjVEtPY19USEZUaERibDE3M2s5dWdGWG5Qbmt2cjBGTjFweDNULS1fNjczZzJzMjROS3NUeDVKQ09tX1l3RVVGQm53NFZwTzVUdEh4LTl6NzZZTjZXdEhkMUVaMzRjNkFsdzV4VjRWVkxTcm1nNEdBdThn?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
