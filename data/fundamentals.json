@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-11",
-      "value": 5.104400157928467,
-      "prior_value": 5.082600116729736,
-      "prior_date": "2026-08-09",
-      "change": 0.02180004119873047,
-      "change_pct": 0.42891513591584945,
+      "date": "2026-08-12",
+      "value": 5.152100086212158,
+      "prior_value": 5.105999946594238,
+      "prior_date": "2026-08-10",
+      "change": 0.04610013961791992,
+      "change_pct": 0.9028621249530028,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-11",
-      "value": 99.85199737548828,
-      "prior_value": 99.80999755859375,
-      "prior_date": "2026-08-10",
-      "change": 0.04199981689453125,
-      "change_pct": 0.04207976948388876,
+      "date": "2026-08-12",
+      "value": 99.77100372314453,
+      "prior_value": 99.81999969482422,
+      "prior_date": "2026-08-11",
+      "change": -0.0489959716796875,
+      "change_pct": -0.04908432361198253,
       "source": "Yahoo Finance"
     }
   },
@@ -723,20 +723,20 @@
   },
   "news_reports": [
     {
-      "date": "2026-08-10",
-      "title": "Coffee Prices Turn Lower on Drier Brazil Weather - Yahoo Finance",
+      "date": "2026-08-11",
+      "title": "Arabica Coffee Prices Rise as Colombian Earthquake Disrupts Supplies - Yahoo Finance",
       "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdGpZaGNPSGFhNzlnNVdUc2xmT2lHdFA0dDJ3cm9YeVUxejZWTDZmN1FOWjd6QnJmYVAtS1dTczlQYm5fd2xyUTFqM0RGanhnaDJXZktJRTNTWjdRQV9iRThQSG16d0dJYXFkYmlleGdxaXJHQnR3NGdaZktmcU53bUU0emlNWWRiaFEwLUZVYlk4elUzOHM1ZGo1d24wbks2M1E?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNXdyMnd6VHNZQTR2cjJIcVBuZG1hLVV5TmZReXFPbGUzQUh6QzZETE03RTFkbUVURTV1Z25mZ0I5ME1aRjBHODU1OTg0dGc2cTlrVmRnQ0h3aWhVZlhlaDBsYTNhdFQ0SURERF9DLWtBaTQ2cmRCMXVXbzBLQUpEQTJZOGlUUEVMdVZzMExhSTI5d1J1M2lVTkNLckFkT2dNX3hkUEsyRXk5UQ?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-10",
-      "title": "Arabica Coffee Prices Undercut as Brazil Harvest Expected to Accelerate - TradingView",
-      "domain": "TradingView",
+      "date": "2026-08-11",
+      "title": "Brazil Coffee Market Report: Mixed Prices, Slow Harvest, and El Niño Concerns | August 2026 - News and Statistics - IndexBox",
+      "domain": "IndexBox",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORDBaa24yY3pveTdodHdKeXpfRUR0OHBYVGlKQkhIb3NRelJlc3RCWVpqT2VhSXJQclo0QUVobzdpUkkyWG1TRGhRRC0zS1BuSzcwRGMxVGVYUkRDYVNRYjdtTG90SkV2N1NiUmhFeU1DLThPdGUxS1p5ZmpuYUNZY3ROelJCTm1FSXZLWUFLV0tlN1JlUUpZaU1tLU1NcXpGQUcwU3RMeXNQdHdQSlFXQkhkY2QtTDA2eUxzTFBfVmVyRHF3OUtDREdB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVR5R3VsQmEyZEhqNUg4MW9yYVBtcVVpbVhET2ktSF9ndFRHRFNWTThFaUF3YkZFVHVXV0U0elNEbVg3U3lXZnRMSXhNSnBWRGFBWUUyN1R4bkU2Z09SdnF5WmhMYWwyTnlXQjUzRVZ0bnpEZ1VoTDk1MFM3VWNTYlZQMA?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -777,21 +777,21 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-06",
-      "title": "The Outlook for Brazil’s Coffee Harvest to Accelerate Weighs on Prices - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONEx2RG5mWkRxNnVHS1RWRHMtSHB5SkdzbTYzZzYyc21feHlxOXhKYUYxWFlZZWVyQ1VRdWFaVHdjSHRPSFhjZ1JvU1VIZHh4Vi1tLXB2VjJQcTgzYWhiTVhaMjlpaFEwU193aUtTaUt5S1ZHTUNlbHN0Ynk0WS1VZThWZ2lDeno4cURCZ3Zid3JwendKdzJFTzZCYTF5anpfbUZuVWxaS0ZrVHR4M2U1TmhYNmVEempEMXZtLWNUNmRHbjB4R0tF?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-08-03",
-      "title": "Cheap coffee is killing Vietnam’s priceless tropical forests (commentary) - news - Mongabay",
-      "domain": "news - Mongabay",
+      "title": "Cheap coffee is killing Vietnam’s priceless tropical forests (commentary) - Mongabay",
+      "domain": "Mongabay",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWs0WWhYVmNFcllQT1RwZXV5NkRNbkVzRXNoS1BZSHpJQmkxY0JuWVYzWVF3a25DWFE5RjgxRWF0cGhjVDJ1LWgzdTZLTVZ5SVV1MVd4eHJWcEtwa1FMNXdxZUwzNFlPYjdtZjNGRGIwZVQxY2FXTVE2SnluWHdRcFYxeUxPZUdtY1BtTEZacXNzeU85Umx3RHh4elhyWVpJM2Zvckw5MlTSAa4BQVVfeXFMT2E0c0RMdHFmemZWRmFrMFhTczEyNDVfUTk2MFJFOFNzekw0dGtIb1l1UFJ0QTFvQW1YcGR3SV94NGxZckNPVnhzX0hXVXZRSUstQ09KMVhZcEFNRmpqVENtdm9oM255X2lTZDBUMWEzd3c1WFJONVhyU1VILURsSjl6bXpxbzBKZW1WNVozVHN4eldpU3VFOVVVTDJNUkdQdnpjeGI0em9hYVdJa3ZR?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Vietnam Coffee Report: Production Rising for Third Straight Year - Daily Coffee News by Roast Magazine",
+      "domain": "Daily Coffee News by Roast Magazine",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjhQQ3RrUFR0UFBqOUR3MkhzdmRvamZ5WHhfamY2dWc0WGNHZ0xHZ0drV2VjVEtPY19USEZUaERibDE3M2s5dWdGWG5Qbmt2cjBGTjFweDNULS1fNjczZzJzMjROS3NUeDVKQ09tX1l3RVVGQm53NFZwTzVUdEh4LTl6NzZZTjZXdEhkMUVaMzRjNkFsdzV4VjRWVkxTcm1nNEdBdThn?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
