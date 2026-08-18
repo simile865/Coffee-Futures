@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 231445,
-    "date": "08-14-2026",
-    "prior_value": 236430,
-    "prior_date": "08-13-2026",
-    "change": -4985,
-    "change_pct": -2.1084464746436575,
+    "certified_stocks": 231340,
+    "date": "08-17-2026",
+    "prior_value": 231445,
+    "prior_date": "08-14-2026",
+    "change": -105,
+    "change_pct": -0.04536714986281838,
     "unit": "bags",
     "history": [
-      {
-        "date": "08-05-2026",
-        "value": 251417
-      },
       {
         "date": "08-06-2026",
         "value": 248897
@@ -35,6 +31,10 @@
       {
         "date": "08-14-2026",
         "value": 231445
+      },
+      {
+        "date": "08-17-2026",
+        "value": 231340
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-17",
-      "value": 5.22730016708374,
-      "prior_value": 5.19980001449585,
-      "prior_date": "2026-08-13",
-      "change": 0.027500152587890625,
-      "change_pct": 0.5288694278861977,
+      "date": "2026-08-18",
+      "value": 5.200900077819824,
+      "prior_value": 5.221700191497803,
+      "prior_date": "2026-08-16",
+      "change": -0.020800113677978516,
+      "change_pct": -0.39833986853259323,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-17",
-      "value": 99.47200012207031,
+      "date": "2026-08-18",
+      "value": 99.66200256347656,
       "prior_value": 99.66999816894531,
       "prior_date": "2026-08-14",
-      "change": -0.197998046875,
-      "change_pct": -0.19865360741693205,
+      "change": -0.00799560546875,
+      "change_pct": -0.00802207847460484,
       "source": "Yahoo Finance"
     }
   },
@@ -723,20 +723,38 @@
   },
   "news_reports": [
     {
-      "date": "2026-08-17",
-      "title": "Coffee (COFFEE) Is up 2.06% on Aug 17: Is the Market Repricing It? - TradingKey",
+      "date": "2026-08-18",
+      "title": "Coffee (COFFEE) Drops on Aug 18: What Lie behind the Move? - TradingKey",
       "domain": "TradingKey",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbnNRenI1VGlBVHJaU0hXRUJqNUZYdEI2U1VIVjJtSGlxbDY4QjVZaFVKNmM4MlBETkNjTzMtRzY2elNwaU5FMGRwSnR2aTNRczd4UC00c21QRGtIUjFTbFJHQjVoQmx1dy1CWENkQ0JkQ1V6ejJsTmtPRHZQRUx5cGRIRU1laTBua2VsemRn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNGNqUnFYREpBS01yT1JOWmFCMXh2N3hMWkNFelBaLURlQkdWY3ZnSVFFT1JsTUFqUy0zT0toQjFTZk52T3lncXhfX0hINF96NFY4NFNQWDZjbDUtdEMxcHk1OE1YTGQtd1J4RjU1QWgwbkFkSm1lYWdwLUpNSFFLbndtOFBvZUUxcXNfcnVB?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-14",
-      "title": "Coffee Finds Support Despite Larger Supply Outlook - stonex.com",
+      "date": "2026-08-18",
+      "title": "Arabica Coffee Prices Surge on NYSE: Colombian Earthquake and Brazil Harvest Delays - News and Statistics - IndexBox",
+      "domain": "IndexBox",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRUpwZUFyMTAwS1ZNbTNjcGhPSW1ydFlsYmQ1aF9HQ18xeWpGTjIxSU4xSDhFcnhLTTdpM1RIRmZQWUJ1dm9lT0ZEcUg0SjJkb2o3aFdjQ21iWjJqNTYxdU1PaUZOdXNteGRwek1UOGdzQlpFMDg3QzFOaGtIVGxZN1dhSFA0bklMYXNScEtHZkN0OFFtcllnYXgyREZzZExKMjUzZEpHU09zSDdwVTBVbEZodUs4djlBOG5aSQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Coffee Weekly Report - stonex.com",
       "domain": "stonex.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVlKSDFsdFkybDdfTWUzN2Q2eUM1T0tzTlNTeXVtYjREdE9Ebm9GazJ3ZUtnWXhkTS0wWDl3S19QUlBsNVk0ZXdzZXNWOUhVOTB1bnJtOGpvYS05X2o5bTRTTF9LeXIyY0V6a18wWDhIemdPRldjVmM3ZHg3c2FfQmlydHctTmJhWTRqUDF2Rk1SNVU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01TUd5cC1zam53cHhKQXVPYTUzZlNTSTlRSFZYZ1RJcFpOZDBaVzBnMm1OYUNnVWprdDNybTIxdXllTGV1ZGY3Q25JdlprbGhhV3R4akpwUmFZQU5tUjNDZFVIc19La3lZYno3ZUg5ZFVZQnNuVDZCdVhR?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Coffee Prices Soar on Supply Concerns - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcFFyU3dUVDNSSnFBOEp2VEstNTRzSGJ0ZmRMZzR6UWQ5V2FSRk1zNjg4cnVjdGpPeHlsSzRQUDB5X0JicFZyWTFnQlcyMkVuYjNPYWFTckdSQ3VEZUVVZ1FiSUhFblAxNVVuVExvTGRBeF9seDVHNkc1UDFUVnVtS3ZKd2hCQjZD?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
@@ -750,21 +768,21 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-14",
-      "title": "Coffee Prices See Support from Slow Brazil Harvest - barchart.com",
-      "domain": "barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR1BCbGZTUDdYRTY3bGw0VFVkU2pjR3BjWnQ5bkl3MkVyMDI4aXROdUVyMlFKTXVacE4xd1hLVWpabFFPUjlQMmI5RklxRWRnR21PeHdNTXluT3pVQWZlZDJBc21Sc2JMNnN6V213ZFM2bzFSTEFJNWRiNi12VXJ2OGowZU1wZVpZVlJwMXRhcDJMQ1lLZ3l5UmxR?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-08-13",
       "title": "Coffee Falls 5% on ICE 📉 Profit-Taking Hits the Market Despite Low Arabica Inventories - XTB.com",
       "domain": "XTB.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVW5aQUoydU8zZEtic29UU05jdGpIeThqd3hSYkE5VXFXWXM3V0ItSkJTd1AtcEJYd01uc05EdVpmMUlTUlpVT3MxZUY5OEp5UERqY0ZPTXdyeXlESUd4N0RQYzZDZTBFWVdpZVBnQ1h0Y1BUd3g3NDNVZ0tSRFNDZy10bUk4RXIwbEgzR1YtcFl4aG1weTNRWXFWVXFqU1p5RHlEbEN5ZHhia2RoTjA5cnQ1RzRZWGZ3bEFCeG9rUWhlRklEVEFCOTRHazRzcW9EQkpNOS1MZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTGpsUjRJeXhucVdvNlZsTEt2NHVLbkF6QmlfS1J6VGNfS3FiTmFkRlNHNzlOU1pPRjRhM3kxQVBIa3BoXzlQUW5JOF9VcUlJX1NVUl93ajlscldZUjJwV1NVRktINThmMWFMOENzNVM2ekdwSjlYWW9QTkhRS3pjOGhNMFdYVllZeUVpclN3MGY4TVNUbW4wZHk0c3BEVmVHRFkwYlNMNDVwUXA0MjVPMExKUHVJZHZOQlBJWEJJU3ZWOUNfWVlUekpfZmVETmFGTGNoWUMtcU0?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Coffee Prices Decline as Colombian Coffee Exports Partially Resume - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYVgxNUJfU0dETWlERGFTZmw3dFFxWXZUTlV4QVo5d05DLVVaNEdOS2ZXbkpwdkJrdjVhZ0RCd21hSnBRUC1obGxhYV9iTjJMeHdtbmVpSjVwQmJFQ2ZSSlZWYXhMelhteTJFVF9JQ1lGM3dQR1YwOTRoZWJ3bTVHbU5BdmI4RGRDRlNTbmFaMkpXU3oweVcwYlBaUHQtdXdBT0JGaFFxQUpMZHZxZG5wR0gtRVhaTEJ0VlM4OFp3dS1SdlU?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -774,24 +792,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUnhvNTRia09fNHBOaGZEY1ZSLXhJeGM3by1id3VvWjd3NmFaeHdyREctT3NhVXlOUlJWRVlJR0YwbHNDbC1zQ1BsODlSbGVxR2NaME1qV1ZTMDZjeVFOS3ZmcllXLXJCb245ckczaC1aOTI0U0pHdnd4NThVUUdjZk5zdVhKSEVKc19WN25JYWZnQWUtVXdLQjdWX05GQ2lMVjdFVVhQU3NEbjV1VWpWVTFsakt1X3hadVQzZA?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Colombian earthquake disrupts vital coffee export route - Financial Times",
-      "domain": "Financial Times",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVWJlSHU0Y0ZLMDFpRjBxSnYwa3BRSzlnRHNaWW1MV2hucXhOTDZiWXNyQUZYbFNEd0U2QnpaR3d2cWhCVXhMZ0RLSlVKWFR2bXhCTDB2NVN3UmZCYjQwNFA1bmhuR1pnMmoyWW9jTldSV1RlWlJqR0I3bHNsMXR2UlFDbko?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Arabica Coffee Prices Jump as Colombian Earthquake May Disrupt Supplies - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRl9CTnd4UDVWNTI3ZFdpRG5XWGY4ekFzNkhkQ0dkNGZIZmw5RFJlNXY5bmROaXZYTzFyRy1OQUxBLVllb2JUY2NWTlJIOUF5aWEwaG41eFpTSGlVZzNaQnJnZGs2VGx0WC01RFZpbDZibmFhZzFIX0ZOTWZ3dTRpYjNaVTBmNWphOHYyZy1weDVaLUpVNEJocXVCd3pLaGo5UkRaY05SOXZwaVNIR052SDMyUV9pOGVFUGNUOXJjb2VyNUlPUzE1Rw?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     }
   ]
