@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 231340,
-    "date": "08-17-2026",
-    "prior_value": 231445,
-    "prior_date": "08-14-2026",
-    "change": -105,
-    "change_pct": -0.04536714986281838,
+    "certified_stocks": 229214,
+    "date": "08-18-2026",
+    "prior_value": 231340,
+    "prior_date": "08-17-2026",
+    "change": -2126,
+    "change_pct": -0.9189936889426817,
     "unit": "bags",
     "history": [
-      {
-        "date": "08-06-2026",
-        "value": 248897
-      },
       {
         "date": "08-07-2026",
         "value": 244172
@@ -35,6 +31,10 @@
       {
         "date": "08-17-2026",
         "value": 231340
+      },
+      {
+        "date": "08-18-2026",
+        "value": 229214
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-18",
-      "value": 5.200900077819824,
-      "prior_value": 5.221700191497803,
-      "prior_date": "2026-08-16",
-      "change": -0.020800113677978516,
-      "change_pct": -0.39833986853259323,
+      "date": "2026-08-19",
+      "value": 5.2204999923706055,
+      "prior_value": 5.202499866485596,
+      "prior_date": "2026-08-17",
+      "change": 0.018000125885009766,
+      "change_pct": 0.34598993458829724,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-18",
-      "value": 99.66200256347656,
-      "prior_value": 99.66999816894531,
-      "prior_date": "2026-08-14",
-      "change": -0.00799560546875,
-      "change_pct": -0.00802207847460484,
+      "date": "2026-08-19",
+      "value": 99.42900085449219,
+      "prior_value": 99.6500015258789,
+      "prior_date": "2026-08-18",
+      "change": -0.22100067138671875,
+      "change_pct": -0.22177688710754845,
       "source": "Yahoo Finance"
     }
   },
@@ -723,11 +723,38 @@
   },
   "news_reports": [
     {
-      "date": "2026-08-18",
-      "title": "Coffee (COFFEE) Drops on Aug 18: What Lie behind the Move? - TradingKey",
-      "domain": "TradingKey",
+      "date": "2026-08-19",
+      "title": "Coffee (COFFEE) Is down 2.06% on Aug 19: Why It Happened - tradingkey.com",
+      "domain": "tradingkey.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNGNqUnFYREpBS01yT1JOWmFCMXh2N3hMWkNFelBaLURlQkdWY3ZnSVFFT1JsTUFqUy0zT0toQjFTZk52T3lncXhfX0hINF96NFY4NFNQWDZjbDUtdEMxcHk1OE1YTGQtd1J4RjU1QWgwbkFkSm1lYWdwLUpNSFFLbndtOFBvZUUxcXNfcnVB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVFJYSmZGQXZEal83bVFnajZ4MXlueVlVSkxXMkZ5WFlTbkJGaWU2VFk0X09uZG1HUFRpUWloNGVIZ0txNzBEanBYYWxRWkpzVFZHd2xvVUVhVHhraUxKVHFZOGtUQkFVYW5GS25aN3pzQmRSSG9COHpqdmE5MGRsQUNQMlVBQWt5Xy0xd0tn?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Brazil Harvest Delays, Tight Stocks and Measured Producer Selling Keep Coffee Market on Edge - stonex.com",
+      "domain": "stonex.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMUxTY2Y2SHZkR1JsOHV2ZTRYYnNORVJ0ZktHYUd1a2hUcU1hQ2RCUXljbjlyaEIxaUEzdDlzdWtZZVJ2ZDhFTUhvTUlvZ3lDWlZ1WlVsMTQxQnU1NzY5dncxM0ZEaWN0dDY1a1ZjOEctODFyVDlmbTlyX2JINTZZZkdfdUVLcGgySU4xYzhUb1RnaG5laWtzZmtkeVh6WHlNNjNIdWdjcS1aTDV5ZnB5STI0UGJ2TkNxSVI1bUJQSjNFNXk1OUE?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Blue Bottle Coffee highlights Excelsa in new limited releases - Global Coffee Report",
+      "domain": "Global Coffee Report",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdDFHRnNEOEktTWhId3NMWlU1b0VtdTdoSHo3U1lpR2UtTTFWYm5xakxmOWlESGh3bzhLNEVEWGJFTkhfZVpIeUgwVUdtbDFTbXFnaHVqVWFsWjBhWks4UVcxazUxVXJUcGlxODF4VGZVc1dqZjlNeEFyeDA3eThjaWRURktRbHVtclZnS1R3?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Tighter Coffee Supplies Push Prices Sharply Higher - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVzRBUHNSejJjcW80a3l1MjNHSzZhRGhWblBQOFUyMlMxZ01uY2hiXzJaemtUODhCS0RHWDl1d1FtMi1lQVNqNW5DcFNfQ3dJT0hMYWZPYXFta3RYS2NUamsydUlZbGZIamR2TTBudnYxSE5ZUGNLQV9FQXdIX1huVEVJY1k3cGNUcGs4bDRGaVU4YVpzbWZnUk83Rk1sQjBRX2hSZVFNeUM?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
@@ -745,7 +772,7 @@
       "title": "Coffee Weekly Report - stonex.com",
       "domain": "stonex.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01TUd5cC1zam53cHhKQXVPYTUzZlNTSTlRSFZYZ1RJcFpOZDBaVzBnMm1OYUNnVWprdDNybTIxdXllTGV1ZGY3Q25JdlprbGhhV3R4akpwUmFZQU5tUjNDZFVIc19La3lZYno3ZUg5ZFVZQnNuVDZCdVhR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CSFozQTEwd1JNYng2cUtZOVJSSXpwX1E0eDZmUGhWY1lMdXVyVjZ3eE1GZ0ZLNFJkZTd2Yl9QcS05bFQ2N1pXQ1RRc2hrT09HS2FRTHRXa1o1SmdEYWZDcnBTZXY5aml0TkNiY2w2TDk3MDFwMVE?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
@@ -759,39 +786,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-14",
-      "title": "Coffee markets: shipments from the port of Buenaventura in Colombia have partially resumed, but the situation remains complex through the whole supply chain - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPN3BPaVRGQTNLcEhkbTdCR3ZYQm9ITWlkb1Faclk2ZUNneXVaN3hkZmx2ckRRSVZaVUtvSVhxNWdLNGZMYzA3blNSRUFrbVA2TW1OQVBHbFFIQlE2M3lELUhrc29DeWI3RFhEM3Fqb1p5bDJGVHNfUG9MV2JmRk9HekdpRWRvT2lpUUl1S0I0bHN5c0M1SGhmdFBwNW10Wi1WVDV1Qk54bE9zTEZhUVpaaXJyazZXcmFJMEVjdmlwQlk4WXJ5aWQxZ3FDSDJueG5pTFAtcmg0MnFJUVM3cWc4bWVDNmF5cWoxRTVxYWlBV080ZExKM2tUWlFjRDd0WlU?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-08-13",
       "title": "Coffee Falls 5% on ICE 📉 Profit-Taking Hits the Market Despite Low Arabica Inventories - XTB.com",
       "domain": "XTB.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTGpsUjRJeXhucVdvNlZsTEt2NHVLbkF6QmlfS1J6VGNfS3FiTmFkRlNHNzlOU1pPRjRhM3kxQVBIa3BoXzlQUW5JOF9VcUlJX1NVUl93ajlscldZUjJwV1NVRktINThmMWFMOENzNVM2ekdwSjlYWW9QTkhRS3pjOGhNMFdYVllZeUVpclN3MGY4TVNUbW4wZHk0c3BEVmVHRFkwYlNMNDVwUXA0MjVPMExKUHVJZHZOQlBJWEJJU3ZWOUNfWVlUekpfZmVETmFGTGNoWUMtcU0?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Coffee Prices Decline as Colombian Coffee Exports Partially Resume - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYVgxNUJfU0dETWlERGFTZmw3dFFxWXZUTlV4QVo5d05DLVVaNEdOS2ZXbkpwdkJrdjVhZ0RCd21hSnBRUC1obGxhYV9iTjJMeHdtbmVpSjVwQmJFQ2ZSSlZWYXhMelhteTJFVF9JQ1lGM3dQR1YwOTRoZWJ3bTVHbU5BdmI4RGRDRlNTbmFaMkpXU3oweVcwYlBaUHQtdXdBT0JGaFFxQUpMZHZxZG5wR0gtRVhaTEJ0VlM4OFp3dS1SdlU?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-13",
-      "title": "Colombia earthquake disrupts coffee export logistics, threatens international shipments - DatamarNews",
-      "domain": "DatamarNews",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUnhvNTRia09fNHBOaGZEY1ZSLXhJeGM3by1id3VvWjd3NmFaeHdyREctT3NhVXlOUlJWRVlJR0YwbHNDbC1zQ1BsODlSbGVxR2NaME1qV1ZTMDZjeVFOS3ZmcllXLXJCb245ckczaC1aOTI0U0pHdnd4NThVUUdjZk5zdVhKSEVKc19WN25JYWZnQWUtVXdLQjdWX05GQ2lMVjdFVVhQU3NEbjV1VWpWVTFsakt1X3hadVQzZA?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     }
   ]
