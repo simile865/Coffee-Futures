@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 227992,
-    "date": "08-21-2026",
-    "prior_value": 228378,
-    "prior_date": "08-20-2026",
-    "change": -386,
-    "change_pct": -0.1690180315091646,
+    "certified_stocks": 226242,
+    "date": "08-24-2026",
+    "prior_value": 227992,
+    "prior_date": "08-21-2026",
+    "change": -1750,
+    "change_pct": -0.7675707919576126,
     "unit": "bags",
     "history": [
-      {
-        "date": "08-13-2026",
-        "value": 236430
-      },
       {
         "date": "08-14-2026",
         "value": 231445
@@ -35,6 +31,10 @@
       {
         "date": "08-21-2026",
         "value": 227992
+      },
+      {
+        "date": "08-24-2026",
+        "value": 226242
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-24",
-      "value": 5.137400150299072,
-      "prior_value": 5.1930999755859375,
-      "prior_date": "2026-08-20",
-      "change": -0.055699825286865234,
-      "change_pct": -1.0725737141346026,
+      "date": "2026-08-25",
+      "value": 5.154600143432617,
+      "prior_value": 5.13730001449585,
+      "prior_date": "2026-08-23",
+      "change": 0.017300128936767578,
+      "change_pct": 0.33675527782983355,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-24",
-      "value": 98.97000122070312,
-      "prior_value": 98.80000305175781,
-      "prior_date": "2026-08-21",
-      "change": 0.1699981689453125,
-      "change_pct": 0.1720629187189969,
+      "date": "2026-08-25",
+      "value": 99.03399658203125,
+      "prior_value": 99.0,
+      "prior_date": "2026-08-24",
+      "change": 0.03399658203125,
+      "change_pct": 0.03433998184974747,
       "source": "Yahoo Finance"
     }
   },
@@ -724,20 +724,47 @@
   "news_reports": [
     {
       "date": "2026-08-24",
-      "title": "Arabica coffee prices may rise after Brazil’s rains - Kursiv Media Узбекистан",
-      "domain": "Kursiv Media Узбекистан",
+      "title": "Heavy rains in Brazil portend a shortage of quality Arabica coffee - Наша Ніва",
+      "domain": "Наша Ніва",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmVQbFNfb1k1Tk45T3ZDRVMyTHpsa0c5ajJHQl9BdWZwZXBHaFRzRVl3LWlzMW1oMXpBX29SLVBQWVVlNFpwTzRUUHRkejJlYWxEeE9namx0ZnFmZ01DNW40UEdwQ2JxMnNFeWJ5dVlEVjkzaWxpSUFJSmt1S0tEQU54c0tUM1BjNURuRlVVLTJyWXdFNlVMcy1aUmV5SE93enNFR3NfTno5N2xC?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xTklKdkF5bzd3WERUcklLWDZ6R0ZmaUg0Sk8tRWtoWk1hWXlJNUdfVHU0ZkZVak9sT0s4RmFBLXFySHp5a0HSAUtBVV95cUxPSUFZdjh4U1loTFN3MEVPN3c1eGo1WWFmcnNSVVRiV211NXEzT1VJOEFZZnJNM2JxY1Z3endaMHF5LU5ZNWJ3bmNIcUE?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-08-24",
-      "title": "Arabica futures hit their highest level since January last week: Fnc and Vicofa sound the alarm over El Niño - Comunicaffe International",
+      "title": "Coffee prices rise amid supply issues and Super El Niño fears (KC1:COM:Commodity) - Seeking Alpha",
+      "domain": "Seeking Alpha",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPXzVGdVVYWC1PREtld1lBbEdBeDcwdVRMckVsWEFvaUFJdFZySEI2ZldyMFF3aF9RbnIyRHRzQi1TRUpyTDdLeHB2MmhfOWZleDdaSXN1ZEo2Z2Rncl9mRW5Nb3dNNGx4cHhpNU1VcjBfWl9GOFhlRzhsMXdESzhmZ1EwM2c2aTdjOG5mdjU0SDdKWF9MdkRDZzI2YWpSeG9H?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Arabica Coffee Price Presses the Flag amid Harvest Delays and Low Inventories - FXEmpire",
+      "domain": "FXEmpire",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNG5rQVZ2SzIxalozdVVFWnZBQ05TTnVfcHFDUHAtQ3E4Nm8wMlItUEdCd1c4dFBwenV3OVRWTzZENlBwSHFLVmNmT2hUc3I3dGpLbVI0NUVCWnJfdTNPV1J0Z0syb3NvcEZLUmk5Z3RYSlRSVWFRNjdXbXJJS3djRjFtZVpXZTdFMXd5enVtczRGRmlzeERCMzNtaE1ONGg0SzNDS2ZOWHplbE4xcmdVYXNIZVdUR0h1UTNSR1BpTkhPaFNhYnIw?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Another sharp rise in the coffee markets: New York and London are up 5.9% and 5.1% respectively - Comunicaffe International",
       "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX2hMQ0d0TFlNOURKaHJabk9RRFZyTXJvUEZNN3ZWeTJNaEs3QUtvMWRpVHNEanhIYVhkWDFXck5DRkpkR0VCMTdhYW9NOW9Ja0RKcXhFdmNQa0J0UXkzRF81a1ZWRmtKTl9jbHlfLUZodFZCTEFEMVo2NWw5VnlhSm5DZnprV0R5STViTU13Z1dRM1dXYzNKaHZ1Y0RJbXM4THU2bW4yN2doTkJlaUFWMUFCR2tZT0U0VlRfdHpvbWJQNzNYLURJS3JmWHo3S2xyN3c?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNajZzS1B5VzFQeGh1RXBHRDNibjh3VlFhSm5vNGdPQnc3bW41cFVjWk5Zbk9qTkVweC1qNGE2Mk9BZksxOXFQSzlMdENzRVVvempiNEt4U0ViV3l4d3l5X3B1a19FWFdCbkpnZExYSjg4aGR1Sm12aXpZQnVZR2NGalR6M0lnZTNjWnE1Z0ktZzVSNUluNU9hLURZRS1CYkVUTnhyRVNpM2JSRlZUMzFDdDRwLUxtdHJ6SV9BcVkwQnB2U3gzVFhBRVdCbjlFU1JqajNHN0Zn?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Coffee Prices Soar as Supplies Tighten - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0RFaXhwR2lhN2dFT1dGWVBWRkdNeVVVRHJrS2Jja0FPMkNzVjlsWjJHaFlMcFVGTG5mWXM2REdZTGhwOS1lendMVmJCZUhFNXFLaC04V3NkWFFLWWptZF9EeHB5MG9PM1RiRHp0VGVhNkZYODJQZS03MU5PWjlPQnFVakV6aHJONGc?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -746,15 +773,6 @@
       "domain": "stonex.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSnlhWHhRVHBxRVlubWJrUVROTXFuRk9ZaENZVWVhMDB2NVpzeTBPeG5EOHVRT2ZnRC1WcGEzUWc3NlVQZlZKdjFOV3dQbHJVMmcxVXhZdmItWjRuSE5VMkJBYmtZT0N0TEJBMTNtMTFBWDJramttSllFNE5yRDVmRWliM1FKRnVDQUc1ZHMxN2piZDg5Q1ZfSV9ETVJmTUtqODFVSUsxbmRSMm1sbm8zVEpRQXREUQ?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Brazil Harvest Pressures Weigh on Coffee Prices - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOM1B6R2FSRjgxbnlsVzBGUjJiNjFUTTNIdWt3NnJPdjNHeGQtaWEtY1RVLWV6Z01lZXNfQmF2c3Jfc2h3c1Y4djdqVWlxb0NmWVJqTlBOV1VwM3pVdU81UWVlZ1VrQ0FhSzQ3V2dlT0dZSnhSa2JGYlkzWUhQQUhTb1NIdnNGdUVXRER1akxQdEFqOGZ5YXc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
@@ -773,24 +791,6 @@
       "domain": "Qazinform",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUxuUjZ6VWQ3V2pBT0RoVDZzN3lYZ0duN095ZUh1LTdQQ1V0SGxlbTI1U0Z6MWhWQzRiaGJsNGZ5amU0X21pVUZmYTZyWjNmNW9Odk9lTWdPeXJDXzR2YnUwa19KUlJiZEMtQVFOaFVkajduNkc2SjU4VlFqVHgwUVl4QdIBgwFBVV95cUxNMUwxLXpOTm1jOXNfTzRCRGdXU1d0bkNtdHgwUU42TC1wVEVzZ2pPTWNJWVl3ZVVSSnZyYW5tcmp6YS1aYlNjVlNoNkYxQk56cEVna0YzOWltTWI2TDhzWVlFcmZXbGlSTC0zUGpjT1hqVDhIUmZVcTJNWTJhSXFrdzFKOA?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Arabica Coffee Settles Higher on Supply Concerns - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYXBYamxESDVNZnpNaW50enN3dWlKVzZxVlBmWlNUZDd0dUdSYmNWNmxQWm5iTXRnQVV3ZkFTWFYxTEZNdVNNcUJYODlhdmNmUUhidVljTV9XbDFfSTVBZEVabUhCdUx0dlpUR3hoUDNuVnE5RjJxZE41d0FZUFhObEZpYWdZbWRXQWhyeWt2RHFmand6cENZ?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Arabica Coffee Prices Surge on NYSE: Colombian Earthquake and Brazil Harvest Delays - News and Statistics - IndexBox",
-      "domain": "IndexBox",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPalhCQWxSTnBXcEduS0RvYUcyS1NtVTZJZGI4SnJab2prWHBBcHhkWFZ5RGRlRnEzeDl0WVpGbllsVzBCdG4tOUg1aU9KZWR0X0hHVHdyQ3cwcHRGZHNoX3N5dDIwYjV3c2RZRE03OVlRSkVyUVB0akxTZEJEMkEzN1k0X0dkZkQyUkp3bGJWRndCQVBYVUVUOUVscFRrTXU3dzRzWVBULTVJSXFuU3lrN0dEWkljRk5VektB?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
