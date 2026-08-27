@@ -1,17 +1,13 @@
 {
   "ice_inventory": {
-    "certified_stocks": 225442,
-    "date": "08-25-2026",
-    "prior_value": 226242,
-    "prior_date": "08-24-2026",
-    "change": -800,
-    "change_pct": -0.3536036633339521,
+    "certified_stocks": 224617,
+    "date": "08-26-2026",
+    "prior_value": 225442,
+    "prior_date": "08-25-2026",
+    "change": -825,
+    "change_pct": -0.36594778257822413,
     "unit": "bags",
     "history": [
-      {
-        "date": "08-17-2026",
-        "value": 231340
-      },
       {
         "date": "08-18-2026",
         "value": 229214
@@ -35,6 +31,10 @@
       {
         "date": "08-25-2026",
         "value": 225442
+      },
+      {
+        "date": "08-26-2026",
+        "value": 224617
       }
     ],
     "source": "ICE via Barchart",
@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-26",
-      "value": 5.150700092315674,
-      "prior_value": 5.154300212860107,
-      "prior_date": "2026-08-24",
-      "change": -0.0036001205444335938,
-      "change_pct": -0.06984693160579206,
+      "date": "2026-08-27",
+      "value": 5.160600185394287,
+      "prior_value": 5.14739990234375,
+      "prior_date": "2026-08-26",
+      "change": 0.01320028305053711,
+      "change_pct": 0.25644564830734573,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-26",
-      "value": 99.01399993896484,
-      "prior_value": 98.91999816894531,
-      "prior_date": "2026-08-25",
-      "change": 0.09400177001953125,
-      "change_pct": 0.0950280749692148,
+      "date": "2026-08-27",
+      "value": 99.13500213623047,
+      "prior_value": 99.16999816894531,
+      "prior_date": "2026-08-26",
+      "change": -0.03499603271484375,
+      "change_pct": -0.03528893149239022,
       "source": "Yahoo Finance"
     }
   },
