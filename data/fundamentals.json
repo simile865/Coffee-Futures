@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "value": 5.184700012207031,
-      "prior_value": 5.14739990234375,
-      "prior_date": "2026-08-26",
-      "change": 0.03730010986328125,
-      "change_pct": 0.7246398292523863,
+      "prior_value": 5.161099910736084,
+      "prior_date": "2026-08-27",
+      "change": 0.023600101470947266,
+      "change_pct": 0.45726883569633087,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-08-28",
-      "value": 99.677001953125,
-      "prior_value": 99.16000366210938,
-      "prior_date": "2026-08-27",
-      "change": 0.516998291015625,
-      "change_pct": 0.5213778458271461,
+      "date": "2026-08-31",
+      "value": 99.41699981689453,
+      "prior_value": 99.69999694824219,
+      "prior_date": "2026-08-28",
+      "change": -0.28299713134765625,
+      "change_pct": -0.28384868606823543,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,12 @@
   },
   "news_reports": [
     {
-      "date": "2026-08-28",
-      "title": "Arabica coffee stocks hit 26-year low, supporting prices - The Straits Times",
-      "domain": "The Straits Times",
+      "date": "2026-08-31",
+      "title": "Arabica Coffee Consolidates Recent Losses - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUk9HMVBRZXlCNnVjOGxvenVybnR1T29td25za3loc0R3dGtsZGg3MURLRXUzblVhT1Y5ZG13bDdPS3VKdzFkT09CbV9ybGFlM3oza1dtdTRDeFVmS1RtNVVkaURqdUE3MkIxNmQ3Ui1PNHZxRkIxQnh5djRlcjFUUzlrSmtqLXNmQlpzMGFiWEh2OGtKcjduUg?oc=5",
-      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSExiUXA3SmNMNFlDcER0c1hJNnhRUHJOdUc5LTd1WVgzVUlRSVhnVUF3eFA2NXFNZTJjNGp5VmZ4V2l1cVdrcnB1R2l5cDBjNk5kNWZWaE1wSW5ObGEwcS1vUHJrQ0NwNXg5bVByME9QVGVPU3FtZ2Y3SW9yUklTaUYxTllRUUJqM3FSN0ZB?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -777,21 +777,21 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-25",
-      "title": "Coffee Prices Retreat on the Outlook for Bigger Brazil Exports - TradingView",
-      "domain": "TradingView",
+      "date": "2026-08-26",
+      "title": "Coffee futures slip back into negative territory, Reuters poll forecasts Arabica at ¢300 and Robusta at $3,900 by year-end - Comunicaffe International",
+      "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOblJzbDJjRXpLTHE4eVFoOVI2TnlGcmttSm40MVZRbzVvRWx4TzEtekY2eXZzaEZOREtLLXB6LXdsX1FnbEthU01oanNhV3B4Znc4OEhrT21SSktyTENwQ0g3UFJyVlVPN2dkVFJDNHZjVTg4VnRFVWpSTEQ4NGlPeXgxSDk4aXM5T1QxcTdUbkoxUUNwLTItbG1uUXBBOU02Wk02WFFnNmRFMXZnaVo5TGZEbXRwUlZ0dXRRVw?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcWRSRFdwemkzWFNEUFhFTDdjbGE3VkhVV25sc2JRcXJwckRyMnpYekZuSjdGVk9vNEluQ0V5QjhzYTRjcWZidUJEMkx3bW53TnBMNWE2dkEyRW9ldmxScWJPM1hPcjhqazRDOGREeUVodVlCWnVtZUpadGJrMEhhVFd4TGNKV3RPQjRxOHZJUGRZWENRSmh5NVFnZVh1OFNxYUFPcjV1MlV5MXRrYTVnY0ZFaEVfQlBoSmJIa2c1M1AxWGFWWTJkaG5BZ25oQTlhUTNBRDZJUVYwWFFhWjJzS25wRGpPbEJ5MUR4aVlBQXhwN2lGWGNz?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-24",
-      "title": "Coffee prices rise amid supply issues and Super El Niño fears (KC1:COM:Commodity) - Seeking Alpha",
-      "domain": "Seeking Alpha",
+      "date": "2026-08-17",
+      "title": "Coffee Weekly Report - stonex.com",
+      "domain": "stonex.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPXzVGdVVYWC1PREtld1lBbEdBeDcwdVRMckVsWEFvaUFJdFZySEI2ZldyMFF3aF9RbnIyRHRzQi1TRUpyTDdLeHB2MmhfOWZleDdaSXN1ZEo2Z2Rncl9mRW5Nb3dNNGx4cHhpNU1VcjBfWl9GOFhlRzhsMXdESzhmZ1EwM2c2aTdjOG5mdjU0SDdKWF9MdkRDZzI2YWpSeG9H?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01TUd5cC1zam53cHhKQXVPYTUzZlNTSTlRSFZYZ1RJcFpOZDBaVzBnMm1OYUNnVWprdDNybTIxdXllTGV1ZGY3Q25JdlprbGhhV3R4akpwUmFZQU5tUjNDZFVIc19La3lZYno3ZUg5ZFVZQnNuVDZCdVhR?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     }
   ]
