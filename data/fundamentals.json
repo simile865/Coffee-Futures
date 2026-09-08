@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-09-07",
-      "value": 5.127099990844727,
-      "prior_value": 5.10099983215332,
-      "prior_date": "2026-09-03",
-      "change": 0.02610015869140625,
-      "change_pct": 0.5116675073558747,
+      "date": "2026-09-08",
+      "value": 5.079999923706055,
+      "prior_value": 5.126200199127197,
+      "prior_date": "2026-09-06",
+      "change": -0.04620027542114258,
+      "change_pct": -0.9012577274880677,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-09-07",
-      "value": 98.9000015258789,
+      "date": "2026-09-08",
+      "value": 98.81700134277344,
       "prior_value": 99.16000366210938,
       "prior_date": "2026-09-04",
-      "change": -0.26000213623046875,
-      "change_pct": -0.2622046456517223,
+      "change": -0.3430023193359375,
+      "change_pct": -0.3459079333081995,
       "source": "Yahoo Finance"
     }
   },
@@ -723,7 +723,7 @@
   },
   "news_reports": [
     {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "title": "How Super El Niño could reshape global coffee production and prices - Global Coffee Report",
       "domain": "Global Coffee Report",
       "source_country": "",
@@ -733,35 +733,26 @@
     },
     {
       "date": "2026-09-06",
-      "title": "Coffee markets on the decline: Arabica dips below $3 - Comunicaffe International",
+      "title": "Coffee markets on the decline: Arabica dips below $3 and Robusta hits its lowest since June, while El Niño looms large again - Comunicaffe International",
       "domain": "Comunicaffe International",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQWpMRExJbF9nczljaHFRRUVFYTFNZVNhZkVRa084dFlnSGdiaVpseGlOVThma29pNGV5NlVYMGtnMHlub0ZDRTJZVEFEWlpWdkRqWkEyOTJUNmtOZEk5ei03dFI5TzZMWXV4T1NpcGMtb3NYYmE2WjA5WHRtazFtRjdxbmdWRWtJY1J2WF94SnFEOVk0a2w5eHhVb1otT1ZFVy1sMEs5bGdPTUNoUHpjTEFfZlB0NlNaQ3M1OUFoOVRySzhEamYxTDhaazQ0dTBpMkZQVDZMOGJhMDMtT0lDbnJkOXE?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-09-04",
-      "title": "Coffee Prices Consolidate Above Thursday’s Lows - finance.yahoo.com",
-      "domain": "finance.yahoo.com",
+      "title": "Coffee Prices Consolidate Above Thursday’s Lows - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc1U4N1V1TlZnTVhQM2xFM0pzVWRRWENIcmZLSllEX2RZTDhpX3YtSUI0bjljcWwyTVdRU2NXWG1MTkY1N0YyaXNLY1VXRUVtOWdCVjM5ZndIbE90X3Bfc1ZTdVJVWEJmbVM0ZElsQjRZOTYyaktMbUx3VW5WMzFiSVM1dGdWdkc4d0hQTnY2QXhZTUlBbFhlTUlGUHRJc2p6R2U5dThnaHU3OEpxdjZz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORFVoRHFSNEpFM3JmQ0JRa3UxcTRLZlgyVmpFNUN6aDVLRjVvRlp0czlUaFoxOEZjcnR5aWJZSmJOSUs0a0VzWExkVGV0eFhnSktxNW9JdndGaFVRUnRadjU5WkZtT24xZFpEUmV6aTRwcDZXbXJqZjB1eTFtWlo0Q2pzMzhWRFBNcWxnY092c25FNXFQ?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-09-02",
-      "title": "Coffee (COFFEE) Drops on Sep 2: Key Factors to Watch - tradingkey.com",
-      "domain": "tradingkey.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMnZEM0RPY3Ryc05TWTRTNDl0ZXVSTGppU1F0aWxhNUxKM3J0REVGVUxfRVN1dHpsdGV3QkY2elRFZEZtNzFlMXVWcFpxcnN0QWhVSGFXajFobEYzVUFobUM5YVNMVVBfblRvMkhxcHFnQWY2ejVvOTRwajNxUVhoWEtwYWxsRXp4M1FNTjFn?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Tight Arabica Supplies Clash with Surging Vietnamese Exports as Coffee Market Searches for Direction - stonex.com",
-      "domain": "stonex.com",
+      "title": "Tight Arabica Supplies Clash with Surging Vietnamese Exports as Coffee Market Searches for Direction - StoneX",
+      "domain": "StoneX",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU2JKa2dlZFR2bGtKZEh2bVRLdW1fcVd3ejRsTUd1YW9fR2tsd0pQbFNCT3ByRTJycFJZMFpTaV83cDJmcDNlb0xfRWNyZHN2YzRwcHBXUVBzZDZtcGlLcGhyaFVsdlNGRk9MQ0VBTF9WdDhoZFBMRFNpN3FMMEJjekRvNXM5VUdLZDc5N2tnR0Y4azJ2SF9XZWt6Y2p2TFNwc25HS090UWN3RElQUFU1Uk5wZHVMdEpBVGpVaWpSd2oxU2dFRTdYNTQxZGpmY0QzUmc?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
@@ -777,12 +768,21 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-09-01",
-      "title": "Coffee Prices Pressured by Rising Supplies - Barchart.com",
-      "domain": "Barchart.com",
+      "date": "2026-08-28",
+      "title": "Arabica Coffee Supported by a Slump in ICE Inventories - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0NIUkVLYUNxckRPNmxtUV9WUEtxT19fSUlxVDBuM0hXcWxMMndWZEplT2tDdmEycnRhT0NOdU8tVS1FYzBaTmpobUIzVGg5MHJOdkVEWkV1UGFyY1hZMDZFdldfVVQ2NndlY2JXZmZxQ0VIdUFScnBJUnc3U0tjMlhrYmwwTmZqYU0wd3E5WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaW96VUFibktMeDVleXBESjZLbTJuZUkxWGtxVFhQZGdsZ200TEZ3ZVRaTTdaS1BCZExFTy1ISnNyeTRMWWxVZVF2V2N0Q0x2VlpsbUljMzJjMWlYOUF0eW5VNDc2NVI5QzFPZGhKd1hGOW1XQlo4WTJuWlVGVGJlZWUyaTFiamZFNUFWT3liY0VPQjFCWWhLbWRkMDR3Z3FWS09KV0lKMEtSWmtXZlRjc21R?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Coffee News Recap, 28 Aug: ICE-certified arabica stocks fall close to lowest levels since 1999, C price forecast at US$3/lb by year-end & other stories - Perfect Daily Grind",
+      "domain": "Perfect Daily Grind",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaZ0lmaFBHYXpJVk1QdVhmNjY5SXNlaUl4d3NRYlBuYVhsOXlYZkgtMGxyMGVtU0hTQ1ZmTHcyTUZOR1VBT3hodzVhSEtCLUpIWmlldFlDaGV6UkVCRjUyYk1iN3BGS19MMmNraHBjN3pxUnp2QnBfeGRKQQ?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
       "discovered_by": "Google News RSS"
     },
     {
