@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-09-08",
-      "value": 5.079999923706055,
-      "prior_value": 5.126200199127197,
-      "prior_date": "2026-09-06",
-      "change": -0.04620027542114258,
-      "change_pct": -0.9012577274880677,
+      "date": "2026-09-09",
+      "value": 5.106599807739258,
+      "prior_value": 5.126699924468994,
+      "prior_date": "2026-09-07",
+      "change": -0.020100116729736328,
+      "change_pct": -0.3920673537727728,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-09-08",
-      "value": 98.81700134277344,
-      "prior_value": 99.16000366210938,
-      "prior_date": "2026-09-04",
-      "change": -0.3430023193359375,
-      "change_pct": -0.3459079333081995,
+      "date": "2026-09-09",
+      "value": 98.71900177001953,
+      "prior_value": 98.83999633789062,
+      "prior_date": "2026-09-08",
+      "change": -0.12099456787109375,
+      "change_pct": -0.12241458149944316,
       "source": "Yahoo Finance"
     }
   },
@@ -724,6 +724,33 @@
   "news_reports": [
     {
       "date": "2026-09-08",
+      "title": "Arabica Coffee Prices Fall on Increased Supplies from Brazil - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXFLR0FkdzdHOERjcnNLN2J0a05JSTk2VjVTQmdKUHRXUzFqU003MlR0TmFaVVhnR1IzWkZuSDVzWV9GdzlwcElXdlN3dm1wYUdadk1qVTl1OTIxVFNpbnhYVXNJUjNaUHZ1RGFxd21HNXlwVWxxVzljVzA2ZzdKRlZGUVcyRDc5UU5PYnBlaFZGQkVQdzJYeFZWT2VTYkJ2X2tFa0dSZm42QQ?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Arabica Coffee Retreats as Brazil Supplies Hit the Market - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbXFIU2s1MDNmcmdkS01mbEdZNHZsWVk4RkJsbzQ1MHVTTDZyOTNCVm51WmtHcHF1VGxQSFpYc1g5dEE2TmtUU2NMeWV2NHpCLWJ4ejlFQmxOc1pFSWZnM0RsLXNDRk9uNGdPRzAtOUpObzBTbGlROTBaeDJmbjVrNG9lZ3pRQ0F2TzY3aVhORmVBVlhpeHF4aDBJcnFiZVRhdHZQeGVZTFlaakdmc2c?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Arabica Coffee Futures at Over 2-Month Low - tradingview.com",
+      "domain": "tradingview.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcDJ2aHB1YTdRUDN0UFNTWF8tLWZmTElob0hXSkxfMWs0T0RlTVNmd3J4MjdPaXVtVS1VZ2RZRVJPekxLMlFsX05iMEZEc2ZGaGlsOVNndkRTS2Nsb3BqajIwSC16WkVTanM0WVNNZUYtSTg5cW5jcVBTLVpZV3VERkNydzVPMHVmc3Z6Nm5LTFRfdzlPNlZRSg?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-07",
       "title": "How Super El Niño could reshape global coffee production and prices - Global Coffee Report",
       "domain": "Global Coffee Report",
       "source_country": "",
@@ -733,29 +760,11 @@
     },
     {
       "date": "2026-09-06",
-      "title": "Coffee markets on the decline: Arabica dips below $3 and Robusta hits its lowest since June, while El Niño looms large again - Comunicaffe International",
-      "domain": "Comunicaffe International",
+      "title": "Coffee markets on the decline: Arabica dips below $3 and Robusta hits its lowest since June, while El Niño looms large again - comunicaffe.com",
+      "domain": "comunicaffe.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQWpMRExJbF9nczljaHFRRUVFYTFNZVNhZkVRa084dFlnSGdiaVpseGlOVThma29pNGV5NlVYMGtnMHlub0ZDRTJZVEFEWlpWdkRqWkEyOTJUNmtOZEk5ei03dFI5TzZMWXV4T1NpcGMtb3NYYmE2WjA5WHRtazFtRjdxbmdWRWtJY1J2WF94SnFEOVk0a2w5eHhVb1otT1ZFVy1sMEs5bGdPTUNoUHpjTEFfZlB0NlNaQ3M1OUFoOVRySzhEamYxTDhaazQ0dTBpMkZQVDZMOGJhMDMtT0lDbnJkOXE?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Coffee Prices Consolidate Above Thursday’s Lows - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORFVoRHFSNEpFM3JmQ0JRa3UxcTRLZlgyVmpFNUN6aDVLRjVvRlp0czlUaFoxOEZjcnR5aWJZSmJOSUs0a0VzWExkVGV0eFhnSktxNW9JdndGaFVRUnRadjU5WkZtT24xZFpEUmV6aTRwcDZXbXJqZjB1eTFtWlo0Q2pzMzhWRFBNcWxnY092c25FNXFQ?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Tight Arabica Supplies Clash with Surging Vietnamese Exports as Coffee Market Searches for Direction - StoneX",
-      "domain": "StoneX",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU2JKa2dlZFR2bGtKZEh2bVRLdW1fcVd3ejRsTUd1YW9fR2tsd0pQbFNCT3ByRTJycFJZMFpTaV83cDJmcDNlb0xfRWNyZHN2YzRwcHBXUVBzZDZtcGlLcGhyaFVsdlNGRk9MQ0VBTF9WdDhoZFBMRFNpN3FMMEJjekRvNXM5VUdLZDc5N2tnR0Y4azJ2SF9XZWt6Y2p2TFNwc25HS090UWN3RElQUFU1Uk5wZHVMdEpBVGpVaWpSd2oxU2dFRTdYNTQxZGpmY0QzUmc?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -769,15 +778,6 @@
     },
     {
       "date": "2026-08-28",
-      "title": "Arabica Coffee Supported by a Slump in ICE Inventories - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaW96VUFibktMeDVleXBESjZLbTJuZUkxWGtxVFhQZGdsZ200TEZ3ZVRaTTdaS1BCZExFTy1ISnNyeTRMWWxVZVF2V2N0Q0x2VlpsbUljMzJjMWlYOUF0eW5VNDc2NVI5QzFPZGhKd1hGOW1XQlo4WTJuWlVGVGJlZWUyaTFiamZFNUFWT3liY0VPQjFCWWhLbWRkMDR3Z3FWS09KV0lKMEtSWmtXZlRjc21R?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-08-28",
       "title": "Coffee News Recap, 28 Aug: ICE-certified arabica stocks fall close to lowest levels since 1999, C price forecast at US$3/lb by year-end & other stories - Perfect Daily Grind",
       "domain": "Perfect Daily Grind",
       "source_country": "",
@@ -786,12 +786,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-08-21",
-      "title": "El Niño, not quake, to hit Colombian coffee harvest, sector leader says - Reuters",
-      "domain": "Reuters",
+      "date": "2026-08-28",
+      "title": "Falling ICE Inventories Boost Arabica Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWmFrWUhVT2cxa0FBcHJLdE1SMjZTSDhKTVR4cERGeFFEdzN6U3k1TDBDSUtoWUJaai1FQ2twbDFCekxPZVBUV3U2UFpnLVdyVjM1bGh0dHBzTmhVbkY1WWxXdWFzQ3JkZkRUMnZZXzRBTk1LazlTTjdzLVR1M0JMNjVLMnQzMDJmTzNRYWtfT3NLa3pFeU1kZm1kMGlvVzdrc18yTVc2V0FmRHFiWmd3UGNjOXh1N1FzUlA5cDBR?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORTEtaWJtYjZCTGlXLWRtNEExcHc3OXJrOWN1bk4taG53S2xoRzcyQ0xkOE8xck05S2ZFMDRWallxd0JYT3EyQXlmOUtJcWdaQTZsZGZRaXhvNllROEZlb0QzMDVuSHMtbDY0TS14RE8zUlpWMlV4bGl2YnRUNDYyTVFvb05fU2NFMnFQLXZ0YXVQUXN5Y3d1d1B5VQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     }
   ]
