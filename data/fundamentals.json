@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-09-09",
-      "value": 5.106599807739258,
-      "prior_value": 5.126699924468994,
-      "prior_date": "2026-09-07",
-      "change": -0.020100116729736328,
-      "change_pct": -0.3920673537727728,
+      "date": "2026-09-10",
+      "value": 5.085999965667725,
+      "prior_value": 5.084799766540527,
+      "prior_date": "2026-09-08",
+      "change": 0.0012001991271972656,
+      "change_pct": 0.023603665479512637,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-09-09",
-      "value": 98.71900177001953,
-      "prior_value": 98.83999633789062,
-      "prior_date": "2026-09-08",
-      "change": -0.12099456787109375,
-      "change_pct": -0.12241458149944316,
+      "date": "2026-09-10",
+      "value": 98.91699981689453,
+      "prior_value": 98.7699966430664,
+      "prior_date": "2026-09-09",
+      "change": 0.147003173828125,
+      "change_pct": 0.14883383499481423,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,21 @@
   },
   "news_reports": [
     {
-      "date": "2026-09-08",
-      "title": "Arabica Coffee Prices Fall on Increased Supplies from Brazil - Yahoo Finance",
+      "date": "2026-09-10",
+      "title": "Coffee (COFFEE) Volatility Intensified on Sep 10: What to Watch - tradingkey.com",
+      "domain": "tradingkey.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMVRtTW1fQjhteDl6TXRSaXpVZ2poT3RzQXlfdVVNR2NPZTNFeU1pbWJqQ2dpQVdTS0tjcEpLWW91QjRKZE5MZ29TRmtDUFNPb0lNcktUTUZyVHN6WWZ0UHFLZWo3eGhFMWxua3l0cmROcFlwajRTbDlpN0JrU2JfY3QyVzlhRDhDcENTcExR?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Coffee Prices Settle Higher on Tight ICE Inventories and Vietnam Weather - Yahoo Finance",
       "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXFLR0FkdzdHOERjcnNLN2J0a05JSTk2VjVTQmdKUHRXUzFqU003MlR0TmFaVVhnR1IzWkZuSDVzWV9GdzlwcElXdlN3dm1wYUdadk1qVTl1OTIxVFNpbnhYVXNJUjNaUHZ1RGFxd21HNXlwVWxxVzljVzA2ZzdKRlZGUVcyRDc5UU5PYnBlaFZGQkVQdzJYeFZWT2VTYkJ2X2tFa0dSZm42QQ?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVBfYXJMUWs3RFZUMDFkR3VTOVFZQjliQURMS2JpanFnazlIeDlOQzFJNWNhMjE1RUNoSGswV3M2cTdqdHoyZlRRaDdLVDNuWTBacG5TQ2dkT3VPNHVIOVNKUlFzbjNYbm0xeGpqTXpCSEZRRHlpekNIUXgyX2FXamVjcG5nWk1FT3I4S0lJQkFrX1kteWh5Nkx1cF95R0ZUOU01ektB?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -738,15 +747,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbXFIU2s1MDNmcmdkS01mbEdZNHZsWVk4RkJsbzQ1MHVTTDZyOTNCVm51WmtHcHF1VGxQSFpYc1g5dEE2TmtUU2NMeWV2NHpCLWJ4ejlFQmxOc1pFSWZnM0RsLXNDRk9uNGdPRzAtOUpObzBTbGlROTBaeDJmbjVrNG9lZ3pRQ0F2TzY3aVhORmVBVlhpeHF4aDBJcnFiZVRhdHZQeGVZTFlaakdmc2c?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Arabica Coffee Futures at Over 2-Month Low - tradingview.com",
-      "domain": "tradingview.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcDJ2aHB1YTdRUDN0UFNTWF8tLWZmTElob0hXSkxfMWs0T0RlTVNmd3J4MjdPaXVtVS1VZ2RZRVJPekxLMlFsX05iMEZEc2ZGaGlsOVNndkRTS2Nsb3BqajIwSC16WkVTanM0WVNNZUYtSTg5cW5jcVBTLVpZV3VERkNydzVPMHVmc3Z6Nm5LTFRfdzlPNlZRSg?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
