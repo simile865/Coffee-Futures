@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-09-16",
-      "value": 5.140600204467773,
-      "prior_value": 5.138000011444092,
-      "prior_date": "2026-09-14",
-      "change": 0.0026001930236816406,
-      "change_pct": 0.050607104279683096,
+      "date": "2026-09-17",
+      "value": 5.155799865722656,
+      "prior_value": 5.142899990081787,
+      "prior_date": "2026-09-15",
+      "change": 0.01289987564086914,
+      "change_pct": 0.2508288254826436,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-09-16",
-      "value": 99.66500091552734,
-      "prior_value": 99.6500015258789,
-      "prior_date": "2026-09-15",
-      "change": 0.0149993896484375,
-      "change_pct": 0.015052071669604731,
+      "date": "2026-09-17",
+      "value": 100.18699645996094,
+      "prior_value": 100.30999755859375,
+      "prior_date": "2026-09-16",
+      "change": -0.1230010986328125,
+      "change_pct": -0.1226209765990317,
       "source": "Yahoo Finance"
     }
   },
@@ -723,30 +723,39 @@
   },
   "news_reports": [
     {
+      "date": "2026-09-17",
+      "title": "Why Is Arabica Coffee Near a 10-Week Low Despite 27-Year-Low ICE Stocks? - EBC Financial Group",
+      "domain": "EBC Financial Group",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TNkh2cW9fcnlzeEE5Q0taVkdXdFZtUGozRFoxMnJYRWQ3WVhyWl9EaFkydVRtZWJ1S3N0OFhoenU3TU5RYjhyYkRkOGpPSTNyTXVMMVRUblg4OFV4amtHS2xSblozWGFRTWVuMWd1UVRoSXlE?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Signs of Improving Global Supplies Weigh on Coffee Prices - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRGhPMk0zTURSMVJTUU1xRXFRaXlmcDNmVGpkOTA0cWNObU95Mjl0bnAtWkl3UXlWSW5aU1llNkhFYVhIWnA4cWQ1T2N2dko0SkNtbGNyQVNBYXJIbFU5UnNqTnQwWl8xYXk3ZWlQWlBzNENyMVBFcjF1R1RTZEk5SXo5b280TlRHRDdENkFkMlJUWTRySW9ZSDNaQmVkeVFQOXNjNURHbWNkRTlaazBBY0RBM0tOWXc?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Coffee futures extend losses, Starbucks reportedly weighs sale of a majority stake in Japanese operations - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeDQ4c2NpOUlSVFRiVWtkdUJTLVQzbUNtYUJhd1I5c0tfblc5MlZ2dkxRV0pRSjdBaDN5OTlvbC1MdUltVE95allnM3VPM0ZkWEloR0xhX2xER3ZuMkxHVUwxXy1PWm85YTUyTkFaZnRKNV94bHJGMzB0Z0QtX0JVMWM1TGpQOGNOaDRBSi1jWk8zcmdwMU1VZ0lXQW1KQWIwLWRLTmxXdmpRZC1ld3RDdXBmNkcycDdnTnZiZk5XQVVTVlM2ekJmdDlrYjJCUQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-09-15",
       "title": "Beneficial Weather in Brazil and Vietnam Weighs on Coffee Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUW4xcWtMSDdqNy1vaW10RGU1TXVBeENROXZuUHpiUjFLTjAwajFhM2s5d3J0ZEIwVG84dk9mTWJTWXpWVzZXM2ZfZFk1RFB2eHpSNlYtaERwSGZaak9YVHQ1N2VBS0NqVU1yU3BGamRuZlZhOFBHMTM0aG1fbEo2VDk0czBwUXEyMXFpZkE1ZC1sWFlCbDg4U1ZPaVJqdHhlNnBsbzRTQWh3Zy01?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Coffee Prices Retreat on Ideal Growing Weather in Brazil and Vietnam - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMWNmb3NqbWJPdU4yT25mUHVZTTNvRGdKQ3d4cmlVY09tY3lHOG45a252cUpnRjdsVlpmR3dZWkZNSE1yeXJ1ZndiV3NjV3BFRnJXNlJFZGxrR25nWXdSYTZRQWhZbEswaUx6dXRjQXJuV2JBc1l2Q05COXdYTmhyN3U5cXJ5cFZ4dC1rbEViTGhhYWJVT194VTZZbkFGa083UlNEWldsM3lyczNMN0NORlN3?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-14",
-      "title": "Coffee Prices Rebound on Technical Short Covering - tradingview.com",
-      "domain": "tradingview.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXlMRnFESE1PVW5wSWRjcnV1X0I2M3drY0RUUGR2UDAtRkJGMHoxcGsyS0xRRzRRYkx0bFd2elBzandlRVNHc3FaZ2t1R1o5OXdOU3RjTzQ5OEtqV09ZUU1MSTlIdmRTT0doMHp0UDA2QkhmV1NvcVE1Zmd2WkpsdVpmcnFTejFsbmpDVGtfenZZejlNNF9aT3E4SENlbnpJV0JfVG81YWR2LUxf?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -769,29 +778,20 @@
     },
     {
       "date": "2026-09-11",
+      "title": "Coffee traders’ big shipments are set to boost exchange stocks and weigh on prices - WTVB",
+      "domain": "WTVB",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGNvcVRxeF9vbHBQb09SQVc2bmNmVGl4UkZVQWNPbncxcldSbGpBZG9ia3E5VjU1dGJJY0NzcXQ1TE5FTE1nZ0stRXJyOVpmZEhaWDlCVVNHMjgyNFcyb2NxdWpQcnl5STd3cXZMN2dQQnNEOU1qN1M4NHF6bC0xSzZzMzNtUnplaWlxVzY1M3g1eEV6SGhKaDNVTk9YZy0tbzhxbHlOYmJGQjlCZ3FXdzVB?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-11",
       "title": "EXCLUSIVE: Coffee traders' big shipments are set to boost exchange stocks and weigh on prices - Reuters",
       "domain": "Reuters",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemlmT19vMVpqRV82Mnh2WHJoc2xWY2ZYaURaWi1HM0VZWk0xaWhfeTJTRTRpQjFXT0tkdFNRVVg5VWVRWlhOT2hteGVOR3kzYkpaMzBuWlJjcFZtVGk3RVRyMTVsU0FSOGg0blBQM2NSaVo1Zlg4dXhjYV9QSGxZQ3pvVVh5U010NTZ5amZrMG1nSlN1Tk1Fb2k1eVEwaERYRW1sNWJsOTdyZ0laMmhKQ2lHVEphS1k?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Coffee (COFFEE) Volatility Intensified on Sep 10: What to Watch - TradingKey",
-      "domain": "TradingKey",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMVRtTW1fQjhteDl6TXRSaXpVZ2poT3RzQXlfdVVNR2NPZTNFeU1pbWJqQ2dpQVdTS0tjcEpLWW91QjRKZE5MZ29TRmtDUFNPb0lNcktUTUZyVHN6WWZ0UHFLZWo3eGhFMWxua3l0cmROcFlwajRTbDlpN0JrU2JfY3QyVzlhRDhDcENTcExR?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-08",
-      "title": "Arabica Coffee Prices Fall on Increased Supplies from Brazil - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXFLR0FkdzdHOERjcnNLN2J0a05JSTk2VjVTQmdKUHRXUzFqU003MlR0TmFaVVhnR1IzWkZuSDVzWV9GdzlwcElXdlN3dm1wYUdadk1qVTl1OTIxVFNpbnhYVXNJUjNaUHZ1RGFxd21HNXlwVWxxVzljVzA2ZzdKRlZGUVcyRDc5UU5PYnBlaFZGQkVQdzJYeFZWT2VTYkJ2X2tFa0dSZm42QQ?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     }
   ]
