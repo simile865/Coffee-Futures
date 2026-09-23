@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-09-22",
-      "value": 5.116399765014648,
-      "prior_value": 5.140699863433838,
-      "prior_date": "2026-09-20",
-      "change": -0.024300098419189453,
-      "change_pct": -0.4727001977306198,
+      "date": "2026-09-23",
+      "value": 5.146100044250488,
+      "prior_value": 5.110400199890137,
+      "prior_date": "2026-09-21",
+      "change": 0.03569984436035156,
+      "change_pct": 0.6985723811046939,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-09-22",
-      "value": 100.572998046875,
+      "date": "2026-09-23",
+      "value": 101.02799987792969,
       "prior_value": 100.43000030517578,
       "prior_date": "2026-09-21",
-      "change": 0.14299774169921875,
-      "change_pct": 0.1423854836848479,
+      "change": 0.5979995727539062,
+      "change_pct": 0.5954391824522255,
       "source": "Yahoo Finance"
     }
   },
@@ -723,30 +723,21 @@
   },
   "news_reports": [
     {
-      "date": "2026-09-11",
-      "title": "EXCLUSIVE: Coffee traders' big shipments are set to boost exchange stocks and weigh on prices - reuters.com",
-      "domain": "reuters.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemlmT19vMVpqRV82Mnh2WHJoc2xWY2ZYaURaWi1HM0VZWk0xaWhfeTJTRTRpQjFXT0tkdFNRVVg5VWVRWlhOT2hteGVOR3kzYkpaMzBuWlJjcFZtVGk3RVRyMTVsU0FSOGg0blBQM2NSaVo1Zlg4dXhjYV9QSGxZQ3pvVVh5U010NTZ5amZrMG1nSlN1Tk1Fb2k1eVEwaERYRW1sNWJsOTdyZ0laMmhKQ2lHVEphS1k?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-09-22",
-      "title": "Coffee prices fall despite record low inventories, supply situation is reversing. - Vietnam.vn",
-      "domain": "Vietnam.vn",
+      "title": "Coffee Prices Fall as Global Supplies Grow - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPblFYanYxRkhqeFBPT0pWcVRpZmFHdGFSRncySlhxMnpMWFgySHhITmd6Qlo1T0dDMjdabkNYLUlaWkdmbHZSOUZ1YjlqbURCbXVsUU9pdWNjLVB1X2tMRjRzUTNGVld1bDRuTzBtSXozbTBYWGtwdlprcTl6NklVQUM2LXFKVjNTLVVMREFlelZyMklx?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkFPRHRwMHg2Z2g3clRlQ0J6cjIzZTFDM3UxTldlN2RldGxlNk9uRmxZa0xnZ0xnWEFNcHVkTzh4OHR5RXBPRHZXcUQ0MHRCOXpRWFV6cl9aSEdGTkZqbWlWZFp1V2xRZXVWa2pmUWtyV2oyWC1sbzRMNWpYUjQtWWtIT3NxbHJna3dtdm85Y3pBREpOMFYtU1NHMHU5aTVSczQ4?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-09-21",
-      "title": "Coffee Prices Retreat as Global Supply Situation Improves - Barchart.com",
+      "title": "Abundant Supplies and Brazil Rains Weigh on Coffee Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVk0ZzR1bHQ0cEpNRHRpWmc1U0txalVSVTZTLTVTRWEwVVZzMUNSRmphc1A4SjdIcG4wR1lTSWVEeU9RUTRZS3BpYVIza1NxaFZpam9DMkRwTlBSTXE1Ti1zall4dmNNbk5MQUhkMmd4VmZQc3JGa2NFcnZNMlpHVDhETTVqN21fWXN0djUwamh2ODR0WUVodFRPZmxCYjBxM3ow?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX3RsYUJaM3NreTZxN2IzZ1ZmTldxdVlvcHZLM21nb1FuSGFuaE1MVng0Yldha3gtTnBlNVFjMmJ0M0prV1U3S25mM2Mtc1FOM0IwaTJiTnRtMUh6eGpQc2h1YWZOMVdWMVltbndKMkoxb0VRUy1DN01HRUwyTkZ0anNGUy1hdFliUkNsYU5LQm11TXA4ZkJ2ZkJSa0dDeldKUUJZ?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -769,26 +760,35 @@
     },
     {
       "date": "2026-09-18",
-      "title": "Improving Global Supply Pressures Coffee Prices - TradingView",
-      "domain": "TradingView",
+      "title": "Cocoa Futures Drop While Sugar, Coffee Steady - maritimeprofessional.com",
+      "domain": "maritimeprofessional.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMlhZUENCdnBwaUQyZW1PUnhrWU5SX1ZWS2g5VDltLUREV3lIRzF5cEhBYU1vWHZkeHhCZ3IyeDFNSFJjemRiQnJsM3dWUFlnUFJHbTU3TDRNQjJWYTJ4b2tlUHBPeTBvb0hjWnhPNVcwYTFvaG14WkRLYzVqV2NHZzBfUFJVbmNSSmZJWFdXSE9wakpRUGFDRmFxcXBPaXpxbDZyZkFBcEthUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDlXcmlPbUxEWGZBbklDMWhPWjkyUUk1RGpudG9vSXNtUlY0ZlljSmhCVlFPOVlCcktzY0tUc3h6T2RIbTdzVTFLamFyZWJBWXJtaUc0MUM1YkJWR0ZZRWlQZ0xZUGNQaEltWndoTXRNYUZwZWNwMlMwLVpKS3A0Q015dkNYZ9IBiwFBVV95cUxPcVdNRWFPSHdRXzc2Y3RiSzBia1N3QURHMjRvODFkRE9LNm51Sm5zdTBJdkNaNUphbmQ4bzA4MEtaektfZjZEVE0ybDM1TXRDdnpMR3RuWWVldlhuM2NIcWliVDZaZ2F3Q083d0JrTUZXQUd4ZWJxeE11U3pQV016VUp1b2VpWjNtN2Uw?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-09-11",
-      "title": "Coffee traders’ big shipments are set to boost exchange stocks and weigh on prices - WTVB",
-      "domain": "WTVB",
+      "title": "Coffee traders’ big shipments are set to boost exchange stocks and weigh on prices - wtvbam.com",
+      "domain": "wtvbam.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGNvcVRxeF9vbHBQb09SQVc2bmNmVGl4UkZVQWNPbncxcldSbGpBZG9ia3E5VjU1dGJJY0NzcXQ1TE5FTE1nZ0stRXJyOVpmZEhaWDlCVVNHMjgyNFcyb2NxdWpQcnl5STd3cXZMN2dQQnNEOU1qN1M4NHF6bC0xSzZzMzNtUnplaWlxVzY1M3g1eEV6SGhKaDNVTk9YZy0tbzhxbHlOYmJGQjlCZ3FXdzVB?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
+      "date": "2026-09-11",
+      "title": "EXCLUSIVE: Coffee traders' big shipments are set to boost exchange stocks and weigh on prices - Reuters",
+      "domain": "Reuters",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemlmT19vMVpqRV82Mnh2WHJoc2xWY2ZYaURaWi1HM0VZWk0xaWhfeTJTRTRpQjFXT0tkdFNRVVg5VWVRWlhOT2hteGVOR3kzYkpaMzBuWlJjcFZtVGk3RVRyMTVsU0FSOGg0blBQM2NSaVo1Zlg4dXhjYV9QSGxZQ3pvVVh5U010NTZ5amZrMG1nSlN1Tk1Fb2k1eVEwaERYRW1sNWJsOTdyZ0laMmhKQ2lHVEphS1k?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-09-01",
-      "title": "Enhancing Arabica and Robusta coffee prices forecasting through machine learning approaches - nature.com",
-      "domain": "nature.com",
+      "title": "Enhancing Arabica and Robusta coffee prices forecasting through machine learning approaches - Nature",
+      "domain": "Nature",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NRkk3dU1xY0d6TDc5Tnc5YUVkZXpnQlk2U2NDSkxjWkJuWXQzWHJFTFRyZWtub3d0ZkVNS0wtQWxpOE1ULUtjVUpTZDI4N2QxdFBwTWh1TUwzMXdCR2Zr?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
