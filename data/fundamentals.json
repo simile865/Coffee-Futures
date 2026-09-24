@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-09-23",
-      "value": 5.146100044250488,
-      "prior_value": 5.110400199890137,
-      "prior_date": "2026-09-21",
-      "change": 0.03569984436035156,
-      "change_pct": 0.6985723811046939,
+      "date": "2026-09-24",
+      "value": 5.196300029754639,
+      "prior_value": 5.099899768829346,
+      "prior_date": "2026-09-22",
+      "change": 0.09640026092529297,
+      "change_pct": 1.890238343790453,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-09-23",
-      "value": 101.02799987792969,
-      "prior_value": 100.43000030517578,
-      "prior_date": "2026-09-21",
-      "change": 0.5979995727539062,
-      "change_pct": 0.5954391824522255,
+      "date": "2026-09-24",
+      "value": 101.35600280761719,
+      "prior_value": 101.0999984741211,
+      "prior_date": "2026-09-23",
+      "change": 0.25600433349609375,
+      "change_pct": 0.2532189291393748,
       "source": "Yahoo Finance"
     }
   },
@@ -723,30 +723,48 @@
   },
   "news_reports": [
     {
-      "date": "2026-09-22",
-      "title": "Coffee Prices Fall as Global Supplies Grow - TradingView",
+      "date": "2026-09-24",
+      "title": "Agricultural product prices today, September 24, 2026: Coffee prices 'reverse course', unlikely to fall significantly; Reasons why the US-China trade truce agreement lasted only 2 months. - Vietnam.vn",
+      "domain": "Vietnam.vn",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkx6SUtIalhJdkVrWTNnWmRSN0hueS1tZDVCQktydEt2QldzSkNJWFR2bjZLS1ZoeUlPZXp5TWI4S3V0SEZpeWx1RlNwYzctMXNaTDJRMm9oZ1JjMEVibVVHTDczbHB4MTF1WUhTdm1QVXhHZTRyUFQwVUtFLU5Yam0tTUFPclJrUUlleE9QSVZTajY3bGFTVTVWT3lubWIwcnp2SVd0cFlreUlmM1hMSERpUHJzUnBZdVROV09VdlpYa19iWGhWTURZNmlMWGNfTGY3VlNydElISXVtY1RfTEIxVmtITXN0UFJoSnZwTFdlSUdFbFpwdnZjVQ?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Arabica coffee sets three-month low, sugar and cocoa also fall - Business Recorder",
+      "domain": "Business Recorder",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52Y2VvM1l5dW5pWU1yWVdJbzR3VTB4NFBBQUgwalppNTN6UXpLT0FlMkM0VmpSOUtfbmtUV01lNF9JNUJSN0N4UDFYMXpQbE5vdml5ekhR0gFWQVVfeXFMTnZjZW8zWXl1bmlZTXJZV0lvNHdVMHg0UEFBSDBqWmk1M3pRektPQWUyQzRWalI5S19ua1RXTWU0X0k1QlI3Q3hQMVgxelBsTm92aXl6SFE?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Coffee Prices Settle Higher on Fund Short Covering - TradingView",
       "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTkFPRHRwMHg2Z2g3clRlQ0J6cjIzZTFDM3UxTldlN2RldGxlNk9uRmxZa0xnZ0xnWEFNcHVkTzh4OHR5RXBPRHZXcUQ0MHRCOXpRWFV6cl9aSEdGTkZqbWlWZFp1V2xRZXVWa2pmUWtyV2oyWC1sbzRMNWpYUjQtWWtIT3NxbHJna3dtdm85Y3pBREpOMFYtU1NHMHU5aTVSczQ4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT0Q2N3J5NVN5MjhxWm9aZGNjb3paRGhtZVRrbkMzTEJvdkpfOVpwdWctWjkyejluZVd5SktMNkY2WXdQYWNkX3JzRFE3NC1jSUpZZExMN3BlLW1tTjJPSENwcDlLYk45UEJBVXMydmZqRkhEMG9QNDg1WUpacjU1Q2h3TEdodFNuaC1qa2NvaFl3bVQwUm5EckJmeGxXc281Tk9KM2JqSWVTTHZSdXc?oc=5",
+      "impact": "资金持仓相关，可能影响短线情绪和趋势延续性。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Technical Buying Lifts Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNGNTYjEyOW1kZDg4aGdDWDRyNUNUS1E3ZWVGMWFtMk1mZ2xxV1BPdnpBTWFPOFhSMG5odEo3MXkzY1A0TWlGTWVYQV9UZDNLLXBMZWhpNTBmMDEyeFdHWWxFbWNEX1NubFlQSE1XOXdzZ3IyVF9MdmJ6Tkl3TVRxaWRCa2FWOFE?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-09-21",
-      "title": "Abundant Supplies and Brazil Rains Weigh on Coffee Prices - Barchart.com",
-      "domain": "Barchart.com",
+      "title": "Coffee Prices Retreat as Global Supply Situation Improves - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX3RsYUJaM3NreTZxN2IzZ1ZmTldxdVlvcHZLM21nb1FuSGFuaE1MVng0Yldha3gtTnBlNVFjMmJ0M0prV1U3S25mM2Mtc1FOM0IwaTJiTnRtMUh6eGpQc2h1YWZOMVdWMVltbndKMkoxb0VRUy1DN01HRUwyTkZ0anNGUy1hdFliUkNsYU5LQm11TXA4ZkJ2ZkJSa0dDeldKUUJZ?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Coffee can't increase production right next year, even if it's a bad crop. Since it takes three to - 매일경제",
-      "domain": "매일경제",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByS0pGaGMzbm1TN1hQamNTRm0zaGZpSnVvOGY4T0FBN2F1Ynh5RVZrWHMzUjh2WkJEZjh6V1g3V3V3ZlpwRWdrZk5nMDBRMnM?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnJ0WHRkN3RrZEZ2VnhScTg3ZjNkUEplaHRING1ZNm56UmFVSzFDWjhubTNKbmEyTFUwYWJIMEdiVnphbUE1UU1tRWd5NGxtanVFUzhmb19uMTliOHZlSUlvZDI4V29RcXJNNjRzdS0ySzFTcGd1cDRlZ1ZXcHRFMVEzaDdfaE5YQ0NhTk15cmM5MUh1aUQxZGY2S21xZEZaUS1LcjBadk4?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -756,24 +774,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORTFnVXFaNFZVb1JLSVdnSHNrLUhLVHlvalhXQkUtLVUxQjJtaWJ6ZlhCUUpoZnFzRFFCWnh3TmM5TEZkNTJnYzJTQUlvdWR6cUFHSjRKTGwyRmd2dV92RlV0ZEluZWY1N3Jldk9kUGozM0VDQ1NKTmRIcFRWQmMzejNyNVEzaDEyVHBDV1Q1ZVV6R3R0WXdUS3QyeWFzMXowUi1kRlQ5S1BJTDV4QXJzN3ZIU1ItdTVqVnMxMFdqUHQwY2FO?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Cocoa Futures Drop While Sugar, Coffee Steady - maritimeprofessional.com",
-      "domain": "maritimeprofessional.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDlXcmlPbUxEWGZBbklDMWhPWjkyUUk1RGpudG9vSXNtUlY0ZlljSmhCVlFPOVlCcktzY0tUc3h6T2RIbTdzVTFLamFyZWJBWXJtaUc0MUM1YkJWR0ZZRWlQZ0xZUGNQaEltWndoTXRNYUZwZWNwMlMwLVpKS3A0Q015dkNYZ9IBiwFBVV95cUxPcVdNRWFPSHdRXzc2Y3RiSzBia1N3QURHMjRvODFkRE9LNm51Sm5zdTBJdkNaNUphbmQ4bzA4MEtaektfZjZEVE0ybDM1TXRDdnpMR3RuWWVldlhuM2NIcWliVDZaZ2F3Q083d0JrTUZXQUd4ZWJxeE11U3pQV016VUp1b2VpWjNtN2Uw?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-11",
-      "title": "Coffee traders’ big shipments are set to boost exchange stocks and weigh on prices - wtvbam.com",
-      "domain": "wtvbam.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGNvcVRxeF9vbHBQb09SQVc2bmNmVGl4UkZVQWNPbncxcldSbGpBZG9ia3E5VjU1dGJJY0NzcXQ1TE5FTE1nZ0stRXJyOVpmZEhaWDlCVVNHMjgyNFcyb2NxdWpQcnl5STd3cXZMN2dQQnNEOU1qN1M4NHF6bC0xSzZzMzNtUnplaWlxVzY1M3g1eEV6SGhKaDNVTk9YZy0tbzhxbHlOYmJGQjlCZ3FXdzVB?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
