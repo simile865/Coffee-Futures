@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-06",
-      "value": 4.976600170135498,
-      "prior_value": 5.223100185394287,
-      "prior_date": "2026-10-04",
-      "change": -0.24650001525878906,
-      "change_pct": -4.719419626452772,
+      "date": "2026-10-07",
+      "value": 4.999199867248535,
+      "prior_value": 4.996699810028076,
+      "prior_date": "2026-10-05",
+      "change": 0.0025000572204589844,
+      "change_pct": 0.05003416886164584,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-06",
-      "value": 101.85800170898438,
-      "prior_value": 102.16999816894531,
-      "prior_date": "2026-10-05",
-      "change": -0.3119964599609375,
-      "change_pct": -0.3053699378999981,
+      "date": "2026-10-07",
+      "value": 102.28399658203125,
+      "prior_value": 101.83000183105469,
+      "prior_date": "2026-10-06",
+      "change": 0.4539947509765625,
+      "change_pct": 0.445835945019211,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,30 @@
   },
   "news_reports": [
     {
-      "date": "2026-10-06",
-      "title": "Coffee Prices Rally on Brazilian Real Strength and El Niño Risks - Barchart.com",
+      "date": "2026-10-07",
+      "title": "Northwestern coffee sector moves towards sustainable production - vietnamnews.vn",
+      "domain": "vietnamnews.vn",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2pBanFlRkdNekV6N2YxeHZia2Nrdk8yNW9iQjVrR212bU9xeWlQRnJCcl83cjkwT2U0MnpzODFJVmVnWFB4SmZ2Q1c2bExQaWxhTU1QYnVPNGZBbldLZVp1RUFtS1NnSC14a3U1MXdZYmd4Ylk2NUdnNXNyaTk4VW8xY3UwY0lJbnJ4aTBCd2I0a0hCV0FLTU9pZC11YmRMa3RlcUZ2STFobjA?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Coffee Prices Tumble on Larger Coffee Supplies from Brazil - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSjlLRXZyTmNMSGN5WHJoYVhQVzd0anRERXpWX1Rjb3JobnNwYnFfc0c2d2hNNXJldUZCTnJMUUZBSm5LYXd3RkdZNEpjVXZ5MEs5NnZGeFdjdjBJZjJiZVZRbjZlWXhWSHBGRm1hTUJsNmJJdG9zdG5sckVsSHViLTZ1SldCUUZzNk90Wmh5V0ZTbnpxSVlsZ01KQjFmZzdBN1Nkd2JOT3FuczIw?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbHRNYjROd0VtMjhBanYzYlBXLXBhQzlmU1VqbzZfSWs3WTJSNThCQjE1cURNNkZTOExyTXROeDRybDE3b1BjYVdJQnNjNVpoWkVNYW5GUTViR1lRRzR2aDdRcXlpaXloaXFWZlFqQ1ZDclV4VzBZRXV2NWR1bzBxTmhRNzV1dzBtcmVySWI5R0U3NVJPWG1saldyUS1mYVRuSE4zaw?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Arabica Coffee Surges to a Near One-Month High: J.M. Smucker (NYSE:SJM), Starbucks (NASDAQ:SBUX) in Focus - kalkine.ca",
+      "domain": "kalkine.ca",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORTNtSElydm9sOG9OcWFyblNTWldDZTBudTBVak1JRnNWYXhhSnFoVlNLaWYzbi1WS19EQlBfeDF4YXU0OW5TRmdLVG96Qjh1MXIyeWJ6clRFZjRKQTBBRkFaZHgtY0FRX1YwR0pPY1BjR1ZEMlRaMXYtRzBKQWhwMlB3eGtmdlU4T0pfbllKN2Y4YXQ3Vl9xSlhzSHhFRFozU2YwWkxkQjRxcjV6M25HM3ptbFhIbG1WOHAyd3MydF9MV19LczBj?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -750,39 +768,21 @@
       "discovered_by": "Google News RSS"
     },
     {
+      "date": "2026-10-02",
+      "title": "Coffee Prices 2026: Brazil Shipments Set to Boost Exchange Stocks and Pressure Arabica Prices: Expert View by Spherical Insights - Spherical Insights",
+      "domain": "Spherical Insights",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdUxGTjBISDl5Znd0U3dsNHFkeUNOdXFwV1kxZ0QyeTJuR1NnRXNBQ2pmYTl1RFg5aXBXYnNwdXlVRDdPcmpfc2JnQkVtRzBCNy03dXRWbWs3SmZxcGI0RnJtTExYdDFCNU5JVGVmd3psZFZGWDlvekdscU5MVHZ1aF9hVXFRUHM4UWR6aU5FNVVNZ2haekJrWVRBU0xlZTlvQWxQTkdIWTd2TjdGYkU0cGtUTmZwQXJraTJJc3RNU1ZkM25RY3VvUFpIWWo?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-10-01",
       "title": "Larger Supplies, Tight Stocks and a Weather Wildcard: Coffee Markets Search for Direction - StoneX",
       "domain": "StoneX",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUFZqVk9GQjZPV3BqUnZDRVpJb2pOazRCM0RWS0gtRE5LTnNqaW8zZjdSTlU1MElZUklnSFJ1XzhKTTVVUTF4bzAwQmY2TFdldFQzNElRR2p2NFlCVWRFRi1jTS14NVhRdEZqS2JSdERGSTFSbUpoQ2FQTVVtQVIxM2QzYkkwYzQyeTVxcnE1dXQyMkZyaVVRazhUc1FiejltQW1HX0RkSTlZcGQ2Q1RVLXIzbWdvcGY5ZlU5X09xcDEzYlla?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Dollar Strength Spurs Long Liquidation in Coffee Futures - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb2p1dUF4Umw0MnMtUnpyVlhnUGpNRWc3VzUtWHZWa2JNaklHYUs0YzlMRmdpbG1WcDBjT21wUGczYUhmUzVvdUFkZXBGM28zOVBKS1E4WXB0MzE3LWJjU0c3TG9YX0tINDVTTGJPZ0l6N3dvdlNqR0Z0Vjl0RXB6QmZGb2tOV0RCNWRRMU1WM3NaNWplZXZTY01BY3RxSXFKY0E?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-25",
-      "title": "Short Covering Boosts Coffee Prices - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLXlweGpXNXdzMlNCM29KazdfbzBRalFiQ2VpQ3pLMTZZV1NIeFl0dklNVTV0VVE3QjhTeEdma0JuQVhRN1Uta0QwYlFFZkswYk5KZE9VUGsxOHZXY1VYLWczNEdkWm0weXdlR05rVXJocGE0eHVuNDdxa1FtaF9wSUJXWktteVNBcW1kVl9XanVmaFh1M1FoVm5SX0RkNUVLWTl0YUVUbzk?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Coffee Prices Fall as Conab Raises its Brazil Coffee Production Estimate - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3pka0lyMkZZb1dPMUw3ZWZ3Yi1ELXcwZE1XdHVOTnJmLXBBenB6U2ZVRjFTYXlqNTFCR21YdWNyU0c1eGRIc1AxRDQ3VTMzVlQwYTh6SVVIV1BJZmYybm03OGJPQkJWX1ZaU3htWlAydEZKeFFsWnJCWEJNZElRaXotRzRzbVJZRUE0Q1JvM2doTDhNWllFMEMwb2ZkRnZSSl9j?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
