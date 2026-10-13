@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-12",
-      "value": 4.98199987411499,
+      "date": "2026-10-13",
+      "value": 5.015399932861328,
       "prior_value": 5.0177001953125,
       "prior_date": "2026-10-08",
-      "change": -0.035700321197509766,
-      "change_pct": -0.7114877295949398,
+      "change": -0.002300262451171875,
+      "change_pct": -0.04584296314316993,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-12",
-      "value": 102.5989990234375,
-      "prior_value": 102.20999908447266,
-      "prior_date": "2026-10-09",
-      "change": 0.38899993896484375,
-      "change_pct": 0.38058892715902504,
+      "date": "2026-10-13",
+      "value": 102.1729965209961,
+      "prior_value": 102.58000183105469,
+      "prior_date": "2026-10-12",
+      "change": -0.40700531005859375,
+      "change_pct": -0.3967686710796865,
       "source": "Yahoo Finance"
     }
   },
@@ -724,10 +724,10 @@
   "news_reports": [
     {
       "date": "2026-10-12",
-      "title": "Coffee Prices Settle Higher on Lower Output in Colombia - Barchart.com",
-      "domain": "Barchart.com",
+      "title": "Arabica Coffee Gains on Lower Output in Colombia - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVl6VFRqMno0UUxNV0t5LWh6dnB2VmtvTjJ1Z3oxdlhvb1ZwNWE3cFV3T1Byb3pLMUgxdVdiczh5Y25fMk00dV9pcU1sZEVwY2llYU9fLTVnWmlqS0tVNnNTSTFzVUw0cXExV0U2SWFrcVV2ak0tNzFNZm9neFNPeDZvNHhVaUpHRlpnYnBoTTJRN1dHcnFxWENxeWNSOVJF?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdU5UQnJDODlPWDFBRTVlU2JZMkVMRmxXUUF3YWlaNEJtY3I2WUMtclFMT1JKWV93YllramdFN1FTTW5mWUlzTjI5NEhBelNscGdDRmdoamt6RV9jb3VCam9pTmdNYnM5Q016blJnc1R1NUJvQmhqUktFMmt1MFUwR1NzN2EyckcyeWV3OXdoRl9pM0dELW5PREwyWUZ2ZnllOUh6dWg1RUMwQQ?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
@@ -737,6 +737,15 @@
       "domain": "Barchart.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTUxUFREUEdpTlFZNEtINmZoV0Uyb0ZNUGhtZV9OaWtVdldVakNJaXhGRVdQOWNvaF9Ya29Qc2c1cGRfZ2hxU0Z6dUVfQWRmcmd4U2RpQnVCWFA5ckwxODh0UTdmMmhRYl9SUzZOYWl6M3pKSFZiaURnV3dvdHEtenRZRi10M2wxVFN2WlNMWm9oMGVYSzg4?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Coffee Prices Settle Higher on Lower Output in Colombia - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVl6VFRqMno0UUxNV0t5LWh6dnB2VmtvTjJ1Z3oxdlhvb1ZwNWE3cFV3T1Byb3pLMUgxdVdiczh5Y25fMk00dV9pcU1sZEVwY2llYU9fLTVnWmlqS0tVNnNTSTFzVUw0cXExV0U2SWFrcVV2ak0tNzFNZm9neFNPeDZvNHhVaUpHRlpnYnBoTTJRN1dHcnFxWENxeWNSOVJF?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
@@ -777,21 +786,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-10-01",
-      "title": "Larger Supplies, Tight Stocks and a Weather Wildcard: Coffee Markets Search for Direction - StoneX",
-      "domain": "StoneX",
+      "date": "2026-10-05",
+      "title": "Brazilian Real Strength Supports Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUFZqVk9GQjZPV3BqUnZDRVpJb2pOazRCM0RWS0gtRE5LTnNqaW8zZjdSTlU1MElZUklnSFJ1XzhKTTVVUTF4bzAwQmY2TFdldFQzNElRR2p2NFlCVWRFRi1jTS14NVhRdEZqS2JSdERGSTFSbUpoQ2FQTVVtQVIxM2QzYkkwYzQyeTVxcnE1dXQyMkZyaVVRazhUc1FiejltQW1HX0RkSTlZcGQ2Q1RVLXIzbWdvcGY5ZlU5X09xcDEzYlla?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-11",
-      "title": "EXCLUSIVE: Coffee traders' big shipments are set to boost exchange stocks and weigh on prices - Reuters",
-      "domain": "Reuters",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemlmT19vMVpqRV82Mnh2WHJoc2xWY2ZYaURaWi1HM0VZWk0xaWhfeTJTRTRpQjFXT0tkdFNRVVg5VWVRWlhOT2hteGVOR3kzYkpaMzBuWlJjcFZtVGk3RVRyMTVsU0FSOGg0blBQM2NSaVo1Zlg4dXhjYV9QSGxZQ3pvVVh5U010NTZ5amZrMG1nSlN1Tk1Fb2k1eVEwaERYRW1sNWJsOTdyZ0laMmhKQ2lHVEphS1k?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjEtOE5EQ21iVTRTeVVHc3FsZUtPSk9aNW5rR0g1dm90b1A4VU1RQVpkSkpXS1RNOTV5SzI1NzhMRjhsM2ZFQi1YNTNuZjliWExSMzJBeUx4TDViakY1ZHFxN0ZRMFpyVWNiUWJIeG1zaFRmc3dVZEFKa1dUeDk3clNGQkUxRzdDcjJSeTFURVBJY3px?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     }
   ]
