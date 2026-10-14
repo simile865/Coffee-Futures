@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-13",
-      "value": 5.015399932861328,
-      "prior_value": 5.0177001953125,
-      "prior_date": "2026-10-08",
-      "change": -0.002300262451171875,
-      "change_pct": -0.04584296314316993,
+      "date": "2026-10-14",
+      "value": 5.034200191497803,
+      "prior_value": 4.985000133514404,
+      "prior_date": "2026-10-12",
+      "change": 0.04920005798339844,
+      "change_pct": 0.9869620193713535,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-13",
-      "value": 102.1729965209961,
-      "prior_value": 102.58000183105469,
-      "prior_date": "2026-10-12",
-      "change": -0.40700531005859375,
-      "change_pct": -0.3967686710796865,
+      "date": "2026-10-14",
+      "value": 102.88700103759766,
+      "prior_value": 102.18000030517578,
+      "prior_date": "2026-10-13",
+      "change": 0.707000732421875,
+      "change_pct": 0.6919169409965865,
       "source": "Yahoo Finance"
     }
   },
@@ -723,11 +723,20 @@
   },
   "news_reports": [
     {
+      "date": "2026-10-13",
+      "title": "Arabica Coffee Prices Finish Higher on Supply Concerns - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYlgzczZzTTBtRmZ4LXNfU0txM2NLRmVKaG80SVI1UUVYRTRTYzBfcnhQeWxZNmtzYmlUTU5kcFpiTUNiVkxuNGhZdFpycVlMYVpacTJrM2NVYkRHQ0hwZDI3el91UGx4Z1BsOTNoVFRHMm1MX0E3Vzdpc2x3LXMxcGFoVExvTkdVR3BCVXZPZzRwQ2cyTjdaV2hKeEtyVTg?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-10-12",
-      "title": "Arabica Coffee Gains on Lower Output in Colombia - TradingView",
+      "title": "Coffee Prices Settle Higher on Lower Output in Colombia - TradingView",
       "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdU5UQnJDODlPWDFBRTVlU2JZMkVMRmxXUUF3YWlaNEJtY3I2WUMtclFMT1JKWV93YllramdFN1FTTW5mWUlzTjI5NEhBelNscGdDRmdoamt6RV9jb3VCam9pTmdNYnM5Q016blJnc1R1NUJvQmhqUktFMmt1MFUwR1NzN2EyckcyeWV3OXdoRl9pM0dELW5PREwyWUZ2ZnllOUh6dWg1RUMwQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd09pQ2kxelRleU5uRUdNLTBESDlZLURKNGt4c1NIb19yZDBXaEVlTlB5NnF1Ylcxd2RweHJidlRWa1lrRGZlTWJjR3hyajlHam84UlFlQlVfYUxqdlBqY0xvTW02RVZoUjV4YURMS3RMdDlUTXBZdThhUFpsbXh5Z1Q4eTVvWHRHWXBSN0JQQW43bW9xWmZQbzRkc0dxczdMQWpPbW8yTlBOQmg0c1JQV19XWQ?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
@@ -737,15 +746,6 @@
       "domain": "Barchart.com",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTUxUFREUEdpTlFZNEtINmZoV0Uyb0ZNUGhtZV9OaWtVdldVakNJaXhGRVdQOWNvaF9Ya29Qc2c1cGRfZ2hxU0Z6dUVfQWRmcmd4U2RpQnVCWFA5ckwxODh0UTdmMmhRYl9SUzZOYWl6M3pKSFZiaURnV3dvdHEtenRZRi10M2wxVFN2WlNMWm9oMGVYSzg4?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-12",
-      "title": "Coffee Prices Settle Higher on Lower Output in Colombia - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVl6VFRqMno0UUxNV0t5LWh6dnB2VmtvTjJ1Z3oxdlhvb1ZwNWE3cFV3T1Byb3pLMUgxdVdiczh5Y25fMk00dV9pcU1sZEVwY2llYU9fLTVnWmlqS0tVNnNTSTFzVUw0cXExV0U2SWFrcVV2ak0tNzFNZm9neFNPeDZvNHhVaUpHRlpnYnBoTTJRN1dHcnFxWENxeWNSOVJF?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
