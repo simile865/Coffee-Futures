@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-15",
-      "value": 5.039100170135498,
-      "prior_value": 5.0258002281188965,
-      "prior_date": "2026-10-13",
-      "change": 0.013299942016601562,
-      "change_pct": 0.26463332032557907,
+      "date": "2026-10-16",
+      "value": 5.088600158691406,
+      "prior_value": 5.0395002365112305,
+      "prior_date": "2026-10-14",
+      "change": 0.04909992218017578,
+      "change_pct": 0.9743014163278799,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-15",
-      "value": 102.13999938964844,
-      "prior_value": 102.55000305175781,
-      "prior_date": "2026-10-14",
-      "change": -0.410003662109375,
-      "change_pct": -0.39980853233367813,
+      "date": "2026-10-16",
+      "value": 101.68099975585938,
+      "prior_value": 102.0,
+      "prior_date": "2026-10-15",
+      "change": -0.319000244140625,
+      "change_pct": -0.3127453373927696,
       "source": "Yahoo Finance"
     }
   },
@@ -723,11 +723,29 @@
   },
   "news_reports": [
     {
-      "date": "2026-10-15",
-      "title": "Coffee prices rose for the third consecutive session, while silver hit a 10-week low. - Vietnam.vn",
-      "domain": "Vietnam.vn",
+      "date": "2026-10-16",
+      "title": "Arabica Coffee Futures Climb Above $3 - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ3Q3WlFxOVFma3kycll0UzlCd0VXSDkzd0F1VDNSQW9SWjJacmZCUzRBMUkwNUFQdnVBWTFJbkNTTml5M0pqQ3poeXlqQ1F4MGdXNUZ4WS1vTHFMXy15T1RHLUx1SlNETnBqbGR6UDMza2kwWEhXY1haNTJpMHF2a3VDeUV5TW1lcS1EcGJB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZEVVVDVhczAzdWZOUXZFMGxCc1FJX3J3Q3dkdHpEUVZ5UTNwTDE0WmN1YUlCM1lmbDNhOVYyMzVQZGVYV1VsVnhqOUYxNTVWYTZBMWlSYTdJRzViLUx3N1NHRks4R2hsMXZtU0ZXWmRmN3ZmbndBWVlWWUVYdlZmM2dIRjBRb0N2RFFhUWE5YVc?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Coffee (COFFEE) Is up 2.47% on Oct 16: What You Need to Watch - TradingKey",
+      "domain": "TradingKey",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEZ0ZmdUWmlObjBxTV9BQ2FZa21GUUFOOXRKLVJIZUxwVjBzMFdITGd3QWx6Smd2VGZ6M09DMXhtOWNqRDFyUXBwTVBCNV96aGVjS1lGWjZNRnh3NF9YRi1vUmloaGZQZnlENHlRSmUzNXJpRjdscWdnMzdMMGFTNVRyZXBpZDZWYmZzNWFn?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Beneficial Growing Conditions in Brazil and Vietnam Weigh on Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb1RZYUtjVUZxbUw2ZFZfQnczVFV1WUxmOWdZdXpfbHRFRm5VNlBjeWJTVlpFbVlrSjZPTW1YR3Q1REpMZU01bWQ2dUJCQXhfR3FsQ29mU3JUZzA1dzZvbGxCUFN0WmtENGFkTXY4bWpSN2tBVUdmLUN2QTF3SXZodzA0N1JHYU5kRVhpZ0dlU0diSkJzX2V4cE5icVZqeFBaWWFGbnJPQkVHaV9wU19nZzdlcFE4OVdWVnc?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
@@ -750,12 +768,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-10-13",
-      "title": "Arabica Coffee Prices Finish Higher on Supply Concerns - Barchart.com",
-      "domain": "Barchart.com",
+      "date": "2026-10-12",
+      "title": "Record Brazil Coffee Crop Fails to Break Prices - RFD-TV",
+      "domain": "RFD-TV",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYlgzczZzTTBtRmZ4LXNfU0txM2NLRmVKaG80SVI1UUVYRTRTYzBfcnhQeWxZNmtzYmlUTU5kcFpiTUNiVkxuNGhZdFpycVlMYVpacTJrM2NVYkRHQ0hwZDI3el91UGx4Z1BsOTNoVFRHMm1MX0E3Vzdpc2x3LXMxcGFoVExvTkdVR3BCVXZPZzRwQ2cyTjdaV2hKeEtyVTg?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rY19sTmlZQmlFMVlGVXR6RUJPQVUtWlNES09CWEJFRndwZmdLRlRfZFlVQzVtd1ctcmVhendaSjFQRXpIRkRWZVNKNWNKMGd3M3ZpZkhUNlpZbTZqelpiUGJrcE9kb3U5Ymdna3RQZlpFSVhfNVRPZg?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -769,29 +787,11 @@
     },
     {
       "date": "2026-10-08",
-      "title": "Ample Brazil Coffee Supplies Weigh on Prices - Yahoo Finance",
+      "title": "Coffee Prices Fall on Abundant Supplies from Brazil - Yahoo Finance",
       "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTmhMcHNmcTUzU0pnNGVDbnA4YWZHOVpyZ3ZWTkhReUtEOEY4RU5Fd2wzeWJBWTJ1RWFiZGF4anVRNk9sMENhVFVkcHRvY015cXU0LTRhQnFJUU5UYU1kX05BOWNUVjVmb281ZXJpZnh0bHZoR014UzJ0bDhmMEl0SzNicEhxTkxEQ0QtaEtmRVdBZklHR0VRS0tXMXNtZkJQRVZ1LWJqQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNk4tYVBCZTZwN1p0alNuVDdVQXAtMDdBWVM2bGJUZDM2QXc4WHk4U3lIYTFiUVFXUFRSc1FUMFZLYVNVanlsZ3hzQ1gwMGdwbVdIT1hOa3NqcTB6emwwazhxY2RQdkdQelBDclN5MHBiXzVySTlGN2wxMk8tejF6QVF3dXk3TXBZWlVnQlltTW02U3JnV052XzZKdEYtSVRaTlZOR2NGUE1BZw?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-07",
-      "title": "Larger Supplies from Brazil Pressure Coffee Prices - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd2JsbTVMM0dUX2tkQWlpZ3Q0WDJuOVBYLWdJdFN5NWI0WWxXR1BVVzB1Rjdldk5zYXZGTWVrZ3R1SDJ1ZW93V0lZdVl0LXRhaFFGUS01M28wMWNTRGpPWFBCSWxhVHdQU1FrbTBwZURzbS1XM2hoVGxqbElFMTBxWEZLTTRjQkQ0dFUzN2RIR3FVZjdRWURhYjNDV01nRk93eFJYc0x6MzR1dHp3?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Coffee Prices Fall as Conab Raises its Brazil Coffee Production Estimate - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3pka0lyMkZZb1dPMUw3ZWZ3Yi1ELXcwZE1XdHVOTnJmLXBBenB6U2ZVRjFTYXlqNTFCR21YdWNyU0c1eGRIc1AxRDQ3VTMzVlQwYTh6SVVIV1BJZmYybm03OGJPQkJWX1ZaU3htWlAydEZKeFFsWnJCWEJNZElRaXotRzRzbVJZRUE0Q1JvM2doTDhNWllFMEMwb2ZkRnZSSl9j?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
