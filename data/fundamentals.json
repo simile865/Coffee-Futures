@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-20",
-      "value": 5.008800029754639,
-      "prior_value": 5.0630998611450195,
-      "prior_date": "2026-10-18",
-      "change": -0.05429983139038086,
-      "change_pct": -1.0724621848185503,
+      "date": "2026-10-21",
+      "value": 5.028600215911865,
+      "prior_value": 5.0370001792907715,
+      "prior_date": "2026-10-19",
+      "change": -0.00839996337890625,
+      "change_pct": -0.16676519912470988,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-20",
-      "value": 101.73100280761719,
-      "prior_value": 101.9800033569336,
-      "prior_date": "2026-10-19",
-      "change": -0.24900054931640625,
-      "change_pct": -0.2441660532652618,
+      "date": "2026-10-21",
+      "value": 101.82099914550781,
+      "prior_value": 101.7300033569336,
+      "prior_date": "2026-10-20",
+      "change": 0.09099578857421875,
+      "change_pct": 0.08944832947163839,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,12 @@
   },
   "news_reports": [
     {
-      "date": "2026-10-20",
-      "title": "Tight supply has pushed Arabica coffee prices to a one-month high. - Vietnam.vn",
-      "domain": "Vietnam.vn",
+      "date": "2026-10-21",
+      "title": "Coffee (COFFEE) Is up by 2.06% on Oct 21: Is the Demand Outlook Changing? - TradingKey",
+      "domain": "TradingKey",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUnY4dnhCMVgzT1l2eS1PZGE1ZGFuY3NsWDRHZkJJR0M4TDFINlBRaTVwU19zS1F4T2xaZ0RJQUY2ekkwYXJTZDh3M0tuX0NkWFZQeWoybmRaY3B0TFFjVXNrQzN6TnZhYnRNdG4yMi0tenFsOW1Ha05zTW1rSm5hazJvYTV2WThzaThiWVhWMVA?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWlhDWU5KOG9pRzVzV0VKLTNxenpuS0hRb3FFSFZWSHoteHhnTHVMdngwcGh1dmNlQlU3cFN6LXN2eDVsTm1odFdKYVpoTkk0ZURKMmdCdEpleHNqQ3JMWnpsSGNhcUo4OU9RZHhmc1FBZGswYWVmd3JsRWt3WTdtMHkweE9CSXNZM2tWRlRB?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -777,21 +777,21 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-10-12",
-      "title": "Record Brazil Coffee Crop Fails to Break Prices - RFD-TV",
-      "domain": "RFD-TV",
+      "date": "2026-10-15",
+      "title": "Beneficial Growing Conditions in Brazil and Vietnam Weigh on Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rY19sTmlZQmlFMVlGVXR6RUJPQVUtWlNES09CWEJFRndwZmdLRlRfZFlVQzVtd1ctcmVhendaSjFQRXpIRkRWZVNKNWNKMGd3M3ZpZkhUNlpZbTZqelpiUGJrcE9kb3U5Ymdna3RQZlpFSVhfNVRPZg?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb1RZYUtjVUZxbUw2ZFZfQnczVFV1WUxmOWdZdXpfbHRFRm5VNlBjeWJTVlpFbVlrSjZPTW1YR3Q1REpMZU01bWQ2dUJCQXhfR3FsQ29mU3JUZzA1dzZvbGxCUFN0WmtENGFkTXY4bWpSN2tBVUdmLUN2QTF3SXZodzA0N1JHYU5kRVhpZ0dlU0diSkJzX2V4cE5icVZqeFBaWWFGbnJPQkVHaV9wU19nZzdlcFE4OVdWVnc?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-10-09",
-      "title": "Stronger Brazil Coffee Exports Weigh on Arabica Prices - Yahoo Finance",
+      "date": "2026-10-13",
+      "title": "Arabica Coffee Prices Finish Higher on Supply Concerns - Yahoo Finance",
       "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmQxdzZnQU0tQjZiTFBnbzY5T3BmSEktQjdTYjhwUjFXMjVfRW1hZWQ3SWc0U1hQSjFmeVhiLS1kR2dnUnVJaUx3bGNqdVlWZ2QyczVudV8yTGZiQ0RBOVpVeFR4NVJ2S3JBc09oUFRFUmZrcHQzMFhKY2JGWWlkS1dXLVF3dTc2cEsxbFVGR2pIQmJRYXF3czVaaGVydUd0OHNRNGxjLV9wQQ?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXl3NGdoU0dpUjhEMFU4VU5TOUdZREViQnVuNmZnRC1BMTRMWjBOTm8wVHh6bFMyS19EbWJSSG1jeWJHNEMySnlWZ3NGRlFXNVBETXVKaV9PRllxRkxDN1NlYmIxalF4VEczbGd2U1ZJLVgya2tsUERuUFhhWi1OcFVzc3FxYldfR29FMVdkQkpoTEZHVmhXSkVkMjA3ZzFOSHVlN3c0bVE?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     }
   ]
