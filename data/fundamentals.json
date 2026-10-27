@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-26",
-      "value": 5.433199882507324,
-      "prior_value": 5.049900054931641,
-      "prior_date": "2026-10-22",
-      "change": 0.3832998275756836,
-      "change_pct": 7.590245814892118,
+      "date": "2026-10-27",
+      "value": 5.344799995422363,
+      "prior_value": 4.96019983291626,
+      "prior_date": "2026-10-26",
+      "change": 0.3846001625061035,
+      "change_pct": 7.753723145464178,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-26",
-      "value": 101.87999725341797,
-      "prior_value": 101.80999755859375,
-      "prior_date": "2026-10-23",
-      "change": 0.06999969482421875,
-      "change_pct": 0.06875522689599563,
+      "date": "2026-10-27",
+      "value": 102.26000213623047,
+      "prior_value": 101.95999908447266,
+      "prior_date": "2026-10-26",
+      "change": 0.3000030517578125,
+      "change_pct": 0.29423602829700257,
       "source": "Yahoo Finance"
     }
   },
@@ -732,6 +732,33 @@
       "discovered_by": "Google News RSS"
     },
     {
+      "date": "2026-10-27",
+      "title": "Coffee retreats on an improved supply outlook, though stocks and irregular weather continue to limit declines - StoneX",
+      "domain": "StoneX",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUGtJRlZKdkxwNUtIOUllbndUSjVKd0h6bEtJRHJWQy12bGJ0ZWJ2NURJbl9oeFJBWWpvcEtFMk56Z0xIZUQ2dXdaRm5BcmZxRkRfNWNwQVlKT3dQR0pPZGFWWjMzYVB3S0ZSdjhRYkgyNmpQamFrUVZfak1ZaHk5UndtVjZ3SW1SVWhhbzFLVmdybjd2YWVmajJhRnNXY0JhQmZSRnBfRWdURlNRUXlmV3J3S3lHN0FwQ2tubjllYm5kbHFDMzVTVExkUUJuc2kwU0RhX2pvZ3FXZjg5QUZMUA?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Coffee Prices Fall As Brazilian Real Plunges - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdkQwUldwRl9XVzJtUks3NnFyRmk3Q1pVMXpBX0d1VkZHSzNKVmxmZXRQVDQ0X0piNkNSUl90TG83ZkZZWF9uSWZ0Y3ZfWmoyNm1vS1BsamRybmZxV2VjNXpZdkVjckJoclFqdUJIbWxWeHpBTWVjZ2VfMmdxLThRM3hWYWRiZWZ2Sy1nZXNrU1hTLVY4Tk5WMFpZVlg0dW5taVJRM2pn?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Coffee Prices Fall As Brazilian Real Plunges - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWN6QVFYdFhyWlVvdVZadTBSV0REbWIyMENhcHBtRzQtU0hVR1lqNUNodXl2czJrcW1YdVRCeGZMMHhLTEtRYmZ3ek5KVXl6N09vSkZRRURBSjlfWUY0S2REejZwa3pmZ3NmbmVhQXBrMFB3RjRVc3lGbEkyLVB1aUpUWW5Tb3FDZWdkb2VTaVN0Zw?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-10-25",
       "title": "Coffee Weekly Report - StoneX",
       "domain": "StoneX",
@@ -742,10 +769,10 @@
     },
     {
       "date": "2026-10-23",
-      "title": "Coffee Prices Fall Despite Decline in ICE Coffee Inventories to 5-week Low - Yahoo Finance",
-      "domain": "Yahoo Finance",
+      "title": "Coffee Prices Fall Despite Decline in ICE Coffee Inventories to 5-week Low - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWTFvRkQtVzhXQU5EeTJJT1U1M2MzZHBlN1ZBaGNna3V5RDdyYUZ0WXpMLV8zMnE2MzhFU2h6THNZdUIzSXdyVzVIWWxDZ09jYnFreGdrcDl4MFd4bEROQmdmd0NpamxqTnVZTnk4N1A1R2piOXVua245bE5pUXluZHlZRFYwdVlEVzZHU21Na3JxYXBKYldHZDBUaXo3TUVCLUp1aXRMNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON3lJRWZHODFZZndMYnlsSFpoQXI1SnE2VTVRM3RHMW52MlRwTWVTeUZrQVJRNW5sUnlwSzVTalQwb2J2RzBQS2xLdkVvdFVUZURudGxpeVBOZmxXdm13TmliMkFuV0JWUmRDT210Vkl1TGJQZHExR05CZ3JmUUxxMUFtSktDWmU4YkhxQUlPMEJvU2JkNHo0dnlOVHFyT1JFRkRKZElZNEE0eklfM3U5ZFVyYTk5MzVIQXFaZWdWZF9GUi01NjB3VFRlODQ?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
@@ -754,7 +781,7 @@
       "title": "Coffee Prices Fall Despite Decline in ICE Coffee Inventories to 5-week Low - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaTd4dUN5ZnVaZUZkZW13X1B1cVFpQkl1ZHdpY2NhLXJXLWVKM1lNOUxDaUZSM0xPWTBpdVhBMmZDVXlHNzBnVW1pdkdFb3dPLXFPZXZTX3hTdzhiYzYtWmI0SzBxUWFEN3g0OFhMUE9BdXgxSWNSNDRqU0cwclgzdXJENWp2b2tSeHhfSnBIWUg3UmhtVXRISGNHbXlLWUp6Wk1NNEJidHdsVFJTV2VRcl9vTjJYRzlzZ0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWDRrYzlidWxKd19kZ1lnaVgwM0E3bFNIQU53dXBkcS1ySFQwbUdCRnVpeDJXdm8tTDFNZHRxMnhqWENLVzRHN3RuNklFZG9yQlJDSkFHS1R2dVlyV3RpZkV6UHF5V2wxWUl2c2hTdUJPQVhYVVNSczFuUG9JTnJKYV80Mk40cFJYZkpWRUJMNVBWRmx6ekowY1hTTnRnWmRhVlcxSllDWjRpQm5oVmVyODlEdFZwR2NNT1E?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
@@ -763,35 +790,8 @@
       "title": "Coffee Prices Fall as ICE Coffee Inventories Rise - Yahoo Finance",
       "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOXY2NXNNSTF0NUlaNUpRM0dUc1NuMm42RGJVRXNyQ3BiczBmRmlJT2ZGcThpOTRHOTlQMDJsbmhSNklkOEdhblZ6dG1iVDVtR2Z2dTNpTDFkNl8tc09GcWUtWVlqbmZRMWJsajF2UE1SU3RYT0tfMGZicnNkSWt6RHFiNm1YalBVS21oZ1FnY19yUGptRS1ZZTQzMmNJR3Vv?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGZkOHU1RFhXS29VYWhyN3haUWJoOHg2QnJKZzc5QUZsQXlaZE92ZHhSam5PRS1mbTlkZzFkazVvSVdLWThsVDNMaEY4Z3ZpMWtVQUhJYW80bFRsQUpjeU1YbFNlZmJrcEZuNG1QS0hWdXdOc2NIcXpqQlRjSXpmNzk1eHozVHJQbnpQeFgtNV85azhjdDhwZUhUeEkxN0hF?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-22",
-      "title": "Coffee Prices Fall as ICE Coffee Inventories Rise - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEdPSWloQkZMSWZDVXMydklBbEpRd0p2dTFuckZyWjdnZW1QYWE5UTB2aTlaOXF0MTZUSUozTTNmYWtJbWNyZFZZYlJjVnB1QXNPNXdaM20wQkt3QzVwWldHdjhnS1QxZkRzTGhrMVU5djZsTFA2QmJENVh1TE5vbC1vY3BHOFh2VVFIa0VaaGliYWRCM3lQVg?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Coffee Prices Buffeted by ICE Inventory Fluctuations - TradingView",
-      "domain": "TradingView",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRlJ4S2VtQUFLQlVCank4eXBxYnNBUHhfYVZWMklfRnRpX3RRRUdJalVfeUh1ZnZEWk90MWVaNk5HWG9YMWh5bm91aVRuMi04a3JIeGIzakZnclRLWll3dU9BbUhjN0xHME9pd0ozRGE1anlnOEprMTFnSXFmZXNLQWE2UGtncmlucnY5U0hCdEFUcC1IZU1RNDhOaVllamZUZjVBYXA4MEtzVUViS2dr?oc=5",
-      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-21",
-      "title": "Brazil’s Record Coffee Crop: Luca Mattei examines where the 67.6 million bags are going - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16WExnRGRLUEx0dEVVQkhzZWo5YkJ6OVR4QWpaaEhQTXFDdi1EVENLSzNORUZMNXZGbHpmR0M4UkNCbzg3akp4a2YwRUQwb1p4WHlOT2VvN0UzWUs1SmgxNmZhcVFqd2thWFl5TEtta3VQS0M0?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
