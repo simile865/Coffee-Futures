@@ -44,47 +44,39 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-10-30",
-      "value": 5.434199810028076,
-      "prior_value": 5.345900058746338,
-      "prior_date": "2026-10-29",
-      "change": 0.08829975128173828,
-      "change_pct": 1.6517284332181355,
+      "date": "2026-11-02",
+      "value": 5.436600208282471,
+      "prior_value": 5.384799957275391,
+      "prior_date": "2026-10-30",
+      "change": 0.05180025100708008,
+      "change_pct": 0.9619716873064686,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-10-30",
-      "value": 101.94300079345703,
-      "prior_value": 102.04000091552734,
-      "prior_date": "2026-10-29",
-      "change": -0.0970001220703125,
-      "change_pct": -0.09506087926303819,
+      "date": "2026-11-02",
+      "value": 101.73699951171875,
+      "prior_value": 101.87999725341797,
+      "prior_date": "2026-10-30",
+      "change": -0.14299774169921875,
+      "change_pct": -0.14035899642156824,
       "source": "Yahoo Finance"
     }
   },
   "cftc_cot": {
     "market": "COFFEE C - ICE FUTURES U.S.",
-    "report_date": "2026-10-20",
-    "open_interest": 170911,
-    "managed_money_long": 38596,
-    "managed_money_short": 16259,
-    "managed_money_spread": 24848,
-    "managed_money_net": 22337,
-    "managed_money_prior_net": 15270,
-    "managed_money_net_change": 7067,
-    "managed_money_net_pct_oi": 13.06937528889305,
-    "prior_report_date": "2026-10-13",
+    "report_date": "2026-10-27",
+    "open_interest": 171689,
+    "managed_money_long": 37556,
+    "managed_money_short": 17452,
+    "managed_money_spread": 26489,
+    "managed_money_net": 20104,
+    "managed_money_prior_net": 22337,
+    "managed_money_net_change": -2233,
+    "managed_money_net_pct_oi": 11.709544583520202,
+    "prior_report_date": "2026-10-20",
     "history": [
-      {
-        "date": "2025-04-15",
-        "long": 39819,
-        "short": 4585,
-        "net": 35234,
-        "open_interest": 149805,
-        "net_pct_oi": 23.51990921531324
-      },
       {
         "date": "2025-04-22",
         "long": 41231,
@@ -716,6 +708,14 @@
         "net": 22337,
         "open_interest": 170911,
         "net_pct_oi": 13.06937528889305
+      },
+      {
+        "date": "2026-10-27",
+        "long": 37556,
+        "short": 17452,
+        "net": 20104,
+        "open_interest": 171689,
+        "net_pct_oi": 11.709544583520202
       }
     ],
     "source": "CFTC Disaggregated Futures Only",
@@ -723,70 +723,70 @@
   },
   "news_reports": [
     {
-      "date": "2026-10-30",
-      "title": "Coffee Prices Rebound Mildly Higher But Are Still Down for the Week - Barchart.com",
+      "date": "2026-11-02",
+      "title": "Coffee Prices Rose As ICE Stockpiles Stayed Near Lows - Finimize",
+      "domain": "Finimize",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdFY1TlhFbEpJaXF0bHhJUlZLbFhTVHdZYzRpQS1acDUzTzdaNVpiR1FGeVhTemM1MlpLemRFalVaMGlZenl5NzhwQmNxaUxtaFlJMElHMGNxNjZzTEtoNG43VTlnRWtaNHFoZWpUVk5ucVl3R2tKLTVOUW1heUhtaFMxMVNxbnBXWTZBUA?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Coffee Jumps As ICE Stockpiles Stay Uncomfortably Low - Finimize",
+      "domain": "Finimize",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOC1zcXNydXZ3UkxnclY2TXhlV3kzZElHMldzcUxDVzBWekxYNGI2eEFHYm5oVDVPYl90cVptTzRBN21QNDk3OXB3eXNNYzE5OHpmS1Q5QjVSbXp3N3RqeGFrc2pyQkxFMzVyRmJNZUxOdlUyVG9YZnB5X3RDNjhOS3FaTWwtQlRRR1E?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Coffee futures markets: Robusta prices fall to March 2024 - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTG9yWlpuNHk4aEFlMEtEaTRoRXBqcHNyV3k0bE5JUFdXbUZXUDAxcWsyRl9PS3hnZnVmYzdQSlpmR2xvMjdfTVZhakRia0o4ZGRzN3lKZkdqM2t5UlBiUE5TYkszYlpzT3g0UDNTTVUwTmJPbVpMTHdTeERmVy1PcFJSU3VLbERkRGVxdVJua1dCRmo2NEFHZ2xNZFRETHppMUU2c2ZyRlBFTkYzTG1GbU5od0Q2c0FtNGY2YXVxU0dFVktkNHNZMmtiazJncFk5?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Coffee Prices Climb on Tighter ICE Inventories - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQVFZTDlmUnJXUFFJSE1PZ3A1WW85RnFDWVdYUTh4T1R6RjBiNXBYUU9tWGZyb0VSdTMyd0paQlplWElYNk1OaHhDX2p4cjB6TG5oM3NhUFBVMllPaGs0cWk5Wm5RZnUyV20zeUlfUmRJbk85c0VXSkl2aGFBSlFfQ1o3bzNTNExKbDR2b3FNOS1MY2RVMy1QaHdBcElRVlVqOWQ2bVlSRVUxMDB4dWoxUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWi1sNnJYV24xd1N6UXNQYWgtOTdDLWNLU0ljaG1ZcXNZVmNxVml6bjFYRjBWY1RXZEtMVTlFY1prWTBxYWpYcXlDTE4zWVN2WGdWcDk5WWd3Rko1WEkycFU3WkZhbjlFbThOaVhrM0xIbFpuLUVXNGZHWU5pejdKb2ZJSXlERUdRbHRYUGVRaHBNbFBY?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Tighter ICE Inventories Lift Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzNvUy1vNEdYSmJ5UHcxR0o1a0p2OUFEWkpnTVdJRFplWnNQWERxNUpkSTBvZC04ZHNRQ0tnQmloQzN6UTZoQ3Uza3NpSlJienhiNXI5eExTbGR4eEFGbkxIekVYTW83cmhBVHAwSXV3WllMVjRnQXhqdk9VMEF2RW9iZFNUb3l3bnM3dnhLTQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Coffee Closes Sharply Lower on the Week Despite a Modest Rebound on Friday - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZWE1cGF6akI3d1BIQ1RQQXhiandSNWpualpMSFRZTWNzQi1yMkdVMUxkeVAxMmx4NlFuTjY2LXlLcEtZYkhDLXFGazZrVzlUVTZmVVZveWNUcElXV1hpbzUzbk43RnJPMWpKUzkzclJNWElmcGstUzB4QmRUYlEwckdadmhnTUhsdjNlT1lKVFE3NjlLc3dFYW02VVBoYmx0dmhvdg?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-10-29",
-      "title": "Coffee Prices Fall to 1-Month as Concerns Continue About Brazilian Sales - Yahoo Finance",
-      "domain": "Yahoo Finance",
+      "title": "Coffee Prices Fall to 1-Month as Concerns Continue About Brazilian Sales - TradingView",
+      "domain": "TradingView",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSTFZWkRubjg4bVpCWjVfNjFSdEhqeVhMMmtGMWpTSzFXOF8tYkI3TlVpcmtjeFlBWC1KbFhGcm5hbDVLMDdlbDJ5enI5TU9mUU5Rc3h5SnpQcF9TcXp3VlUxMFBuOFVRLXFCY0NfOXVQV2ZhaTVDUUFEb2xVSm1mYWd5ZC1jakNPZUF3bEZ2Nk02VXZPVHg4Zm9pX3I?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaXAybmJSdVJBWHhzRXVrejFqOUdPcVhiUTVybHBoN2VvQmlBaXZSZ1VmNVl0ZTFHWGZNSkxQV21Vc2JTUklFUFNFUEVoajA1eTd4a1NuMkpLc0F1MGdaUjRmM1hYcTl4eVhWVFl6SGVyWlNUWU9jVFNIRkRLWml4UmlaME56S2Fkb0lEa28zRDR0ekRtaWVyYmlsUlNYTjFIUUxkZlVnMzFMeHlYb21qOHRCN3ZuMlp1U3QzTjBfMG9iY0REblBZcXd3?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-10-29",
-      "title": "Coffee Prices Fall to 1-Month as Concerns Continue About Brazilian Sales - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUWM2WnktUmo4WWJKTEN0Tld3Z0psNmdGaV9pNG45d2o5U2l1T01vallKVm9SWEs3Zy1zd3dmMDFoQmRWQVRFRUtFMXI2alBOdVJSTnZEYUMzWnNzZEVadkMwNzN5Z3dHc3pHdXcxNjRMSXVnUmwwUUR1ZmtkNk1BVVZpNVlNamxMRXc3MlI4aURPTld3VTNucktQR2huSFVUcXk5YXVVMG53RDNPOUJrZTA1cUphSEE?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "Coffee futures: New York extends losses, London rebounds as Vietnam harvest gets under way - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeU50aGNvRDFSWkp1aXp1WUdqMDNmRVk5NHZudjBnRjE5cEllTGo2Q21KaERHQXhuRkJmcktMNTJOT3ZCSElMS0psdTdscnNSX3dPcXZkblRYSjkzckxscFNPT1dQT2hqUG9haXJySnM5dFhSa21BdkhIWVhLZFAzWmJRUGRNMFYtdXZpblFaLTZxcWdSemYzX3E5dFlVU01XcDYybnZZYXEwUzcwenBZYVM3UFZkZnZm?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "A Lower Brazilian Real and Increased Exports Continue to Push Coffee Prices Down - CoffeeTalk Magazine",
-      "domain": "CoffeeTalk Magazine",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xYTAyVmdxUzZ0RHBFS1FUNWZPS1BfWDI3VzVlNGtsc2NOZ2VMU2tlZzVKSXAwMnVrQnJFZ1BmUTIxX0Rjb1FhRzRBLTRid0EycXB2eVBqRDhUT2ZVdlY2MENQQ1kzZWg0MzBKSWhB?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Coffee Prices Fall As Brazilian Real Plunges - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdkQwUldwRl9XVzJtUks3NnFyRmk3Q1pVMXpBX0d1VkZHSzNKVmxmZXRQVDQ0X0piNkNSUl90TG83ZkZZWF9uSWZ0Y3ZfWmoyNm1vS1BsamRybmZxV2VjNXpZdkVjckJoclFqdUJIbWxWeHpBTWVjZ2VfMmdxLThRM3hWYWRiZWZ2Sy1nZXNrU1hTLVY4Tk5WMFpZVlg0dW5taVJRM2pn?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-26",
-      "title": "Coffee retreats on an improved supply outlook, though stocks and irregular weather continue to limit declines - StoneX",
-      "domain": "StoneX",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZkRPWUk2RXgyR1pLMDZtQl8zQTYzQ1huQXBMVTZkQzdjcFA2SkxHUEJuY0NUcUZmM3FQTER0ckI1V3NmSXJZWjdQSFRybnlnS1NQb1FHeDhLajJJcUxITllEc1ozbkhHaHV6MUstNE9hQl82MlZZbnBPVTBhNF9pU2JKTk5JeDJBRm5FcU41b3RILTVlSFp4bVNTVm52SDFRZnlZMDVrbzlpSXhRX1R0VjEzbVZacjlHeXZ0VGVjUXdXZ2t3dnFxTV9wUE1wLVdUZ0N5ZjczNTFFLWc3?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-25",
       "title": "Coffee Weekly Report - StoneX",
       "domain": "StoneX",
       "source_country": "",
