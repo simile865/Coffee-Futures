@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-04",
-      "value": 5.461100101470947,
-      "prior_value": 5.436299800872803,
-      "prior_date": "2026-11-03",
-      "change": 0.02480030059814453,
-      "change_pct": 0.4561981771896175,
+      "date": "2026-11-05",
+      "value": 5.493199825286865,
+      "prior_value": 5.486999988555908,
+      "prior_date": "2026-11-04",
+      "change": 0.006199836730957031,
+      "change_pct": 0.11299137495695039,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-04",
-      "value": 101.55899810791016,
-      "prior_value": 101.87000274658203,
-      "prior_date": "2026-11-03",
-      "change": -0.311004638671875,
-      "change_pct": -0.30529560251956495,
+      "date": "2026-11-05",
+      "value": 101.50499725341797,
+      "prior_value": 101.51000213623047,
+      "prior_date": "2026-11-04",
+      "change": -0.0050048828125,
+      "change_pct": -0.00493043316636251,
       "source": "Yahoo Finance"
     }
   },
@@ -723,21 +723,21 @@
   },
   "news_reports": [
     {
-      "date": "2026-11-04",
-      "title": "Expectations of Larger Brazil Coffee Exports Weigh on Prices - Barchart.com",
+      "date": "2026-11-05",
+      "title": "Arabica Coffee Slips as Brazil Coffee Exports Set to Expand - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNk1HRXpuNGhjVTU5OFgtOF90bUFEUldYc2kyY0pQSWM5VEw5ay1FUXdWU0poaWZsQ3dLY1FVSjkzWm5WcDNNTTNkdHc5LWhpVEZaTVFrQjRTMXNQQW5CYnNQNEVNNzJKaDZyMFRfWFZZTmRTMEZqTmpMLXhOZm9lOGw4cnJiWWE0d2NELXhxUXNyd2VHOGFNdi1qX01pNURlT3ZiYW00TQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd0xScWVuM3VONDV0d3FtTWdwdGh3TGgzRkZkeXRNZnNBTjF5TC05b0hSbTVjdGNpSzZPbVg5Vk5FY1g1NWc2Q1hhQmp5Z1hBaUlNSDV4R25pYVRLSlBjYlhpRXFmNks4bW9JekpadjRWZ2JVcTBhTk9vVFRaUDRSMWY2M2swT2swMHpEQXlITlVOT3ZKVkR2a0NJMmZpT0EtZVN4d3lB?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-11-03",
-      "title": "Coffee Prices Retreat on Brazilian Real Strength - Barchart.com",
+      "date": "2026-11-04",
+      "title": "Arabica Coffee Falls in Expectations of Larger Brazil Coffee Exports - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSWcwY0NsNlh0TExfM1ZYeVE4OFJxZElvXzJQbUV0RlRRci12eFIxZDJWMlRmSnZvRGJNMkdxeTNvalFaSU5OTU45bE94MGFJdXZZUXVSRWhGT25ZcFJUUmRNeEo4WVk4cm9DQ2N1eXR1VGFuZEpFbktjaURZZVdpRDFYdDZDUHlRSjJPYkt0OHJYMHJKbXl3?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRmh2eHE0dGljOHQwazNobTVSWlpTVGhSaHZSN3J3QUMxVXZ3RWFKc05nSmFqei1jR0gxa1RiOWhIdEdKdW51dk1hX3RoMlByVkp1elNudkhZbXRGbzVBOEpfMVpLcHBPZ2VTc0VsT21uVWNWVi1WelZkYUFPRno0X2pkVW5BcGg3ZHYzUHAzYmxISVhyU1pPaC1oR2ktcld6X3AyVGc2aERRYnBiQmZWb09B?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -768,6 +768,15 @@
       "discovered_by": "Google News RSS"
     },
     {
+      "date": "2026-10-28",
+      "title": "Coffee Prices Continue to Fall on Concern About Brazilian Real Weakness - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOU5PT1BJd2N2ZGotNGppeDYtQnRpZERoeFdhUUFIbkNNTjFSMEZnQVdsZTBMMVNNck1qYzF6NnBmY3pEQ0xzVDB1cHJlWjFyNWVRR0swZm11dXFtMHYtbmlaOVU2TGNrQnB0VnIwb2FUczJVbjVQS1VLWjBPZXdOZE9BU090dFNMb2plb2VSVXI4Wnd2RjBNVUJyeWdKaWtCV2JiLUNpWGs?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-09-11",
       "title": "EXCLUSIVE: Coffee traders' big shipments are set to boost exchange stocks and weigh on prices - Reuters",
       "domain": "Reuters",
@@ -783,15 +792,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NRkk3dU1xY0d6TDc5Tnc5YUVkZXpnQlk2U2NDSkxjWkJuWXQzWHJFTFRyZWtub3d0ZkVNS0wtQWxpOE1ULUtjVUpTZDI4N2QxdFBwTWh1TUwzMXdCR2Zr?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-07-06",
-      "title": "Coffee Prices Surge as Brazil’s Harvest is Delayed - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcW9nOWFneWRjeGU4dUlnNFVlSUF0OUEwaWIxYW9OODhSaC14aUFQcHUxSEd4UGhXcmRDRS1PNExUMC1CamZUZEpGell1SDEtMFQ0WmV4WkJjZ1EzZGlPbDdwVDJOSC1tNzlXaXB6VDhsV0xzeTI2VXFqZ1VxOEphMWNPaERJQm5KaVFkWnBhWTNSc1NXam4xNHhnaVB1YVhSeWdsNEFDWQ?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
