@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-05",
-      "value": 5.493199825286865,
-      "prior_value": 5.486999988555908,
-      "prior_date": "2026-11-04",
-      "change": 0.006199836730957031,
-      "change_pct": 0.11299137495695039,
+      "date": "2026-11-06",
+      "value": 5.497700214385986,
+      "prior_value": 5.458700180053711,
+      "prior_date": "2026-11-05",
+      "change": 0.03900003433227539,
+      "change_pct": 0.7144564281948098,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-05",
-      "value": 101.50499725341797,
-      "prior_value": 101.51000213623047,
-      "prior_date": "2026-11-04",
-      "change": -0.0050048828125,
-      "change_pct": -0.00493043316636251,
+      "date": "2026-11-06",
+      "value": 102.22899627685547,
+      "prior_value": 101.55000305175781,
+      "prior_date": "2026-11-05",
+      "change": 0.6789932250976562,
+      "change_pct": 0.6686294482449088,
       "source": "Yahoo Finance"
     }
   },
@@ -723,39 +723,48 @@
   },
   "news_reports": [
     {
+      "date": "2026-11-06",
+      "title": "Coffee futures: Arabica prices extends losses as El Niño and logistics concerns persist - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUUxUMjN2dHg0WGJIWnJYWFVvZmREQVpHZ0lKbjdRQ2tON1QwNjh2dTFoa3FYVGEtcHVXY0hWQzFqX18yQXBLeXhKREYxRm84Y3VaSjR1Y3RzMWpEcUVNMkIxVU9TNHlSRW8yaDh3LVlsUHBRQ0k5NFVLWFBGT0ExWW9PV2hIbVRHZnBubUZsU3FoN3c2TGptTEZlZEZONG1ncHhwMFVMR2dRTDNEVDZiY25WMWxTb3JLTC1ObTV3?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Coffee Prices Rebound as ICE Inventories Remain Tight - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWgxVlM1S0hoS3EwN0pqVDB6Vjh5MWI4ZkxlUGplbzU3cmVUdFV1Ni1VdzlQMTFqbTlQc3ZHUnVSR2NWRy1Yd05BNFBnVUhJZ0p5YUNhTEUzaWFSVENmYm9PUG5fQmR4WlhPdkhfRlhXZFFISXItVmt6TXRRWlEyZVdneFBnS2JCVnM2cDY3N1ZhcU9ZRHo5TDFpaGtaQQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-11-05",
-      "title": "Arabica Coffee Slips as Brazil Coffee Exports Set to Expand - Barchart.com",
-      "domain": "Barchart.com",
+      "title": "Arabica Coffee Slips as Brazil Coffee Exports Set to Expand - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd0xScWVuM3VONDV0d3FtTWdwdGh3TGgzRkZkeXRNZnNBTjF5TC05b0hSbTVjdGNpSzZPbVg5Vk5FY1g1NWc2Q1hhQmp5Z1hBaUlNSDV4R25pYVRLSlBjYlhpRXFmNks4bW9JekpadjRWZ2JVcTBhTk9vVFRaUDRSMWY2M2swT2swMHpEQXlITlVOT3ZKVkR2a0NJMmZpT0EtZVN4d3lB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWWU2VHBWY2dETEM1SmQwNWhHUV85ZVFYNUd5VHBSUkZkWFpTZFVJampvaVR4WXlTTm56REpJQmFTbTBLbmFwWGhqVEZaTmQxV3lCWFJGc2lsNm9FYUtuSUMzY0JxaUlaQ3BadTFUUFNLeVZzaFo4c1hCZFBZYzdoZWExWUt1ZVBURTVRaVF4aTdnUGhoM3ZFR195elRobGdweElnNW5jSQ?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-11-04",
-      "title": "Arabica Coffee Falls in Expectations of Larger Brazil Coffee Exports - Barchart.com",
+      "date": "2026-11-05",
+      "title": "Coffee Steadies As Vietnam’s Harvest Comes Into View - Finimize",
+      "domain": "Finimize",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMzc0ZVFUaXRPSmdMWmVxZlV0TzRIZWFVNjFOQ0VZYlV6c0JsWTZxeEFqVERPUEl4aEZVTUlYb290N1RyemNrX1FVUXRuWWJHUmh5S3ZzTkM1eXlRMUdobnFCRXNsUm10QUJzU2Rsd0c2Y3Nxb3BVZHBpaHR5dkNhZ0FvUFl2S3M?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Expanding Brazil Coffee Exports Weigh on Arabica Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRmh2eHE0dGljOHQwazNobTVSWlpTVGhSaHZSN3J3QUMxVXZ3RWFKc05nSmFqei1jR0gxa1RiOWhIdEdKdW51dk1hX3RoMlByVkp1elNudkhZbXRGbzVBOEpfMVpLcHBPZ2VTc0VsT21uVWNWVi1WelZkYUFPRno0X2pkVW5BcGg3ZHYzUHAzYmxISVhyU1pPaC1oR2ktcld6X3AyVGc2aERRYnBiQmZWb09B?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDIyTlBRXzdSdkE3c25wVzBMRWhQcE5ZTFAwaHpnNndmcjU5UThaMHl3WGV6dE9PdkJQdVc4dXBLdkhDbWNIcEFlOWFIdWM2M21QR3U5dmRUdTdrazFOUTd5MEc5RkM4S1pBV29lN0QwUGQ0RW1sUjlpY2tKdllWUXFBeUYyWG9DU2NiZlN6cXoxN21adTl6MTB2OVRFVXJX?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Coffee Jumps As ICE Stockpiles Stay Uncomfortably Low - Finimize",
-      "domain": "Finimize",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOC1zcXNydXZ3UkxnclY2TXhlV3kzZElHMldzcUxDVzBWekxYNGI2eEFHYm5oVDVPYl90cVptTzRBN21QNDk3OXB3eXNNYzE5OHpmS1Q5QjVSbXp3N3RqeGFrc2pyQkxFMzVyRmJNZUxOdlUyVG9YZnB5X3RDNjhOS3FaTWwtQlRRR1E?oc=5",
-      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Coffee Prices Rose As ICE Stockpiles Stayed Near Lows - Finimize",
-      "domain": "Finimize",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdFY1TlhFbEpJaXF0bHhJUlZLbFhTVHdZYzRpQS1acDUzTzdaNVpiR1FGeVhTemM1MlpLemRFalVaMGlZenl5NzhwQmNxaUxtaFlJMElHMGNxNjZzTEtoNG43VTlnRWtaNHFoZWpUVk5ucVl3R2tKLTVOUW1heUhtaFMxMVNxbnBXWTZBUA?oc=5",
-      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -765,15 +774,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTG9yWlpuNHk4aEFlMEtEaTRoRXBqcHNyV3k0bE5JUFdXbUZXUDAxcWsyRl9PS3hnZnVmYzdQSlpmR2xvMjdfTVZhakRia0o4ZGRzN3lKZkdqM2t5UlBiUE5TYkszYlpzT3g0UDNTTVUwTmJPbVpMTHdTeERmVy1PcFJSU3VLbERkRGVxdVJua1dCRmo2NEFHZ2xNZFRETHppMUU2c2ZyRlBFTkYzTG1GbU5od0Q2c0FtNGY2YXVxU0dFVktkNHNZMmtiazJncFk5?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "Coffee Prices Continue to Fall on Concern About Brazilian Real Weakness - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOU5PT1BJd2N2ZGotNGppeDYtQnRpZERoeFdhUUFIbkNNTjFSMEZnQVdsZTBMMVNNck1qYzF6NnBmY3pEQ0xzVDB1cHJlWjFyNWVRR0swZm11dXFtMHYtbmlaOVU2TGNrQnB0VnIwb2FUczJVbjVQS1VLWjBPZXdOZE9BU090dFNMb2plb2VSVXI4Wnd2RjBNVUJyeWdKaWtCV2JiLUNpWGs?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
