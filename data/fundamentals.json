@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-09",
-      "value": 5.507400035858154,
-      "prior_value": 5.503499984741211,
-      "prior_date": "2026-11-06",
-      "change": 0.0039000511169433594,
-      "change_pct": 0.07086492464352664,
+      "date": "2026-11-10",
+      "value": 5.585000038146973,
+      "prior_value": 5.503399848937988,
+      "prior_date": "2026-11-09",
+      "change": 0.08160018920898438,
+      "change_pct": 1.4827232519681643,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-09",
-      "value": 101.67400360107422,
-      "prior_value": 102.30000305175781,
-      "prior_date": "2026-11-06",
-      "change": -0.6259994506835938,
-      "change_pct": -0.6119251534791007,
+      "date": "2026-11-10",
+      "value": 102.28199768066406,
+      "prior_value": 101.6500015258789,
+      "prior_date": "2026-11-09",
+      "change": 0.6319961547851562,
+      "change_pct": 0.6217374769288688,
       "source": "Yahoo Finance"
     }
   },
@@ -723,20 +723,29 @@
   },
   "news_reports": [
     {
-      "date": "2026-11-09",
-      "title": "Soaring Brazil Coffee Exports Weigh on Arabica Prices - Barchart.com",
+      "date": "2026-11-10",
+      "title": "Brazilian Real Weakness and Rising Brazil Exports Weigh on Coffee Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWHBMQU1WRGxSdWNGVWZYSS1yeTJMRGVtSkJJSDYwcUNVaXY5bmdQV290V0tCTWxQN09XcXdpQ0VXU3Z1STJuWDFiekxOWHlyamxxMHNrSXNsUk9fd2ludTA4dFB2bF93cEVjLUVubE9LSWRmY05VekpWaW1ST2s2SFlXeHN5MUZMUkhfUUljQWdzYVlEaVVuSUlsc0t1dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWjZlU1Q0VGVDMk5RSkZQZGRyV0dhdElsb25KVG1YV3NCVjFjTzNaN1FvbkVBTlJqaFhhMnNLVUhmS0JJSmdfV0N2bHg1cnN2Rzk0cjYxeUFXU29RNnRhQ3psandoaDJVNjlxaXpDRFVVMVlUUloxNnh1b00xMi1raS1MWjRpeWVyUjZtOHBORVNQak5VYkVQRjFHcFFVV1hJR09OblRqTTNhTlp6SzhyNnBTbUdzLVU?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
       "date": "2026-11-09",
-      "title": "Coffee Prices Undercut by Rising Brazil Coffee Exports - Barchart.com",
+      "title": "Coffee futures: First lots traded under the ICE Arabica’s new metric contract - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWU5fcFNTVi1fRDdpalQwQ19ITWtaR1ZRYXdZZzBIWG1ZbmNJTTZzV1BoUkxZbXZ4UWtzSGJwMG9TVGtaRUdIU1R0MEpLYnFtMThYd2loZ0IxMzdjOWVuTHN4dElJQmU2R0FEdEFlY25XY2I2aWNuLVN3RFpJUDhVYS1XNzZfLVhlLW8zc05zSy1rSkExcnpmakYtcE1TT3o0UHdxMkl5SQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Soaring Brazil Coffee Exports Weigh on Arabica Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdG1LMXpxR0hnaHhVZUpoYk9zZDExUHBqMmZ4WGw3clRuUnV4Yk5jVXV4MW5FQ2RSRk1LU0ZIME1PNFRQSFZ5ZVRkbkVfTi1vaGRoTVRaOC1SaXdKWjFXT0tKU0lGM25LVFVtRmZheXpjODZIYy1TZ0t0NDJLV05zSnNNYzhmWEpIV0lrc2U3dTRYVkdoTjg3bmE2eDdzQWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWHBMQU1WRGxSdWNGVWZYSS1yeTJMRGVtSkJJSDYwcUNVaXY5bmdQV290V0tCTWxQN09XcXdpQ0VXU3Z1STJuWDFiekxOWHlyamxxMHNrSXNsUk9fd2ludTA4dFB2bF93cEVjLUVubE9LSWRmY05VekpWaW1ST2s2SFlXeHN5MUZMUkhfUUljQWdzYVlEaVVuSUlsc0t1dw?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
@@ -747,24 +756,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUUxUMjN2dHg0WGJIWnJYWFVvZmREQVpHZ0lKbjdRQ2tON1QwNjh2dTFoa3FYVGEtcHVXY0hWQzFqX18yQXBLeXhKREYxRm84Y3VaSjR1Y3RzMWpEcUVNMkIxVU9TNHlSRW8yaDh3LVlsUHBRQ0k5NFVLWFBGT0ExWW9PV2hIbVRHZnBubUZsU3FoN3c2TGptTEZlZEZONG1ncHhwMFVMR2dRTDNEVDZiY25WMWxTb3JLTC1ObTV3?oc=5",
       "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-06",
-      "title": "Coffee Prices Settle Higher on Tight ICE Inventories - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWms3eTBBejlIYXZzZWVPOXo1Rk5oWjdjbG5uQ1dQM0QzU2ItUmY5TlY2S2lsaEV5MVZ1UXFzM2JXeEktM2stYy1PNEl1SnRDbzFrN01rM0ZXWVYtalYxQkpVR3AzbFk4cERhTEQyM2JhUVkwa2dvUnlIbDAwMFJKblIwT1RTbjBqZUFiVy1lU2JfaXFBNzNxQml0cmo?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Arabica Coffee Slips as Brazil Coffee Exports Set to Expand - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWWU2VHBWY2dETEM1SmQwNWhHUV85ZVFYNUd5VHBSUkZkWFpTZFVJampvaVR4WXlTTm56REpJQmFTbTBLbmFwWGhqVEZaTmQxV3lCWFJGc2lsNm9FYUtuSUMzY0JxaUlaQ3BadTFUUFNLeVZzaFo4c1hCZFBZYzdoZWExWUt1ZVBURTVRaVF4aTdnUGhoM3ZFR195elRobGdweElnNW5jSQ?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -792,6 +783,15 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NRkk3dU1xY0d6TDc5Tnc5YUVkZXpnQlk2U2NDSkxjWkJuWXQzWHJFTFRyZWtub3d0ZkVNS0wtQWxpOE1ULUtjVUpTZDI4N2QxdFBwTWh1TUwzMXdCR2Zr?oc=5",
       "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Coffee Prices Surge as Brazil’s Harvest is Delayed - Yahoo Finance",
+      "domain": "Yahoo Finance",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcW9nOWFneWRjeGU4dUlnNFVlSUF0OUEwaWIxYW9OODhSaC14aUFQcHUxSEd4UGhXcmRDRS1PNExUMC1CamZUZEpGell1SDEtMFQ0WmV4WkJjZ1EzZGlPbDdwVDJOSC1tNzlXaXB6VDhsV0xzeTI2VXFqZ1VxOEphMWNPaERJQm5KaVFkWnBhWTNSc1NXam4xNHhnaVB1YVhSeWdsNEFDWQ?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     }
   ]
