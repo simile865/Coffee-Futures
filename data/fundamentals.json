@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-19",
-      "value": 5.916900157928467,
-      "prior_value": 5.776800155639648,
-      "prior_date": "2026-11-18",
-      "change": 0.14010000228881836,
-      "change_pct": 2.4252180881148293,
+      "date": "2026-11-20",
+      "value": 5.948800086975098,
+      "prior_value": 5.881700038909912,
+      "prior_date": "2026-11-19",
+      "change": 0.06710004806518555,
+      "change_pct": 1.1408274414079365,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-19",
-      "value": 103.88899993896484,
-      "prior_value": 103.86000061035156,
-      "prior_date": "2026-11-18",
-      "change": 0.02899932861328125,
-      "change_pct": 0.02792155636709185,
+      "date": "2026-11-20",
+      "value": 103.84400177001953,
+      "prior_value": 103.9000015258789,
+      "prior_date": "2026-11-19",
+      "change": -0.055999755859375,
+      "change_pct": -0.053897743057710015,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,30 @@
   },
   "news_reports": [
     {
-      "date": "2026-11-19",
-      "title": "Global coffee prices plunge amid expectations of record production - УкрАгроКонсалт",
-      "domain": "УкрАгроКонсалт",
+      "date": "2026-11-20",
+      "title": "Vietnam promotes coffee culture at UN event in New York - Vietnam+ (VietnamPlus)",
+      "domain": "Vietnam+ (VietnamPlus)",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWlXUVVPMDVwUFR5Q253ZGtUUElwdTM2aFByZDA3bmFXRHVocllsV1pWNlhib1MzcklfRzlBaktLTHdGb0hNcTQzWHFPb2ZDWFp3VkplRUMtZjBRdjFjeDQ1SFREQ19kaFpXSFF6UGdnbm9IMEY0QWRzZHYwZUl5QS11OUVrLXhQa1dhQ1Y2Y2lQcnFvWjdpbUc1N095M04yWVhCYw?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTzdXTVBTWHhWcnJVYzZNSktEcXZnOHAyaG5nZkR4V1ZuVENZcU9TRy1TMkZoUHVBNElHT2JKM0RmVHdOS1M4cFB2ajd1S19oNXh2ZVhtVnc4WjAyV1ZiZjE2NEpQZ2J0aXEwRzUwR18zYUQ0Sld1SEphR2Z2MnJIdm1CSXpCQWZFalZDN3YxTTZWQXd0bmZSbVVod0U?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Coffee News Recap, 20 Nov: Arabica stocks fall to 27-year low, Clearpath Coffee hosts Colombia Legends auction & other stories - Perfect Daily Grind",
+      "domain": "Perfect Daily Grind",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TTlZOTm15QjRlV1hScEZfZW5LQ0xKT1hMcWw5SG9hWDhkbTdkeHhneHJiLUxhUkRLcXdtdm5HMHZEMElKdExCTEdWZnNSTUVkX3hTX0RsUVd3M0prZ1F5UmZwdERrUG5NUldCc3NoQ2I4ci1uWWJ5czE5dzlUQQ?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "The Outlook for Stronger Brazil Coffee Exports Weighs on Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVFJUUG9tYW1PeUJVMDdLNjAtRWl5cEJjMXFhLTA4NHdMRzE1LXpRMTV6Q2NqWGJ2d2xjSk5weW1EUGxtNXZ1Q1VaVElWOHJYWWFlNXNLc1BMLXd4a0xTYlRxeXpSV3pabWdVQ0Q4MG85RllVdElTMUtndDV6NVV2UmRKeTRlT28xN2Z5WVROYUVBVXJiUEdmSlJwTnpqSmJZUjQ1c0xPZ0o0RVk?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -750,48 +768,30 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-11-19",
-      "title": "Reduced Coffee Exports from Colombia Boosts Arabica Prices - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVS1iMHZhZzVQUE9KbzBZNzZXelphZkhLenk3b0I0SlFac1VuaC1LSmxWbm1FNEYyRzhHUzBicjcxeUZFRjNhOWxEZmtrX3dGcTJXX0lzR3c4OG5BREZBUWEwTTVMS0FLa3JnOU9qNnNYOC1pMXRHN08tdXFuNjE4QjY1Tnc2MXA5T0QxT3R5MURuTlQwSkFaZDdGS2V4eXBaNlJfRg?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Arabica Coffee Rebounds on Smaller Exports from Colombia - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTEyZ2cxemNWbDlyX2otMDJxU2t0MEpGWnFjZVN4VllUSW4yQTFFRE43TXhaNDdNd3lfZnNhV0JISXdYTjZGLWVwRWh4SzVpa2dWRC1VTWxPTDNuLXdDVGptb0lwakFqVmY1d3VXTWhxV2wtQzlUV2xwbjRuT1hUdGE2RHgtV1VQSS1MaGpDVlBuSTBTNWNXQjFlLTJMT1ZMVkE?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Brazil: Usda raises 2026/27 crop estimate to record 72.5m bags - Comunicaffe International",
-      "domain": "Comunicaffe International",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVhnNnFydF9hZm04YXZBbjF6Y1AyRFFXLUM2MEx5cTl6em5obGVoSmhMUHJaXzNXRmRzVlYtZ1NWd05TOUthUkpmVjNiVjB6eWN5ekFONUxTM2VhRGludGJ6Y0RyLVF6T0ZXT2Npa2hPRXRMZURfd2k1dHcwQUNvOWFSLUNBZ0R5SE9sZnMzOFZRNmk4Tmk0TDFFWHozVmJLY19odkxVQkZVdnlIYTZ4ZWR6UjJJVjdz?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-16",
-      "title": "Arabica Coffee Settles Higher as ICE Inventories Dwindle - Yahoo Finance",
-      "domain": "Yahoo Finance",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHlGTnVWTWZjX2N4czJsLUdrMGJnZzZDbERFQVdtMnEzRHE2V0llNF9RRzNUaXRJS1FiRzRmaVlvaUY2aXhmQ0psTTZGRDVONF9iYUtDUEZlVmRiWWM4cFY0cF8xNy0wTlBmeUl2SFlMQVF1b25hdGVVMDB4ZG9lWm16NF9rYmJMejRiWWZ5Vjg0N1ZsMmRDbERxdm9BMEZGRGZkbFB3?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
-      "discovered_by": "Google News RSS"
-    },
-    {
       "date": "2026-11-16",
       "title": "Coffee Prices Perk Up As ICE Stockpiles Hit A 27-Year Low - Finimize",
       "domain": "Finimize",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXhpTUtxV3F1ZnltN05kMGFzNWx1b2d2SDZOa2lYS2sxdGdBdENiWW9SVEtWMjZ1UzM5dHoyOG5NVExYdUxGWFF5dUhRaDNDazhDdzNkVFhxU2stQ2dpRXF0am5KbFJqeXQzTEl6bUtrY05neG82ejlRYms0M2k1a04wVmJ2ME5rU0VIZnJ6cw?oc=5",
       "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Coffee futures: record-low certified stocks lift New York, while London extends losses - Comunicaffe International",
+      "domain": "Comunicaffe International",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbG15QWxDSTk5V1RPZXRwTE81bml0RWtSTjVCbF9xZTJ6cE9vTW5ZSUZpeExKS2ExYnhIYnZoUGNucXh3ZWlrclpOaWlmMnB2bEhlbXVQMnhEWS1QVFdrejVkb2RGOHQwLWRtN3VHa1FUUDNTT0Q0U3ItSEpwMEJJanJVUWdtZ1ViX05NRlZrM2syUVRibURrb2hmb0tMVDZxZzRCMmYwbW5Ea2tEUlJNNlhqMA?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Enhancing Arabica and Robusta coffee prices forecasting through machine learning approaches - Nature",
+      "domain": "Nature",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NRkk3dU1xY0d6TDc5Tnc5YUVkZXpnQlk2U2NDSkxjWkJuWXQzWHJFTFRyZWtub3d0ZkVNS0wtQWxpOE1ULUtjVUpTZDI4N2QxdFBwTWh1TUwzMXdCR2Zr?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     }
   ]
