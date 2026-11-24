@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-23",
-      "value": 5.923900127410889,
-      "prior_value": 5.933499813079834,
-      "prior_date": "2026-11-20",
-      "change": -0.009599685668945312,
-      "change_pct": -0.16178791558708272,
+      "date": "2026-11-24",
+      "value": 5.905300140380859,
+      "prior_value": 5.947999954223633,
+      "prior_date": "2026-11-23",
+      "change": -0.04269981384277344,
+      "change_pct": -0.71788524161727,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-23",
-      "value": 104.33100128173828,
-      "prior_value": 103.80999755859375,
-      "prior_date": "2026-11-20",
-      "change": 0.5210037231445312,
-      "change_pct": 0.5018820300525099,
+      "date": "2026-11-24",
+      "value": 103.8219985961914,
+      "prior_value": 104.31999969482422,
+      "prior_date": "2026-11-23",
+      "change": -0.4980010986328125,
+      "change_pct": -0.47737835514729254,
       "source": "Yahoo Finance"
     }
   },
@@ -723,12 +723,30 @@
   },
   "news_reports": [
     {
-      "date": "2026-11-23",
-      "title": "Brazil May Boost Coffee Exports by 26% in 2026/27 Season - logos-pres.md",
-      "domain": "logos-pres.md",
+      "date": "2026-11-24",
+      "title": "Coffee Prices Fall as Supply Concerns Ease - Barchart.com",
+      "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk9ZOE8zd0Vkcm5oNkZmYThmd1gxYnpxb0VDMy1nV2VyRmVpR2lyeDctcjE5RlVLSUNycnRJVjZ5SkcwRjdqdFJXZkJhWklRaDVrRHhnLU4ydF9qeUFlU19kY0I4Mmh1bDE3NTl2MU5LQ0VrU3EyTjM5ZnNLTURQaGhDWWtPWjJMNkUwRXhpUXhOTFJHNkhTX3dDTGx0UlpmcS0wRWJPMnk3RjZXWVE?oc=5",
-      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGpTN3hPNEpUbGhBckNXT3pGcTZ1dmtNV29nc3huVGVTaExTWHU0Y19kWTR4d1JMbmRWOS1LaXhYRlR4RHRqdGtyaHEwWUxzMmFuTzIyQjJiYXZ2ODVJY3FHaU9VUVZGSEY0dW1VN0p5YllfNW43V2VrMkc1aHcweXdpTFlGYmZMNU1pMlB5QQ?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Easing Supply Concerns Pressure Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSGNQcElLb0V5RDBWbU9oSjI5X05yWFpsVHd3QkdJbmlBRHdoOERma25FaTJsSkIyUmdpR0p2TGJlN1U3MnV6RlFaZUNFVU4xZDlGVHRGNV9wbWNDdU9LdTFJZzdWWDhScVZrOWd5T0VyWGMwUlR3UTBpOUFIeWlyTkV2OTRhX1NGaHRXWk8xVkZUVXc?oc=5",
+      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Coffee Prices Fall as Brazilian Real Posts New 1.75-Year Low - TradingView",
+      "domain": "TradingView",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV2IzZDRfWWxfdS0wU0Jfb09BV0ZyTkNWZE1FS1BFaDVzdGRrQVFPZXFSQ0JqeTNEcjdjdHFISF85eVNOV0hCM0c3NEFLYWFUUnp6MklDekVrYmRJaGdyN01JYnJ4Q0FWaHU0czBhSGNWbTBaQ3BGckt3TW9id2RVTUtEaExVeGJzRjlaY2tiMy1lZDR4TmlLUk1nTG1xNS1KVEZLVl9YMGZXRS1GNlFhSFJmWE1BbHY2MGJr?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -742,20 +760,11 @@
     },
     {
       "date": "2026-11-23",
-      "title": "Coffee Prices Fall as ICE Inventories Rise and Brazilian Real Falls to 1.75-Year Low - Barchart.com",
-      "domain": "Barchart.com",
+      "title": "Robusta futures at three-year low, USDA sees India coffee production down 6.8% at 6.17 million bags - Comunicaffe International",
+      "domain": "Comunicaffe International",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeTB6U1F5ZU1fN3hEdE9LYzBjZ1ZZUG9KUWllNDBYRzB5RXNsWk9DRG9BNzlVbDJBN3oxT1VfaW55RWpibXFyX2RFbU9sZnBfQnJmV2RWOERjWVZJZ1pEUGo1Wm1Hd05pYjE5Qy1XRVA4RFhkWmJuenVzQ0Q4SnNoX3FJSk0ycmlkbDZwUVB1N2JXUHBfYUNWRlpGdDJTcEY2Wnd5bGd0clFMbmV4QjZBSFgtbVRCWjBoOVJzNVN4RGFkWEtnSmhF?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Coffee Prices Fall as Brazilian Real Posts New 1.75-Year Low - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYnc0Z2ZkdGtTU1hSS21COThUV1R3LV9NakM5TF96SWg5VUJpb2V6RzM2M21mNG1QdFU2ZmMyczdDaXBqdEtTNU1qbEF4WTg0VzV0NkR1N00tazMxbm40RWN5WUg0VUxoVGs1cGVwYXljSW81RDdVVzB3NFBxc2FqbWhiYjVtMU1zYnRMTm10NFN4Z3RPcFdtQ3pIZEdMU1I4cFpZLTFqVQ?oc=5",
-      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeXByNGh2b2FmYmg0UUhMNGFVVUFnYU91WjRDMlZ5cE1ORE5OLTZHVWsyNmxIWlpPejJodWR6MkwyZFFtektQMUpFRFRmeWNHWHVmdDE3VzBsclNZdHR1UVc2dDJ6V1d0MGRxc2ZpY1pYY2xLcnBWd2lkeW1UVjFDbzNwUWM1bl9KNU1DckoxQ1JFbklGSUxxOWY3X0lOU0tzM2N2WGFnMUxUNWk5emZ0STd0NW9HeXB5NjB6RVhTVWVtQ1c5?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -774,15 +783,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TTlZOTm15QjRlV1hScEZfZW5LQ0xKT1hMcWw5SG9hWDhkbTdkeHhneHJiLUxhUkRLcXdtdm5HMHZEMElKdExCTEdWZnNSTUVkX3hTX0RsUVd3M0prZ1F5UmZwdERrUG5NUldCc3NoQ2I4ci1uWWJ5czE5dzlUQQ?oc=5",
       "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Coffee Prices Fall on Expectations of Abundant Supplies - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYWIwUDRoaFQwdFhVNjVoUVlzZUhmNndtanlDbFlXRm1CSHhCUEFTLThMMFRNYlNnUThVb0RFajZScGRHNUpDMG8yUDQtNDQ4ckdKbXFNVVlJaFYzR2M4dkt3X01VOWUycTA4MFROVldMZmQzWEg0WWxPTGNSUC0yVjdlT0ZxNlVXVk82eWVRV3MzczdCWlAzbG84Z2VVcjBk?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
