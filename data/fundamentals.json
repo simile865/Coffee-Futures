@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-24",
-      "value": 5.905300140380859,
-      "prior_value": 5.947999954223633,
-      "prior_date": "2026-11-23",
-      "change": -0.04269981384277344,
-      "change_pct": -0.71788524161727,
+      "date": "2026-11-25",
+      "value": 5.809599876403809,
+      "prior_value": 5.928299903869629,
+      "prior_date": "2026-11-24",
+      "change": -0.11870002746582031,
+      "change_pct": -2.0022608402172812,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-24",
-      "value": 103.8219985961914,
-      "prior_value": 104.31999969482422,
-      "prior_date": "2026-11-23",
-      "change": -0.4980010986328125,
-      "change_pct": -0.47737835514729254,
+      "date": "2026-11-25",
+      "value": 103.66699981689453,
+      "prior_value": 103.80999755859375,
+      "prior_date": "2026-11-24",
+      "change": -0.14299774169921875,
+      "change_pct": -0.1377494895118422,
       "source": "Yahoo Finance"
     }
   },
@@ -723,21 +723,39 @@
   },
   "news_reports": [
     {
-      "date": "2026-11-24",
-      "title": "Coffee Prices Fall as Supply Concerns Ease - Barchart.com",
-      "domain": "Barchart.com",
+      "date": "2026-11-25",
+      "title": "Coffee Prices Ease on Vietnam and Brazil Supply, but Arabica Shortage Opens a Door for Ethiopian Exporters - StockMarket.et",
+      "domain": "StockMarket.et",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGpTN3hPNEpUbGhBckNXT3pGcTZ1dmtNV29nc3huVGVTaExTWHU0Y19kWTR4d1JMbmRWOS1LaXhYRlR4RHRqdGtyaHEwWUxzMmFuTzIyQjJiYXZ2ODVJY3FHaU9VUVZGSEY0dW1VN0p5YllfNW43V2VrMkc1aHcweXdpTFlGYmZMNU1pMlB5QQ?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMjJGMDNGNDB3M2JMQU5HRVhneFg1b09pcDczTXB5aVVsZENCUzJUN0Qya0doRERiaHJ5Tno0TUl4eTVqMk1hUi1lVXp5QlZ1SWdKaFlfd3poODZXSjlkUFlEZWNjaE8wUUlGdXNodkNvdVRUaTFHTnlWV1pLVUhRNFdXU1JCcDgxUmZ5VU0zWW5yRVlQbjE5VTFXVkl2andrM0xwR21XMzd4RUprVjV4a29jZjZJNlNpT1pmYnVFM2F3N1Bvdjg4dDNZNEtnZw?oc=5",
+      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-11-24",
-      "title": "Easing Supply Concerns Pressure Coffee Prices - Barchart.com",
+      "date": "2026-11-25",
+      "title": "Indonesia Coffee Production Down 8.2% Due to Weather - Daily Coffee News by Roast Magazine",
+      "domain": "Daily Coffee News by Roast Magazine",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeG9pVFo1aDhSbEZEblZuVXU2LW9mNzZEWFUzXzRfeVVXbksxRHR2ZTRtVUZzWm45MFJzSERmd0VENk1RS1NhNloxbmZjaGJJWEFHbm5fQ2JFMUZwNzZvWk9WTGN4MVlJZVJhY0Y1ZWthYVRjV0VZQTRyR3dLX05OQVhLLUlvZEYwZTBYTl8yQklYeWlDenc?oc=5",
+      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Heavy Rains in Brazil Boost Arabica Coffee Prices - Barchart.com",
       "domain": "Barchart.com",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSGNQcElLb0V5RDBWbU9oSjI5X05yWFpsVHd3QkdJbmlBRHdoOERma25FaTJsSkIyUmdpR0p2TGJlN1U3MnV6RlFaZUNFVU4xZDlGVHRGNV9wbWNDdU9LdTFJZzdWWDhScVZrOWd5T0VyWGMwUlR3UTBpOUFIeWlyTkV2OTRhX1NGaHRXWk8xVkZUVXc?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTkQxOFlzbGxzMElCRWZyZENHelFmMFROYWFGVnRlMEVPejU4dTNwaGdSTXo1LWgzV3ZHdEkxWjhYT1BydXNjQ1ZWNjNsWFJiV3FqMG9LSWZHejRuaWtkblQtc0RKSUR6VTJjVmFRbnhWM2p3b1pSMFdDdG41dUpWWjVlMHBoam5sbGtvZTVmWXQ0SVBWVmQtSA?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Arabica Coffee Recovers as Heavy Brazil Rains Spark Short Covering - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGFXMFRDN2VzNHo2LVh0dVB2eVhuUl9jdDdvZlZlVlc4aGVBYy15XzZ5cDhkcU1oSm91cTFGRGpMNnhlT0k5MGlZNGxZQ0RLcHhDQm1kamVfXzJSTWE1NTBfYW5uSGVXWjRHTDgwczdIQS1UZWFHNDhpRWFSM1d6REg5UlJEYXZuMnVtLTNRODNvQjMtcmNYWnczNTdtcUZaY1I3TU1HNzlyeC1lYXc4?oc=5",
+      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -747,15 +765,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV2IzZDRfWWxfdS0wU0Jfb09BV0ZyTkNWZE1FS1BFaDVzdGRrQVFPZXFSQ0JqeTNEcjdjdHFISF85eVNOV0hCM0c3NEFLYWFUUnp6MklDekVrYmRJaGdyN01JYnJ4Q0FWaHU0czBhSGNWbTBaQ3BGckt3TW9id2RVTUtEaExVeGJzRjlaY2tiMy1lZDR4TmlLUk1nTG1xNS1KVEZLVl9YMGZXRS1GNlFhSFJmWE1BbHY2MGJr?oc=5",
       "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Coffee Hits A Three-Year Low As Sugar Finds Its Footing - Finimize",
-      "domain": "Finimize",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS2FPMW5zQUJrTjdteE9XbGk4OHp1ZnBuMDByYUNYS05sWkhnZl9FSHE2YjBCUUU2T0V3cEtTSmIxdUVwNTJFRDVrM2VENVRpVkJBOHRwcnVfanZMZW5hS3p1b3cxSmxYY2RGT055TjFJT3JoMUR2Si1ZU1BxN2M0cUFWTFV1UnVJM0VnQQ?oc=5",
-      "impact": "咖啡市场相关更新，需结合价格、库存和持仓数据交叉验证。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -774,15 +783,6 @@
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcEtaSE5fVGF4NnVXTWp5ampBSFQxbUs2R3F6cS1qYy1ZOFVUY2tTZmQ5ZVRXTGdvUnlYVkpfZmZFWGNvR05xVFZobDI1Y3E1VVo1Y2JTT2pERmZWZ1dPVXR5TXYxaUMyYnJqb3pfckloQ2JPRGxoNTk2V2V2clZwRDlqMjVkZDdIZWk5ZVlYdTRDVkdHejV1MV9QX1Z5WXFfa0p4a2NWQ19BbVFm?oc=5",
       "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Coffee News Recap, 20 Nov: Arabica stocks fall to 27-year low, Clearpath Coffee hosts Colombia Legends auction & other stories - Perfect Daily Grind",
-      "domain": "Perfect Daily Grind",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TTlZOTm15QjRlV1hScEZfZW5LQ0xKT1hMcWw5SG9hWDhkbTdkeHhneHJiLUxhUkRLcXdtdm5HMHZEMElKdExCTEdWZnNSTUVkX3hTX0RsUVd3M0prZ1F5UmZwdERrUG5NUldCc3NoQ2I4ci1uWWJ5czE5dzlUQQ?oc=5",
-      "impact": "库存相关，可能影响近月支撑、价差和交割预期。",
       "discovered_by": "Google News RSS"
     },
     {
