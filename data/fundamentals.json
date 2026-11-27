@@ -44,23 +44,23 @@
     "usd_brl": {
       "symbol": "BRL=X",
       "label": "USD/BRL",
-      "date": "2026-11-26",
-      "value": 5.720300197601318,
-      "prior_value": 5.9039998054504395,
-      "prior_date": "2026-11-25",
-      "change": -0.1836996078491211,
-      "change_pct": -3.111443324905495,
+      "date": "2026-11-27",
+      "value": 5.512199878692627,
+      "prior_value": 5.821899890899658,
+      "prior_date": "2026-11-26",
+      "change": -0.30970001220703125,
+      "change_pct": -5.319569522161147,
       "source": "Yahoo Finance"
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "label": "U.S. Dollar Index",
-      "date": "2026-11-26",
-      "value": 103.77100372314453,
+      "date": "2026-11-27",
+      "value": 104.03700256347656,
       "prior_value": 103.66999816894531,
       "prior_date": "2026-11-25",
-      "change": 0.10100555419921875,
-      "change_pct": 0.09742987940890625,
+      "change": 0.36700439453125,
+      "change_pct": 0.3540121549275645,
       "source": "Yahoo Finance"
     }
   },
@@ -723,30 +723,30 @@
   },
   "news_reports": [
     {
+      "date": "2026-11-27",
+      "title": "Brazilian Real Strength Lifts Coffee Prices - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRHZKXzduYi1uaXd4OElBM0RBREFSTUFaVHlETGdfVXd2WVNkNEg2enlwN2RTTVM0MF9WczE3Yy14SkNRYnJvcXdXc2t1ZUhCSkFVZXJ2WEZlUUI5RnVsMk42em0wTzBoYlg3QXFJR05zRFM5UFRtdmJ5X2xlR3Q2TzFkblhFSk43amdfWXRRMGw?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Coffee Prices Strengthen with the Brazilian Real - Barchart.com",
+      "domain": "Barchart.com",
+      "source_country": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWEcwd3pyNWxwTTc0T3ZXalZjV3Jkc2VDQWRUNHUxRV9nczRhaU5IMVpKUERpbHNkYUlRenVyelQxaGF0bGNGMTNRWkMyN1Nxa25Ub0p3UUNITFhNUThnQ2oyLUcyamNma0E4YVZiODB6RFBGZG8taEdlN2pMSFN4MkwwNXVUU09wQXlYUFZPX0d5WGU4bHNJ?oc=5",
+      "impact": "主产国相关，需结合出口、天气和产量数据确认影响方向。",
+      "discovered_by": "Google News RSS"
+    },
+    {
       "date": "2026-11-25",
       "title": "Indonesia Coffee Production Down 8.2% Due to Weather - Daily Coffee News by Roast Magazine",
       "domain": "Daily Coffee News by Roast Magazine",
       "source_country": "",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeG9pVFo1aDhSbEZEblZuVXU2LW9mNzZEWFUzXzRfeVVXbksxRHR2ZTRtVUZzWm45MFJzSERmd0VENk1RS1NhNloxbmZjaGJJWEFHbm5fQ2JFMUZwNzZvWk9WTGN4MVlJZVJhY0Y1ZWthYVRjV0VZQTRyR3dLX05OQVhLLUlvZEYwZTBYTl8yQklYeWlDenc?oc=5",
       "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-25",
-      "title": "Heavy Rains in Brazil Boost Arabica Coffee Prices - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTkQxOFlzbGxzMElCRWZyZENHelFmMFROYWFGVnRlMEVPejU4dTNwaGdSTXo1LWgzV3ZHdEkxWjhYT1BydXNjQ1ZWNjNsWFJiV3FqMG9LSWZHejRuaWtkblQtc0RKSUR6VTJjVmFRbnhWM2p3b1pSMFdDdG41dUpWWjVlMHBoam5sbGtvZTVmWXQ0SVBWVmQtSA?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
-      "discovered_by": "Google News RSS"
-    },
-    {
-      "date": "2026-11-25",
-      "title": "Arabica Coffee Recovers as Heavy Brazil Rains Spark Short Covering - Barchart.com",
-      "domain": "Barchart.com",
-      "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGFXMFRDN2VzNHo2LVh0dVB2eVhuUl9jdDdvZlZlVlc4aGVBYy15XzZ5cDhkcU1oSm91cTFGRGpMNnhlT0k5MGlZNGxZQ0RLcHhDQm1kamVfXzJSTWE1NTBfYW5uSGVXWjRHTDgwczdIQS1UZWFHNDhpRWFSM1d6REg5UlJEYXZuMnVtLTNRODNvQjMtcmNYWnczNTdtcUZaY1I3TU1HNzlyeC1lYXc4?oc=5",
-      "impact": "天气相关，需关注是否影响巴西、越南或哥伦比亚产区产量与品质。",
       "discovered_by": "Google News RSS"
     },
     {
@@ -768,12 +768,12 @@
       "discovered_by": "Google News RSS"
     },
     {
-      "date": "2026-11-23",
-      "title": "Robusta futures at three-year low, USDA sees India coffee production down 6.8% at 6.17 million bags - Comunicaffe International",
-      "domain": "Comunicaffe International",
+      "date": "2026-11-09",
+      "title": "Coffee Prices Undercut by Rising Brazil Coffee Exports - Yahoo Finance",
+      "domain": "Yahoo Finance",
       "source_country": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeXByNGh2b2FmYmg0UUhMNGFVVUFnYU91WjRDMlZ5cE1ORE5OLTZHVWsyNmxIWlpPejJodWR6MkwyZFFtektQMUpFRFRmeWNHWHVmdDE3VzBsclNZdHR1UVc2dDJ6V1d0MGRxc2ZpY1pYY2xLcnBWd2lkeW1UVjFDbzNwUWM1bl9KNU1DckoxQ1JFbklGSUxxOWY3X0lOU0tzM2N2WGFnMUxUNWk5emZ0STd0NW9HeXB5NjB6RVhTVWVtQ1c5?oc=5",
-      "impact": "产量/收成相关，可能改变市场对供应宽松或偏紧的预期。",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTElXN2ZhdnB0SnIwTk1DQzJ5NlFNdXltVzVZZDM1RDcxeExhdC11Y005Q1FPaDFKcFJuUFhxUlJIR2RtUDBZVFgyeDdDWkdzQjVQVDZob2dEU1lnR05mVnlpTHNMeXZoejRGXzhVT0k4bnVOU3NGMmdTcXdTMFB1U19pWGlGNldhQ2NOSUJrV1N0S3JuX2c0THdfUTd4Qlk1VHZWM2RjZEFEQQ?oc=5",
+      "impact": "出口或物流相关，可能影响现货流通和近月供应节奏。",
       "discovered_by": "Google News RSS"
     },
     {
